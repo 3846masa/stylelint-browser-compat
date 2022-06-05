@@ -1,0 +1,11 @@
+{
+  "extends": ["github>3846masa/configs//renovate/default"],
+  "npm": {
+    "packageRules": [
+      {
+        "automerge": false,
+        "matchPackageNames": ["@mdn/browser-compat-data"]
+      }
+    ]
+  }
+}

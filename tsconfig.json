@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src/",
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "importsNotUsedAsValues": "preserve",
+    "outDir": "dist/",
+    "paths": {
+      "~/*": ["*"]
+    },
+    "resolveJsonModule": true,
+    "rootDir": "src/"
+  },
+  "extends": "@3846masa/configs/tsconfig.json",
+  "include": ["src/**/*"]
+}
