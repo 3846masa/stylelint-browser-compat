@@ -1,6 +1,6 @@
 # stylelint-browser-compat
 
-![](./assets/ogp.png)
+![stylelint-browser-compat](./docs/assets/ogp.png)
 
 [![npm](https://flat.badgen.net/npm/v/stylelint-browser-compat)](https://www.npmjs.com/package/stylelint-browser-compat)
 [![license](https://flat.badgen.net/badge/license/MIT/blue)](LICENSE)
