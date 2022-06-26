@@ -23,6 +23,13 @@
       {
         "assets": ["CHANGELOG.md", "package.json"]
       }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "publishCmd": "./scripts/publish.sh",
+        "verifyConditionsCmd": "./scripts/verify_conditions.sh"
+      }
     ]
   ],
   "preset": "angular",
