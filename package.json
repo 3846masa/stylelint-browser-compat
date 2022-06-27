@@ -58,7 +58,7 @@
     "@types/semver": "7.3.7",
     "babel-jest": "28.1.0",
     "babel-plugin-module-resolver": "4.1.0",
-    "browserslist": "4.20.3",
+    "browserslist": "4.21.0",
     "common-tags": "1.8.2",
     "fs-extra": "10.1.0",
     "jest": "28.1.0",
