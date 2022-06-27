@@ -1,6 +1,6 @@
 # stylelint-browser-compat
 
-![stylelint-browser-compat](./docs/assets/ogp.png)
+![stylelint-browser-compat](https://raw.githubusercontent.com/3846masa/stylelint-browser-compat/develop/docs/assets/ogp.png)
 
 [![npm](https://flat.badgen.net/npm/v/stylelint-browser-compat)](https://www.npmjs.com/package/stylelint-browser-compat)
 [![license](https://flat.badgen.net/badge/license/MIT/blue)](LICENSE)
@@ -23,7 +23,7 @@ It uses [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) t
 
 ## Background
 
-`stylelint-no-unsupported-browser-features` (using `doiuse`) are available to detect compatibility of CSS features.
+`stylelint-no-unsupported-browser-features` (using `doiuse`) is available to detect compatibility of CSS features.
 
 However, `doiuse` have not been maintained for a long time.
 
@@ -88,4 +88,4 @@ PRs accepted.
 
 ## License
 
-[MIT (c) 3846masa](./LICENSE)
+[MIT (c) 3846masa](https://3846masa.mit-license.org/)
