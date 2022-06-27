@@ -48,7 +48,7 @@ export async function collectFeatures({ nodes, parent }: Params): Promise<Featur
       } else if (node.type === 'div' && node.value === '/') {
         isAfterSlash = true;
       } else if (!isAfterSlash) {
-        const bgPosition = bgPositionList[bgPositionList.length - 1];
+        const bgPosition = bgPositionList.at(-1);
         bgPosition?.push(node);
       }
     }

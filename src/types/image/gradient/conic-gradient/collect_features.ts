@@ -19,7 +19,7 @@ export async function collectFeatures({ node, parent }: Params): Promise<Feature
     if (chlid.type === 'div' && chlid.value === ',') {
       colorStopList.push([]);
     } else {
-      const colorStop = colorStopList[colorStopList.length - 1];
+      const colorStop = colorStopList.at(-1);
       colorStop?.push(chlid);
     }
   }

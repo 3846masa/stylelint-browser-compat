@@ -18,7 +18,7 @@ export async function collectFeatures({ colorStop, colorStopIndex, node, parent 
 
   if (colorStopIndex === 0 && colorStop.length === 1 && colorStop[0]?.type === 'word' && colorStop[0].value === '0') {
     const index = offset + (colorStop[0]?.sourceIndex ?? 0);
-    const endIndex = offset + (colorStop[colorStop.length - 1]?.sourceEndIndex ?? 0);
+    const endIndex = offset + (colorStop.at(-1)?.sourceEndIndex ?? 0);
 
     features.push({
       endIndex,

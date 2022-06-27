@@ -21,7 +21,7 @@ export async function collectFeatures({ nodes, parent }: Params): Promise<Featur
     if (node.type === 'div' && node.value === ',') {
       boxShadowList.push([]);
     } else {
-      const boxShadow = boxShadowList[boxShadowList.length - 1];
+      const boxShadow = boxShadowList.at(-1);
       boxShadow?.push(node);
     }
   }
