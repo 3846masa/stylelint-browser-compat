@@ -4,7 +4,6 @@
 
 "@3846masa/configs@github:3846masa/configs#c80e1fee19f90246b2d5e1bc8d5843c9001c5c8c":
   version "1.0.20"
-  uid c80e1fee19f90246b2d5e1bc8d5843c9001c5c8c
   resolved "https://codeload.github.com/3846masa/configs/tar.gz/c80e1fee19f90246b2d5e1bc8d5843c9001c5c8c"
   dependencies:
     "@tsconfig/strictest" "1.0.1"
@@ -2337,6 +2336,13 @@ babel-plugin-polyfill-corejs3@^0.5.0:
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.1"
     core-js-compat "^3.21.0"
+
+babel-plugin-polyfill-es-shims@0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-es-shims/-/babel-plugin-polyfill-es-shims-0.6.1.tgz#42c46cf61a63b622a846defaf4dad14378267bfb"
+  integrity sha512-ytZv444Z0WiLANxmAy8ORwR9X8flXfMFoUSA7jibfJw2DkHMKsdojY4+yB4ICVoOIMdSOkZINLmA+k/2+BWsKA==
+  dependencies:
+    "@babel/helper-define-polyfill-provider" "^0.3.1"
 
 babel-plugin-polyfill-regenerator@^0.3.0:
   version "0.3.1"

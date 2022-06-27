@@ -8,6 +8,12 @@ module.exports = {
         },
       },
     ],
+    [
+      'polyfill-es-shims',
+      {
+        method: 'usage-pure',
+      },
+    ],
   ],
   presets: [
     [
