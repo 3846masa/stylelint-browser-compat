@@ -1,3 +1,10 @@
+# [1.0.0-beta.4](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2022-06-27)
+
+
+### Bug Fixes
+
+* **ci:** fix publish command ([feaa08d](https://github.com/3846masa/stylelint-browser-compat/commit/feaa08d8f8297a663d6c9ae5ca89af7680ebe838))
+
 # [1.0.0-beta.3](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2022-06-27)
 
 
