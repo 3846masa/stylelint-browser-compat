@@ -1,3 +1,11 @@
+# [1.0.0-beta.3](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2022-06-27)
+
+
+### Bug Fixes
+
+* fix readme ([9be3759](https://github.com/3846masa/stylelint-browser-compat/commit/9be37591d43d3976c7ea56c7c82e0e8a0a264ae6))
+* publish package as latest ([8269bc5](https://github.com/3846masa/stylelint-browser-compat/commit/8269bc50c889ef1c1b1fda6dceec680b9d186a34))
+
 # [1.0.0-beta.2](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2022-06-26)
 
 
