@@ -4,7 +4,6 @@
 
 "@3846masa/configs@github:3846masa/configs#c80e1fee19f90246b2d5e1bc8d5843c9001c5c8c":
   version "1.0.20"
-  uid c80e1fee19f90246b2d5e1bc8d5843c9001c5c8c
   resolved "https://codeload.github.com/3846masa/configs/tar.gz/c80e1fee19f90246b2d5e1bc8d5843c9001c5c8c"
   dependencies:
     "@tsconfig/strictest" "1.0.1"
@@ -2239,6 +2238,16 @@ array-union@^2.1.0:
   resolved "https://registry.yarnpkg.com/array-union/-/array-union-2.1.0.tgz#b798420adbeb1de828d84acd8a2e23d3efe85e8d"
   integrity sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==
 
+array.prototype.at@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/array.prototype.at/-/array.prototype.at-1.1.0.tgz#216bcb1218932543b261f9465fe9b3f4070b8e72"
+  integrity sha512-NSraJlwBpkNX/w9f+14fatEoHCI0jcZVObhd/vm7LdnvrJ91xUhfsO0BhuXMRH9A3P4Ui3kaA2SWAcbQ4AP9dg==
+  dependencies:
+    call-bind "^1.0.2"
+    define-properties "^1.1.3"
+    es-abstract "^1.19.2"
+    es-shim-unscopables "^1.0.0"
+
 array.prototype.flat@^1.2.5:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/array.prototype.flat/-/array.prototype.flat-1.3.0.tgz#0b0c1567bf57b38b56b4c97b8aa72ab45e4adc7b"
@@ -2337,6 +2346,13 @@ babel-plugin-polyfill-corejs3@^0.5.0:
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.1"
     core-js-compat "^3.21.0"
+
+babel-plugin-polyfill-es-shims@0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-es-shims/-/babel-plugin-polyfill-es-shims-0.6.1.tgz#42c46cf61a63b622a846defaf4dad14378267bfb"
+  integrity sha512-ytZv444Z0WiLANxmAy8ORwR9X8flXfMFoUSA7jibfJw2DkHMKsdojY4+yB4ICVoOIMdSOkZINLmA+k/2+BWsKA==
+  dependencies:
+    "@babel/helper-define-polyfill-provider" "^0.3.1"
 
 babel-plugin-polyfill-regenerator@^0.3.0:
   version "0.3.1"
@@ -6691,6 +6707,15 @@ string-length@^4.0.1:
     emoji-regex "^8.0.0"
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^6.0.1"
+
+string.prototype.at@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/string.prototype.at/-/string.prototype.at-1.0.3.tgz#c2f0cddb402cdbe2c628a3f9cbda3f5b42dc0889"
+  integrity sha512-P3/I5mrojyow0xOahStcHPr/nNp4CrBAbaP5TlBG/2WB7ioVkzbHpOC7bNRRG8SpojUFDm3KEO2MAY4B89XRww==
+  dependencies:
+    call-bind "^1.0.2"
+    define-properties "^1.1.3"
+    es-abstract "^1.19.1"
 
 string.prototype.padend@^3.0.0:
   version "3.1.3"

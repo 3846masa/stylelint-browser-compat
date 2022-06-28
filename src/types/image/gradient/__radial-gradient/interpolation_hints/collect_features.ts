@@ -25,7 +25,7 @@ export async function collectFeatures({ colorStop, colorStopIndex, node, parent 
     unit(colorStop[0].value) !== false
   ) {
     const index = offset + (colorStop[0]?.sourceIndex ?? 0);
-    const endIndex = offset + (colorStop[colorStop.length - 1]?.sourceEndIndex ?? 0);
+    const endIndex = offset + (colorStop.at(-1)?.sourceEndIndex ?? 0);
 
     features.push({
       endIndex,

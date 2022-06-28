@@ -19,7 +19,7 @@ export async function collectFeatures({ nodes, parent }: Params): Promise<Featur
     if (node.type === 'div' && node.value === ',') {
       bgLayerList.push([]);
     } else {
-      const bgLayer = bgLayerList[bgLayerList.length - 1];
+      const bgLayer = bgLayerList.at(-1);
       bgLayer?.push(node);
     }
   }

@@ -33,11 +33,13 @@
   },
   "dependencies": {
     "@mdn/browser-compat-data": "5.1.2",
+    "array.prototype.at": "1.1.0",
     "dot-prop": "6.0.1",
     "postcss-media-query-parser": "0.2.3",
     "postcss-selector-parser": "6.0.10",
     "postcss-value-parser": "4.2.0",
     "semver": "7.3.7",
+    "string.prototype.at": "1.0.3",
     "ts-results": "3.3.0",
     "zod": "3.17.3"
   },
@@ -58,6 +60,7 @@
     "@types/semver": "7.3.10",
     "babel-jest": "28.1.0",
     "babel-plugin-module-resolver": "4.1.0",
+    "babel-plugin-polyfill-es-shims": "0.6.1",
     "browserslist": "4.21.0",
     "common-tags": "1.8.2",
     "fs-extra": "10.1.0",

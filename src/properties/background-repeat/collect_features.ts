@@ -24,7 +24,7 @@ export async function collectFeatures({ nodes, parent }: Params): Promise<Featur
     if (node.type === 'div' && node.value === ',') {
       bgRepeatList.push([]);
     } else {
-      const bgRepeat = bgRepeatList[bgRepeatList.length - 1];
+      const bgRepeat = bgRepeatList.at(-1);
       bgRepeat?.push(node);
     }
   }
