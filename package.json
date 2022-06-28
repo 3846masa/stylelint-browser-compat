@@ -34,7 +34,7 @@
   "dependencies": {
     "@mdn/browser-compat-data": "5.1.2",
     "array.prototype.at": "1.1.0",
-    "dot-prop": "6.0.1",
+    "dot-prop": "7.2.0",
     "postcss-media-query-parser": "0.2.3",
     "postcss-selector-parser": "6.0.10",
     "postcss-value-parser": "4.2.0",
