@@ -1,3 +1,10 @@
+# [1.0.0-beta.5](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2022-06-28)
+
+
+### Bug Fixes
+
+* use polyfill ([#13](https://github.com/3846masa/stylelint-browser-compat/issues/13)) ([dc3de29](https://github.com/3846masa/stylelint-browser-compat/commit/dc3de294ff487090bb0053c487e3cc8ee499c340))
+
 # [1.0.0-beta.4](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2022-06-27)
 
 
