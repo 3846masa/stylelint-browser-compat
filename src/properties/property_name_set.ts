@@ -1,8 +1,8 @@
 import bcd from '@mdn/browser-compat-data';
-import dotProp from 'dot-prop';
+import get from 'lodash.get';
 
 const IGNORE_KEYS = new Set<string>([]);
 
 export const propertyNameSet = new Set<string>(
-  Array.from(Object.keys(dotProp.get(bcd.css, 'properties') ?? {})).filter((k) => !IGNORE_KEYS.has(k)),
+  Array.from(Object.keys(get(bcd.css, 'properties') ?? {})).filter((k) => !IGNORE_KEYS.has(k)),
 );

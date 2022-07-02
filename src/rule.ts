@@ -1,7 +1,7 @@
 import bcd from '@mdn/browser-compat-data';
 import type { Identifier } from '@mdn/browser-compat-data';
 import browserslist from 'browserslist';
-import dotProp from 'dot-prop';
+import get from 'lodash.get';
 import stylelint from 'stylelint';
 
 import { collectFeatures } from '~/collect_features';
@@ -57,7 +57,7 @@ const ruleFunction: stylelint.Plugin = (enabled, passedOptions) => {
     });
 
     for (const feature of features) {
-      const compat: Identifier | undefined = dotProp.get(bcd.css, feature.id);
+      const compat: Identifier | undefined = get(bcd.css, feature.id);
       if (!compat?.__compat) {
         continue;
       }
