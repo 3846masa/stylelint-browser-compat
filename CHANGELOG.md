@@ -1,3 +1,10 @@
+# [1.0.0-beta.6](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2022-07-02)
+
+
+### Bug Fixes
+
+* use lodash.get instead of dot-prop ([#24](https://github.com/3846masa/stylelint-browser-compat/issues/24)) ([b929be9](https://github.com/3846masa/stylelint-browser-compat/commit/b929be91921e6f3ecb1f40191df21b8a10232b8b))
+
 # [1.0.0-beta.5](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2022-06-28)
 
 
