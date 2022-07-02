@@ -34,7 +34,7 @@
   "dependencies": {
     "@mdn/browser-compat-data": "5.1.2",
     "array.prototype.at": "1.1.0",
-    "dot-prop": "6.0.1",
+    "lodash.get": "4.4.2",
     "postcss-media-query-parser": "0.2.3",
     "postcss-selector-parser": "6.0.10",
     "postcss-value-parser": "4.2.0",
@@ -57,6 +57,7 @@
     "@semantic-release/release-notes-generator": "10.0.3",
     "@types/common-tags": "1.8.1",
     "@types/fs-extra": "9.0.13",
+    "@types/lodash.get": "4.4.7",
     "@types/semver": "7.3.10",
     "babel-jest": "28.1.1",
     "babel-plugin-module-resolver": "4.1.0",
