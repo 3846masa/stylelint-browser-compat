@@ -2,7 +2,7 @@
 import { stripIndent } from 'common-tags';
 import { getTestRule } from 'jest-preset-stylelint';
 
-import { ruleName } from '~/rule';
+import { messages, ruleName } from '~/rule';
 
 const testRule = getTestRule({
   plugins: [require.resolve('~/index')],
@@ -13,15 +13,24 @@ testRule({
   config: [
     true,
     {
-      browserslist: '>= 0%',
+      browserslist: 'android 2.1',
     },
   ],
-  accept: [
+  reject: [
     {
       code: stripIndent`
         ul li {
         }
       `,
+      line: 1,
+      column: 3,
+      endLine: 1,
+      endColumn: 4,
+      message: messages.rejected(
+        'Descendant combinator',
+        'Android Webview 2.1',
+        'https://developer.mozilla.org/docs/Web/CSS/Descendant_combinator',
+      ),
     },
   ],
 });
