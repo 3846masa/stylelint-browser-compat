@@ -8,7 +8,7 @@ import { collectFeatures } from '~/collect_features';
 import { isSupported } from '~/is_supported';
 import { ruleOptionsSchema } from '~/options';
 import { parseBrowsersListVersion } from '~/parse_browserslist_version';
-import { Feature } from '~/types';
+import type { Feature } from '~/types';
 
 export const ruleName = 'plugin/browser-compat';
 
