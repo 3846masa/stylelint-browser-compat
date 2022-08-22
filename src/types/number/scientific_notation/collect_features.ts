@@ -1,4 +1,4 @@
-import { Dimension } from 'postcss-value-parser';
+import type { Dimension } from 'postcss-value-parser';
 
 import type { Feature } from '~/types';
 
