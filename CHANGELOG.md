@@ -1,3 +1,10 @@
+# [1.0.0-beta.15](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.14...v1.0.0-beta.15) (2022-08-22)
+
+
+### Bug Fixes
+
+* **npm:** update dependency stylelint to v14.11.0 ([#69](https://github.com/3846masa/stylelint-browser-compat/issues/69)) ([f6177c8](https://github.com/3846masa/stylelint-browser-compat/commit/f6177c82d1cef2bdc32a7e47ea04e4f819fdf83f))
+
 # [1.0.0-beta.14](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.13...v1.0.0-beta.14) (2022-08-18)
 
 
