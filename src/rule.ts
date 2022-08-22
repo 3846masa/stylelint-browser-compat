@@ -28,7 +28,7 @@ export const meta: stylelint.RuleMeta = {
   url: 'https://github.com/3846masa/stylelint-browser-compat',
 };
 
-const ruleFunction: stylelint.Plugin = (enabled, passedOptions) => {
+const ruleFunction: stylelint.RuleBase<boolean> = (enabled, passedOptions) => {
   return async (postcssRoot, postcssResult) => {
     if (!enabled) {
       return;
@@ -100,4 +100,9 @@ const ruleFunction: stylelint.Plugin = (enabled, passedOptions) => {
   };
 };
 
-export const plugin = stylelint.createPlugin(ruleName, ruleFunction);
+const rule: stylelint.Rule = Object.assign(ruleFunction, {
+  messages,
+  ruleName,
+});
+
+export const plugin = stylelint.createPlugin(ruleName, rule);
