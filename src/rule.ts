@@ -84,7 +84,9 @@ const ruleFunction: stylelint.RuleBase<boolean> = (enabled, passedOptions) => {
         continue;
       }
 
-      const notSupportedTargetText = notSupportedTargets
+      const notSupportedTargetText = Array.from(
+        new Map(notSupportedTargets.map((target) => [target.target.name, target])).values(),
+      )
         .map((target) => `${target.target.name} ${target.versionString}`)
         .join(', ');
 
