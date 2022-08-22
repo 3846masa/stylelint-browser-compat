@@ -1,3 +1,10 @@
+# [1.0.0-beta.16](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.15...v1.0.0-beta.16) (2022-08-22)
+
+
+### Bug Fixes
+
+* warn an oldest browser version only when rejected ([#70](https://github.com/3846masa/stylelint-browser-compat/issues/70)) ([e842d2e](https://github.com/3846masa/stylelint-browser-compat/commit/e842d2e095f036fb70d026f98ff856f67f635f1a))
+
 # [1.0.0-beta.15](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.14...v1.0.0-beta.15) (2022-08-22)
 
 
