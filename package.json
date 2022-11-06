@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@mdn/browser-compat-data": "5.2.2",
-    "array.prototype.at": "1.1.0",
+    "array.prototype.at": "1.1.1",
     "lodash.get": "4.4.2",
     "postcss-media-query-parser": "0.2.3",
     "postcss-selector-parser": "6.0.10",
