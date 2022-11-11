@@ -1,3 +1,10 @@
+# [1.0.0-beta.25](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.24...v1.0.0-beta.25) (2022-11-11)
+
+
+### Bug Fixes
+
+* **npm:** update dependency string.prototype.at to v1.0.4 ([#151](https://github.com/3846masa/stylelint-browser-compat/issues/151)) ([da6001d](https://github.com/3846masa/stylelint-browser-compat/commit/da6001dfdc6498e8c3ba4e3956cbff8680d82082))
+
 # [1.0.0-beta.24](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.23...v1.0.0-beta.24) (2022-11-06)
 
 
