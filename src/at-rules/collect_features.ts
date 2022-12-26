@@ -88,14 +88,6 @@ export async function collectFeatures({ ignoreFeatures, node }: Params): Promise
       );
       break;
     }
-    case 'scroll-timeline': {
-      promises.push(
-        import('~/at-rules/scroll-timeline/collect_features').then(({ collectFeatures }) => {
-          return collectFeatures({ node });
-        }),
-      );
-      break;
-    }
   }
 
   const features = (await Promise.all(promises)).flat();
