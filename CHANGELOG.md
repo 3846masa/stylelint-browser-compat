@@ -1,3 +1,10 @@
+# [1.0.0-beta.30](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.29...v1.0.0-beta.30) (2022-12-28)
+
+
+### Bug Fixes
+
+* **docs:** add funding link ([#182](https://github.com/3846masa/stylelint-browser-compat/issues/182)) ([9b71387](https://github.com/3846masa/stylelint-browser-compat/commit/9b71387f43acc80594725c55f6cbeeca29f6fd9d))
+
 # [1.0.0-beta.29](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.28...v1.0.0-beta.29) (2022-12-26)
 
 
