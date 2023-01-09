@@ -58,7 +58,7 @@
     "@semantic-release/npm": "9.0.1",
     "@semantic-release/release-notes-generator": "10.0.3",
     "@types/common-tags": "1.8.1",
-    "@types/fs-extra": "9.0.13",
+    "@types/fs-extra": "11.0.0",
     "@types/lodash.get": "4.4.7",
     "@types/semver": "7.3.13",
     "babel-jest": "29.3.1",
