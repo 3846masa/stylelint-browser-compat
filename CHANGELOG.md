@@ -1,3 +1,10 @@
+# [1.0.0-beta.39](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.38...v1.0.0-beta.39) (2023-01-31)
+
+
+### Bug Fixes
+
+* **npm:** update dependency @mdn/browser-compat-data to v5.2.32 ([#220](https://github.com/3846masa/stylelint-browser-compat/issues/220)) ([b450a0c](https://github.com/3846masa/stylelint-browser-compat/commit/b450a0c7972eb0e640f4dc3669177d0de228b0fb))
+
 # [1.0.0-beta.38](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.37...v1.0.0-beta.38) (2023-01-30)
 
 
