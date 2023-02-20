@@ -2,6 +2,7 @@ import bcd from '@mdn/browser-compat-data';
 import type { Identifier } from '@mdn/browser-compat-data';
 import browserslist from 'browserslist';
 import get from 'lodash.get';
+import type { Rule, RuleMeta } from 'stylelint';
 import stylelint from 'stylelint';
 
 import { collectFeatures } from '~/collect_features';
@@ -24,11 +25,11 @@ export const messages = stylelint.utils.ruleMessages(ruleName, {
   },
 });
 
-export const meta: stylelint.RuleMeta = {
+export const meta: RuleMeta = {
   url: 'https://github.com/3846masa/stylelint-browser-compat',
 };
 
-const rule: stylelint.Rule<boolean> = (enabled, passedOptions) => {
+const rule: Rule<boolean> = (enabled, passedOptions) => {
   return async (postcssRoot, postcssResult) => {
     if (!enabled) {
       return;
