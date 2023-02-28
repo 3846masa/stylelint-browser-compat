@@ -30,7 +30,7 @@ testRule({
       message: messages.rejected(
         '"transparent" value',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/color_value#transparent',
+        'https://developer.mozilla.org/docs/Web/CSS/named-color#transparent',
       ),
     },
   ],
