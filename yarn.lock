@@ -2434,10 +2434,10 @@ babel-plugin-polyfill-corejs3@^0.6.0:
     "@babel/helper-define-polyfill-provider" "^0.3.3"
     core-js-compat "^3.25.1"
 
-babel-plugin-polyfill-es-shims@0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-es-shims/-/babel-plugin-polyfill-es-shims-0.7.1.tgz#3eed746eb24f267d3a62468808c24f096e22e897"
-  integrity sha512-yCtAZ9WDyDXo1jp+u4Qbb8zMNcJAUzBhQjKPdSjNRCcZPf6OjXYOfVza6l6AwSWAj5YR2HjoUgXSjGgRh+EsgA==
+babel-plugin-polyfill-es-shims@0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-es-shims/-/babel-plugin-polyfill-es-shims-0.8.0.tgz#c4f3b577db1720714dfd797ce14c36965f2cbeeb"
+  integrity sha512-AtXPJFVM0nEkSyKUGFlpNPJ4MXaSZo82nGFQJqRVbyWDTOVKrEyqmlR4PpIk1AR0tXMld7nA9iUCytlQNRfgwQ==
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.3"
 
