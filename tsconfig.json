@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
     "baseUrl": "src/",
-    "downlevelIteration": true,
     "esModuleInterop": true,
-    "importsNotUsedAsValues": "preserve",
-    "outDir": "dist/",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noEmit": true,
     "paths": {
+      "@mdn/browser-compat-data": ["./dts/mdn__browser-compat-data"],
       "~/*": ["*"]
     },
-    "resolveJsonModule": true,
-    "rootDir": "src/"
+    "rootDir": "src/",
+    "target": "ESNext"
   },
   "extends": "@3846masa/configs/tsconfig.json",
   "include": ["src/**/*"]
