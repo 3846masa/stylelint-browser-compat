@@ -73,7 +73,7 @@
     "patch-package": "6.5.1",
     "rimraf": "4.4.1",
     "semantic-release": "19.0.5",
-    "stylelint": "15.3.0",
+    "stylelint": "15.4.0",
     "typescript": "5.0.3"
   },
   "peerDependencies": {
