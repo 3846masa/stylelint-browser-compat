@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@3846masa/configs@github:3846masa/configs#4ca07710ea9d6d4b01dd1f1d7cb995e4da365b5d":
-  version "1.0.176"
-  uid "4ca07710ea9d6d4b01dd1f1d7cb995e4da365b5d"
-  resolved "https://codeload.github.com/3846masa/configs/tar.gz/4ca07710ea9d6d4b01dd1f1d7cb995e4da365b5d"
+"@3846masa/configs@github:3846masa/configs#a0b859ba9a6a354f7c2d3433110d87d4874833c6":
+  version "1.0.177"
+  uid a0b859ba9a6a354f7c2d3433110d87d4874833c6
+  resolved "https://codeload.github.com/3846masa/configs/tar.gz/a0b859ba9a6a354f7c2d3433110d87d4874833c6"
   dependencies:
     "@tsconfig/strictest" "2.0.0"
     "@typescript-eslint/eslint-plugin" "5.57.0"
@@ -20,7 +20,7 @@
     prettier "2.8.7"
     prettier-plugin-packagejson "2.4.3"
     prettier-plugin-sort-json "1.0.0"
-    typescript "5.0.2"
+    typescript "5.0.3"
 
 "@ampproject/remapping@^2.2.0":
   version "2.2.0"
@@ -7385,11 +7385,6 @@ type-fest@^1.0.2:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-1.4.0.tgz#e9fb813fe3bf1744ec359d55d1affefa76f14be1"
   integrity sha512-yGSza74xk0UG8k+pLh5oeoYirvIiWo5t0/o3zHHAO2tRDiZcxWP7fywNlXhqb6/r6sWvwi+RsyQMWhVLe4BVuA==
-
-typescript@5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.0.2.tgz#891e1a90c5189d8506af64b9ef929fca99ba1ee5"
-  integrity sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==
 
 typescript@5.0.3:
   version "5.0.3"
