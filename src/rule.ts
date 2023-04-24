@@ -49,7 +49,9 @@ const rule: Rule<boolean> = (enabled, passedOptions) => {
 
     const options = parseOptionsResult.data;
 
-    const versions = browserslist(options.browserslist ?? null, {});
+    const versions = browserslist(options.browserslist ?? null, {
+      path: postcssResult.root.source?.input.file ?? false,
+    });
     const targets = parseBrowsersListVersion(versions);
 
     const features: Feature[] = await collectFeatures({
