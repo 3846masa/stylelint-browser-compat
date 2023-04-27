@@ -34,7 +34,7 @@
     "patch-package": "patch-package"
   },
   "dependencies": {
-    "@mdn/browser-compat-data": "5.2.51",
+    "@mdn/browser-compat-data": "5.2.52",
     "array.prototype.at": "1.1.1",
     "lodash.get": "4.4.2",
     "postcss-media-query-parser": "0.2.3",
