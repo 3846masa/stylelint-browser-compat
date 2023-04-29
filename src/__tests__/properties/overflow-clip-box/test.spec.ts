@@ -27,11 +27,7 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 20,
-      message: messages.rejected(
-        '"overflow-clip-box" property',
-        'IE 6',
-        'https://developer.mozilla.org/docs/Mozilla/Gecko/Chrome/CSS/overflow-clip-box',
-      ),
+      message: messages.rejected('"overflow-clip-box" property', 'IE 6', ''),
     },
   ],
 });
