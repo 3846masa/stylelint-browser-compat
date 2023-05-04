@@ -1,3 +1,10 @@
+# [1.0.0-beta.64](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.63...v1.0.0-beta.64) (2023-05-04)
+
+
+### Bug Fixes
+
+* **npm:** update dependency postcss-selector-parser to v6.0.12 ([#319](https://github.com/3846masa/stylelint-browser-compat/issues/319)) ([9062377](https://github.com/3846masa/stylelint-browser-compat/commit/9062377f025198409755e198178fedde84b1b656))
+
 # [1.0.0-beta.63](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.62...v1.0.0-beta.63) (2023-04-30)
 
 
