@@ -13,7 +13,10 @@ testRule({
   config: [
     true,
     {
-      browserslist: 'chrome 100',
+      browserslist: 'chrome 80',
+      allow: {
+        features: ['properties.color-scheme'],
+      },
     },
   ],
   reject: [
@@ -27,7 +30,7 @@ testRule({
       column: 17,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('"only dark" keyword specified as color-scheme', 'Chrome 100', ''),
+      message: messages.rejected('"only dark" keyword specified as color-scheme', 'Chrome 80', ''),
     },
   ],
 });
