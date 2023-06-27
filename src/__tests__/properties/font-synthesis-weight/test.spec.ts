@@ -27,7 +27,11 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 24,
-      message: messages.rejected('"font-synthesis-weight" property', 'IE 6', ''),
+      message: messages.rejected(
+        '"font-synthesis-weight" property',
+        'IE 6',
+        'https://developer.mozilla.org/docs/Web/CSS/font-synthesis-weight',
+      ),
     },
   ],
 });
