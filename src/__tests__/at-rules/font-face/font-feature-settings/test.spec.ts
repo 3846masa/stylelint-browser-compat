@@ -31,7 +31,11 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 24,
-      message: messages.rejected('"font-feature-settings" descriptor of the @font-face', 'Firefox 33', ''),
+      message: messages.rejected(
+        '"font-feature-settings" descriptor of the @font-face',
+        'Firefox 33',
+        'https://developer.mozilla.org/docs/Web/CSS/@font-face/font-feature-settings',
+      ),
     },
     {
       code: stripIndent`
