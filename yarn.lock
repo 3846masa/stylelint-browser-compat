@@ -143,10 +143,10 @@
     regexpu-core "^5.3.1"
     semver "^6.3.0"
 
-"@babel/helper-define-polyfill-provider@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.4.1.tgz#af1429c4a83ac316a6a8c2cc8ff45cb5d2998d3a"
-  integrity sha512-kX4oXixDxG197yhX+J3Wp+NpL2wuCFjWQAr6yX2jtCnflK9ulMI51ULFGIrWiX1jGfvAxdHp+XQCcP2bZGPs9A==
+"@babel/helper-define-polyfill-provider@^0.4.1", "@babel/helper-define-polyfill-provider@^0.4.2":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.4.2.tgz#82c825cadeeeee7aad237618ebbe8fa1710015d7"
+  integrity sha512-k0qnnOqHn5dK9pZpfD5XXZ9SojAITdCKRn2Lp6rnDGzIbaP0rHyMPk/4wsSxVBVz4RfN0q6VpXWP2pDGIoQ7hw==
   dependencies:
     "@babel/helper-compilation-targets" "^7.22.6"
     "@babel/helper-plugin-utils" "^7.22.5"
@@ -2528,12 +2528,12 @@ babel-plugin-polyfill-corejs3@^0.8.2:
     "@babel/helper-define-polyfill-provider" "^0.4.1"
     core-js-compat "^3.31.0"
 
-babel-plugin-polyfill-es-shims@0.9.1:
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-es-shims/-/babel-plugin-polyfill-es-shims-0.9.1.tgz#937ea5e496d3ddf22f303f882c5a0295417ce936"
-  integrity sha512-YaYoosPA6lIkZVe0m88HvbD/wb1j2pu7uLJAmQySN1ts0y7tJ6OGFyl9yHaZvx4LYHK+KLO9BDzhfr53HgVMvw==
+babel-plugin-polyfill-es-shims@0.9.2:
+  version "0.9.2"
+  resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-es-shims/-/babel-plugin-polyfill-es-shims-0.9.2.tgz#4e7eca70c3365ed533509c5f50b3b9ae97e88105"
+  integrity sha512-VYMyjz1Mza90kVCQJuOsI/MBKymk+KRm9KREBpwKVroVmYnwJ5aN9ShXqlkSJKOUqE23uBCaE+z4+U1dC90zcg==
   dependencies:
-    "@babel/helper-define-polyfill-provider" "^0.4.1"
+    "@babel/helper-define-polyfill-provider" "^0.4.2"
 
 babel-plugin-polyfill-regenerator@^0.5.1:
   version "0.5.1"
