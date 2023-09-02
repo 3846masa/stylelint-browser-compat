@@ -2405,14 +2405,14 @@ array-union@^2.1.0:
   resolved "https://registry.yarnpkg.com/array-union/-/array-union-2.1.0.tgz#b798420adbeb1de828d84acd8a2e23d3efe85e8d"
   integrity sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==
 
-array.prototype.at@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/array.prototype.at/-/array.prototype.at-1.1.1.tgz#6deda3cd3c704afa16361387ea344e0b8d8831b5"
-  integrity sha512-n/wYNLJy/fVEU9EGPt2ww920hy1XX3XB2yTREFy1QsxctBgQV/tZIwg1G8jVxELna4pLCzg/xvvS/DDXtI4NNg==
+array.prototype.at@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/array.prototype.at/-/array.prototype.at-1.1.2.tgz#4b220a0de6c3980eae6ad601cace619feb6097e0"
+  integrity sha512-TPj626jUZMc2Qbld8uXKZrXM/lSStx2KfbIyF70Ui9RgdgibpTWC6WGCuff6qQ7xYzqXtir60WAHrfmknkF3Vw==
   dependencies:
     call-bind "^1.0.2"
-    define-properties "^1.1.4"
-    es-abstract "^1.20.4"
+    define-properties "^1.2.0"
+    es-abstract "^1.22.1"
     es-shim-unscopables "^1.0.0"
 
 array.prototype.findlastindex@^1.2.2:
@@ -3362,7 +3362,7 @@ error-ex@^1.3.1:
   dependencies:
     is-arrayish "^0.2.1"
 
-es-abstract@^1.19.0, es-abstract@^1.19.1, es-abstract@^1.20.4, es-abstract@^1.21.2:
+es-abstract@^1.19.0, es-abstract@^1.19.1, es-abstract@^1.20.4, es-abstract@^1.21.2, es-abstract@^1.22.1:
   version "1.22.1"
   resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.22.1.tgz#8b4e5fc5cefd7f1660f0f8e1a52900dfbc9d9ccc"
   integrity sha512-ioRRcXMO6OFyRpyzV3kE1IIBd4WG5/kltnzdxSCqoP8CMGs/Li+M1uF5o7lOkZVFjDs+NLesthnF66Pg/0q0Lw==
