@@ -1,3 +1,10 @@
+# [1.0.0-beta.96](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.95...v1.0.0-beta.96) (2023-09-02)
+
+
+### Bug Fixes
+
+* **npm:** update dependency array.prototype.at to v1.1.2 ([#446](https://github.com/3846masa/stylelint-browser-compat/issues/446)) ([01c023d](https://github.com/3846masa/stylelint-browser-compat/commit/01c023d3a71e2e0115c4ddd9ea5d859fa90e8b63))
+
 # [1.0.0-beta.95](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.94...v1.0.0-beta.95) (2023-08-24)
 
 
