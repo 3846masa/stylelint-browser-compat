@@ -7264,14 +7264,14 @@ string-width@^5.0.1, string-width@^5.1.2:
     emoji-regex "^9.2.2"
     strip-ansi "^7.0.1"
 
-string.prototype.at@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/string.prototype.at/-/string.prototype.at-1.0.4.tgz#c8fa4d66a94a130cd184d8034971d6cd39862250"
-  integrity sha512-KfB2g1aPd4KgPpsucuGB9GnCCTohDneZWB/wZCo0UK6EOdZFVEpgQUPT+XsYc8qGMj1weGygp9imbqp8Cjt5qA==
+string.prototype.at@1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/string.prototype.at/-/string.prototype.at-1.0.5.tgz#a395f7f941e3fea03a423c9e02a4bb8a0cab6b4d"
+  integrity sha512-HQA5YomwpGTXDSmC+sI1Rev0M1pcF49q2DXvW67FOUaxer0qq0LFVGI365O3K0upS+nRXAl2OxlFzyeUA60SQw==
   dependencies:
     call-bind "^1.0.2"
-    define-properties "^1.1.4"
-    es-abstract "^1.20.4"
+    define-properties "^1.2.0"
+    es-abstract "^1.22.1"
 
 string.prototype.padend@^3.0.0:
   version "3.1.3"

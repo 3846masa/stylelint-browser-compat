@@ -41,7 +41,7 @@
     "postcss-selector-parser": "6.0.13",
     "postcss-value-parser": "4.2.0",
     "semver": "7.5.4",
-    "string.prototype.at": "1.0.4",
+    "string.prototype.at": "1.0.5",
     "ts-results": "3.3.0",
     "zod": "3.22.2"
   },
