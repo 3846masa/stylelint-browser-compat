@@ -64,7 +64,7 @@
     "babel-jest": "29.7.0",
     "babel-plugin-module-resolver": "4.1.0",
     "babel-plugin-polyfill-es-shims": "0.9.2",
-    "browserslist": "4.21.10",
+    "browserslist": "4.21.11",
     "common-tags": "1.8.2",
     "fs-extra": "11.1.1",
     "jest": "29.7.0",
