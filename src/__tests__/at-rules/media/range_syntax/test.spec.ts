@@ -29,7 +29,7 @@ testRule({
       message: messages.rejected(
         'Range syntax for media queries',
         'Firefox 62',
-        'https://developer.mozilla.org/docs/Web/CSS/Media_Queries/Using_media_queries#syntax_improvements_in_level_4',
+        'https://developer.mozilla.org/docs/Web/CSS/CSS_media_queries/Using_media_queries#syntax_improvements_in_level_4',
       ),
     },
   ],
