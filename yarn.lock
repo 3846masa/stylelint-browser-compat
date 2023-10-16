@@ -1368,10 +1368,10 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@mdn/browser-compat-data@5.3.21":
-  version "5.3.21"
-  resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-5.3.21.tgz#57ef96a33458992c49162dee6370ba40f3f89c99"
-  integrity sha512-0MTNMfRvhzksN+XOtXikglAzXIiMQW1JzOZxOz0ymL7LFxX5orVdg8zrlLkgF/3s55Zb7xRadFs15LxpgtD36g==
+"@mdn/browser-compat-data@5.3.22":
+  version "5.3.22"
+  resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-5.3.22.tgz#da50ab59bd8a8f3fc54f4209072781d0cc7f04c0"
+  integrity sha512-VGaBIW9TlTopBnE9DN+EjG6isAOdGr0IHvMJpLytDq6NGvqjIW1feElACdiVM/WOBF2TEvCMLjYBK5lmBC5nXA==
 
 "@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents.3":
   version "2.1.8-no-fsevents.3"
