@@ -155,6 +155,17 @@
     lodash.debounce "^4.0.8"
     resolve "^1.14.2"
 
+"@babel/helper-define-polyfill-provider@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.5.0.tgz#465805b7361f461e86c680f1de21eaf88c25901b"
+  integrity sha512-NovQquuQLAQ5HuyjCz7WQP9MjRj7dx++yspwiyUiGl9ZyadHRSql1HZh5ogRd8W8w6YM6EQ/NTB8rgjLt5W65Q==
+  dependencies:
+    "@babel/helper-compilation-targets" "^7.22.6"
+    "@babel/helper-plugin-utils" "^7.22.5"
+    debug "^4.1.1"
+    lodash.debounce "^4.0.8"
+    resolve "^1.14.2"
+
 "@babel/helper-environment-visitor@^7.22.20", "@babel/helper-environment-visitor@^7.22.5":
   version "7.22.20"
   resolved "https://registry.yarnpkg.com/@babel/helper-environment-visitor/-/helper-environment-visitor-7.22.20.tgz#96159db61d34a29dba454c959f5ae4a649ba9167"
@@ -2548,12 +2559,12 @@ babel-plugin-polyfill-corejs3@^0.8.7:
     "@babel/helper-define-polyfill-provider" "^0.4.4"
     core-js-compat "^3.33.1"
 
-babel-plugin-polyfill-es-shims@0.10.1:
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-es-shims/-/babel-plugin-polyfill-es-shims-0.10.1.tgz#f5e73918dd9ffcb37cd0419ee7ff46232e1534e3"
-  integrity sha512-J/L51kBu2+efRZ0asWFMhRgvzcMvzJ5sW62buSniWqiIxJUijOYX7+nw9UNY2l+oMmeVevX2bYK59tIH1FMN3Q==
+babel-plugin-polyfill-es-shims@0.10.2:
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-es-shims/-/babel-plugin-polyfill-es-shims-0.10.2.tgz#9e20f921042da92ee85cc21500d73e368be50f90"
+  integrity sha512-O44oPdkc22bpX1sK6ZMFVJvirbKFJHkfAqeSQyBwThfpvLKy6DUe4+mUqSCIvfNnoBuM54SJkdmGqYjnV+f4vg==
   dependencies:
-    "@babel/helper-define-polyfill-provider" "^0.4.4"
+    "@babel/helper-define-polyfill-provider" "^0.5.0"
 
 babel-plugin-polyfill-regenerator@^0.5.4:
   version "0.5.4"
