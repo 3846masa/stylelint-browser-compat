@@ -2,10 +2,10 @@
 import { stripIndent } from 'common-tags';
 import { getTestRule } from 'jest-preset-stylelint';
 
-import { ruleName } from '~/rule';
+import { plugin, ruleName } from '~/rule';
 
 const testRule = getTestRule({
-  plugins: [require.resolve('~/index')],
+  plugins: [plugin],
 });
 
 testRule({

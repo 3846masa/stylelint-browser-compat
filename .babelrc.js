@@ -25,6 +25,6 @@ module.exports = {
     '@babel/preset-typescript',
   ],
   targets: {
-    node: '14',
+    node: '18',
   },
 };
