@@ -18,20 +18,19 @@
     "!**/__tests__"
   ],
   "scripts": {
+    "prebuild": "pnpm run clean",
+    "build": "babel src --out-dir lib --extensions .js,.ts --ignore \"**/*.d.ts\"",
     "clean": "rimraf lib",
-    "prebuild": "npm run clean",
-    "build": "babel src --out-dir lib --extensions .js,.ts --ignore **/*.d.ts",
-    "pretest": "npm run build",
-    "test": "jest",
-    "lint": "npm-run-all lint:*",
+    "format": "pnpm run --sequential \"/^format:.*/\"",
+    "format:eslint": "eslint --fix --ext .js,.ts,.mjs,.mts .",
+    "format:prettier": "prettier --write .",
+    "lint": "pnpm run \"/^lint:.*/\"",
     "lint:eslint": "eslint --ext .js,.ts,.mjs,.mts .",
     "lint:prettier": "prettier --check .",
     "lint:tsc": "tsc --noEmit",
-    "format": "npm-run-all -c format:eslint format:prettier",
-    "format:eslint": "eslint --fix --ext .js,.ts,.mjs,.mts .",
-    "format:prettier": "prettier --write .",
     "semantic-release": "semantic-release",
-    "patch-package": "patch-package"
+    "pretest": "pnpm run build",
+    "test": "jest"
   },
   "dependencies": {
     "@mdn/browser-compat-data": "5.5.7",
@@ -70,8 +69,7 @@
     "jest": "29.7.0",
     "jest-light-runner": "0.6.0",
     "jest-preset-stylelint": "7.0.0",
-    "npm-run-all": "4.1.5",
-    "patch-package": "8.0.0",
+    "postcss": "8.4.33",
     "rimraf": "5.0.5",
     "semantic-release": "19.0.5",
     "stylelint": "16.2.0",
@@ -80,5 +78,11 @@
   "peerDependencies": {
     "browserslist": ">=4.20.3",
     "stylelint": ">=14.8.5"
+  },
+  "packageManager": "pnpm@8.14.3+sha256.2d0363bb6c314daa67087ef07743eea1ba2e2d360c835e8fec6b5575e4ed9484",
+  "pnpm": {
+    "patchedDependencies": {
+      "@semantic-release/git@10.0.1": "patches/@semantic-release__git@10.0.1.patch"
+    }
   }
 }
