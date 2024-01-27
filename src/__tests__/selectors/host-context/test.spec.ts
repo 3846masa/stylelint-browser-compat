@@ -29,7 +29,7 @@ testRule({
       message: messages.rejected(
         '":host-context" pseudo-class',
         'Chrome 53',
-        'https://developer.mozilla.org/docs/Web/CSS/:host-context()',
+        'https://developer.mozilla.org/docs/Web/CSS/:host-context',
       ),
     },
   ],
