@@ -34,7 +34,7 @@ testRule({
       message: messages.rejected(
         '"@styleset" at rules of the @font-feature-values',
         'Firefox 33',
-        'https://developer.mozilla.org/docs/Web/CSS/@font-feature-values#@styleset',
+        'https://developer.mozilla.org/docs/Web/CSS/@font-feature-values#styleset',
       ),
     },
   ],

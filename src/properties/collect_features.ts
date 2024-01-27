@@ -147,22 +147,6 @@ export async function collectFeatures({ node, valueRoot }: Params): Promise<Feat
       );
       break;
     }
-    case 'background-position-x': {
-      promises.push(
-        import('~/properties/background-position-x/collect_features').then(({ collectFeatures }) => {
-          return collectFeatures({ nodes: valueRoot.nodes, parent: node });
-        }),
-      );
-      break;
-    }
-    case 'background-position-y': {
-      promises.push(
-        import('~/properties/background-position-y/collect_features').then(({ collectFeatures }) => {
-          return collectFeatures({ nodes: valueRoot.nodes, parent: node });
-        }),
-      );
-      break;
-    }
     case 'background-repeat': {
       promises.push(
         import('~/properties/background-repeat/collect_features').then(({ collectFeatures }) => {
