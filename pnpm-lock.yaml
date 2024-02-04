@@ -124,8 +124,8 @@ devDependencies:
     specifier: 19.0.5
     version: 19.0.5
   stylelint:
-    specifier: 16.2.0
-    version: 16.2.0(typescript@5.3.3)
+    specifier: 16.2.1
+    version: 16.2.1(typescript@5.3.3)
   typescript:
     specifier: 5.3.3
     version: 5.3.3
@@ -7142,8 +7142,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /stylelint@16.2.0(typescript@5.3.3):
-    resolution: {integrity: sha512-gwqU5AkIb52wrAzzn+359S3NIJDMl02TXLUaV2tzA/L6jUdpTwNt+MCxHlc8+Hb2bUHlYVo92YeSIryF2gJthA==}
+  /stylelint@16.2.1(typescript@5.3.3):
+    resolution: {integrity: sha512-SfIMGFK+4n7XVAyv50CpVfcGYWG4v41y6xG7PqOgQSY8M/PgdK0SQbjWFblxjJZlN9jNq879mB4BCZHJRIJ1hA==}
     engines: {node: '>=18.12.0'}
     hasBin: true
     dependencies:
