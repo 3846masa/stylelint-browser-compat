@@ -23,8 +23,8 @@ dependencies:
     specifier: 0.2.3
     version: 0.2.3
   postcss-selector-parser:
-    specifier: 6.0.15
-    version: 6.0.15
+    specifier: 6.0.16
+    version: 6.0.16
   postcss-value-parser:
     specifier: 4.2.0
     version: 4.2.0
@@ -1596,13 +1596,13 @@ packages:
       '@csstools/css-tokenizer': 2.2.3
     dev: true
 
-  /@csstools/selector-specificity@3.0.1(postcss-selector-parser@6.0.15):
+  /@csstools/selector-specificity@3.0.1(postcss-selector-parser@6.0.16):
     resolution: {integrity: sha512-NPljRHkq4a14YzZ3YD406uaxh7s0g6eAq3L9aLOWywoqe8PkYamAvtsh7KNX6c++ihDrJ0RiU+/z7rGnhlZ5ww==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss-selector-parser: ^6.0.13
     dependencies:
-      postcss-selector-parser: 6.0.15
+      postcss-selector-parser: 6.0.16
     dev: true
 
   /@eslint-community/eslint-utils@4.4.0(eslint@8.57.0):
@@ -6475,8 +6475,8 @@ packages:
       postcss: 8.4.35
     dev: true
 
-  /postcss-selector-parser@6.0.15:
-    resolution: {integrity: sha512-rEYkQOMUCEMhsKbK66tbEU9QVIxbhN18YiniAwA7XQYTVBqrBy+P2p5JcdqsHgKM2zWylp8d7J6eszocfds5Sw==}
+  /postcss-selector-parser@6.0.16:
+    resolution: {integrity: sha512-A0RVJrX+IUkVZbW3ClroRWurercFhieevHB38sr2+l9eUClMqome3LmEmnhlNy+5Mr2EYN6B2Kaw9wYdd+VHiw==}
     engines: {node: '>=4'}
     dependencies:
       cssesc: 3.0.0
@@ -7196,7 +7196,7 @@ packages:
       '@csstools/css-parser-algorithms': 2.5.0(@csstools/css-tokenizer@2.2.3)
       '@csstools/css-tokenizer': 2.2.3
       '@csstools/media-query-list-parser': 2.1.7(@csstools/css-parser-algorithms@2.5.0)(@csstools/css-tokenizer@2.2.3)
-      '@csstools/selector-specificity': 3.0.1(postcss-selector-parser@6.0.15)
+      '@csstools/selector-specificity': 3.0.1(postcss-selector-parser@6.0.16)
       balanced-match: 2.0.0
       colord: 2.9.3
       cosmiconfig: 9.0.0(typescript@5.4.2)
@@ -7222,7 +7222,7 @@ packages:
       postcss: 8.4.35
       postcss-resolve-nested-selector: 0.1.1
       postcss-safe-parser: 7.0.0(postcss@8.4.35)
-      postcss-selector-parser: 6.0.15
+      postcss-selector-parser: 6.0.16
       postcss-value-parser: 4.2.0
       resolve-from: 5.0.0
       string-width: 4.2.3

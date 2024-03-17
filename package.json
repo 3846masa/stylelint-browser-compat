@@ -37,7 +37,7 @@
     "array.prototype.at": "1.1.2",
     "lodash.get": "4.4.2",
     "postcss-media-query-parser": "0.2.3",
-    "postcss-selector-parser": "6.0.15",
+    "postcss-selector-parser": "6.0.16",
     "postcss-value-parser": "4.2.0",
     "semver": "7.6.0",
     "string.prototype.at": "1.0.5",
