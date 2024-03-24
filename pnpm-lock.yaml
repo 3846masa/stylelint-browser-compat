@@ -43,8 +43,8 @@ dependencies:
 
 devDependencies:
   '@3846masa/configs':
-    specifier: github:3846masa/configs#203111f70ca653479932fc3487d888d6d01d6ede
-    version: github.com/3846masa/configs/203111f70ca653479932fc3487d888d6d01d6ede
+    specifier: github:3846masa/configs#284c29b36e81c09a8e24e46d04eb042ca1777b17
+    version: github.com/3846masa/configs/284c29b36e81c09a8e24e46d04eb042ca1777b17
   '@babel/cli':
     specifier: 7.24.1
     version: 7.24.1(@babel/core@7.24.3)
@@ -3986,8 +3986,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-sort@2.11.0(eslint@8.57.0)(typescript@5.4.3):
-    resolution: {integrity: sha512-Rvt4XZI42KfyBvjvtcoKFEWg6L/nAKfMBagxKwipNfQd6zetwyHgh284XC1rlRzxY7scn0yfKgqdMILQIyKdlA==}
+  /eslint-plugin-sort@2.12.0(eslint@8.57.0)(typescript@5.4.3):
+    resolution: {integrity: sha512-xXcxmOe/sPytM/L0eEP3OUnNUuzjkFKMBCbs6FE+/QenE4qaIXRlIQMf/yOhGFXitZypdVvFAVzRwf9UqkuQog==}
     peerDependencies:
       eslint: '>=6'
     dependencies:
@@ -7871,10 +7871,10 @@ packages:
     resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
     dev: false
 
-  github.com/3846masa/configs/203111f70ca653479932fc3487d888d6d01d6ede:
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/203111f70ca653479932fc3487d888d6d01d6ede}
+  github.com/3846masa/configs/284c29b36e81c09a8e24e46d04eb042ca1777b17:
+    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/284c29b36e81c09a8e24e46d04eb042ca1777b17}
     name: '@3846masa/configs'
-    version: 1.0.327
+    version: 1.0.328
     dependencies:
       '@tsconfig/strictest': 2.0.3
       '@typescript-eslint/eslint-plugin': 7.3.1(@typescript-eslint/parser@7.3.1)(eslint@8.57.0)(typescript@5.4.3)
@@ -7884,7 +7884,7 @@ packages:
       eslint-config-prettier: 9.1.0(eslint@8.57.0)
       eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@7.3.1)(eslint-plugin-import@2.29.1)(eslint@8.57.0)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.3.1)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
-      eslint-plugin-sort: 2.11.0(eslint@8.57.0)(typescript@5.4.3)
+      eslint-plugin-sort: 2.12.0(eslint@8.57.0)(typescript@5.4.3)
       eslint-plugin-unicorn: 51.0.1(eslint@8.57.0)
       prettier: 3.2.5
       prettier-plugin-packagejson: 2.4.12(prettier@3.2.5)
