@@ -43,8 +43,8 @@ dependencies:
 
 devDependencies:
   '@3846masa/configs':
-    specifier: github:3846masa/configs#284c29b36e81c09a8e24e46d04eb042ca1777b17
-    version: github.com/3846masa/configs/284c29b36e81c09a8e24e46d04eb042ca1777b17
+    specifier: github:3846masa/configs#cee89b5a6234f8da719aa1d3fec7ae0410e3af7f
+    version: github.com/3846masa/configs/cee89b5a6234f8da719aa1d3fec7ae0410e3af7f
   '@babel/cli':
     specifier: 7.24.1
     version: 7.24.1(@babel/core@7.24.3)
@@ -1667,7 +1667,7 @@ packages:
       debug: 4.3.4(supports-color@9.4.0)
       espree: 9.6.1
       globals: 13.24.0
-      ignore: 5.3.0
+      ignore: 5.3.1
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       minimatch: 3.1.2
@@ -2449,8 +2449,8 @@ packages:
       '@sinonjs/commons': 3.0.1
     dev: true
 
-  /@tsconfig/strictest@2.0.3:
-    resolution: {integrity: sha512-MroLvRhMbqtXI5WBSwoomro6OQS4xnCoudUrMb20JO0vLKUs0bAaCEcvM/immEBSJjFAK1l6jW1oAO8q3Ancrg==}
+  /@tsconfig/strictest@2.0.4:
+    resolution: {integrity: sha512-/VKO/oufDOvAE48KGzZOEXFBKtR3PnGlb4cJoRtw3Ax5tYwaWnaNgyTJDviIbvjlnn82WMfTNvhegFkj5Xt2UA==}
     dev: true
 
   /@types/babel__core@7.20.5:
@@ -2595,7 +2595,7 @@ packages:
       debug: 4.3.4(supports-color@9.4.0)
       eslint: 8.57.0
       graphemer: 1.4.0
-      ignore: 5.3.0
+      ignore: 5.3.1
       natural-compare: 1.4.0
       semver: 7.6.0
       ts-api-utils: 1.0.3(typescript@5.4.3)
@@ -3887,7 +3887,7 @@ packages:
   /es-shim-unscopables@1.0.2:
     resolution: {integrity: sha512-J3yBRXCzDu4ULnQwxyToo/OjdMx6akgVC7K6few0a7F/0wLtmKKN7I73AH5T2836UuXRqN7Qg+IIUw/+YJksRw==}
     dependencies:
-      hasown: 2.0.0
+      hasown: 2.0.2
 
   /es-to-primitive@1.2.1:
     resolution: {integrity: sha512-QCOllgZJtaUo9miYBcLChTUaHNjJF3PYs1VidD7AwiEj1kYxKeQTctLAezAOH5ZKRH0g2IgPn6KwB4IT8iRpvA==}
@@ -4116,7 +4116,7 @@ packages:
       glob-parent: 6.0.2
       globals: 13.24.0
       graphemer: 1.4.0
-      ignore: 5.3.0
+      ignore: 5.3.1
       imurmurhash: 0.1.4
       is-glob: 4.0.3
       is-path-inside: 3.0.3
@@ -4590,7 +4590,7 @@ packages:
     dependencies:
       dir-glob: 3.0.1
       fast-glob: 3.3.2
-      ignore: 5.3.0
+      ignore: 5.3.1
       merge2: 1.4.1
       slash: 4.0.0
     dev: true
@@ -4666,12 +4666,6 @@ packages:
     dependencies:
       has-symbols: 1.0.3
 
-  /hasown@2.0.0:
-    resolution: {integrity: sha512-vUptKVTpIJhcczKBbgnS+RtcuYMB8+oNzPK2/Hp3hanz8JmpATdmmgLgSaadVREkDm+e2giHwY3ZRkyjSIDDFA==}
-    engines: {node: '>= 0.4'}
-    dependencies:
-      function-bind: 1.1.2
-
   /hasown@2.0.2:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
@@ -4726,11 +4720,6 @@ packages:
   /human-signals@2.1.0:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}
     engines: {node: '>=10.17.0'}
-    dev: true
-
-  /ignore@5.3.0:
-    resolution: {integrity: sha512-g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==}
-    engines: {node: '>= 4'}
     dev: true
 
   /ignore@5.3.1:
@@ -7931,12 +7920,12 @@ packages:
     resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
     dev: false
 
-  github.com/3846masa/configs/284c29b36e81c09a8e24e46d04eb042ca1777b17:
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/284c29b36e81c09a8e24e46d04eb042ca1777b17}
+  github.com/3846masa/configs/cee89b5a6234f8da719aa1d3fec7ae0410e3af7f:
+    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/cee89b5a6234f8da719aa1d3fec7ae0410e3af7f}
     name: '@3846masa/configs'
-    version: 1.0.328
+    version: 1.0.329
     dependencies:
-      '@tsconfig/strictest': 2.0.3
+      '@tsconfig/strictest': 2.0.4
       '@typescript-eslint/eslint-plugin': 7.3.1(@typescript-eslint/parser@7.3.1)(eslint@8.57.0)(typescript@5.4.3)
       '@typescript-eslint/parser': 7.3.1(eslint@8.57.0)(typescript@5.4.3)
       better-typescript-lib: 2.6.0(typescript@5.4.3)
