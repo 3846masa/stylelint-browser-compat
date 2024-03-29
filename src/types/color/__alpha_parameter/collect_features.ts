@@ -1,6 +1,15 @@
-const FUNCTION_NAME_LIST = ['hsl', 'rgb'];
-
 import type { Feature } from '~/types';
+
+const RULE_NAME_MAP = {
+  hsl: `types.color.hsl.alpha_parameter`,
+  rgb: `types.color.rgb.alpha_parameter`,
+} as const;
+
+const FUNCTION_NAME_LIST = ['hsl', 'rgb'] as const;
+
+function isTargetFunctionNameList(value: string): value is (typeof FUNCTION_NAME_LIST)[number] {
+  return (FUNCTION_NAME_LIST as readonly string[]).includes(value);
+}
 
 type Params = {
   node: import('postcss-value-parser').FunctionNode;
@@ -9,7 +18,7 @@ type Params = {
 
 export async function collectFeatures({ node, parent }: Params): Promise<Feature[]> {
   const funcName = node.value.replace(/^-(?:ms|o|webkit|moz)-/, '');
-  if (!FUNCTION_NAME_LIST.includes(funcName)) {
+  if (!isTargetFunctionNameList(funcName)) {
     return [];
   }
 
@@ -31,7 +40,7 @@ export async function collectFeatures({ node, parent }: Params): Promise<Feature
 
     features.push({
       endIndex,
-      id: `types.color.${funcName}.alpha_parameter`,
+      id: RULE_NAME_MAP[funcName],
       index,
       name: `Alpha parameter passed to ${funcName}()`,
       node: parent,
