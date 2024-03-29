@@ -26,21 +26,9 @@ export async function collectFeatures({ nodes, parent }: Params): Promise<Featur
 
       features.push({
         endIndex,
-        id: `properties.background-repeat.round_space`,
+        id: `properties.background-repeat.round`,
         index,
         name: `"round" value specified as background-repeat`,
-        node: parent,
-      });
-    }
-    if (node.value === 'space') {
-      const index = offset + node.sourceIndex;
-      const endIndex = offset + node.sourceEndIndex;
-
-      features.push({
-        endIndex,
-        id: `properties.background-repeat.round_space`,
-        index,
-        name: `"space" value specified as background-repeat`,
         node: parent,
       });
     }
