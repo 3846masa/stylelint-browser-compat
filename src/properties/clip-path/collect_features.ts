@@ -44,13 +44,24 @@ export async function collectFeatures({ nodes, parent }: Params): Promise<Featur
       }
     }
     if (node.type === 'word') {
-      if (node.value === 'fill-box' || node.value === 'stroke-box') {
+      if (node.value === 'fill-box') {
         const index = offset + node.sourceIndex;
         const endIndex = offset + node.sourceEndIndex;
 
         features.push({
           endIndex,
-          id: `properties.clip-path.fill_and_stroke_box`,
+          id: `properties.clip-path.fill-box`,
+          index,
+          name: `"${node.value}" value specified as clip-path`,
+          node: parent,
+        });
+      } else if (node.value === 'stroke-box') {
+        const index = offset + node.sourceIndex;
+        const endIndex = offset + node.sourceEndIndex;
+
+        features.push({
+          endIndex,
+          id: `properties.clip-path.stroke-box`,
           index,
           name: `"${node.value}" value specified as clip-path`,
           node: parent,
