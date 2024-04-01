@@ -91,6 +91,14 @@ export async function collectFeatures({ node, valueRoot }: Params): Promise<Feat
       );
       break;
     }
+    case 'align-content': {
+      promises.push(
+        import('~/properties/align-content/collect_features').then(({ collectFeatures }) => {
+          return collectFeatures({ nodes: valueRoot.nodes, parent: node });
+        }),
+      );
+      break;
+    }
     case 'align-items': {
       promises.push(
         import('~/properties/align-items/collect_features').then(({ collectFeatures }) => {
