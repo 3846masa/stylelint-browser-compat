@@ -91,6 +91,30 @@ export async function collectFeatures({ node, valueRoot }: Params): Promise<Feat
       );
       break;
     }
+    case 'align-content': {
+      promises.push(
+        import('~/properties/align-content/collect_features').then(({ collectFeatures }) => {
+          return collectFeatures({ nodes: valueRoot.nodes, parent: node });
+        }),
+      );
+      break;
+    }
+    case 'align-items': {
+      promises.push(
+        import('~/properties/align-items/collect_features').then(({ collectFeatures }) => {
+          return collectFeatures({ nodes: valueRoot.nodes, parent: node });
+        }),
+      );
+      break;
+    }
+    case 'align-self': {
+      promises.push(
+        import('~/properties/align-self/collect_features').then(({ collectFeatures }) => {
+          return collectFeatures({ nodes: valueRoot.nodes, parent: node });
+        }),
+      );
+      break;
+    }
     case 'appearance': {
       promises.push(
         import('~/properties/appearance/collect_features').then(({ collectFeatures }) => {
@@ -254,6 +278,14 @@ export async function collectFeatures({ node, valueRoot }: Params): Promise<Feat
     case 'color-scheme': {
       promises.push(
         import('~/properties/color-scheme/collect_features').then(({ collectFeatures }) => {
+          return collectFeatures({ nodes: valueRoot.nodes, parent: node });
+        }),
+      );
+      break;
+    }
+    case 'justify-content': {
+      promises.push(
+        import('~/properties/justify-content/collect_features').then(({ collectFeatures }) => {
           return collectFeatures({ nodes: valueRoot.nodes, parent: node });
         }),
       );
