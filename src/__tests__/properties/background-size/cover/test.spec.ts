@@ -23,18 +23,6 @@ testRule({
     {
       code: stripIndent`
         #id {
-          background-size: contain;
-        }
-      `,
-      line: 2,
-      column: 20,
-      endLine: 2,
-      endColumn: 27,
-      message: messages.rejected('"contain" value specified as background-size', 'Opera Android 12', ''),
-    },
-    {
-      code: stripIndent`
-        #id {
           background-size: cover;
         }
       `,
@@ -43,18 +31,6 @@ testRule({
       endLine: 2,
       endColumn: 25,
       message: messages.rejected('"cover" value specified as background-size', 'Opera Android 12', ''),
-    },
-    {
-      code: stripIndent`
-        #id {
-          background: center / contain;
-        }
-      `,
-      line: 2,
-      column: 24,
-      endLine: 2,
-      endColumn: 31,
-      message: messages.rejected('"contain" value specified as background-size', 'Opera Android 12', ''),
     },
     {
       code: stripIndent`
