@@ -259,6 +259,14 @@ export async function collectFeatures({ node, valueRoot }: Params): Promise<Feat
       );
       break;
     }
+    case 'justify-content': {
+      promises.push(
+        import('~/properties/justify-content/collect_features').then(({ collectFeatures }) => {
+          return collectFeatures({ nodes: valueRoot.nodes, parent: node });
+        }),
+      );
+      break;
+    }
     default: {
       // TODO...
     }
