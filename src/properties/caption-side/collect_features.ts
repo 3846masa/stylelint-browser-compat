@@ -24,7 +24,7 @@ export async function collectFeatures({ nodes, parent }: Params): Promise<Featur
 
     features.push({
       endIndex,
-      id: `properties.caption-side.non_standard_values`,
+      id: `properties.caption-side.${node.value}`,
       index,
       name: `"${node.value}" value specified as caption-side`,
       node: parent,

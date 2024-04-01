@@ -70,14 +70,24 @@ export async function collectFeatures({ nodes, parent }: Params): Promise<Featur
         });
 
         promises.push(
-          import('~/properties/background-repeat/round_space/collect_features').then(({ collectFeatures }) => {
+          import('~/properties/background-repeat/round/collect_features').then(({ collectFeatures }) => {
+            return collectFeatures({ nodes: [first, second], parent });
+          }),
+        );
+        promises.push(
+          import('~/properties/background-repeat/space/collect_features').then(({ collectFeatures }) => {
             return collectFeatures({ nodes: [first, second], parent });
           }),
         );
         break;
       } else {
         promises.push(
-          import('~/properties/background-repeat/round_space/collect_features').then(({ collectFeatures }) => {
+          import('~/properties/background-repeat/round/collect_features').then(({ collectFeatures }) => {
+            return collectFeatures({ nodes: [first], parent });
+          }),
+        );
+        promises.push(
+          import('~/properties/background-repeat/space/collect_features').then(({ collectFeatures }) => {
             return collectFeatures({ nodes: [first], parent });
           }),
         );

@@ -56,14 +56,6 @@ export async function collectFeatures({ ignoreFeatures, node }: Params): Promise
       );
       break;
     }
-    case 'keyframes': {
-      promises.push(
-        import('~/at-rules/keyframes/collect_features').then(({ collectFeatures }) => {
-          return collectFeatures({ node });
-        }),
-      );
-      break;
-    }
     case 'media': {
       promises.push(
         import('~/at-rules/media/collect_features').then(({ collectFeatures }) => {

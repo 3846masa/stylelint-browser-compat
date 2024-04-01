@@ -259,22 +259,6 @@ export async function collectFeatures({ node, valueRoot }: Params): Promise<Feat
       );
       break;
     }
-    case 'transition': {
-      promises.push(
-        import('~/properties/transition/collect_features').then(({ collectFeatures }) => {
-          return collectFeatures({ nodes: valueRoot.nodes, parent: node });
-        }),
-      );
-      break;
-    }
-    case 'transition-property': {
-      promises.push(
-        import('~/properties/transition-property/collect_features').then(({ collectFeatures }) => {
-          return collectFeatures({ nodes: valueRoot.nodes, parent: node });
-        }),
-      );
-      break;
-    }
     default: {
       // TODO...
     }

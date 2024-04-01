@@ -4,11 +4,8 @@ const COMPAT_AUTO_VALUE_LIST = [
   'button',
   'searchfield',
   'textarea',
-  'push-button',
-  'slider-horizontal',
   'checkbox',
   'radio',
-  'square-button',
   'menulist',
   'listbox',
   'meter',
@@ -40,7 +37,7 @@ export async function collectFeatures({ nodes, parent }: Params): Promise<Featur
     if (COMPAT_AUTO_VALUE_LIST.includes(node.value)) {
       features.push({
         endIndex,
-        id: `properties.appearance.compat-auto`,
+        id: `properties.appearance.${node.value}`,
         index,
         name: `"${parent.value}" value specified as appearance`,
         node: parent,

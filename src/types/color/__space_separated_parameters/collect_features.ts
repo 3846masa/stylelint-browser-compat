@@ -1,6 +1,17 @@
-const FUNCTION_NAME_LIST = ['hsl', 'hsla', 'rgb', 'rgba'];
-
 import type { Feature } from '~/types';
+
+const RULE_NAME_MAP = {
+  hsl: `types.color.hsl.space_separated_parameters`,
+  hsla: `types.color.hsl.space_separated_parameters`,
+  rgb: `types.color.rgb.space_separated_parameters`,
+  rgba: `types.color.rgb.space_separated_parameters`,
+} as const;
+
+const FUNCTION_NAME_LIST = ['hsl', 'hsla', 'rgb', 'rgba'] as const;
+
+function isTargetFunctionNameList(value: string): value is (typeof FUNCTION_NAME_LIST)[number] {
+  return (FUNCTION_NAME_LIST as readonly string[]).includes(value);
+}
 
 type Params = {
   node: import('postcss-value-parser').FunctionNode;
@@ -9,7 +20,7 @@ type Params = {
 
 export async function collectFeatures({ node, parent }: Params): Promise<Feature[]> {
   const funcName = node.value.replace(/^-(?:ms|o|webkit|moz)-/, '');
-  if (!FUNCTION_NAME_LIST.includes(funcName)) {
+  if (!isTargetFunctionNameList(funcName)) {
     return [];
   }
 
@@ -29,7 +40,7 @@ export async function collectFeatures({ node, parent }: Params): Promise<Feature
 
     features.push({
       endIndex,
-      id: `types.color.${funcName}.space_separated_parameters`,
+      id: RULE_NAME_MAP[funcName],
       index,
       name: `Space-separated ${funcName}() parameters`,
       node: parent,
