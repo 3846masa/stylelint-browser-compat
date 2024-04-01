@@ -99,6 +99,14 @@ export async function collectFeatures({ node, valueRoot }: Params): Promise<Feat
       );
       break;
     }
+    case 'align-self': {
+      promises.push(
+        import('~/properties/align-self/collect_features').then(({ collectFeatures }) => {
+          return collectFeatures({ nodes: valueRoot.nodes, parent: node });
+        }),
+      );
+      break;
+    }
     case 'appearance': {
       promises.push(
         import('~/properties/appearance/collect_features').then(({ collectFeatures }) => {
