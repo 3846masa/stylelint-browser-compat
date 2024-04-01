@@ -33,7 +33,7 @@ export async function collectFeatures({ nodes, parent }: Params): Promise<Featur
     if (node.value === 'inline') {
       features.push({
         endIndex,
-        id: `properties.-moz-orient.inline_and_block`,
+        id: `properties.-moz-orient.inline`,
         index,
         name: `"inline" value specified as -moz-orient`,
         node: parent,
@@ -42,7 +42,7 @@ export async function collectFeatures({ nodes, parent }: Params): Promise<Featur
     if (node.value === 'block') {
       features.push({
         endIndex,
-        id: `properties.-moz-orient.inline_and_block`,
+        id: `properties.-moz-orient.block`,
         index,
         name: `"block" value specified as -moz-orient`,
         node: parent,

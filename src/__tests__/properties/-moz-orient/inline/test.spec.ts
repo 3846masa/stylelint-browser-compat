@@ -29,17 +29,5 @@ testRule({
       endColumn: 22,
       message: messages.rejected('"inline" value specified as -moz-orient', 'Firefox 39', ''),
     },
-    {
-      code: stripIndent`
-        #id {
-          -moz-orient: block;
-        }
-      `,
-      line: 2,
-      column: 16,
-      endLine: 2,
-      endColumn: 21,
-      message: messages.rejected('"block" value specified as -moz-orient', 'Firefox 39', ''),
-    },
   ],
 });
