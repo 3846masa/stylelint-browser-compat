@@ -1,3 +1,10 @@
+# [1.0.0-beta.117](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.116...v1.0.0-beta.117) (2024-04-01)
+
+
+### Features
+
+* support justify-content, align-items, align-self, align-content properties ([#628](https://github.com/3846masa/stylelint-browser-compat/issues/628)) ([ab737cb](https://github.com/3846masa/stylelint-browser-compat/commit/ab737cb2e35c671a5a08192e870061fe7fd4137e))
+
 # [1.0.0-beta.116](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.115...v1.0.0-beta.116) (2024-04-01)
 
 
