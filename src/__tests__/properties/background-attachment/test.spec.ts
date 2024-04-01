@@ -2,7 +2,7 @@
 import { stripIndent } from 'common-tags';
 import { getTestRule } from 'jest-preset-stylelint';
 
-import { plugin, ruleName } from '~/rule';
+import { messages, plugin, ruleName } from '~/rule';
 
 const testRule = getTestRule({
   plugins: [plugin],
@@ -13,23 +13,25 @@ testRule({
   config: [
     true,
     {
-      browserslist: '>= 0%',
+      browserslist: 'android 2.1',
     },
   ],
-  accept: [
+  reject: [
     {
       code: stripIndent`
         #id {
           background-attachment: scroll;
         }
       `,
-    },
-    {
-      code: stripIndent`
-        #id {
-          background: scroll;
-        }
-      `,
+      line: 2,
+      column: 3,
+      endLine: 2,
+      endColumn: 24,
+      message: messages.rejected(
+        '"background-attachment" property',
+        'Android Webview 2.1',
+        'https://developer.mozilla.org/docs/Web/CSS/background-attachment',
+      ),
     },
   ],
 });
