@@ -20,18 +20,6 @@ testRule({
     {
       code: stripIndent`
         #id {
-          clear: inline-start;
-        }
-      `,
-      line: 2,
-      column: 10,
-      endLine: 2,
-      endColumn: 22,
-      message: messages.rejected('"inline-start" value specified as clear', 'Firefox 54', ''),
-    },
-    {
-      code: stripIndent`
-        #id {
           clear: inline-end;
         }
       `,
