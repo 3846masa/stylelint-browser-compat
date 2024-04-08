@@ -73,7 +73,7 @@
     "rimraf": "5.0.5",
     "semantic-release": "19.0.5",
     "stylelint": "16.3.1",
-    "typescript": "5.4.3"
+    "typescript": "5.4.4"
   },
   "peerDependencies": {
     "browserslist": ">=4.20.3",
