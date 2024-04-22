@@ -38,8 +38,8 @@ dependencies:
     specifier: 3.3.0
     version: 3.3.0
   zod:
-    specifier: 3.22.4
-    version: 3.22.4
+    specifier: 3.22.5
+    version: 3.22.5
 
 devDependencies:
   '@3846masa/configs':
@@ -7972,8 +7972,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zod@3.22.4:
-    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+  /zod@3.22.5:
+    resolution: {integrity: sha512-HqnGsCdVZ2xc0qWPLdO25WnseXThh0kEYKIdV5F/hTHO75hNZFp8thxSeHhiPrHZKrFTo1SOgkAj9po5bexZlw==}
     dev: false
 
   github.com/3846masa/configs/fd7f7393431cfb6c2ac102dc13ba1da52fa1abc6:
