@@ -43,8 +43,8 @@ dependencies:
 
 devDependencies:
   '@3846masa/configs':
-    specifier: github:3846masa/configs#42721bd70531310a2903a5ec69721db66b0866f3
-    version: github.com/3846masa/configs/42721bd70531310a2903a5ec69721db66b0866f3
+    specifier: github:3846masa/configs#31725202871de020e7817548f55c32742e381779
+    version: github.com/3846masa/configs/31725202871de020e7817548f55c32742e381779
   '@babel/cli':
     specifier: 7.24.1
     version: 7.24.1(@babel/core@7.24.4)
@@ -7976,10 +7976,10 @@ packages:
     resolution: {integrity: sha512-OFLT+LTocvabn6q76BTwVB0hExEBS0IduTr3cqZyMqEDbOnYmcU+y0tUAYbND4uwclpBGi4I4UUBGzylWpjLGA==}
     dev: false
 
-  github.com/3846masa/configs/42721bd70531310a2903a5ec69721db66b0866f3:
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/42721bd70531310a2903a5ec69721db66b0866f3}
+  github.com/3846masa/configs/31725202871de020e7817548f55c32742e381779:
+    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/31725202871de020e7817548f55c32742e381779}
     name: '@3846masa/configs'
-    version: 1.0.356
+    version: 1.0.358
     dependencies:
       '@tsconfig/strictest': 2.0.5
       '@typescript-eslint/eslint-plugin': 7.7.0(@typescript-eslint/parser@7.7.0)(eslint@8.57.0)(typescript@5.4.5)
