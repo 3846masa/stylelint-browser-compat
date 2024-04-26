@@ -11,8 +11,8 @@ patchedDependencies:
 
 dependencies:
   '@mdn/browser-compat-data':
-    specifier: 5.5.16
-    version: 5.5.16
+    specifier: 5.5.23
+    version: 5.5.23
   array.prototype.at:
     specifier: 1.1.3
     version: 1.1.3
@@ -2157,8 +2157,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@mdn/browser-compat-data@5.5.16:
-    resolution: {integrity: sha512-za4DOflM2h73Rs2ORnhS2IU73sVRjrN4x5ZmOZ8WgLCSOVuZ1+y1K0NQKy8xqaPW52ezN+ni2N2RBUKt532ULA==}
+  /@mdn/browser-compat-data@5.5.23:
+    resolution: {integrity: sha512-nIy38qL3nfNcGOz5J2BJQpBXa7vM9QO1+wbyvqqS89lgNTWE8Q10whLsmE0sTVBooXiEaRc4fVME5IXjCYiHAw==}
     dev: false
 
   /@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents.3:
