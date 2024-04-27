@@ -94,8 +94,8 @@ devDependencies:
     specifier: 5.0.2
     version: 5.0.2
   babel-plugin-polyfill-es-shims:
-    specifier: 0.10.4
-    version: 0.10.4(@babel/core@7.24.4)
+    specifier: 0.10.5
+    version: 0.10.5(@babel/core@7.24.4)
   browserslist:
     specifier: 4.23.0
     version: 4.23.0
@@ -319,6 +319,21 @@ packages:
 
   /@babel/helper-define-polyfill-provider@0.6.1(@babel/core@7.24.4):
     resolution: {integrity: sha512-o7SDgTJuvx5vLKD6SFvkydkSMBvahDKGiNJzG22IZYXhiqoe9efY7zocICBgzHV4IRg5wdgl2nEL/tulKIEIbA==}
+    peerDependencies:
+      '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
+    dependencies:
+      '@babel/core': 7.24.4(supports-color@9.4.0)
+      '@babel/helper-compilation-targets': 7.23.6
+      '@babel/helper-plugin-utils': 7.24.0
+      debug: 4.3.4(supports-color@9.4.0)
+      lodash.debounce: 4.0.8
+      resolve: 1.22.8
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@babel/helper-define-polyfill-provider@0.6.2(@babel/core@7.24.4):
+    resolution: {integrity: sha512-LV76g+C502biUK6AyZ3LK10vDpDyCzZnhZFXkH1L75zHPj68+qc8Zfpx2th+gzwA2MzyK+1g/3EPl62yFnVttQ==}
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
     dependencies:
@@ -3144,13 +3159,13 @@ packages:
       - supports-color
     dev: true
 
-  /babel-plugin-polyfill-es-shims@0.10.4(@babel/core@7.24.4):
-    resolution: {integrity: sha512-3DhpjgQC3k/EGheqrcLjgoJDyy/ESISyde7W73yp7Ezg3Fn+mWjETYGDc7ybBMzaHbKNJsr+pFvTDIjNARF+9w==}
+  /babel-plugin-polyfill-es-shims@0.10.5(@babel/core@7.24.4):
+    resolution: {integrity: sha512-6BJYJu2WTKVEtESvsVqYNFDz5PFgJGpryO9mq2zqA1sNXQNIpvOGytCWcJB9vVg2+yHfSrIL13ITv/dKOGUNPQ==}
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
     dependencies:
       '@babel/core': 7.24.4(supports-color@9.4.0)
-      '@babel/helper-define-polyfill-provider': 0.6.1(@babel/core@7.24.4)
+      '@babel/helper-define-polyfill-provider': 0.6.2(@babel/core@7.24.4)
     transitivePeerDependencies:
       - supports-color
     dev: true
