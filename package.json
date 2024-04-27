@@ -62,7 +62,7 @@
     "@types/semver": "7.5.8",
     "babel-jest": "29.7.0",
     "babel-plugin-module-resolver": "5.0.2",
-    "babel-plugin-polyfill-es-shims": "0.10.4",
+    "babel-plugin-polyfill-es-shims": "0.10.5",
     "browserslist": "4.23.0",
     "common-tags": "1.8.2",
     "fs-extra": "11.2.0",
