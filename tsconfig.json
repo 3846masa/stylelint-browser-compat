@@ -1,17 +1,16 @@
 {
   "compilerOptions": {
-    "baseUrl": "src/",
     "esModuleInterop": true,
     "module": "ESNext",
     "moduleResolution": "node",
     "noEmit": true,
     "paths": {
       "@mdn/browser-compat-data": ["./dts/mdn__browser-compat-data"],
-      "~/*": ["*"]
+      "~/*": ["./src/*"]
     },
-    "rootDir": "src/",
     "target": "ESNext"
   },
-  "extends": "@3846masa/configs/tsconfig.json",
-  "include": ["src/**/*"]
+  "exclude": ["lib/"],
+  "extends": "@3846masa/configs/typescript/tsconfig.json",
+  "include": ["**/*", "**/.*"]
 }
