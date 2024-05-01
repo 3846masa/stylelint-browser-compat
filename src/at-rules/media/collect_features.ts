@@ -22,7 +22,7 @@ export async function collectFeatures({ ignoreFeatures, node }: Params): Promise
 
   const mediaRoot = mediaParser(node.params);
 
-  mediaRoot.walk('media-feature', (mediaFeatureNode) => {
+  mediaRoot.walk('media-feature', (mediaFeatureNode): undefined => {
     const parent = mediaFeatureNode.parent;
     const mediaFeatureRangeContext = isRangeContextMediaFeature(parent?.value ?? '');
 

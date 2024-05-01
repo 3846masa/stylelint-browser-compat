@@ -11,10 +11,10 @@ declare module 'postcss-media-query-parser' {
     | 'value';
 
   export type Container = Node & {
-    each(callback: (node: Node, i: number, nodes: Node[]) => boolean | void): void;
+    each(callback: (node: Node, i: number, nodes: Node[]) => boolean | undefined): void;
     nodes: (Node | Container)[];
-    walk(callback: (node: Node, i: number, nodes: Node[]) => boolean | void): void;
-    walk(filter: string | RegExp, callback: (node: Node, i: number, nodes: Node[]) => boolean | void): void;
+    walk(callback: (node: Node, i: number, nodes: Node[]) => boolean | undefined): void;
+    walk(filter: string | RegExp, callback: (node: Node, i: number, nodes: Node[]) => boolean | undefined): void;
   };
 
   export type Node = {

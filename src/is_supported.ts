@@ -19,13 +19,13 @@ export function isSupported(supportBlock: SupportBlock, target: Target, options:
       // TODO
       continue;
     }
-    if (Array.isArray(s.flags) && options.allow.flagged !== true) {
+    if (Array.isArray(s.flags) && !options.allow.flagged) {
       continue;
     }
-    if (s.partial_implementation === true && options.allow.partialImplementation !== true) {
+    if (s.partial_implementation === true && !options.allow.partialImplementation) {
       continue;
     }
-    if (s.prefix != null && options.allow.prefix !== true) {
+    if (s.prefix != null && !options.allow.prefix) {
       continue;
     }
 
@@ -43,7 +43,7 @@ export function isSupported(supportBlock: SupportBlock, target: Target, options:
     }
 
     const addedSemver = semver.minVersion(s.version_added);
-    const targetSemver = semver.minVersion(`${target.version}`);
+    const targetSemver = semver.minVersion(target.version.toString(10));
     if (addedSemver == null || targetSemver == null) {
       continue;
     }

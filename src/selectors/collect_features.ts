@@ -14,9 +14,9 @@ export async function collectFeatures({ ignoreFeatures, node }: Params): Promise
   promises.push(
     Promise.resolve(
       Array.from(node.selector.matchAll(/,/g)).map((matches) => ({
-        endIndex: (matches.index ?? 0) + 1,
+        endIndex: matches.index + 1,
         id: `selectors.list`,
-        index: matches.index ?? 0,
+        index: matches.index,
         name: `Selector list`,
         node,
       })),

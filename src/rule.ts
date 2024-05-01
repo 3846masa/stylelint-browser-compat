@@ -14,10 +14,10 @@ import type { Feature } from '~/types';
 export const ruleName = 'plugin/browser-compat';
 
 export const messages = stylelint.utils.ruleMessages(ruleName, {
-  disallowPrefix: (featureName) => {
+  disallowPrefix: (featureName: string) => {
     return `${featureName} with vendor prefix is not allowed by stylelint config.`;
   },
-  rejected: (featureName, targets, mdnUrl) => {
+  rejected: (featureName: string, targets: string, mdnUrl: string) => {
     if (mdnUrl) {
       return `${featureName} is not supported in ${targets}. See ${mdnUrl}.`;
     }
@@ -61,13 +61,13 @@ const rule: Rule<boolean> = (enabled, passedOptions) => {
 
     for (const feature of features) {
       const compat: Identifier | undefined = get(bcd.css, feature.id);
-      if (!compat?.__compat) {
+      if (!compat.__compat) {
         continue;
       }
 
       const { mdn_url: mdnUrl, support: supportBlock } = compat.__compat;
 
-      if (options.allow.prefix !== true && feature.prefix != null) {
+      if (!options.allow.prefix && feature.prefix != null) {
         stylelint.utils.report({
           endIndex: feature.endIndex,
           index: feature.index,
@@ -80,7 +80,7 @@ const rule: Rule<boolean> = (enabled, passedOptions) => {
       }
 
       const notSupportedTargets = targets.filter((target) => {
-        return isSupported(supportBlock, target, { allow: options.allow }) === false;
+        return !isSupported(supportBlock, target, { allow: options.allow });
       });
 
       if (notSupportedTargets.length === 0) {

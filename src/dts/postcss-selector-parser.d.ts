@@ -9,6 +9,7 @@ declare module 'postcss-selector-parser' {
       };
     }
 
+    // eslint-disable-next-line no-undef
     interface Universal extends Namespace {
       type: 'universal';
     }

@@ -6,21 +6,22 @@ import fs from 'fs-extra';
 
 /**
  *
- * @param {bcd.PrimaryIdentifier} i
+ * @param {import('@mdn/browser-compat-data').Identifier} i
  * @param {string} cwd
  */
 async function createSpecFile(i, cwd) {
   for (const key of Object.keys(i)) {
-    if (i[key] == null || key === '__compat') {
+    const target = i[key];
+    if (target == null || key === '__compat') {
       continue;
     }
-    const hasCompat = i[key].__compat != null;
+    const hasCompat = target.__compat != null;
     const filePath = path.resolve(cwd, `./${key}/test.spec.ts`);
-    if (hasCompat && (await fs.pathExists(filePath)) !== true) {
+    if (hasCompat && !(await fs.pathExists(filePath))) {
       const filePath = path.resolve(cwd, `./${key}/test.skip.spec.ts`);
       await fs.createFile(filePath);
     }
-    await createSpecFile(i[key], path.resolve(cwd, `./${key}/`));
+    await createSpecFile(target, path.resolve(cwd, `./${key}/`));
   }
 }
 

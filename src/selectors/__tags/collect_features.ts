@@ -20,7 +20,7 @@ export async function collectFeatures({ node, parent }: Params): Promise<Feature
       name: `Universal namespace selector`,
       node: parent,
     });
-  } else if (node.namespace != null) {
+  } else if (typeof node.namespace === 'string') {
     const namespaceLength = `${node.namespace}|`.length;
     const index = node.sourceIndex - namespaceLength;
     const endIndex = index + namespaceLength;

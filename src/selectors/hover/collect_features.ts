@@ -17,7 +17,7 @@ export async function collectFeatures({ node, parent }: Params): Promise<Feature
   let current: import('postcss-selector-parser').Node | undefined = node;
 
   while ((current = current.prev())) {
-    if (['id', 'class', 'attribute', 'tag', 'pseudo'].includes(current.type) !== true) {
+    if (!['id', 'class', 'attribute', 'tag', 'pseudo'].includes(current.type)) {
       break;
     }
 
