@@ -25,7 +25,7 @@ export async function collectFeatures({ nodes, parent }: Params): Promise<Featur
     }
 
     const jumptermNode = node.nodes[2];
-    if (JUMP_TERM_WORD_LIST.includes(jumptermNode.value) === false) {
+    if (!JUMP_TERM_WORD_LIST.includes(jumptermNode.value)) {
       continue;
     }
 

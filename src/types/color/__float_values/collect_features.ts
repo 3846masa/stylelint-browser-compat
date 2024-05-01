@@ -35,7 +35,7 @@ export async function collectFeatures({ node, parent }: Params): Promise<Feature
   ) {
     const includedFloatUnit = [node.nodes[0].value, node.nodes[2].value, node.nodes[4].value]
       .map((v) => unit(v))
-      .some((t) => t !== false && /^[0-9]+$/.test(t.number) === false);
+      .some((t) => t !== false && !/^[0-9]+$/.test(t.number));
 
     if (includedFloatUnit) {
       const index = offset + node.sourceIndex;
