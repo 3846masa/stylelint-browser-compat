@@ -41,8 +41,8 @@ importers:
         specifier: 3.3.0
         version: 3.3.0
       zod:
-        specifier: 3.23.5
-        version: 3.23.5
+        specifier: 3.23.6
+        version: 3.23.6
     devDependencies:
       '@3846masa/configs':
         specifier: github:3846masa/configs#2803a8a67c8207078cf40c97468f60a51a70d5c0
@@ -4152,8 +4152,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@3.23.5:
-    resolution: {integrity: sha512-fkwiq0VIQTksNNA131rDOsVJcns0pfVUjHzLrNBiF/O/Xxb5lQyEXkhZWcJ7npWsYlvs+h0jFWXXy4X46Em1JA==}
+  zod@3.23.6:
+    resolution: {integrity: sha512-RTHJlZhsRbuA8Hmp/iNL7jnfc4nZishjsanDAfEY1QpDQZCahUp3xDzl+zfweE9BklxMUcgBgS1b7Lvie/ZVwA==}
 
 snapshots:
 
@@ -9197,4 +9197,4 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@3.23.5: {}
+  zod@3.23.6: {}
