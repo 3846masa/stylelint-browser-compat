@@ -65,9 +65,9 @@ export async function collectFeatures({ node, parent }: Params): Promise<Feature
     case '~': {
       features.push({
         endIndex,
-        id: `selectors.general_sibling`,
+        id: `selectors.subsequent-sibling`,
         index,
-        name: `General sibling combinator`,
+        name: `Subsequent-sibling combinator`,
         node: parent,
       });
       break;

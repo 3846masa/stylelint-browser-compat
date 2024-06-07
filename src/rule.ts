@@ -17,6 +17,9 @@ export const messages = stylelint.utils.ruleMessages(ruleName, {
   disallowPrefix: (featureName: string) => {
     return `${featureName} with vendor prefix is not allowed by stylelint config.`;
   },
+  featureIsNotInCompatData: (featureId: string) => {
+    return `No information was found for "${featureId}" feature. Please report the issue at the following URL: https://github.com/3846masa/stylelint-browser-compat/issues/new`;
+  },
   rejected: (featureName: string, targets: string, mdnUrl: string) => {
     if (mdnUrl) {
       return `${featureName} is not supported in ${targets}. See ${mdnUrl}.`;
@@ -60,8 +63,17 @@ const rule: Rule<boolean> = (enabled, passedOptions) => {
     });
 
     for (const feature of features) {
-      const compat: Identifier | undefined = get(bcd.css, feature.id);
-      if (!compat.__compat) {
+      const compat = get(bcd.css, feature.id) as Identifier | undefined;
+
+      if (compat?.__compat == null) {
+        stylelint.utils.report({
+          endIndex: feature.endIndex,
+          index: feature.index,
+          message: messages.featureIsNotInCompatData(feature.id),
+          node: feature.node,
+          result: postcssResult,
+          ruleName,
+        });
         continue;
       }
 
