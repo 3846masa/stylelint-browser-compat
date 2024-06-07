@@ -1,5 +1,3 @@
-import { isPseudoElement } from 'postcss-selector-parser';
-
 import type { Feature } from '~/types';
 
 type Params = {
@@ -42,16 +40,6 @@ export async function collectFeatures({ node, parent }: Params): Promise<Feature
           node: parent,
         });
       }
-    }
-
-    if (current.type === 'pseudo' && isPseudoElement(current)) {
-      features.push({
-        endIndex,
-        id: `selectors.hover.pseudo_elements`,
-        index,
-        name: `":hover" pseudo-class with pseudo-element`,
-        node: parent,
-      });
     }
   }
 
