@@ -1,3 +1,10 @@
+# [1.0.0-beta.128](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.127...v1.0.0-beta.128) (2024-06-07)
+
+
+### Bug Fixes
+
+* fix the incorrect feature detection process ([#706](https://github.com/3846masa/stylelint-browser-compat/issues/706)) ([e0665aa](https://github.com/3846masa/stylelint-browser-compat/commit/e0665aa54413fa8e20436fdc458c5bd43d2b48e4))
+
 # [1.0.0-beta.127](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.126...v1.0.0-beta.127) (2024-05-26)
 
 
