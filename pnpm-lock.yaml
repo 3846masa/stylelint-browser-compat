@@ -102,8 +102,8 @@ importers:
         specifier: 0.10.5
         version: 0.10.5(@babel/core@7.24.7)
       browserslist:
-        specifier: 4.23.0
-        version: 4.23.0
+        specifier: 4.23.1
+        version: 4.23.1
       common-tags:
         specifier: 1.8.2
         version: 1.8.2
@@ -1646,8 +1646,8 @@ packages:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
 
-  browserslist@4.23.0:
-    resolution: {integrity: sha512-QW8HiM1shhT2GuzkvklfjcKDiWFXHOeFCIA/huJPwHsslwcydgk7X+z2zXpEijP98UCY7HbubZt5J2Zgvf0CaQ==}
+  browserslist@4.23.1:
+    resolution: {integrity: sha512-TUfofFo/KsK/bWZ9TWQ5O26tsWW4Uhmt8IYklbnUa70udB6P2wA7w7o4PY4muaEPBQaAX+CEnmmIA41NVHtPVw==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
@@ -1681,8 +1681,8 @@ packages:
     resolution: {integrity: sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==}
     engines: {node: '>=10'}
 
-  caniuse-lite@1.0.30001588:
-    resolution: {integrity: sha512-+hVY9jE44uKLkH0SrUTqxjxqNTOWHsbnQDIKjwkZ3lNTzUUVdBLBGXtj/q5Mp5u98r3droaZAewQuEDzjQdZlQ==}
+  caniuse-lite@1.0.30001632:
+    resolution: {integrity: sha512-udx3o7yHJfUxMLkGohMlVHCvFvWmirKh9JAH/d7WOLPetlH+LTL5cocMZ0t7oZx/mdlOWXti97xLZWc8uURRHg==}
 
   cardinal@2.1.1:
     resolution: {integrity: sha512-JSr5eOgoEymtYHBjNWyjrMqet9Am2miJhlfKNdqLp6zoeAh0KN5dRAcxlecj5mAJrmQomgiOBj35xHLrFjqBpw==}
@@ -1956,8 +1956,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.4.673:
-    resolution: {integrity: sha512-zjqzx4N7xGdl5468G+vcgzDhaHkaYgVcf9MqgexcTqsl2UHSCmOj/Bi3HAprg4BZCpC7HyD8a6nZl6QAZf72gw==}
+  electron-to-chromium@1.4.799:
+    resolution: {integrity: sha512-3D3DwWkRTzrdEpntY0hMLYwj7SeBk1138CkPE8sBDSj3WzrzOiG2rHm3luw8jucpf+WiyLBCZyU9lMHyQI9M9Q==}
 
   emittery@0.13.1:
     resolution: {integrity: sha512-DeWwawk6r5yR9jFgnDKYt4sLS0LmHJJi3ZOnb5/JdbYwj3nW+FxQnHIjhBKz8YLC7oRNPVM9NQ47I3CVx34eqQ==}
@@ -2013,6 +2013,10 @@ packages:
 
   escalade@3.1.1:
     resolution: {integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==}
+    engines: {node: '>=6'}
+
+  escalade@3.1.2:
+    resolution: {integrity: sha512-ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==}
     engines: {node: '>=6'}
 
   escape-string-regexp@1.0.5:
@@ -3497,6 +3501,10 @@ packages:
   q@1.5.1:
     resolution: {integrity: sha512-kV/CThkXo6xyFEZUugw/+pIOywXcDbFYgSct5cT3gqlbkBE1SJdwy6UQoZvodiWF/ckQLZyDE/Bu1M6gVu5lVw==}
     engines: {node: '>=0.6.0', teleport: '>=0.2.0'}
+    deprecated: |-
+      You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+
+      (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
 
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
@@ -4062,8 +4070,8 @@ packages:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
 
-  update-browserslist-db@1.0.13:
-    resolution: {integrity: sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==}
+  update-browserslist-db@1.0.16:
+    resolution: {integrity: sha512-KVbTxlBYlckhF5wgfyZXTWnMn7MMZjMu9XG8bPlliUOP9ThaF4QnhP8qrjrH7DRzHfSk0oQv1wToW+iA5GajEQ==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
@@ -4305,7 +4313,7 @@ snapshots:
     dependencies:
       '@babel/compat-data': 7.24.6
       '@babel/helper-validator-option': 7.24.6
-      browserslist: 4.23.0
+      browserslist: 4.23.1
       lru-cache: 5.1.1
       semver: 6.3.1
 
@@ -4313,7 +4321,7 @@ snapshots:
     dependencies:
       '@babel/compat-data': 7.24.7
       '@babel/helper-validator-option': 7.24.7
-      browserslist: 4.23.0
+      browserslist: 4.23.1
       lru-cache: 5.1.1
       semver: 6.3.1
 
@@ -6355,12 +6363,12 @@ snapshots:
     dependencies:
       fill-range: 7.1.1
 
-  browserslist@4.23.0:
+  browserslist@4.23.1:
     dependencies:
-      caniuse-lite: 1.0.30001588
-      electron-to-chromium: 1.4.673
+      caniuse-lite: 1.0.30001632
+      electron-to-chromium: 1.4.799
       node-releases: 2.0.14
-      update-browserslist-db: 1.0.13(browserslist@4.23.0)
+      update-browserslist-db: 1.0.16(browserslist@4.23.1)
 
   bser@2.1.1:
     dependencies:
@@ -6390,7 +6398,7 @@ snapshots:
 
   camelcase@6.3.0: {}
 
-  caniuse-lite@1.0.30001588: {}
+  caniuse-lite@1.0.30001632: {}
 
   cardinal@2.1.1:
     dependencies:
@@ -6524,7 +6532,7 @@ snapshots:
 
   core-js-compat@3.37.1:
     dependencies:
-      browserslist: 4.23.0
+      browserslist: 4.23.1
 
   core-util-is@1.0.3: {}
 
@@ -6675,7 +6683,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.4.673: {}
+  electron-to-chromium@1.4.799: {}
 
   emittery@0.13.1: {}
 
@@ -6776,6 +6784,8 @@ snapshots:
       is-symbol: 1.0.4
 
   escalade@3.1.1: {}
+
+  escalade@3.1.2: {}
 
   escape-string-regexp@1.0.5: {}
 
@@ -9140,10 +9150,10 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  update-browserslist-db@1.0.13(browserslist@4.23.0):
+  update-browserslist-db@1.0.16(browserslist@4.23.1):
     dependencies:
-      browserslist: 4.23.0
-      escalade: 3.1.1
+      browserslist: 4.23.1
+      escalade: 3.1.2
       picocolors: 1.0.1
 
   uri-js@4.4.1:
