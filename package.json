@@ -80,7 +80,7 @@
     "browserslist": ">=4.20.3",
     "stylelint": ">=14.8.5"
   },
-  "packageManager": "pnpm@9.4.0",
+  "packageManager": "pnpm@9.5.0",
   "pnpm": {
     "patchedDependencies": {
       "@semantic-release/git@10.0.1": "patches/@semantic-release__git@10.0.1.patch"
