@@ -1,3 +1,10 @@
+# [1.0.0-beta.133](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.132...v1.0.0-beta.133) (2024-08-19)
+
+
+### Bug Fixes
+
+* add repository field to package.json ([#776](https://github.com/3846masa/stylelint-browser-compat/issues/776)) ([d516a31](https://github.com/3846masa/stylelint-browser-compat/commit/d516a316752ffdf04d889fab1a285dc148b3a15b))
+
 # [1.0.0-beta.132](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.131...v1.0.0-beta.132) (2024-08-15)
 
 
