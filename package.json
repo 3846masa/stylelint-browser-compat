@@ -65,7 +65,7 @@
     "@semantic-release/npm": "9.0.2",
     "@semantic-release/release-notes-generator": "10.0.3",
     "@types/common-tags": "1.8.4",
-    "@types/eslint": "9.6.0",
+    "@types/eslint": "9.6.1",
     "@types/fs-extra": "11.0.4",
     "@types/lodash.get": "4.4.9",
     "@types/semver": "7.5.8",
