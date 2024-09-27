@@ -39,25 +39,6 @@ export async function collectFeatures({ nodes, parent }: Params): Promise<Featur
         node: parent,
       });
     }
-
-    if (node.value === 'disabled') {
-      features.push({
-        endIndex,
-        id: `properties.-moz-user-input.disabled`,
-        index,
-        name: `"disabled" value specified as -moz-user-input`,
-        node: parent,
-      });
-    }
-    if (node.value === 'enabled') {
-      features.push({
-        endIndex,
-        id: `properties.-moz-user-input.enabled`,
-        index,
-        name: `"enabled" value specified as -moz-user-input`,
-        node: parent,
-      });
-    }
   }
 
   return features;

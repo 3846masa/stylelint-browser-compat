@@ -33,7 +33,7 @@ testRule({
       message: messages.rejected(
         '"url()" function',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/url',
+        'https://developer.mozilla.org/docs/Web/CSS/url_value',
       ),
     },
   ],

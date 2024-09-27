@@ -30,7 +30,7 @@ testRule({
       column: 12,
       endLine: 2,
       endColumn: 28,
-      message: messages.rejected('WOFF', 'Chrome 5', 'https://developer.mozilla.org/docs/Web/Guide/WOFF'),
+      message: messages.rejected('WOFF', 'Chrome 5', 'https://developer.mozilla.org/docs/Web/CSS/CSS_fonts/WOFF'),
     },
     {
       code: stripIndent`
@@ -42,7 +42,7 @@ testRule({
       column: 12,
       endLine: 2,
       endColumn: 28,
-      message: messages.rejected('WOFF', 'Chrome 5', 'https://developer.mozilla.org/docs/Web/Guide/WOFF'),
+      message: messages.rejected('WOFF', 'Chrome 5', 'https://developer.mozilla.org/docs/Web/CSS/CSS_fonts/WOFF'),
     },
     {
       code: stripIndent`
@@ -54,7 +54,7 @@ testRule({
       column: 12,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('WOFF', 'Chrome 5', 'https://developer.mozilla.org/docs/Web/Guide/WOFF'),
+      message: messages.rejected('WOFF', 'Chrome 5', 'https://developer.mozilla.org/docs/Web/CSS/CSS_fonts/WOFF'),
     },
     {
       code: stripIndent`
@@ -66,7 +66,7 @@ testRule({
       column: 12,
       endLine: 2,
       endColumn: 34,
-      message: messages.rejected('WOFF', 'Chrome 5', 'https://developer.mozilla.org/docs/Web/Guide/WOFF'),
+      message: messages.rejected('WOFF', 'Chrome 5', 'https://developer.mozilla.org/docs/Web/CSS/CSS_fonts/WOFF'),
     },
     {
       code: stripIndent`
@@ -78,7 +78,7 @@ testRule({
       column: 12,
       endLine: 2,
       endColumn: 33,
-      message: messages.rejected('WOFF', 'Chrome 5', 'https://developer.mozilla.org/docs/Web/Guide/WOFF'),
+      message: messages.rejected('WOFF', 'Chrome 5', 'https://developer.mozilla.org/docs/Web/CSS/CSS_fonts/WOFF'),
     },
   ],
 });

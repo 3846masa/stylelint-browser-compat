@@ -21,15 +21,6 @@ export async function collectFeatures({ nodes, parent }: Params): Promise<Featur
     const index = offset + node.sourceIndex;
     const endIndex = offset + node.sourceEndIndex;
 
-    if (node.value === 'auto') {
-      features.push({
-        endIndex,
-        id: `properties.-moz-orient.auto`,
-        index,
-        name: `"auto" value specified as -moz-orient`,
-        node: parent,
-      });
-    }
     if (node.value === 'inline') {
       features.push({
         endIndex,

@@ -33,7 +33,7 @@ testRule({
       message: messages.rejected(
         '"image-set()" function specified as background-image',
         'Chrome 20',
-        'https://developer.mozilla.org/docs/Web/CSS/image-set()',
+        'https://developer.mozilla.org/docs/Web/CSS/image/image-set',
       ),
     },
     {
@@ -49,7 +49,7 @@ testRule({
       message: messages.rejected(
         '"image-set()" function specified as background-image',
         'Chrome 20',
-        'https://developer.mozilla.org/docs/Web/CSS/image-set()',
+        'https://developer.mozilla.org/docs/Web/CSS/image/image-set',
       ),
     },
   ],
