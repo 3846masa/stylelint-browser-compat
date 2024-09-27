@@ -33,7 +33,7 @@ testRule({
       message: messages.rejected(
         '"element()" function specified as background-image',
         'Firefox 3',
-        'https://developer.mozilla.org/docs/Web/CSS/element()',
+        'https://developer.mozilla.org/docs/Web/CSS/element',
       ),
     },
     {
@@ -49,7 +49,7 @@ testRule({
       message: messages.rejected(
         '"element()" function specified as background-image',
         'Firefox 3',
-        'https://developer.mozilla.org/docs/Web/CSS/element()',
+        'https://developer.mozilla.org/docs/Web/CSS/element',
       ),
     },
   ],

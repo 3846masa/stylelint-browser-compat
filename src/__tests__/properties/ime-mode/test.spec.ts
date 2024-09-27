@@ -27,11 +27,7 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 11,
-      message: messages.rejected(
-        '"ime-mode" property',
-        'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/ime-mode',
-      ),
+      message: messages.rejected('"ime-mode" property', 'Chrome 100', ''),
     },
   ],
 });

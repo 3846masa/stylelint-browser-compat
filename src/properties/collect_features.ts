@@ -243,14 +243,6 @@ export async function collectFeatures({ node, valueRoot }: Params): Promise<Feat
       );
       break;
     }
-    case 'box-sizing': {
-      promises.push(
-        import('~/properties/box-sizing/collect_features').then(({ collectFeatures }) => {
-          return collectFeatures({ nodes: valueRoot.nodes, parent: node });
-        }),
-      );
-      break;
-    }
     case 'caption-side': {
       promises.push(
         import('~/properties/caption-side/collect_features').then(({ collectFeatures }) => {

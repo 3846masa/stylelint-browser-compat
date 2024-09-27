@@ -29,7 +29,7 @@ testRule({
       message: messages.rejected(
         '"update" media feature',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/update-frequency',
+        'https://developer.mozilla.org/docs/Web/CSS/@media/update',
       ),
     },
   ],

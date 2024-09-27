@@ -52,16 +52,6 @@ export async function collectFeatures({ node, parent }: Params): Promise<Feature
       });
       break;
     }
-    case '>>': {
-      features.push({
-        endIndex,
-        id: `selectors.descendant.two_greater_than_syntax`,
-        index,
-        name: `">>" syntax for descendant combinator`,
-        node: parent,
-      });
-      break;
-    }
     case '~': {
       features.push({
         endIndex,

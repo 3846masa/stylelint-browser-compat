@@ -33,7 +33,7 @@ testRule({
       message: messages.rejected(
         '"font-variant" descriptor of the @font-face',
         'Opera 9',
-        'https://developer.mozilla.org/docs/Web/CSS/@font-face/font-variant',
+        'https://developer.mozilla.org/docs/Web/CSS/@font-face',
       ),
     },
   ],

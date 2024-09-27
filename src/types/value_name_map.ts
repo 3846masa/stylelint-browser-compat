@@ -164,7 +164,6 @@ export const valueNameMap = new Map([
   ['yellowgreen', 'types.color.named-color'],
   ['currentcolor', 'types.color.currentcolor'],
   ['currentColor', 'types.color.currentcolor'],
-  ['transparent', 'types.color.transparent'],
   ['linear', 'types.easing-function'],
   ['ease', 'types.easing-function'],
   ['ease-in', 'types.easing-function'],
@@ -175,6 +174,5 @@ export const valueNameMap = new Map([
   ['inherit', 'types.global_keywords.inherit'],
   ['initial', 'types.global_keywords.initial'],
   ['revert', 'types.global_keywords.revert'],
-  ['revert-layer', 'types.global_keywords.revert-layer'],
   ['unset', 'types.global_keywords.unset'],
 ]);

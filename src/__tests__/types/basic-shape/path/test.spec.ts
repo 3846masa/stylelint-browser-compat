@@ -30,7 +30,11 @@ testRule({
       column: 14,
       endLine: 2,
       endColumn: 56,
-      message: messages.rejected('"path()" function', 'Chrome 45', 'https://developer.mozilla.org/docs/Web/CSS/path'),
+      message: messages.rejected(
+        '"path()" function',
+        'Chrome 45',
+        'https://developer.mozilla.org/docs/Web/CSS/basic-shape/path',
+      ),
     },
   ],
 });
