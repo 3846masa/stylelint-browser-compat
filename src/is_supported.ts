@@ -42,8 +42,9 @@ export function isSupported(supportBlock: SupportBlock, target: Target, options:
       return true;
     }
 
-    const addedSemver = semver.minVersion(s.version_added);
-    const targetSemver = semver.minVersion(target.version.toString(10));
+    const addedSemver = semver.valid(s.version_added) ? semver.minVersion(s.version_added) : null;
+    const targetVersion = target.version.toString(10);
+    const targetSemver = semver.valid(targetVersion) ? semver.minVersion(targetVersion) : null;
     if (addedSemver == null || targetSemver == null) {
       continue;
     }
