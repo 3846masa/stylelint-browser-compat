@@ -1,3 +1,10 @@
+# [1.0.0-beta.139](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.138...v1.0.0-beta.139) (2024-11-09)
+
+
+### Bug Fixes
+
+* returns "not supported" when supported version is "preview" ([#807](https://github.com/3846masa/stylelint-browser-compat/issues/807)) ([84413af](https://github.com/3846masa/stylelint-browser-compat/commit/84413af788d3397c9ba0c806e43086ff5c19eb1e))
+
 # [1.0.0-beta.138](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.137...v1.0.0-beta.138) (2024-11-07)
 
 
