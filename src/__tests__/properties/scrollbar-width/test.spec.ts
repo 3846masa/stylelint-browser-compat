@@ -13,7 +13,7 @@ testRule({
   config: [
     true,
     {
-      browserslist: 'ie 6',
+      browserslist: 'safari 17',
     },
   ],
   reject: [
@@ -29,7 +29,7 @@ testRule({
       endColumn: 18,
       message: messages.rejected(
         '"scrollbar-width" property',
-        'IE 6',
+        'Safari 17.0',
         'https://developer.mozilla.org/docs/Web/CSS/scrollbar-width',
       ),
     },
