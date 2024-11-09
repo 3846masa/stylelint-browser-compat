@@ -41,6 +41,10 @@ export function isSupported(supportBlock: SupportBlock, target: Target, options:
     if (s.version_added.startsWith('≤')) {
       return true;
     }
+    /** @see {@link https://github.com/mdn/browser-compat-data/blob/v5.6.13/docs/data-guidelines/index.md#choosing-preview-values} */
+    if (s.version_added === 'preview') {
+      return false;
+    }
 
     const addedSemver = semver.minVersion(s.version_added);
     const targetSemver = semver.minVersion(target.version.toString(10));
