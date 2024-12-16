@@ -44,7 +44,6 @@ export const functionNameMap = new Map([
   ['repeating-conic-gradient', 'types.gradient.repeating-conic-gradient'],
   ['repeating-linear-gradient', 'types.gradient.repeating-linear-gradient'],
   ['repeating-radial-gradient', 'types.gradient.repeating-radial-gradient'],
-  ['image', 'types.image.image'],
   ['image-set', 'types.image.image-set'],
   ['paint', 'types.image.paint'],
   ['max', 'types.max'],
