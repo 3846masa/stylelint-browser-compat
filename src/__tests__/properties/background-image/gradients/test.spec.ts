@@ -15,13 +15,13 @@ testRule({
     {
       allow: {
         features: [
-          'types.image.gradient',
-          'types.image.gradient.conic-gradient',
-          'types.image.gradient.linear-gradient',
-          'types.image.gradient.radial-gradient',
-          'types.image.gradient.repeating-conic-gradient',
-          'types.image.gradient.repeating-linear-gradient',
-          'types.image.gradient.repeating-radial-gradient',
+          'types.gradient',
+          'types.gradient.conic-gradient',
+          'types.gradient.linear-gradient',
+          'types.gradient.radial-gradient',
+          'types.gradient.repeating-conic-gradient',
+          'types.gradient.repeating-linear-gradient',
+          'types.gradient.repeating-radial-gradient',
         ],
       },
       browserslist: 'ie 9',
