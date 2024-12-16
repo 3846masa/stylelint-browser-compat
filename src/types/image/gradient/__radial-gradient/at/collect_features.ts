@@ -27,7 +27,7 @@ export async function collectFeatures({ colorStop, colorStopIndex, node, parent 
 
     features.push({
       endIndex,
-      id: `types.image.gradient.${funcName}.at`,
+      id: `types.gradient.${funcName}.at`,
       index,
       name: `"at" syntax for ${funcName}()`,
       node: parent,

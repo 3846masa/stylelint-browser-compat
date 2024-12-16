@@ -21,7 +21,7 @@ export async function collectFeatures({ colorStop, node, parent }: Params): Prom
 
     features.push({
       endIndex,
-      id: `types.image.gradient.${funcName}.to`,
+      id: `types.gradient.${funcName}.to`,
       index,
       name: `"to" keyword for ${funcName}()`,
       node: parent,

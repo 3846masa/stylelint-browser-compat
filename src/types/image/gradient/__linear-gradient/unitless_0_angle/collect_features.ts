@@ -22,7 +22,7 @@ export async function collectFeatures({ colorStop, colorStopIndex, node, parent 
 
     features.push({
       endIndex,
-      id: `types.image.gradient.${funcName}.unitless_0_angle`,
+      id: `types.gradient.${funcName}.unitless_0_angle`,
       index,
       name: `Unitless 0 angle for ${funcName}()`,
       node: parent,

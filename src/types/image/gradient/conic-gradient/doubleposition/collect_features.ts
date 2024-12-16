@@ -25,7 +25,7 @@ export async function collectFeatures({ colorStop, node, parent }: Params): Prom
 
     features.push({
       endIndex,
-      id: `types.image.gradient.conic-gradient.doubleposition`,
+      id: `types.gradient.conic-gradient.doubleposition`,
       index,
       name: `Double-position color stops for conic-gradient()`,
       node: parent,

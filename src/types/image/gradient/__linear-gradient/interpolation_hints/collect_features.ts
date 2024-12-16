@@ -29,7 +29,7 @@ export async function collectFeatures({ colorStop, colorStopIndex, node, parent 
 
     features.push({
       endIndex,
-      id: `types.image.gradient.${funcName}.interpolation_hints`,
+      id: `types.gradient.${funcName}.interpolation_hints`,
       index,
       name: `Interpolation hints for ${funcName}()`,
       node: parent,
