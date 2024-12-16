@@ -32,16 +32,6 @@ export async function collectFeatures({ node, parent }: Params): Promise<Feature
       });
       break;
     }
-    case '||': {
-      features.push({
-        endIndex,
-        id: `selectors.column`,
-        index,
-        name: `Column combinator`,
-        node: parent,
-      });
-      break;
-    }
     case ' ': {
       features.push({
         endIndex,
