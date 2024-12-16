@@ -10,7 +10,6 @@ export const functionNameMap = new Map([
   ['nested', 'types.calc.nested'],
   ['clamp', 'types.clamp'],
   ['color', 'types.color.color'],
-  ['color-contrast', 'types.color.color-contrast'],
   ['color-mix', 'types.color.color-mix'],
   ['hsl', 'types.color.hsl'],
   ['hsla', 'types.color.hsl'],
