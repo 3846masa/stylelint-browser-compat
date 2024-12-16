@@ -30,7 +30,11 @@ testRule({
       column: 31,
       endLine: 2,
       endColumn: 46,
-      message: messages.rejected('"steps()" function', 'IE 9', ''),
+      message: messages.rejected(
+        '"steps()" function',
+        'IE 9',
+        'https://developer.mozilla.org/docs/Web/CSS/easing-function/steps',
+      ),
     },
     {
       code: stripIndent`
@@ -42,7 +46,11 @@ testRule({
       column: 31,
       endLine: 2,
       endColumn: 41,
-      message: messages.rejected('"step-start" value', 'IE 9', ''),
+      message: messages.rejected(
+        '"step-start" value',
+        'IE 9',
+        'https://developer.mozilla.org/docs/Web/CSS/easing-function/steps',
+      ),
     },
     {
       code: stripIndent`
@@ -54,7 +62,11 @@ testRule({
       column: 31,
       endLine: 2,
       endColumn: 39,
-      message: messages.rejected('"step-end" value', 'IE 9', ''),
+      message: messages.rejected(
+        '"step-end" value',
+        'IE 9',
+        'https://developer.mozilla.org/docs/Web/CSS/easing-function/steps',
+      ),
     },
   ],
 });

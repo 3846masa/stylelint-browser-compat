@@ -30,7 +30,11 @@ testRule({
       column: 31,
       endLine: 2,
       endColumn: 63,
-      message: messages.rejected('"cubic-bezier()" function', 'IE 9', ''),
+      message: messages.rejected(
+        '"cubic-bezier()" function',
+        'IE 9',
+        'https://developer.mozilla.org/docs/Web/CSS/easing-function/cubic-bezier',
+      ),
     },
   ],
 });
