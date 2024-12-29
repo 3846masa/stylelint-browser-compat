@@ -69,7 +69,7 @@ export async function collectFeatures({ nodes, parent }: Params): Promise<Featur
       case 'stretch': {
         features.push({
           endIndex,
-          id: `properties.justify-content.flex_context.start_end`,
+          id: `properties.justify-content.flex_context.stretch`,
           index,
           name: `"${node.value}" value specified as justify-content`,
           node: parent,
