@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 15,
       message: messages.rejected(
+        'properties.inset-inline',
         '"inset-inline" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/inset-inline',

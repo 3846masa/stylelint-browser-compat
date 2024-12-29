@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 33,
       message: messages.rejected(
+        'selectors.-webkit-progress-inner-element',
         '"::-webkit-progress-inner-element" pseudo-element',
         'Chrome 22',
         'https://developer.mozilla.org/docs/Web/CSS/::-webkit-progress-inner-element',

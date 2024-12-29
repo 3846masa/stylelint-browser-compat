@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 49,
       message: messages.rejected(
+        'properties.animation-timing-function.jump',
         '"jump-start" keyword for steps() specified as animation-timing-function',
         'Chrome 76',
         '',
@@ -47,6 +48,7 @@ testRule({
       endLine: 2,
       endColumn: 47,
       message: messages.rejected(
+        'properties.animation-timing-function.jump',
         '"jump-end" keyword for steps() specified as animation-timing-function',
         'Chrome 76',
         '',
@@ -63,6 +65,7 @@ testRule({
       endLine: 2,
       endColumn: 48,
       message: messages.rejected(
+        'properties.animation-timing-function.jump',
         '"jump-none" keyword for steps() specified as animation-timing-function',
         'Chrome 76',
         '',
@@ -79,6 +82,7 @@ testRule({
       endLine: 2,
       endColumn: 48,
       message: messages.rejected(
+        'properties.animation-timing-function.jump',
         '"jump-both" keyword for steps() specified as animation-timing-function',
         'Chrome 76',
         '',
@@ -96,6 +100,7 @@ testRule({
       endLine: 2,
       endColumn: 36,
       message: messages.rejected(
+        'properties.animation-timing-function.jump',
         '"jump-start" keyword for steps() specified as animation-timing-function',
         'Chrome 76',
         '',
@@ -112,6 +117,7 @@ testRule({
       endLine: 2,
       endColumn: 34,
       message: messages.rejected(
+        'properties.animation-timing-function.jump',
         '"jump-end" keyword for steps() specified as animation-timing-function',
         'Chrome 76',
         '',
@@ -128,6 +134,7 @@ testRule({
       endLine: 2,
       endColumn: 35,
       message: messages.rejected(
+        'properties.animation-timing-function.jump',
         '"jump-none" keyword for steps() specified as animation-timing-function',
         'Chrome 76',
         '',
@@ -144,6 +151,7 @@ testRule({
       endLine: 2,
       endColumn: 35,
       message: messages.rejected(
+        'properties.animation-timing-function.jump',
         '"jump-both" keyword for steps() specified as animation-timing-function',
         'Chrome 76',
         '',

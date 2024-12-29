@@ -27,7 +27,12 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 16,
-      message: messages.rejected('"revert" value', 'Chrome 83', 'https://developer.mozilla.org/docs/Web/CSS/revert'),
+      message: messages.rejected(
+        'types.global_keywords.revert',
+        '"revert" value',
+        'Chrome 83',
+        'https://developer.mozilla.org/docs/Web/CSS/revert',
+      ),
     },
   ],
 });

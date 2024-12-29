@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 16,
       message: messages.rejected(
+        'properties.outline-width',
         '"outline-width" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/outline-width',

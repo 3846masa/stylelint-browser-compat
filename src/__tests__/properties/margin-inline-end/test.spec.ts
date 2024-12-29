@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 20,
       message: messages.rejected(
+        'properties.margin-inline-end',
         '"margin-inline-end" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/margin-inline-end',

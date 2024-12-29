@@ -30,7 +30,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 13,
-      message: messages.rejected('"ex" unit', 'Android Webview 2.1', ''),
+      message: messages.rejected('types.length.ex', '"ex" unit', 'Android Webview 2.1', ''),
     },
   ],
 });

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 57,
       message: messages.rejected(
+        'types.image.paint',
         '"paint()" function',
         'Chrome 64',
         'https://developer.mozilla.org/docs/Web/CSS/image/paint',

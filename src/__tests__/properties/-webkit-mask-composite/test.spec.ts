@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 25,
       message: messages.rejected(
+        'properties.-webkit-mask-composite',
         '"-webkit-mask-composite" property',
         'Edge 17',
         'https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-composite',

@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 17,
       message: messages.rejected(
+        'selectors.spelling-error',
         '"::spelling-error" pseudo-element',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/::spelling-error',

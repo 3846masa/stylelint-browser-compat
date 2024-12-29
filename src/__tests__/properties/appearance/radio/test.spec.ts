@@ -30,7 +30,7 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 20,
-      message: messages.rejected('"radio" value specified as appearance', 'IE 5.5', ''),
+      message: messages.rejected('properties.appearance.radio', '"radio" value specified as appearance', 'IE 5.5', ''),
     },
   ],
 });

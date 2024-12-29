@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 18,
       message: messages.rejected(
+        'properties.justify-content',
         '"justify-content" property',
         'Chrome 20',
         'https://developer.mozilla.org/docs/Web/CSS/justify-content',

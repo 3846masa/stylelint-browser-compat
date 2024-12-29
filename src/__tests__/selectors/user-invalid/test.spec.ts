@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 19,
       message: messages.rejected(
+        'selectors.user-invalid',
         '":user-invalid" pseudo-class',
         'Firefox 87',
         'https://developer.mozilla.org/docs/Web/CSS/:user-invalid',

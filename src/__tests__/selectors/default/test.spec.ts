@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 14,
       message: messages.rejected(
+        'selectors.default',
         '":default" pseudo-class',
         'Chrome 9',
         'https://developer.mozilla.org/docs/Web/CSS/:default',

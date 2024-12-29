@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 14,
       message: messages.rejected(
+        'selectors.first-line',
         '"::first-line" pseudo-element',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/::first-line',

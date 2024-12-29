@@ -27,7 +27,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 14,
-      message: messages.rejected('"cap" unit', 'Firefox 96', ''),
+      message: messages.rejected('types.length.cap', '"cap" unit', 'Firefox 96', ''),
     },
   ],
 });

@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 19,
       message: messages.rejected(
+        'selectors.out-of-range',
         '":out-of-range" pseudo-class',
         'Firefox 28',
         'https://developer.mozilla.org/docs/Web/CSS/:out-of-range',

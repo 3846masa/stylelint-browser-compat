@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 15,
       message: messages.rejected(
+        'properties.color-scheme',
         '"color-scheme" property',
         'Chrome 80',
         'https://developer.mozilla.org/docs/Web/CSS/color-scheme',

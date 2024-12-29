@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 37,
       message: messages.rejected(
+        'selectors.-webkit-search-cancel-button',
         '"::-webkit-search-cancel-button" pseudo-element',
         'Edge 18',
         'https://developer.mozilla.org/docs/Web/CSS/::-webkit-search-cancel-button',

@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 31,
       message: messages.rejected(
+        'types.transform-function.translateZ',
         '"translateZ()" function',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/transform-function/translateZ',

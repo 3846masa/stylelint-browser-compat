@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 22,
       message: messages.rejected(
+        'at-rules.media.dynamic-range',
         '"dynamic-range" media feature',
         'Chrome 97',
         'https://developer.mozilla.org/docs/Web/CSS/@media/dynamic-range',

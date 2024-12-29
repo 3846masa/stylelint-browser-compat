@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 69,
       message: messages.rejected(
+        'properties.background-image.image-rect',
         '"image-rect()" function specified as background-image',
         'Firefox 3',
         'https://developer.mozilla.org/docs/Web/CSS/-moz-image-rect',
@@ -47,6 +48,7 @@ testRule({
       endLine: 2,
       endColumn: 63,
       message: messages.rejected(
+        'properties.background-image.image-rect',
         '"image-rect()" function specified as background-image',
         'Firefox 3',
         'https://developer.mozilla.org/docs/Web/CSS/-moz-image-rect',

@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 21,
       message: messages.rejected(
+        'at-rules.media.display-mode',
         '"display-mode" media feature',
         'Chrome 41',
         'https://developer.mozilla.org/docs/Web/CSS/@media/display-mode',

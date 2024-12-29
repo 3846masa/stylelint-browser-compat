@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 35,
       message: messages.rejected(
+        'selectors.-webkit-meter-inner-element',
         '"::-webkit-meter-inner-element" pseudo-element',
         'Chrome 22',
         'https://developer.mozilla.org/docs/Web/CSS/::-webkit-meter-inner-element',

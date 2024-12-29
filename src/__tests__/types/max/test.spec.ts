@@ -27,7 +27,12 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('"max()" function', 'Chrome 78', 'https://developer.mozilla.org/docs/Web/CSS/max'),
+      message: messages.rejected(
+        'types.max',
+        '"max()" function',
+        'Chrome 78',
+        'https://developer.mozilla.org/docs/Web/CSS/max',
+      ),
     },
   ],
 });

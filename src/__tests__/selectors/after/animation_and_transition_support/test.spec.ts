@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 13,
-      message: messages.rejected('CSS transition for "::after" pseudo-element', 'IE 11', ''),
+      message: messages.rejected(
+        'selectors.after.animation_and_transition_support',
+        'CSS transition for "::after" pseudo-element',
+        'IE 11',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -39,7 +44,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 12,
-      message: messages.rejected('CSS animation for "::after" pseudo-element', 'IE 11', ''),
+      message: messages.rejected(
+        'selectors.after.animation_and_transition_support',
+        'CSS animation for "::after" pseudo-element',
+        'IE 11',
+        '',
+      ),
     },
   ],
 });

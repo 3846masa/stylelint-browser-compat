@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 22,
       message: messages.rejected(
+        'properties.border-inline-style',
         '"border-inline-style" property',
         'Chrome 86',
         'https://developer.mozilla.org/docs/Web/CSS/border-inline-style',

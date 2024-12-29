@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 11,
       message: messages.rejected(
+        'properties.box-pack',
         '"box-pack" property',
         'Opera 12',
         'https://developer.mozilla.org/docs/Web/CSS/box-pack',

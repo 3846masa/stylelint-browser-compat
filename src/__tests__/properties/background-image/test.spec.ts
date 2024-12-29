@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 19,
       message: messages.rejected(
+        'properties.background-image',
         '"background-image" property',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/background-image',

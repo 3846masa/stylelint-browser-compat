@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 23,
       message: messages.rejected(
+        'properties.text-combine-upright',
         '"text-combine-upright" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/text-combine-upright',

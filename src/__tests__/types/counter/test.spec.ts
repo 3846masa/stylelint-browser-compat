@@ -30,7 +30,12 @@ testRule({
       column: 12,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('"counter()" function', 'IE 7', 'https://developer.mozilla.org/docs/Web/CSS/counter'),
+      message: messages.rejected(
+        'types.counter',
+        '"counter()" function',
+        'IE 7',
+        'https://developer.mozilla.org/docs/Web/CSS/counter',
+      ),
     },
   ],
 });

@@ -26,7 +26,12 @@ testRule({
       column: 1,
       endLine: 1,
       endColumn: 6,
-      message: messages.rejected('"@page" at rules', 'IE 7', 'https://developer.mozilla.org/docs/Web/CSS/@page'),
+      message: messages.rejected(
+        'at-rules.page',
+        '"@page" at rules',
+        'IE 7',
+        'https://developer.mozilla.org/docs/Web/CSS/@page',
+      ),
     },
   ],
 });

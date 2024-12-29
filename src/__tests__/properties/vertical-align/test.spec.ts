@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 17,
       message: messages.rejected(
+        'properties.vertical-align',
         '"vertical-align" property',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/vertical-align',

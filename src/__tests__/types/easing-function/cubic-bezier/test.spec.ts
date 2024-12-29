@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 63,
       message: messages.rejected(
+        'types.easing-function.cubic-bezier',
         '"cubic-bezier()" function',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/easing-function/cubic-bezier',

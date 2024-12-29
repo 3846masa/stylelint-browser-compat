@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 17,
       message: messages.rejected(
+        'selectors.focus-within',
         '":focus-within" pseudo-class',
         'Chrome 59',
         'https://developer.mozilla.org/docs/Web/CSS/:focus-within',

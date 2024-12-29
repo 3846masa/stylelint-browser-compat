@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 16,
       message: messages.rejected(
+        'selectors.read-only',
         '":read-only" pseudo-class',
         'IE 11',
         'https://developer.mozilla.org/docs/Web/CSS/:read-only',

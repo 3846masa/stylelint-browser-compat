@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 14,
       message: messages.rejected(
+        'selectors.target-text',
         '"::target-text" pseudo-element',
         'Chrome 88',
         'https://developer.mozilla.org/docs/Web/CSS/::target-text',

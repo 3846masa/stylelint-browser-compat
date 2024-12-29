@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 20,
       message: messages.rejected(
+        'properties.background-origin',
         '"background-origin" property',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/background-origin',

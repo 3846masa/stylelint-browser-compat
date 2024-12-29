@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 16,
       message: messages.rejected(
+        'properties.mask-position',
         '"mask-position" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/mask-position',

@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 6,
-      message: messages.rejected('"all" property', 'Chrome 36', 'https://developer.mozilla.org/docs/Web/CSS/all'),
+      message: messages.rejected(
+        'properties.all',
+        '"all" property',
+        'Chrome 36',
+        'https://developer.mozilla.org/docs/Web/CSS/all',
+      ),
     },
   ],
 });

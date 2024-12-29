@@ -27,7 +27,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 13,
-      message: messages.rejected('"lh" unit', 'Chrome 100', ''),
+      message: messages.rejected('types.length.lh', '"lh" unit', 'Chrome 100', ''),
     },
   ],
 });

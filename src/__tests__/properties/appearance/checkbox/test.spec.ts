@@ -30,7 +30,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 23,
-      message: messages.rejected('"checkbox" value specified as appearance', 'IE 5.5', ''),
+      message: messages.rejected(
+        'properties.appearance.checkbox',
+        '"checkbox" value specified as appearance',
+        'IE 5.5',
+        '',
+      ),
     },
   ],
 });

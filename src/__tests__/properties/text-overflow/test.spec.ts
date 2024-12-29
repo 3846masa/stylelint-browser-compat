@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 16,
       message: messages.rejected(
+        'properties.text-overflow',
         '"text-overflow" property',
         'Firefox 6',
         'https://developer.mozilla.org/docs/Web/CSS/text-overflow',

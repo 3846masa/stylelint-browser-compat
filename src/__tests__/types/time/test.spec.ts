@@ -30,7 +30,7 @@ testRule({
       column: 25,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('"s" unit', 'IE 8', 'https://developer.mozilla.org/docs/Web/CSS/time'),
+      message: messages.rejected('types.time', '"s" unit', 'IE 8', 'https://developer.mozilla.org/docs/Web/CSS/time'),
     },
     {
       code: stripIndent`
@@ -42,7 +42,7 @@ testRule({
       column: 25,
       endLine: 2,
       endColumn: 27,
-      message: messages.rejected('"ms" unit', 'IE 8', 'https://developer.mozilla.org/docs/Web/CSS/time'),
+      message: messages.rejected('types.time', '"ms" unit', 'IE 8', 'https://developer.mozilla.org/docs/Web/CSS/time'),
     },
   ],
 });

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 16,
       message: messages.rejected(
+        'properties.offset-rotate',
         '"offset-rotate" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/offset-rotate',

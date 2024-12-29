@@ -27,7 +27,12 @@ testRule({
       column: 16,
       endLine: 2,
       endColumn: 21,
-      message: messages.rejected('"block" value specified as -moz-orient', 'Firefox 39', ''),
+      message: messages.rejected(
+        'properties.-moz-orient.block',
+        '"block" value specified as -moz-orient',
+        'Firefox 39',
+        '',
+      ),
     },
   ],
 });

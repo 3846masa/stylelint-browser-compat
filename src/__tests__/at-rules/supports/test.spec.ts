@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 10,
       message: messages.rejected(
+        'at-rules.supports',
         '"@supports" at rules',
         'Chrome 27',
         'https://developer.mozilla.org/docs/Web/CSS/@supports',

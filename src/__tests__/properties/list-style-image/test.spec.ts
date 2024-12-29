@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 19,
       message: messages.rejected(
+        'properties.list-style-image',
         '"list-style-image" property',
         'Android Webview 2.1',
         'https://developer.mozilla.org/docs/Web/CSS/list-style-image',

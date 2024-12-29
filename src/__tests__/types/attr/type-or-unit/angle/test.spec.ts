@@ -27,7 +27,7 @@ testRule({
       column: 35,
       endLine: 2,
       endColumn: 40,
-      message: messages.rejected('"angle" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected('types.attr.type-or-unit.angle', '"angle" unit keyword for attr()', 'Chrome 100', ''),
     },
     {
       code: stripIndent`
@@ -39,7 +39,7 @@ testRule({
       column: 35,
       endLine: 2,
       endColumn: 38,
-      message: messages.rejected('"deg" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected('types.attr.type-or-unit.angle', '"deg" unit keyword for attr()', 'Chrome 100', ''),
     },
     {
       code: stripIndent`
@@ -51,7 +51,7 @@ testRule({
       column: 35,
       endLine: 2,
       endColumn: 39,
-      message: messages.rejected('"grad" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected('types.attr.type-or-unit.angle', '"grad" unit keyword for attr()', 'Chrome 100', ''),
     },
     {
       code: stripIndent`
@@ -63,7 +63,7 @@ testRule({
       column: 35,
       endLine: 2,
       endColumn: 38,
-      message: messages.rejected('"rad" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected('types.attr.type-or-unit.angle', '"rad" unit keyword for attr()', 'Chrome 100', ''),
     },
   ],
 });

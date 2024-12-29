@@ -26,7 +26,12 @@ testRule({
       column: 6,
       endLine: 1,
       endColumn: 13,
-      message: messages.rejected('":active" pseudo-class with the non-anchor tag', 'IE 7', ''),
+      message: messages.rejected(
+        'selectors.active.non_a_elements',
+        '":active" pseudo-class with the non-anchor tag',
+        'IE 7',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -37,7 +42,12 @@ testRule({
       column: 12,
       endLine: 1,
       endColumn: 19,
-      message: messages.rejected('":active" pseudo-class with the non-anchor tag', 'IE 7', ''),
+      message: messages.rejected(
+        'selectors.active.non_a_elements',
+        '":active" pseudo-class with the non-anchor tag',
+        'IE 7',
+        '',
+      ),
     },
   ],
 });

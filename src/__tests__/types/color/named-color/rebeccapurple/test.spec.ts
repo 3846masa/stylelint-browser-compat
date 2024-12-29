@@ -27,7 +27,7 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 23,
-      message: messages.rejected('"rebeccapurple" value', 'Chrome 37', ''),
+      message: messages.rejected('types.color.named-color.rebeccapurple', '"rebeccapurple" value', 'Chrome 37', ''),
     },
   ],
 });

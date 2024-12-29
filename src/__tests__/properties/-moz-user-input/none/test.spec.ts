@@ -30,7 +30,12 @@ testRule({
       column: 20,
       endLine: 2,
       endColumn: 24,
-      message: messages.rejected('"none" value specified as -moz-user-input', 'Chrome 100', ''),
+      message: messages.rejected(
+        'properties.-moz-user-input.none',
+        '"none" value specified as -moz-user-input',
+        'Chrome 100',
+        '',
+      ),
     },
   ],
 });

@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 19,
       message: messages.rejected(
+        'at-rules.counter-style.additive-symbols',
         '"additive-symbols" descriptor of the @counter-style',
         'Chrome 90',
         'https://developer.mozilla.org/docs/Web/CSS/@counter-style/additive-symbols',

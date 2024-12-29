@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 2,
       message: messages.rejected(
+        'selectors.universal',
         'Universal selector',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/Universal_selectors',

@@ -26,6 +26,7 @@ testRule({
       endLine: 1,
       endColumn: 9,
       message: messages.rejected(
+        'at-rules.charset',
         '"@charset" at rules',
         'Safari 3.2',
         'https://developer.mozilla.org/docs/Web/CSS/@charset',

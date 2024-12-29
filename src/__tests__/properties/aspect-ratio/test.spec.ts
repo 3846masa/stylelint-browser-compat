@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 15,
       message: messages.rejected(
+        'properties.aspect-ratio',
         '"aspect-ratio" property',
         'Chrome 87',
         'https://developer.mozilla.org/docs/Web/CSS/aspect-ratio',

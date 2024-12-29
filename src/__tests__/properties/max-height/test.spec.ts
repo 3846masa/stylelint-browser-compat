@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 13,
       message: messages.rejected(
+        'properties.max-height',
         '"max-height" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/max-height',

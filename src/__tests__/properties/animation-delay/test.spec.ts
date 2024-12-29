@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 18,
       message: messages.rejected(
+        'properties.animation-delay',
         '"animation-delay" property',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/animation-delay',

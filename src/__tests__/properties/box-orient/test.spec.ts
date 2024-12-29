@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 13,
       message: messages.rejected(
+        'properties.box-orient',
         '"box-orient" property',
         'Opera 12',
         'https://developer.mozilla.org/docs/Web/CSS/box-orient',

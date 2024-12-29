@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 26,
       message: messages.rejected(
+        'properties.-webkit-text-fill-color',
         '"-webkit-text-fill-color" property',
         'Firefox 48',
         'https://developer.mozilla.org/docs/Web/CSS/-webkit-text-fill-color',

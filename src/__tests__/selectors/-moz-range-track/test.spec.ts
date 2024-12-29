@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 36,
       message: messages.rejected(
+        'selectors.-moz-range-track',
         '"::-moz-range-track" pseudo-element',
         'Firefox 20',
         'https://developer.mozilla.org/docs/Web/CSS/::-moz-range-track',

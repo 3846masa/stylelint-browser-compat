@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 28,
       message: messages.rejected(
+        'selectors.-moz-window-inactive',
         '":-moz-window-inactive" pseudo-class',
         'Firefox 2',
         'https://developer.mozilla.org/docs/Web/CSS/:-moz-window-inactive',

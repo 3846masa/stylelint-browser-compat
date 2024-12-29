@@ -27,7 +27,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 15,
-      message: messages.rejected('"vmax" unit', 'Chrome 25', ''),
+      message: messages.rejected('types.length.vmax', '"vmax" unit', 'Chrome 25', ''),
     },
   ],
 });

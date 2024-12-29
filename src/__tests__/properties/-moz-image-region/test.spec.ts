@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 20,
       message: messages.rejected(
+        'properties.-moz-image-region',
         '"-moz-image-region" property',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/-moz-image-region',

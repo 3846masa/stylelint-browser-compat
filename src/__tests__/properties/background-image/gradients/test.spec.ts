@@ -39,6 +39,7 @@ testRule({
       endLine: 2,
       endColumn: 49,
       message: messages.rejected(
+        'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/gradient',
@@ -55,6 +56,7 @@ testRule({
       endLine: 2,
       endColumn: 50,
       message: messages.rejected(
+        'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/gradient',
@@ -71,6 +73,7 @@ testRule({
       endLine: 2,
       endColumn: 50,
       message: messages.rejected(
+        'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/gradient',
@@ -87,6 +90,7 @@ testRule({
       endLine: 2,
       endColumn: 74,
       message: messages.rejected(
+        'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/gradient',
@@ -103,6 +107,7 @@ testRule({
       endLine: 2,
       endColumn: 89,
       message: messages.rejected(
+        'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/gradient',
@@ -119,6 +124,7 @@ testRule({
       endLine: 2,
       endColumn: 64,
       message: messages.rejected(
+        'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/gradient',
@@ -135,6 +141,7 @@ testRule({
       endLine: 2,
       endColumn: 43,
       message: messages.rejected(
+        'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/gradient',
@@ -151,6 +158,7 @@ testRule({
       endLine: 2,
       endColumn: 44,
       message: messages.rejected(
+        'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/gradient',
@@ -167,6 +175,7 @@ testRule({
       endLine: 2,
       endColumn: 44,
       message: messages.rejected(
+        'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/gradient',
@@ -183,6 +192,7 @@ testRule({
       endLine: 2,
       endColumn: 68,
       message: messages.rejected(
+        'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/gradient',
@@ -199,6 +209,7 @@ testRule({
       endLine: 2,
       endColumn: 83,
       message: messages.rejected(
+        'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/gradient',
@@ -215,6 +226,7 @@ testRule({
       endLine: 2,
       endColumn: 58,
       message: messages.rejected(
+        'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/gradient',

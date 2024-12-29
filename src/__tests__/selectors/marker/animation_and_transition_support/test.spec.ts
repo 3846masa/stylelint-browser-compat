@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 13,
-      message: messages.rejected('CSS transition for "::marker" pseudo-element', 'Firefox 79', ''),
+      message: messages.rejected(
+        'selectors.marker.animation_and_transition_support',
+        'CSS transition for "::marker" pseudo-element',
+        'Firefox 79',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -39,7 +44,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 12,
-      message: messages.rejected('CSS animation for "::marker" pseudo-element', 'Firefox 79', ''),
+      message: messages.rejected(
+        'selectors.marker.animation_and_transition_support',
+        'CSS animation for "::marker" pseudo-element',
+        'Firefox 79',
+        '',
+      ),
     },
   ],
 });

@@ -30,7 +30,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 22,
-      message: messages.rejected('"listbox" value specified as appearance', 'IE 5.5', ''),
+      message: messages.rejected(
+        'properties.appearance.listbox',
+        '"listbox" value specified as appearance',
+        'IE 5.5',
+        '',
+      ),
     },
   ],
 });

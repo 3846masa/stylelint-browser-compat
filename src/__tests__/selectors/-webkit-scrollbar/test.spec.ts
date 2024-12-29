@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 30,
       message: messages.rejected(
+        'selectors.-webkit-scrollbar',
         '"::-webkit-scrollbar" pseudo-element',
         'Edge 18',
         'https://developer.mozilla.org/docs/Web/CSS/::-webkit-scrollbar',

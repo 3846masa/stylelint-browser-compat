@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 11,
       message: messages.rejected(
+        'at-rules.counter-style.negative',
         '"negative" descriptor of the @counter-style',
         'Chrome 90',
         'https://developer.mozilla.org/docs/Web/CSS/@counter-style/negative',

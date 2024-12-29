@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 10,
-      message: messages.rejected('"opacity" property', 'IE 6', 'https://developer.mozilla.org/docs/Web/CSS/opacity'),
+      message: messages.rejected(
+        'properties.opacity',
+        '"opacity" property',
+        'IE 6',
+        'https://developer.mozilla.org/docs/Web/CSS/opacity',
+      ),
     },
   ],
 });

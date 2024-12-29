@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 10,
       message: messages.rejected(
+        'properties.display',
         '"display" property',
         'Android Webview 2.1',
         'https://developer.mozilla.org/docs/Web/CSS/display',

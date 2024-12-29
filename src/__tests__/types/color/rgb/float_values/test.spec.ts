@@ -30,7 +30,7 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 34,
-      message: messages.rejected('Float values in rgb() parameters', 'Chrome 64', ''),
+      message: messages.rejected('types.color.rgb.float_values', 'Float values in rgb() parameters', 'Chrome 64', ''),
     },
     {
       code: stripIndent`
@@ -42,7 +42,7 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 32,
-      message: messages.rejected('Float values in rgb() parameters', 'Chrome 64', ''),
+      message: messages.rejected('types.color.rgb.float_values', 'Float values in rgb() parameters', 'Chrome 64', ''),
     },
   ],
 });

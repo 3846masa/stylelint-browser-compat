@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 23,
       message: messages.rejected(
+        'selectors.nth-of-type',
         '":nth-of-type" pseudo-class',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/:nth-of-type',

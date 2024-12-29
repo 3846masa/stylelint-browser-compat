@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 12,
       message: messages.rejected(
+        'properties.font-size',
         '"font-size" property',
         'Android Webview 2.1',
         'https://developer.mozilla.org/docs/Web/CSS/font-size',

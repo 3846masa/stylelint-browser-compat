@@ -27,7 +27,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 13,
-      message: messages.rejected('"ic" unit', 'Firefox 96', ''),
+      message: messages.rejected('types.length.ic', '"ic" unit', 'Firefox 96', ''),
     },
   ],
 });

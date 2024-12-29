@@ -27,7 +27,7 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 22,
-      message: messages.rejected('<number> value with calc()', 'Chrome 30', ''),
+      message: messages.rejected('types.calc.number_values', '<number> value with calc()', 'Chrome 30', ''),
     },
   ],
 });

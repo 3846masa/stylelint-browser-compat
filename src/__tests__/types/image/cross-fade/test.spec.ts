@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 78,
       message: messages.rejected(
+        'types.image.cross-fade',
         '"cross-fade()" function',
         'Chrome 16',
         'https://developer.mozilla.org/docs/Web/CSS/cross-fade',

@@ -26,7 +26,7 @@ testRule({
       column: 1,
       endLine: 1,
       endColumn: 3,
-      message: messages.rejected('Universal namespace selector', 'IE 8', ''),
+      message: messages.rejected('selectors.universal.namespaces', 'Universal namespace selector', 'IE 8', ''),
     },
   ],
 });

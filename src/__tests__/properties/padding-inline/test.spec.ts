@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 17,
       message: messages.rejected(
+        'properties.padding-inline',
         '"padding-inline" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/padding-inline',

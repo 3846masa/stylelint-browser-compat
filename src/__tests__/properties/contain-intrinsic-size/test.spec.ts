@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 25,
       message: messages.rejected(
+        'properties.contain-intrinsic-size',
         '"contain-intrinsic-size" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-size',

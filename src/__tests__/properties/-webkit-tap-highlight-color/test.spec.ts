@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 30,
       message: messages.rejected(
+        'properties.-webkit-tap-highlight-color',
         '"-webkit-tap-highlight-color" property',
         'Chrome 15',
         'https://developer.mozilla.org/docs/Web/CSS/-webkit-tap-highlight-color',

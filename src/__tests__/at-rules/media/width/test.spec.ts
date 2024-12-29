@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 14,
       message: messages.rejected(
+        'at-rules.media.width',
         '"width" media feature',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/@media/width',
@@ -42,6 +43,7 @@ testRule({
       endLine: 1,
       endColumn: 18,
       message: messages.rejected(
+        'at-rules.media.width',
         '"min-width" media feature',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/@media/width',
@@ -57,6 +59,7 @@ testRule({
       endLine: 1,
       endColumn: 18,
       message: messages.rejected(
+        'at-rules.media.width',
         '"max-width" media feature',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/@media/width',

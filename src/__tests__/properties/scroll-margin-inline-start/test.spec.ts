@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 29,
       message: messages.rejected(
+        'properties.scroll-margin-inline-start',
         '"scroll-margin-inline-start" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-start',

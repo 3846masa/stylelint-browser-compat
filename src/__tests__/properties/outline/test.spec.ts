@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 10,
-      message: messages.rejected('"outline" property', 'IE 6', 'https://developer.mozilla.org/docs/Web/CSS/outline'),
+      message: messages.rejected(
+        'properties.outline',
+        '"outline" property',
+        'IE 6',
+        'https://developer.mozilla.org/docs/Web/CSS/outline',
+      ),
     },
   ],
 });

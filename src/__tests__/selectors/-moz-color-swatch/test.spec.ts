@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 37,
       message: messages.rejected(
+        'selectors.-moz-color-swatch',
         '"::-moz-color-swatch" pseudo-element',
         'Firefox 26',
         'https://developer.mozilla.org/docs/Web/CSS/::-moz-color-swatch',

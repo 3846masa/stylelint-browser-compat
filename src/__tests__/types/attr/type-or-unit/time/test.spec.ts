@@ -27,7 +27,7 @@ testRule({
       column: 37,
       endLine: 2,
       endColumn: 41,
-      message: messages.rejected('"time" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected('types.attr.type-or-unit.time', '"time" unit keyword for attr()', 'Chrome 100', ''),
     },
     {
       code: stripIndent`
@@ -39,7 +39,7 @@ testRule({
       column: 37,
       endLine: 2,
       endColumn: 38,
-      message: messages.rejected('"s" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected('types.attr.type-or-unit.time', '"s" unit keyword for attr()', 'Chrome 100', ''),
     },
     {
       code: stripIndent`
@@ -51,7 +51,7 @@ testRule({
       column: 37,
       endLine: 2,
       endColumn: 39,
-      message: messages.rejected('"ms" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected('types.attr.type-or-unit.time', '"ms" unit keyword for attr()', 'Chrome 100', ''),
     },
   ],
 });

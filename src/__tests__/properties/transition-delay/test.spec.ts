@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 19,
       message: messages.rejected(
+        'properties.transition-delay',
         '"transition-delay" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/transition-delay',

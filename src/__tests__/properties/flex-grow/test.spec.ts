@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 12,
       message: messages.rejected(
+        'properties.flex-grow',
         '"flex-grow" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/flex-grow',

@@ -27,7 +27,12 @@ testRule({
       column: 14,
       endLine: 2,
       endColumn: 24,
-      message: messages.rejected('"stroke-box" value specified as clip-path', 'Firefox 50', ''),
+      message: messages.rejected(
+        'properties.clip-path.stroke-box',
+        '"stroke-box" value specified as clip-path',
+        'Firefox 50',
+        '',
+      ),
     },
   ],
 });

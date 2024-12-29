@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 74,
       message: messages.rejected(
+        'types.-moz-image-rect',
         '"-moz-image-rect()" function',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/-moz-image-rect',

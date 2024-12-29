@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 26,
       message: messages.rejected(
+        'properties.border-start-end-radius',
         '"border-start-end-radius" property',
         'Chrome 88',
         'https://developer.mozilla.org/docs/Web/CSS/border-start-end-radius',

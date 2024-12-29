@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 13,
       message: messages.rejected(
+        'properties.line-break',
         '"line-break" property',
         'Firefox 68',
         'https://developer.mozilla.org/docs/Web/CSS/line-break',

@@ -26,7 +26,12 @@ testRule({
       column: 2,
       endLine: 1,
       endColumn: 11,
-      message: messages.rejected('":lang" pseudo-class', 'IE 7', 'https://developer.mozilla.org/docs/Web/CSS/:lang'),
+      message: messages.rejected(
+        'selectors.lang',
+        '":lang" pseudo-class',
+        'IE 7',
+        'https://developer.mozilla.org/docs/Web/CSS/:lang',
+      ),
     },
   ],
 });

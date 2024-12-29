@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 15,
       message: messages.rejected(
+        'at-rules.media.height',
         '"height" media feature',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/@media/height',
@@ -42,6 +43,7 @@ testRule({
       endLine: 1,
       endColumn: 19,
       message: messages.rejected(
+        'at-rules.media.height',
         '"min-height" media feature',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/@media/height',
@@ -57,6 +59,7 @@ testRule({
       endLine: 1,
       endColumn: 19,
       message: messages.rejected(
+        'at-rules.media.height',
         '"max-height" media feature',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/@media/height',

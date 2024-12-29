@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 7,
-      message: messages.rejected('"zoom" property', 'Firefox 100', 'https://developer.mozilla.org/docs/Web/CSS/zoom'),
+      message: messages.rejected(
+        'properties.zoom',
+        '"zoom" property',
+        'Firefox 100',
+        'https://developer.mozilla.org/docs/Web/CSS/zoom',
+      ),
     },
   ],
 });

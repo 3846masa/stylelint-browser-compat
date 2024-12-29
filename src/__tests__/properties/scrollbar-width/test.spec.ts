@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 18,
       message: messages.rejected(
+        'properties.scrollbar-width',
         '"scrollbar-width" property',
         'Safari 17.0',
         'https://developer.mozilla.org/docs/Web/CSS/scrollbar-width',

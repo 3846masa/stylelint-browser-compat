@@ -27,7 +27,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 13,
-      message: messages.rejected('"vi" unit', 'Firefox 100', ''),
+      message: messages.rejected('types.length.vi', '"vi" unit', 'Firefox 100', ''),
     },
   ],
 });

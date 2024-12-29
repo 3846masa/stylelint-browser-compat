@@ -27,7 +27,12 @@ testRule({
       column: 18,
       endLine: 2,
       endColumn: 25,
-      message: messages.rejected('"stretch" value specified as align-content', 'Chrome 56', ''),
+      message: messages.rejected(
+        'properties.align-content.flex_context.stretch',
+        '"stretch" value specified as align-content',
+        'Chrome 56',
+        '',
+      ),
     },
   ],
 });

@@ -30,7 +30,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('"searchfield" value specified as appearance', 'IE 5.5', ''),
+      message: messages.rejected(
+        'properties.appearance.searchfield',
+        '"searchfield" value specified as appearance',
+        'IE 5.5',
+        '',
+      ),
     },
   ],
 });

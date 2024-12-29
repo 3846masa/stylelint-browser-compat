@@ -27,7 +27,12 @@ testRule({
       column: 17,
       endLine: 2,
       endColumn: 28,
-      message: messages.rejected('"top-outside" value specified as caption-side', 'Firefox 87', ''),
+      message: messages.rejected(
+        'properties.caption-side.top-outside',
+        '"top-outside" value specified as caption-side',
+        'Firefox 87',
+        '',
+      ),
     },
   ],
 });

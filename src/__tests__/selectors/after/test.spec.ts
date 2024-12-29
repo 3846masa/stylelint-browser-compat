@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 9,
       message: messages.rejected(
+        'selectors.after',
         '"::after" pseudo-element',
         'IE 7',
         'https://developer.mozilla.org/docs/Web/CSS/::after',
@@ -42,6 +43,7 @@ testRule({
       endLine: 1,
       endColumn: 8,
       message: messages.rejected(
+        'selectors.after',
         '":after" pseudo-element',
         'IE 7',
         'https://developer.mozilla.org/docs/Web/CSS/::after',

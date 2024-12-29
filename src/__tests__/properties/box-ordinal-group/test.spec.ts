@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 20,
       message: messages.rejected(
+        'properties.box-ordinal-group',
         '"box-ordinal-group" property',
         'Opera 12',
         'https://developer.mozilla.org/docs/Web/CSS/box-ordinal-group',

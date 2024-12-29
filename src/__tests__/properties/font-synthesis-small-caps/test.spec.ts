@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 28,
       message: messages.rejected(
+        'properties.font-synthesis-small-caps',
         '"font-synthesis-small-caps" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/font-synthesis-small-caps',

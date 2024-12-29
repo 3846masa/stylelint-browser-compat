@@ -30,7 +30,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 19,
-      message: messages.rejected('"none" value specified as appearance', 'Opera 12.1', ''),
+      message: messages.rejected(
+        'properties.appearance.none',
+        '"none" value specified as appearance',
+        'Opera 12.1',
+        '',
+      ),
     },
   ],
 });

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 19,
       message: messages.rejected(
+        'properties.line-height-step',
         '"line-height-step" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/line-height-step',

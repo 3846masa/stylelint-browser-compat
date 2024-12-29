@@ -26,7 +26,12 @@ testRule({
       column: 1,
       endLine: 1,
       endColumn: 7,
-      message: messages.rejected('"@media" at rules', 'IE 5.5', 'https://developer.mozilla.org/docs/Web/CSS/@media'),
+      message: messages.rejected(
+        'at-rules.media',
+        '"@media" at rules',
+        'IE 5.5',
+        'https://developer.mozilla.org/docs/Web/CSS/@media',
+      ),
     },
   ],
 });

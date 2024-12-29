@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 15,
       message: messages.rejected(
+        'selectors.autofill',
         '":autofill" pseudo-class',
         'Firefox 85',
         'https://developer.mozilla.org/docs/Web/CSS/:autofill',

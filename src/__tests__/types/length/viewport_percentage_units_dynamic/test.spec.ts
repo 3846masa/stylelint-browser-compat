@@ -27,7 +27,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 14,
-      message: messages.rejected('"dvb" unit', 'Firefox 100', ''),
+      message: messages.rejected('types.length.viewport_percentage_units_dynamic', '"dvb" unit', 'Firefox 100', ''),
     },
     {
       code: stripIndent`
@@ -39,7 +39,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 14,
-      message: messages.rejected('"dvh" unit', 'Firefox 100', ''),
+      message: messages.rejected('types.length.viewport_percentage_units_dynamic', '"dvh" unit', 'Firefox 100', ''),
     },
     {
       code: stripIndent`
@@ -51,7 +51,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 14,
-      message: messages.rejected('"dvi" unit', 'Firefox 100', ''),
+      message: messages.rejected('types.length.viewport_percentage_units_dynamic', '"dvi" unit', 'Firefox 100', ''),
     },
     {
       code: stripIndent`
@@ -63,7 +63,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 16,
-      message: messages.rejected('"dvmax" unit', 'Firefox 100', ''),
+      message: messages.rejected('types.length.viewport_percentage_units_dynamic', '"dvmax" unit', 'Firefox 100', ''),
     },
     {
       code: stripIndent`
@@ -75,7 +75,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 16,
-      message: messages.rejected('"dvmin" unit', 'Firefox 100', ''),
+      message: messages.rejected('types.length.viewport_percentage_units_dynamic', '"dvmin" unit', 'Firefox 100', ''),
     },
     {
       code: stripIndent`
@@ -87,7 +87,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 14,
-      message: messages.rejected('"dvw" unit', 'Firefox 100', ''),
+      message: messages.rejected('types.length.viewport_percentage_units_dynamic', '"dvw" unit', 'Firefox 100', ''),
     },
   ],
 });

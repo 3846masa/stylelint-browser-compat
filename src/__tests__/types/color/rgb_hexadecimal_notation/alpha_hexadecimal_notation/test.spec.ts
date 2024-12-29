@@ -30,7 +30,12 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 19,
-      message: messages.rejected('RGBA hexadecimal notation', 'Chrome 61', ''),
+      message: messages.rejected(
+        'types.color.rgb_hexadecimal_notation.alpha_hexadecimal_notation',
+        'RGBA hexadecimal notation',
+        'Chrome 61',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -42,7 +47,12 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 15,
-      message: messages.rejected('RGBA hexadecimal notation', 'Chrome 61', ''),
+      message: messages.rejected(
+        'types.color.rgb_hexadecimal_notation.alpha_hexadecimal_notation',
+        'RGBA hexadecimal notation',
+        'Chrome 61',
+        '',
+      ),
     },
   ],
 });

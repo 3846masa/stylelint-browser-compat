@@ -27,7 +27,12 @@ testRule({
       column: 20,
       endLine: 2,
       endColumn: 27,
-      message: messages.rejected('"stretch" value specified as justify-content', 'Chrome 56', ''),
+      message: messages.rejected(
+        'properties.justify-content.flex_context.stretch',
+        '"stretch" value specified as justify-content',
+        'Chrome 56',
+        '',
+      ),
     },
   ],
 });

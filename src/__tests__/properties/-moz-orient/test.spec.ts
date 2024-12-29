@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 14,
       message: messages.rejected(
+        'properties.-moz-orient',
         '"-moz-orient" property',
         'Firefox 5',
         'https://developer.mozilla.org/docs/Web/CSS/-moz-orient',

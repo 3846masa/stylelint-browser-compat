@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 26,
       message: messages.rejected(
+        'properties.text-underline-position',
         '"text-underline-position" property',
         'Chrome 32',
         'https://developer.mozilla.org/docs/Web/CSS/text-underline-position',

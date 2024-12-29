@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 53,
       message: messages.rejected(
+        'types.color.color-mix',
         '"color-mix()" function',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/color_value/color-mix',

@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 21,
       message: messages.rejected(
+        'selectors.-moz-submit-invalid',
         '":-moz-submit-invalid" pseudo-class',
         'Firefox 2',
         'https://developer.mozilla.org/docs/Web/CSS/:-moz-submit-invalid',
@@ -54,6 +55,7 @@ testRule({
       endLine: 1,
       endColumn: 21,
       message: messages.rejected(
+        'selectors.-moz-submit-invalid',
         '":-moz-submit-invalid" pseudo-class',
         'Firefox 88',
         'https://developer.mozilla.org/docs/Web/CSS/:-moz-submit-invalid',

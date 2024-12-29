@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 17,
       message: messages.rejected(
+        'selectors.read-write',
         '":read-write" pseudo-class',
         'IE 11',
         'https://developer.mozilla.org/docs/Web/CSS/:read-write',

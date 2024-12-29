@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 15,
       message: messages.rejected(
+        'properties.table-layout',
         '"table-layout" property',
         'Chrome 13',
         'https://developer.mozilla.org/docs/Web/CSS/table-layout',

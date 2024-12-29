@@ -30,7 +30,12 @@ testRule({
       column: 27,
       endLine: 2,
       endColumn: 30,
-      message: messages.rejected('"rad" unit', 'IE 8', 'https://developer.mozilla.org/docs/Web/CSS/angle#rad'),
+      message: messages.rejected(
+        'types.angle.rad',
+        '"rad" unit',
+        'IE 8',
+        'https://developer.mozilla.org/docs/Web/CSS/angle#rad',
+      ),
     },
   ],
 });

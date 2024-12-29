@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 7,
-      message: messages.rejected('"grid" property', 'IE 6', 'https://developer.mozilla.org/docs/Web/CSS/grid'),
+      message: messages.rejected(
+        'properties.grid',
+        '"grid" property',
+        'IE 6',
+        'https://developer.mozilla.org/docs/Web/CSS/grid',
+      ),
     },
   ],
 });

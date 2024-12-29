@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 8,
       message: messages.rejected(
+        'properties.width',
         '"width" property',
         'Android Webview 2.1',
         'https://developer.mozilla.org/docs/Web/CSS/width',

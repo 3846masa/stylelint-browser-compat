@@ -30,7 +30,12 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('Space-separated rgb() parameters', 'Chrome 64', ''),
+      message: messages.rejected(
+        'types.color.rgb.space_separated_parameters',
+        'Space-separated rgb() parameters',
+        'Chrome 64',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -42,7 +47,12 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 32,
-      message: messages.rejected('Space-separated rgb() parameters', 'Chrome 64', ''),
+      message: messages.rejected(
+        'types.color.rgb.space_separated_parameters',
+        'Space-separated rgb() parameters',
+        'Chrome 64',
+        '',
+      ),
     },
   ],
 });

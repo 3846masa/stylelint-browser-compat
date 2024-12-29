@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 25,
       message: messages.rejected(
+        'properties.text-emphasis-position',
         '"text-emphasis-position" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/text-emphasis-position',

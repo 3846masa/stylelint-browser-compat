@@ -30,7 +30,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 27,
-      message: messages.rejected('"progress-bar" value specified as appearance', 'IE 5.5', ''),
+      message: messages.rejected(
+        'properties.appearance.progress-bar',
+        '"progress-bar" value specified as appearance',
+        'IE 5.5',
+        '',
+      ),
     },
   ],
 });

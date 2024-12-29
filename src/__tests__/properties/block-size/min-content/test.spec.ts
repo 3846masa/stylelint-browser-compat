@@ -30,7 +30,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 31,
-      message: messages.rejected('"min-content" value specified as block-size', 'Firefox 40', ''),
+      message: messages.rejected(
+        'properties.block-size.min-content',
+        '"min-content" value specified as block-size',
+        'Firefox 40',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -42,7 +47,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('"min-content" value specified as block-size', 'Firefox 40', ''),
+      message: messages.rejected(
+        'properties.block-size.min-content',
+        '"min-content" value specified as block-size',
+        'Firefox 40',
+        '',
+      ),
     },
   ],
 });

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 21,
       message: messages.rejected(
+        'properties.line-clamp',
         '"line-clamp" property',
         'Chrome 5',
         'https://developer.mozilla.org/docs/Web/CSS/-webkit-line-clamp',

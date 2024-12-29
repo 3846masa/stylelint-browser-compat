@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 18,
       message: messages.rejected(
+        'properties.scrollbar-color',
         '"scrollbar-color" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/scrollbar-color',

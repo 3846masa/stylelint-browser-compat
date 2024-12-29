@@ -27,7 +27,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 13,
-      message: messages.rejected('"ch" unit', 'Chrome 26', ''),
+      message: messages.rejected('types.length.ch', '"ch" unit', 'Chrome 26', ''),
     },
   ],
 });

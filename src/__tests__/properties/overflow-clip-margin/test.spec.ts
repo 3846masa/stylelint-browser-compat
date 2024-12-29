@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 23,
       message: messages.rejected(
+        'properties.overflow-clip-margin',
         '"overflow-clip-margin" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/overflow-clip-margin',

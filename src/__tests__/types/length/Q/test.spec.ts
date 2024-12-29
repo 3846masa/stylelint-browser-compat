@@ -27,7 +27,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 12,
-      message: messages.rejected('"Q" unit', 'Chrome 62', ''),
+      message: messages.rejected('types.length.Q', '"Q" unit', 'Chrome 62', ''),
     },
     {
       code: stripIndent`
@@ -39,7 +39,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 12,
-      message: messages.rejected('"q" unit', 'Chrome 62', ''),
+      message: messages.rejected('types.length.Q', '"q" unit', 'Chrome 62', ''),
     },
   ],
 });

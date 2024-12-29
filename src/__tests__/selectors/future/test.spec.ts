@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 17,
       message: messages.rejected(
+        'selectors.future',
         '":future" pseudo-class',
         'Safari 6.1',
         'https://developer.mozilla.org/docs/Web/CSS/:future',

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 18,
       message: messages.rejected(
+        'properties.-moz-user-focus',
         '"-moz-user-focus" property',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/-moz-user-focus',

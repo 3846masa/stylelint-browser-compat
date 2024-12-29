@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 13,
       message: messages.rejected(
+        'selectors.only-child',
         '":only-child" pseudo-class',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/:only-child',

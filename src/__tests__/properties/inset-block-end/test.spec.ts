@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 18,
       message: messages.rejected(
+        'properties.inset-block-end',
         '"inset-block-end" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/inset-block-end',

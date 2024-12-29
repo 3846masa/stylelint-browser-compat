@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 28,
       message: messages.rejected(
+        'at-rules.media.device-aspect-ratio',
         '"device-aspect-ratio" media feature',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/@media/device-aspect-ratio',
@@ -42,6 +43,7 @@ testRule({
       endLine: 1,
       endColumn: 32,
       message: messages.rejected(
+        'at-rules.media.device-aspect-ratio',
         '"min-device-aspect-ratio" media feature',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/@media/device-aspect-ratio',
@@ -57,6 +59,7 @@ testRule({
       endLine: 1,
       endColumn: 32,
       message: messages.rejected(
+        'at-rules.media.device-aspect-ratio',
         '"max-device-aspect-ratio" media feature',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/@media/device-aspect-ratio',

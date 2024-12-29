@@ -27,7 +27,7 @@ testRule({
       column: 35,
       endLine: 2,
       endColumn: 38,
-      message: messages.rejected('"url" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected('types.attr.type-or-unit.url', '"url" unit keyword for attr()', 'Chrome 100', ''),
     },
   ],
 });

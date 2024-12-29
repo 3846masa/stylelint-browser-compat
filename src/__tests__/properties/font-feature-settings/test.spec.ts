@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 24,
       message: messages.rejected(
+        'properties.font-feature-settings',
         '"font-feature-settings" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/font-feature-settings',

@@ -30,7 +30,12 @@ testRule({
       column: 12,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('"attr()" function', 'IE 7', 'https://developer.mozilla.org/docs/Web/CSS/attr'),
+      message: messages.rejected(
+        'types.attr',
+        '"attr()" function',
+        'IE 7',
+        'https://developer.mozilla.org/docs/Web/CSS/attr',
+      ),
     },
   ],
 });

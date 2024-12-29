@@ -27,7 +27,12 @@ testRule({
       column: 28,
       endLine: 2,
       endColumn: 35,
-      message: messages.rejected('"integer" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected(
+        'types.attr.type-or-unit.integer',
+        '"integer" unit keyword for attr()',
+        'Chrome 100',
+        '',
+      ),
     },
   ],
 });

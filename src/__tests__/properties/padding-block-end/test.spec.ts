@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 20,
       message: messages.rejected(
+        'properties.padding-block-end',
         '"padding-block-end" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/padding-block-end',

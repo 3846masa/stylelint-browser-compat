@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 37,
       message: messages.rejected(
+        'types.easing-function',
         '"linear" value',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/easing-function',
@@ -46,7 +47,12 @@ testRule({
       column: 31,
       endLine: 2,
       endColumn: 35,
-      message: messages.rejected('"ease" value', 'IE 9', 'https://developer.mozilla.org/docs/Web/CSS/easing-function'),
+      message: messages.rejected(
+        'types.easing-function',
+        '"ease" value',
+        'IE 9',
+        'https://developer.mozilla.org/docs/Web/CSS/easing-function',
+      ),
     },
     {
       code: stripIndent`
@@ -59,6 +65,7 @@ testRule({
       endLine: 2,
       endColumn: 38,
       message: messages.rejected(
+        'types.easing-function',
         '"ease-in" value',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/easing-function',
@@ -75,6 +82,7 @@ testRule({
       endLine: 2,
       endColumn: 39,
       message: messages.rejected(
+        'types.easing-function',
         '"ease-out" value',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/easing-function',
@@ -91,6 +99,7 @@ testRule({
       endLine: 2,
       endColumn: 42,
       message: messages.rejected(
+        'types.easing-function',
         '"ease-in-out" value',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/easing-function',

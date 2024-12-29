@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 18,
       message: messages.rejected(
+        'properties.transform-style',
         '"transform-style" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/transform-style',

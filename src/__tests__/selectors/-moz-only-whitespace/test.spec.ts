@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 22,
       message: messages.rejected(
+        'selectors.-moz-only-whitespace',
         '":-moz-only-whitespace" pseudo-class',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/:-moz-only-whitespace',

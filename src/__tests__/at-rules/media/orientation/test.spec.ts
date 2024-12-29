@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 20,
       message: messages.rejected(
+        'at-rules.media.orientation',
         '"orientation" media feature',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/@media/orientation',

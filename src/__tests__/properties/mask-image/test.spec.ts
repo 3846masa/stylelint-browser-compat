@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 13,
       message: messages.rejected(
+        'properties.mask-image',
         '"mask-image" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/mask-image',

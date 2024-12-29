@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 20,
       message: messages.rejected(
+        'properties.inset-block-start',
         '"inset-block-start" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/inset-block-start',

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 24,
       message: messages.rejected(
+        'properties.-webkit-mask-repeat-x',
         '"-webkit-mask-repeat-x" property',
         'Edge 17',
         'https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-repeat-x',

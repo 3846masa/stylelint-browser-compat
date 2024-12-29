@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 22,
       message: messages.rejected(
+        'properties.grid-template-areas',
         '"grid-template-areas" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/grid-template-areas',

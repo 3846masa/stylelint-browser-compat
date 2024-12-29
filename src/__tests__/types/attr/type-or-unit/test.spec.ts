@@ -30,7 +30,7 @@ testRule({
       column: 26,
       endLine: 2,
       endColumn: 32,
-      message: messages.rejected('"string" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected('types.attr.type-or-unit', '"string" unit keyword for attr()', 'Chrome 100', ''),
     },
     {
       code: stripIndent`
@@ -42,7 +42,7 @@ testRule({
       column: 26,
       endLine: 2,
       endColumn: 32,
-      message: messages.rejected('"string" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected('types.attr.type-or-unit', '"string" unit keyword for attr()', 'Chrome 100', ''),
     },
   ],
 });

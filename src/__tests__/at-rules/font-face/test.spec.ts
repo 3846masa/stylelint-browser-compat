@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 11,
       message: messages.rejected(
+        'at-rules.font-face',
         '"@font-face" at rules',
         'Opera 9',
         'https://developer.mozilla.org/docs/Web/CSS/@font-face',

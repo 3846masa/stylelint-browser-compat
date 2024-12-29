@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 138,
       message: messages.rejected(
+        'types.basic-shape.polygon',
         '"polygon()" function',
         'Chrome 36',
         'https://developer.mozilla.org/docs/Web/CSS/basic-shape/polygon',

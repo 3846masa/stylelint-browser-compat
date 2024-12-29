@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 20,
       message: messages.rejected(
+        'properties.page-break-inside',
         '"page-break-inside" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/page-break-inside',

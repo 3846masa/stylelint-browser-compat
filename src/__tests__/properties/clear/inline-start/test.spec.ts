@@ -27,7 +27,12 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 22,
-      message: messages.rejected('"inline-start" value specified as clear', 'Firefox 54', ''),
+      message: messages.rejected(
+        'properties.clear.inline-start',
+        '"inline-start" value specified as clear',
+        'Firefox 54',
+        '',
+      ),
     },
   ],
 });

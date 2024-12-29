@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 28,
       message: messages.rejected(
+        'properties.border-inline-start-color',
         '"border-inline-start-color" property',
         'Chrome 68',
         'https://developer.mozilla.org/docs/Web/CSS/border-inline-start-color',

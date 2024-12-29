@@ -26,7 +26,12 @@ testRule({
       column: 6,
       endLine: 1,
       endColumn: 12,
-      message: messages.rejected('":valid" pseudo-class', 'IE 9', 'https://developer.mozilla.org/docs/Web/CSS/:valid'),
+      message: messages.rejected(
+        'selectors.valid',
+        '":valid" pseudo-class',
+        'IE 9',
+        'https://developer.mozilla.org/docs/Web/CSS/:valid',
+      ),
     },
   ],
 });

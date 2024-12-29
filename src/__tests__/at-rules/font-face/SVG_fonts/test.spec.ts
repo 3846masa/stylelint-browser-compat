@@ -30,7 +30,7 @@ testRule({
       column: 12,
       endLine: 2,
       endColumn: 27,
-      message: messages.rejected('SVG fonts', 'Chrome 38', ''),
+      message: messages.rejected('at-rules.font-face.SVG_fonts', 'SVG fonts', 'Chrome 38', ''),
     },
     {
       code: stripIndent`
@@ -42,7 +42,7 @@ testRule({
       column: 12,
       endLine: 2,
       endColumn: 27,
-      message: messages.rejected('SVG fonts', 'Chrome 38', ''),
+      message: messages.rejected('at-rules.font-face.SVG_fonts', 'SVG fonts', 'Chrome 38', ''),
     },
     {
       code: stripIndent`
@@ -54,7 +54,7 @@ testRule({
       column: 12,
       endLine: 2,
       endColumn: 25,
-      message: messages.rejected('SVG fonts', 'Chrome 38', ''),
+      message: messages.rejected('at-rules.font-face.SVG_fonts', 'SVG fonts', 'Chrome 38', ''),
     },
     {
       code: stripIndent`
@@ -66,7 +66,7 @@ testRule({
       column: 12,
       endLine: 2,
       endColumn: 33,
-      message: messages.rejected('SVG fonts', 'Chrome 38', ''),
+      message: messages.rejected('at-rules.font-face.SVG_fonts', 'SVG fonts', 'Chrome 38', ''),
     },
     {
       code: stripIndent`
@@ -78,7 +78,7 @@ testRule({
       column: 12,
       endLine: 2,
       endColumn: 32,
-      message: messages.rejected('SVG fonts', 'Chrome 38', ''),
+      message: messages.rejected('at-rules.font-face.SVG_fonts', 'SVG fonts', 'Chrome 38', ''),
     },
   ],
 });

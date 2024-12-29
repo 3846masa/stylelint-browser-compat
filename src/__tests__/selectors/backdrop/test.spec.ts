@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 16,
       message: messages.rejected(
+        'selectors.backdrop',
         '"::backdrop" pseudo-element',
         'Firefox 46',
         'https://developer.mozilla.org/docs/Web/CSS/::backdrop',

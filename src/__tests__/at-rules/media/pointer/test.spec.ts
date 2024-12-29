@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 16,
       message: messages.rejected(
+        'at-rules.media.pointer',
         '"pointer" media feature',
         'Chrome 40',
         'https://developer.mozilla.org/docs/Web/CSS/@media/pointer',

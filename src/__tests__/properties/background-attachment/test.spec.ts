@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 24,
       message: messages.rejected(
+        'properties.background-attachment',
         '"background-attachment" property',
         'Android Webview 2.1',
         'https://developer.mozilla.org/docs/Web/CSS/background-attachment',

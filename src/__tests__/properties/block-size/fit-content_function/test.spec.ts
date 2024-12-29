@@ -27,7 +27,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 32,
-      message: messages.rejected('"fit-content()" function specified as block-size', 'Firefox 100', ''),
+      message: messages.rejected(
+        'properties.block-size.fit-content_function',
+        '"fit-content()" function specified as block-size',
+        'Firefox 100',
+        '',
+      ),
     },
   ],
 });

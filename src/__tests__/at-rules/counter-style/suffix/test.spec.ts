@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 9,
       message: messages.rejected(
+        'at-rules.counter-style.suffix',
         '"suffix" descriptor of the @counter-style',
         'Chrome 90',
         'https://developer.mozilla.org/docs/Web/CSS/@counter-style/suffix',

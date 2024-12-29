@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 22,
       message: messages.rejected(
+        'properties.hyphenate-character',
         '"hyphenate-character" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/hyphenate-character',

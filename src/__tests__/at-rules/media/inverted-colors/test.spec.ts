@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 24,
       message: messages.rejected(
+        'at-rules.media.inverted-colors',
         '"inverted-colors" media feature',
         'Safari 8',
         'https://developer.mozilla.org/docs/Web/CSS/@media/inverted-colors',

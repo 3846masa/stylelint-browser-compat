@@ -27,7 +27,12 @@ testRule({
       column: 28,
       endLine: 2,
       endColumn: 36,
-      message: messages.rejected('Elliptical corner by border-top-right-radius', 'Opera Android 12', ''),
+      message: messages.rejected(
+        'properties.border-top-right-radius.elliptical_corners',
+        'Elliptical corner by border-top-right-radius',
+        'Opera Android 12',
+        '',
+      ),
     },
   ],
 });

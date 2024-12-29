@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 13,
       message: messages.rejected(
+        'selectors.has',
         '":has" pseudo-class',
         'Safari 15.1',
         'https://developer.mozilla.org/docs/Web/CSS/:has',

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 21,
       message: messages.rejected(
+        'properties.mask-border-source',
         '"mask-border-source" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/mask-border-source',

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 21,
       message: messages.rejected(
+        'properties.animation-timeline',
         '"animation-timeline" property',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/animation-timeline',

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 24,
       message: messages.rejected(
+        'properties.-webkit-text-security',
         '"-webkit-text-security" property',
         'Firefox 100',
         'https://developer.mozilla.org/docs/Web/CSS/-webkit-text-security',

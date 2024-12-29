@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 25,
       message: messages.rejected(
+        'properties.-webkit-mask-box-image',
         '"-webkit-mask-box-image" property',
         'Edge 17',
         'https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-box-image',

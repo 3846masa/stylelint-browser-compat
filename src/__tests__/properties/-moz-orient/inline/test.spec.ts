@@ -27,7 +27,12 @@ testRule({
       column: 16,
       endLine: 2,
       endColumn: 22,
-      message: messages.rejected('"inline" value specified as -moz-orient', 'Firefox 39', ''),
+      message: messages.rejected(
+        'properties.-moz-orient.inline',
+        '"inline" value specified as -moz-orient',
+        'Firefox 39',
+        '',
+      ),
     },
   ],
 });

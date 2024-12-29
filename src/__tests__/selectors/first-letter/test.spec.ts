@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 16,
       message: messages.rejected(
+        'selectors.first-letter',
         '"::first-letter" pseudo-element',
         'Android Webview 4.4',
         'https://developer.mozilla.org/docs/Web/CSS/::first-letter',
@@ -42,6 +43,7 @@ testRule({
       endLine: 1,
       endColumn: 15,
       message: messages.rejected(
+        'selectors.first-letter',
         '":first-letter" pseudo-element',
         'Android Webview 4.4',
         'https://developer.mozilla.org/docs/Web/CSS/::first-letter',

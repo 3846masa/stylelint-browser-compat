@@ -26,7 +26,12 @@ testRule({
       column: 7,
       endLine: 1,
       endColumn: 17,
-      message: messages.rejected('"::backdrop" pseudo-element for the dialog tag', 'IE 11', ''),
+      message: messages.rejected(
+        'selectors.backdrop.dialog',
+        '"::backdrop" pseudo-element for the dialog tag',
+        'IE 11',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -37,7 +42,12 @@ testRule({
       column: 13,
       endLine: 1,
       endColumn: 23,
-      message: messages.rejected('"::backdrop" pseudo-element for the dialog tag', 'IE 11', ''),
+      message: messages.rejected(
+        'selectors.backdrop.dialog',
+        '"::backdrop" pseudo-element for the dialog tag',
+        'IE 11',
+        '',
+      ),
     },
   ],
 });

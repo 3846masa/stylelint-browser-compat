@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 29,
       message: messages.rejected(
+        'properties.transition-timing-function',
         '"transition-timing-function" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/transition-timing-function',

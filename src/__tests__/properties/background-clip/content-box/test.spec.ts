@@ -36,7 +36,12 @@ testRule({
       column: 20,
       endLine: 2,
       endColumn: 31,
-      message: messages.rejected('"content-box" value specified as background-clip', 'IE 8', ''),
+      message: messages.rejected(
+        'properties.background-clip.content-box',
+        '"content-box" value specified as background-clip',
+        'IE 8',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -48,7 +53,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('"content-box" value specified as background-clip', 'IE 8', ''),
+      message: messages.rejected(
+        'properties.background-clip.content-box',
+        '"content-box" value specified as background-clip',
+        'IE 8',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -60,7 +70,12 @@ testRule({
       column: 26,
       endLine: 2,
       endColumn: 37,
-      message: messages.rejected('"content-box" value specified as background-clip', 'IE 8', ''),
+      message: messages.rejected(
+        'properties.background-clip.content-box',
+        '"content-box" value specified as background-clip',
+        'IE 8',
+        '',
+      ),
     },
   ],
 });

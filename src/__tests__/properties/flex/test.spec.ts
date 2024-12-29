@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 7,
-      message: messages.rejected('"flex" property', 'IE 6', 'https://developer.mozilla.org/docs/Web/CSS/flex'),
+      message: messages.rejected(
+        'properties.flex',
+        '"flex" property',
+        'IE 6',
+        'https://developer.mozilla.org/docs/Web/CSS/flex',
+      ),
     },
   ],
 });

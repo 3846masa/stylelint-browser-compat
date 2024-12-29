@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 15,
       message: messages.rejected(
+        'properties.border-color',
         '"border-color" property',
         'Android Webview 3',
         'https://developer.mozilla.org/docs/Web/CSS/border-color',

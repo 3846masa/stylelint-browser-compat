@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 29,
       message: messages.rejected(
+        'selectors.where',
         '":where" pseudo-class',
         'Chrome 87',
         'https://developer.mozilla.org/docs/Web/CSS/:where',

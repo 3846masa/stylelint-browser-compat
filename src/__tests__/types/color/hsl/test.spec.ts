@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 29,
       message: messages.rejected(
+        'types.color.hsl',
         '"hsl()" function',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/color_value/hsl',

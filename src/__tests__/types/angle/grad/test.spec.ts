@@ -30,7 +30,12 @@ testRule({
       column: 24,
       endLine: 2,
       endColumn: 28,
-      message: messages.rejected('"grad" unit', 'IE 8', 'https://developer.mozilla.org/docs/Web/CSS/angle#grad'),
+      message: messages.rejected(
+        'types.angle.grad',
+        '"grad" unit',
+        'IE 8',
+        'https://developer.mozilla.org/docs/Web/CSS/angle#grad',
+      ),
     },
   ],
 });

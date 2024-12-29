@@ -27,7 +27,12 @@ testRule({
       column: 9,
       endLine: 2,
       endColumn: 15,
-      message: messages.rejected('"JIS-B4" size', 'Chrome 81', 'https://developer.mozilla.org/docs/Web/CSS/@page/size'),
+      message: messages.rejected(
+        'at-rules.page.size.jis-b4',
+        '"JIS-B4" size',
+        'Chrome 81',
+        'https://developer.mozilla.org/docs/Web/CSS/@page/size',
+      ),
     },
   ],
 });

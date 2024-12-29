@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 14,
       message: messages.rejected(
+        'selectors.invalid',
         '":invalid" pseudo-class',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/:invalid',

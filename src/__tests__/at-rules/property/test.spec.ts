@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 10,
       message: messages.rejected(
+        'at-rules.property',
         '"@property" at rules',
         'Chrome 84',
         'https://developer.mozilla.org/docs/Web/CSS/@property',

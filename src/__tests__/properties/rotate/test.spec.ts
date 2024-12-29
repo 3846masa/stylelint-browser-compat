@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 9,
-      message: messages.rejected('"rotate" property', 'IE 6', 'https://developer.mozilla.org/docs/Web/CSS/rotate'),
+      message: messages.rejected(
+        'properties.rotate',
+        '"rotate" property',
+        'IE 6',
+        'https://developer.mozilla.org/docs/Web/CSS/rotate',
+      ),
     },
   ],
 });

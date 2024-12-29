@@ -26,7 +26,12 @@ testRule({
       column: 1,
       endLine: 1,
       endColumn: 8,
-      message: messages.rejected('":not" pseudo-class', 'IE 8', 'https://developer.mozilla.org/docs/Web/CSS/:not'),
+      message: messages.rejected(
+        'selectors.not',
+        '":not" pseudo-class',
+        'IE 8',
+        'https://developer.mozilla.org/docs/Web/CSS/:not',
+      ),
     },
   ],
 });

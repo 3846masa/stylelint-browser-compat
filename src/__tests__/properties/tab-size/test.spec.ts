@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 11,
-      message: messages.rejected('"tab-size" property', 'IE 6', 'https://developer.mozilla.org/docs/Web/CSS/tab-size'),
+      message: messages.rejected(
+        'properties.tab-size',
+        '"tab-size" property',
+        'IE 6',
+        'https://developer.mozilla.org/docs/Web/CSS/tab-size',
+      ),
     },
   ],
 });

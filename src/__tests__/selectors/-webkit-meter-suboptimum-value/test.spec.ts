@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 38,
       message: messages.rejected(
+        'selectors.-webkit-meter-suboptimum-value',
         '"::-webkit-meter-suboptimum-value" pseudo-element',
         'Chrome 11',
         'https://developer.mozilla.org/docs/Web/CSS/::-webkit-meter-suboptimum-value',

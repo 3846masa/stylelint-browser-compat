@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 18,
       message: messages.rejected(
+        'at-rules.media.scripting',
         '"scripting" media feature',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/@media/scripting',

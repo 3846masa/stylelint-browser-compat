@@ -27,7 +27,12 @@ testRule({
       column: 22,
       endLine: 2,
       endColumn: 36,
-      message: messages.rejected('Multiple backgrounds', 'IE 8', ''),
+      message: messages.rejected(
+        'properties.background-repeat.multiple_backgrounds',
+        'Multiple backgrounds',
+        'IE 8',
+        '',
+      ),
     },
   ],
 });

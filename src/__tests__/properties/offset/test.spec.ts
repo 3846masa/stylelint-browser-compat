@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 9,
-      message: messages.rejected('"offset" property', 'IE 6', 'https://developer.mozilla.org/docs/Web/CSS/offset'),
+      message: messages.rejected(
+        'properties.offset',
+        '"offset" property',
+        'IE 6',
+        'https://developer.mozilla.org/docs/Web/CSS/offset',
+      ),
     },
   ],
 });

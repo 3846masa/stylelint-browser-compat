@@ -27,7 +27,12 @@ testRule({
       column: 22,
       endLine: 2,
       endColumn: 35,
-      message: messages.rejected('Different values for x & y directions specified as background-repeat', 'IE 8', ''),
+      message: messages.rejected(
+        'properties.background-repeat.2-value',
+        'Different values for x & y directions specified as background-repeat',
+        'IE 8',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -39,7 +44,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 28,
-      message: messages.rejected('Different values for x & y directions specified as background-repeat', 'IE 8', ''),
+      message: messages.rejected(
+        'properties.background-repeat.2-value',
+        'Different values for x & y directions specified as background-repeat',
+        'IE 8',
+        '',
+      ),
     },
   ],
 });

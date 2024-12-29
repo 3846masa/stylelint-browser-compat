@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 17,
       message: messages.rejected(
+        'types.global_keywords.initial',
         '"initial" value',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/initial',

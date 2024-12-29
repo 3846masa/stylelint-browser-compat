@@ -26,7 +26,12 @@ testRule({
       column: 1,
       endLine: 1,
       endColumn: 26,
-      message: messages.rejected('":is" pseudo-class', 'Chrome 87', 'https://developer.mozilla.org/docs/Web/CSS/:is'),
+      message: messages.rejected(
+        'selectors.is',
+        '":is" pseudo-class',
+        'Chrome 87',
+        'https://developer.mozilla.org/docs/Web/CSS/:is',
+      ),
     },
   ],
 });

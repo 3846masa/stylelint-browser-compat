@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 9,
-      message: messages.rejected('"filter" property', 'IE 6', 'https://developer.mozilla.org/docs/Web/CSS/filter'),
+      message: messages.rejected(
+        'properties.filter',
+        '"filter" property',
+        'IE 6',
+        'https://developer.mozilla.org/docs/Web/CSS/filter',
+      ),
     },
   ],
 });

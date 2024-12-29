@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 10,
-      message: messages.rejected('"orphans" property', 'IE 6', 'https://developer.mozilla.org/docs/Web/CSS/orphans'),
+      message: messages.rejected(
+        'properties.orphans',
+        '"orphans" property',
+        'IE 6',
+        'https://developer.mozilla.org/docs/Web/CSS/orphans',
+      ),
     },
   ],
 });

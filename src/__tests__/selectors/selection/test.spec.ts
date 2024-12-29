@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 12,
       message: messages.rejected(
+        'selectors.selection',
         '"::selection" pseudo-element',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/::selection',

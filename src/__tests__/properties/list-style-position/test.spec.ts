@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 22,
       message: messages.rejected(
+        'properties.list-style-position',
         '"list-style-position" property',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/list-style-position',

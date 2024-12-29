@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 21,
       message: messages.rejected(
+        'properties.border-right-style',
         '"border-right-style" property',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/border-right-style',

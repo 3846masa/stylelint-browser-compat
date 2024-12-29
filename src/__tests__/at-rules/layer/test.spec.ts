@@ -27,7 +27,12 @@ testRule({
       column: 1,
       endLine: 1,
       endColumn: 7,
-      message: messages.rejected('"@layer" at rules', 'Chrome 98', 'https://developer.mozilla.org/docs/Web/CSS/@layer'),
+      message: messages.rejected(
+        'at-rules.layer',
+        '"@layer" at rules',
+        'Chrome 98',
+        'https://developer.mozilla.org/docs/Web/CSS/@layer',
+      ),
     },
   ],
 });

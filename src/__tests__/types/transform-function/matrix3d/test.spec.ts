@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 75,
       message: messages.rejected(
+        'types.transform-function.matrix3d',
         '"matrix3d()" function',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/transform-function/matrix3d',

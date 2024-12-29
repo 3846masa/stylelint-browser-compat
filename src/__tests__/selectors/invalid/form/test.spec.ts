@@ -26,7 +26,12 @@ testRule({
       column: 5,
       endLine: 1,
       endColumn: 13,
-      message: messages.rejected('":invalid" pseudo-class with the form tag', 'Chrome 39', ''),
+      message: messages.rejected(
+        'selectors.invalid.form',
+        '":invalid" pseudo-class with the form tag',
+        'Chrome 39',
+        '',
+      ),
     },
   ],
 });

@@ -30,7 +30,12 @@ testRule({
       column: 23,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('"deg" unit', 'IE 8', 'https://developer.mozilla.org/docs/Web/CSS/angle#deg'),
+      message: messages.rejected(
+        'types.angle.deg',
+        '"deg" unit',
+        'IE 8',
+        'https://developer.mozilla.org/docs/Web/CSS/angle#deg',
+      ),
     },
   ],
 });

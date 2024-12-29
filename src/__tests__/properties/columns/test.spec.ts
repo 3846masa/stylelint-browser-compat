@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 10,
-      message: messages.rejected('"columns" property', 'IE 6', 'https://developer.mozilla.org/docs/Web/CSS/columns'),
+      message: messages.rejected(
+        'properties.columns',
+        '"columns" property',
+        'IE 6',
+        'https://developer.mozilla.org/docs/Web/CSS/columns',
+      ),
     },
   ],
 });

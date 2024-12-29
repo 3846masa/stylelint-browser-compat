@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 39,
       message: messages.rejected(
+        'types.color.lab',
         '"lab()" function',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/color_value/lab',
@@ -44,6 +45,7 @@ testRule({
       endLine: 2,
       endColumn: 44,
       message: messages.rejected(
+        'types.color.lab',
         '"lab()" function',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/color_value/lab',

@@ -26,7 +26,7 @@ testRule({
       column: 1,
       endLine: 1,
       endColumn: 5,
-      message: messages.rejected('Namespace selector', 'IE 8', ''),
+      message: messages.rejected('selectors.type.namespaces', 'Namespace selector', 'IE 8', ''),
     },
   ],
 });

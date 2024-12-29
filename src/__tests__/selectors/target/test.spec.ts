@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 9,
       message: messages.rejected(
+        'selectors.target',
         '":target" pseudo-class',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/:target',

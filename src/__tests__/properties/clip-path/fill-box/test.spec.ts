@@ -27,7 +27,12 @@ testRule({
       column: 14,
       endLine: 2,
       endColumn: 22,
-      message: messages.rejected('"fill-box" value specified as clip-path', 'Firefox 50', ''),
+      message: messages.rejected(
+        'properties.clip-path.fill-box',
+        '"fill-box" value specified as clip-path',
+        'Firefox 50',
+        '',
+      ),
     },
   ],
 });

@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 8,
       message: messages.rejected(
+        'at-rules.counter-style.range',
         '"range" descriptor of the @counter-style',
         'Chrome 90',
         'https://developer.mozilla.org/docs/Web/CSS/@counter-style/range',

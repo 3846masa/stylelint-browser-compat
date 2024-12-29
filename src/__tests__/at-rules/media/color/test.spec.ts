@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 14,
       message: messages.rejected(
+        'at-rules.media.color',
         '"color" media feature',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/@media/color',
@@ -42,6 +43,7 @@ testRule({
       endLine: 1,
       endColumn: 18,
       message: messages.rejected(
+        'at-rules.media.color',
         '"min-color" media feature',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/@media/color',

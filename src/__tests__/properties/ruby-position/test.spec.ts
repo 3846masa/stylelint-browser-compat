@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 16,
       message: messages.rejected(
+        'properties.ruby-position',
         '"ruby-position" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/ruby-position',

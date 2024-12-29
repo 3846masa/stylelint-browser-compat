@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 11,
       message: messages.rejected(
+        'properties.overflow',
         '"overflow" property',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/overflow',

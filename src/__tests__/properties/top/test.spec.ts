@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 6,
       message: messages.rejected(
+        'properties.top',
         '"top" property',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/top',

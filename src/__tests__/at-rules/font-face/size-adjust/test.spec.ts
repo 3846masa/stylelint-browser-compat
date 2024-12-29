@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 14,
       message: messages.rejected(
+        'at-rules.font-face.size-adjust',
         '"size-adjust" descriptor of the @font-face',
         'Chrome 91',
         'https://developer.mozilla.org/docs/Web/CSS/@font-face/size-adjust',

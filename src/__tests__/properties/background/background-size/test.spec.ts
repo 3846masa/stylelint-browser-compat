@@ -30,7 +30,12 @@ testRule({
       column: 24,
       endLine: 2,
       endColumn: 29,
-      message: messages.rejected('Values of background-size specified as background', 'Chrome 20', ''),
+      message: messages.rejected(
+        'properties.background.background-size',
+        'Values of background-size specified as background',
+        'Chrome 20',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -42,7 +47,12 @@ testRule({
       column: 24,
       endLine: 2,
       endColumn: 28,
-      message: messages.rejected('Values of background-size specified as background', 'Chrome 20', ''),
+      message: messages.rejected(
+        'properties.background.background-size',
+        'Values of background-size specified as background',
+        'Chrome 20',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -54,7 +64,12 @@ testRule({
       column: 24,
       endLine: 2,
       endColumn: 29,
-      message: messages.rejected('Values of background-size specified as background', 'Chrome 20', ''),
+      message: messages.rejected(
+        'properties.background.background-size',
+        'Values of background-size specified as background',
+        'Chrome 20',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -66,7 +81,12 @@ testRule({
       column: 24,
       endLine: 2,
       endColumn: 31,
-      message: messages.rejected('Values of background-size specified as background', 'Chrome 20', ''),
+      message: messages.rejected(
+        'properties.background.background-size',
+        'Values of background-size specified as background',
+        'Chrome 20',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -78,7 +98,12 @@ testRule({
       column: 24,
       endLine: 2,
       endColumn: 35,
-      message: messages.rejected('Values of background-size specified as background', 'Chrome 20', ''),
+      message: messages.rejected(
+        'properties.background.background-size',
+        'Values of background-size specified as background',
+        'Chrome 20',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -90,7 +115,12 @@ testRule({
       column: 24,
       endLine: 2,
       endColumn: 34,
-      message: messages.rejected('Values of background-size specified as background', 'Chrome 20', ''),
+      message: messages.rejected(
+        'properties.background.background-size',
+        'Values of background-size specified as background',
+        'Chrome 20',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -102,7 +132,12 @@ testRule({
       column: 24,
       endLine: 2,
       endColumn: 34,
-      message: messages.rejected('Values of background-size specified as background', 'Chrome 20', ''),
+      message: messages.rejected(
+        'properties.background.background-size',
+        'Values of background-size specified as background',
+        'Chrome 20',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -114,7 +149,12 @@ testRule({
       column: 24,
       endLine: 2,
       endColumn: 33,
-      message: messages.rejected('Values of background-size specified as background', 'Chrome 20', ''),
+      message: messages.rejected(
+        'properties.background.background-size',
+        'Values of background-size specified as background',
+        'Chrome 20',
+        '',
+      ),
     },
   ],
 });

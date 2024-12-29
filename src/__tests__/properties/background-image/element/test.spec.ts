@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 41,
       message: messages.rejected(
+        'properties.background-image.element',
         '"element()" function specified as background-image',
         'Firefox 3',
         'https://developer.mozilla.org/docs/Web/CSS/element',
@@ -47,6 +48,7 @@ testRule({
       endLine: 2,
       endColumn: 35,
       message: messages.rejected(
+        'properties.background-image.element',
         '"element()" function specified as background-image',
         'Firefox 3',
         'https://developer.mozilla.org/docs/Web/CSS/element',

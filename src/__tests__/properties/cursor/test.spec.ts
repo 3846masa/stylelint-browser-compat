@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 9,
       message: messages.rejected(
+        'properties.cursor',
         '"cursor" property',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/cursor',

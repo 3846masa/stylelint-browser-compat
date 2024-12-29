@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 15,
       message: messages.rejected(
+        'properties.accent-color',
         '"accent-color" property',
         'Chrome 92',
         'https://developer.mozilla.org/docs/Web/CSS/accent-color',

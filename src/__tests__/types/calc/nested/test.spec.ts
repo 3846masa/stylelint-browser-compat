@@ -27,7 +27,7 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 33,
-      message: messages.rejected('Nested calc()', 'Chrome 50', ''),
+      message: messages.rejected('types.calc.nested', 'Nested calc()', 'Chrome 50', ''),
     },
   ],
 });

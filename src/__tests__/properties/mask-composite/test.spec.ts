@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 17,
       message: messages.rejected(
+        'properties.mask-composite',
         '"mask-composite" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/mask-composite',

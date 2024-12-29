@@ -30,7 +30,7 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 33,
-      message: messages.rejected('Alpha parameter passed to rgb()', 'Chrome 64', ''),
+      message: messages.rejected('types.color.rgb.alpha_parameter', 'Alpha parameter passed to rgb()', 'Chrome 64', ''),
     },
     {
       code: stripIndent`
@@ -42,7 +42,7 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 32,
-      message: messages.rejected('Alpha parameter passed to rgb()', 'Chrome 64', ''),
+      message: messages.rejected('types.color.rgb.alpha_parameter', 'Alpha parameter passed to rgb()', 'Chrome 64', ''),
     },
   ],
 });

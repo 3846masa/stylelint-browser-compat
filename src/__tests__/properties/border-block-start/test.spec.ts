@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 21,
       message: messages.rejected(
+        'properties.border-block-start',
         '"border-block-start" property',
         'Chrome 68',
         'https://developer.mozilla.org/docs/Web/CSS/border-block-start',

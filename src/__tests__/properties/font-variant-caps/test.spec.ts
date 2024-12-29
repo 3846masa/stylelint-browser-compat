@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 20,
       message: messages.rejected(
+        'properties.font-variant-caps',
         '"font-variant-caps" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/font-variant-caps',

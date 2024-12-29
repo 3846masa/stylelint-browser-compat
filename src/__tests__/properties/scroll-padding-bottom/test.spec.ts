@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 24,
       message: messages.rejected(
+        'properties.scroll-padding-bottom',
         '"scroll-padding-bottom" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/scroll-padding-bottom',

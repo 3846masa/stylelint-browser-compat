@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 28,
       message: messages.rejected(
+        'selectors.defined',
         '":defined" pseudo-class',
         'Chrome 53',
         'https://developer.mozilla.org/docs/Web/CSS/:defined',

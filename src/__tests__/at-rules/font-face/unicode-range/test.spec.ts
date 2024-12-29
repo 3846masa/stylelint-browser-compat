@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 16,
       message: messages.rejected(
+        'at-rules.font-face.unicode-range',
         '"unicode-range" descriptor of the @font-face',
         'Firefox 35',
         'https://developer.mozilla.org/docs/Web/CSS/@font-face/unicode-range',

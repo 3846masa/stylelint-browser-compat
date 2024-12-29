@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 22,
       message: messages.rejected(
+        'properties.-webkit-box-reflect',
         '"-webkit-box-reflect" property',
         'Firefox 100',
         'https://developer.mozilla.org/docs/Web/CSS/-webkit-box-reflect',

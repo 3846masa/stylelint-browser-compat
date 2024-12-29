@@ -27,7 +27,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 14,
-      message: messages.rejected('"rem" unit', 'IE 8', ''),
+      message: messages.rejected('types.length.rem', '"rem" unit', 'IE 8', ''),
     },
   ],
 });

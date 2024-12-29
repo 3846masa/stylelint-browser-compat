@@ -30,7 +30,7 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 20,
-      message: messages.rejected('"inset" value specified as box-shadow', 'IE 8', ''),
+      message: messages.rejected('properties.box-shadow.inset', '"inset" value specified as box-shadow', 'IE 8', ''),
     },
     {
       code: stripIndent`
@@ -42,7 +42,7 @@ testRule({
       column: 28,
       endLine: 2,
       endColumn: 33,
-      message: messages.rejected('"inset" value specified as box-shadow', 'IE 8', ''),
+      message: messages.rejected('properties.box-shadow.inset', '"inset" value specified as box-shadow', 'IE 8', ''),
     },
     {
       code: stripIndent`
@@ -54,7 +54,7 @@ testRule({
       column: 32,
       endLine: 2,
       endColumn: 37,
-      message: messages.rejected('"inset" value specified as box-shadow', 'IE 8', ''),
+      message: messages.rejected('properties.box-shadow.inset', '"inset" value specified as box-shadow', 'IE 8', ''),
     },
   ],
 });

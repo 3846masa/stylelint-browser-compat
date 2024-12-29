@@ -27,7 +27,7 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 11,
-      message: messages.rejected('"ime-mode" property', 'Chrome 100', ''),
+      message: messages.rejected('properties.ime-mode', '"ime-mode" property', 'Chrome 100', ''),
     },
   ],
 });

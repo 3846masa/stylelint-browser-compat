@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 22,
       message: messages.rejected(
+        'types.color.currentcolor',
         '"currentcolor" value',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/color_value#currentcolor',
@@ -44,6 +45,7 @@ testRule({
       endLine: 2,
       endColumn: 22,
       message: messages.rejected(
+        'types.color.currentcolor',
         '"currentColor" value',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/color_value#currentcolor',

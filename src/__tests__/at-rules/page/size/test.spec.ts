@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 7,
       message: messages.rejected(
+        'at-rules.page.size',
         '"size" descriptor of the @page',
         'Chrome 14',
         'https://developer.mozilla.org/docs/Web/CSS/@page/size',

@@ -30,7 +30,12 @@ testRule({
       column: 40,
       endLine: 2,
       endColumn: 49,
-      message: messages.rejected('"jump-none" keyword for steps()', 'Chrome 76', ''),
+      message: messages.rejected(
+        'types.easing-function.steps.jump',
+        '"jump-none" keyword for steps()',
+        'Chrome 76',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -42,7 +47,12 @@ testRule({
       column: 40,
       endLine: 2,
       endColumn: 50,
-      message: messages.rejected('"jump-start" keyword for steps()', 'Chrome 76', ''),
+      message: messages.rejected(
+        'types.easing-function.steps.jump',
+        '"jump-start" keyword for steps()',
+        'Chrome 76',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -54,7 +64,7 @@ testRule({
       column: 40,
       endLine: 2,
       endColumn: 48,
-      message: messages.rejected('"jump-end" keyword for steps()', 'Chrome 76', ''),
+      message: messages.rejected('types.easing-function.steps.jump', '"jump-end" keyword for steps()', 'Chrome 76', ''),
     },
     {
       code: stripIndent`
@@ -66,7 +76,12 @@ testRule({
       column: 40,
       endLine: 2,
       endColumn: 49,
-      message: messages.rejected('"jump-both" keyword for steps()', 'Chrome 76', ''),
+      message: messages.rejected(
+        'types.easing-function.steps.jump',
+        '"jump-both" keyword for steps()',
+        'Chrome 76',
+        '',
+      ),
     },
   ],
 });
