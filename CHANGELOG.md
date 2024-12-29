@@ -1,3 +1,10 @@
+# [1.0.0-beta.145](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.144...v1.0.0-beta.145) (2024-12-29)
+
+
+### Features
+
+* add feature id in error message ([#894](https://github.com/3846masa/stylelint-browser-compat/issues/894)) ([3271c44](https://github.com/3846masa/stylelint-browser-compat/commit/3271c44a62652d021601785c59a854200c9e2e46))
+
 # [1.0.0-beta.144](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.143...v1.0.0-beta.144) (2024-12-22)
 
 
