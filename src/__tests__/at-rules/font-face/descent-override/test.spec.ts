@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 19,
       message: messages.rejected(
+        'at-rules.font-face.descent-override',
         '"descent-override" descriptor of the @font-face',
         'Chrome 86',
         'https://developer.mozilla.org/docs/Web/CSS/@font-face/descent-override',

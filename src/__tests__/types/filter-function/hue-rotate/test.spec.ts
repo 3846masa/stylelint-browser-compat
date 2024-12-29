@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 28,
       message: messages.rejected(
+        'types.filter-function.hue-rotate',
         '"hue-rotate()" function',
         'Chrome 17',
         'https://developer.mozilla.org/docs/Web/CSS/filter-function/hue-rotate',

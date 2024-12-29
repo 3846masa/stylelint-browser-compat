@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 21,
       message: messages.rejected(
+        'selectors.focus-visible',
         '":focus-visible" pseudo-class',
         'Chrome 85',
         'https://developer.mozilla.org/docs/Web/CSS/:focus-visible',

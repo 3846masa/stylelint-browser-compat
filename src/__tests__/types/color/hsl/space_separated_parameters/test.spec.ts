@@ -30,7 +30,12 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 27,
-      message: messages.rejected('Space-separated hsl() parameters', 'Chrome 64', ''),
+      message: messages.rejected(
+        'types.color.hsl.space_separated_parameters',
+        'Space-separated hsl() parameters',
+        'Chrome 64',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -42,7 +47,12 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 33,
-      message: messages.rejected('Space-separated hsl() parameters', 'Chrome 64', ''),
+      message: messages.rejected(
+        'types.color.hsl.space_separated_parameters',
+        'Space-separated hsl() parameters',
+        'Chrome 64',
+        '',
+      ),
     },
   ],
 });

@@ -26,7 +26,12 @@ testRule({
       column: 2,
       endLine: 1,
       endColumn: 19,
-      message: messages.rejected('Attribute selector with case-sensitive modifier', 'Firefox 65', ''),
+      message: messages.rejected(
+        'selectors.attribute.case_sensitive_modifier',
+        'Attribute selector with case-sensitive modifier',
+        'Firefox 65',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -37,7 +42,12 @@ testRule({
       column: 2,
       endLine: 1,
       endColumn: 19,
-      message: messages.rejected('Attribute selector with case-sensitive modifier', 'Firefox 65', ''),
+      message: messages.rejected(
+        'selectors.attribute.case_sensitive_modifier',
+        'Attribute selector with case-sensitive modifier',
+        'Firefox 65',
+        '',
+      ),
     },
   ],
 });

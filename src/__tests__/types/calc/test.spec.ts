@@ -27,7 +27,12 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 28,
-      message: messages.rejected('"calc()" function', 'Chrome 18', 'https://developer.mozilla.org/docs/Web/CSS/calc'),
+      message: messages.rejected(
+        'types.calc',
+        '"calc()" function',
+        'Chrome 18',
+        'https://developer.mozilla.org/docs/Web/CSS/calc',
+      ),
     },
   ],
 });

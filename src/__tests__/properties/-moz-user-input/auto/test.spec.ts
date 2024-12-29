@@ -30,7 +30,12 @@ testRule({
       column: 20,
       endLine: 2,
       endColumn: 24,
-      message: messages.rejected('"auto" value specified as -moz-user-input', 'Chrome 100', ''),
+      message: messages.rejected(
+        'properties.-moz-user-input.auto',
+        '"auto" value specified as -moz-user-input',
+        'Chrome 100',
+        '',
+      ),
     },
   ],
 });

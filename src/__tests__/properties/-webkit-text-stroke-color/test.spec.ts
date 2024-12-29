@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 28,
       message: messages.rejected(
+        'properties.-webkit-text-stroke-color',
         '"-webkit-text-stroke-color" property',
         'Firefox 48',
         'https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke-color',

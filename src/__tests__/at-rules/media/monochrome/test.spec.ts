@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 19,
       message: messages.rejected(
+        'at-rules.media.monochrome',
         '"monochrome" media feature',
         'IE 11',
         'https://developer.mozilla.org/docs/Web/CSS/@media/monochrome',

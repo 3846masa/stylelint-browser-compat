@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 21,
       message: messages.rejected(
+        'properties.border-image-slice',
         '"border-image-slice" property',
         'Chrome 14',
         'https://developer.mozilla.org/docs/Web/CSS/border-image-slice',

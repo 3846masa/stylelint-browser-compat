@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 79,
       message: messages.rejected(
+        'types.image.image-set',
         '"image-set()" function',
         'Chrome 20',
         'https://developer.mozilla.org/docs/Web/CSS/image/image-set',

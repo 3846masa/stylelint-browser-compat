@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 13,
       message: messages.rejected(
+        'selectors.-moz-broken',
         '":-moz-broken" pseudo-class',
         'Firefox 2',
         'https://developer.mozilla.org/docs/Web/CSS/:-moz-broken',

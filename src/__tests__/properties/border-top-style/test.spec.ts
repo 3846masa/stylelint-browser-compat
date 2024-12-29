@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 19,
       message: messages.rejected(
+        'properties.border-top-style',
         '"border-top-style" property',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/border-top-style',

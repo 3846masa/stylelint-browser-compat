@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 31,
       message: messages.rejected(
+        'types.color.lch',
         '"lch()" function',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/color_value/lch',
@@ -44,6 +45,7 @@ testRule({
       endLine: 2,
       endColumn: 38,
       message: messages.rejected(
+        'types.color.lch',
         '"lch()" function',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/color_value/lch',

@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 6,
       message: messages.rejected(
+        'selectors.cue',
         '"::cue" pseudo-element',
         'Firefox 54',
         'https://developer.mozilla.org/docs/Web/CSS/::cue',

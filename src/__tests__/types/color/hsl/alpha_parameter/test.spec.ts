@@ -30,7 +30,7 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 34,
-      message: messages.rejected('Alpha parameter passed to hsl()', 'Chrome 64', ''),
+      message: messages.rejected('types.color.hsl.alpha_parameter', 'Alpha parameter passed to hsl()', 'Chrome 64', ''),
     },
     {
       code: stripIndent`
@@ -42,7 +42,7 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 33,
-      message: messages.rejected('Alpha parameter passed to hsl()', 'Chrome 64', ''),
+      message: messages.rejected('types.color.hsl.alpha_parameter', 'Alpha parameter passed to hsl()', 'Chrome 64', ''),
     },
   ],
 });

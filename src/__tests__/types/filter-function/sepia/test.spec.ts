@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 22,
       message: messages.rejected(
+        'types.filter-function.sepia',
         '"sepia()" function',
         'Chrome 17',
         'https://developer.mozilla.org/docs/Web/CSS/filter-function/sepia',

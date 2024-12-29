@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 19,
       message: messages.rejected(
+        'properties.font-size-adjust',
         '"font-size-adjust" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/font-size-adjust',

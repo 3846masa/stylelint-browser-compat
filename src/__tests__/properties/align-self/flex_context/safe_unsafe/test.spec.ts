@@ -27,7 +27,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 19,
-      message: messages.rejected('"safe" value specified as align-self', 'Chrome 114', ''),
+      message: messages.rejected(
+        'properties.align-self.flex_context.safe_unsafe',
+        '"safe" value specified as align-self',
+        'Chrome 114',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -39,7 +44,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 21,
-      message: messages.rejected('"unsafe" value specified as align-self', 'Chrome 114', ''),
+      message: messages.rejected(
+        'properties.align-self.flex_context.safe_unsafe',
+        '"unsafe" value specified as align-self',
+        'Chrome 114',
+        '',
+      ),
     },
   ],
 });

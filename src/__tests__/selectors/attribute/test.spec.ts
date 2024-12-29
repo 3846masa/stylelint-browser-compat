@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 17,
       message: messages.rejected(
+        'selectors.attribute',
         'Attribute selector',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/Attribute_selectors',

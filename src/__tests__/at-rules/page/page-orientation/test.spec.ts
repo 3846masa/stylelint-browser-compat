@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 19,
       message: messages.rejected(
+        'at-rules.page.page-orientation',
         '"page-orientation" descriptor of the @page',
         'Chrome 84',
         'https://developer.mozilla.org/docs/Web/CSS/@page/page-orientation',

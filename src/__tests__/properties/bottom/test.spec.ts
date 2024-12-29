@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 9,
       message: messages.rejected(
+        'properties.bottom',
         '"bottom" property',
         'Opera Android 10',
         'https://developer.mozilla.org/docs/Web/CSS/bottom',

@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 26,
       message: messages.rejected(
+        'types.transform-function.skewX',
         '"skewX()" function',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/transform-function/skewX',

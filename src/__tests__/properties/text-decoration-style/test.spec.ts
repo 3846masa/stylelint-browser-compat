@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 24,
       message: messages.rejected(
+        'properties.text-decoration-style',
         '"text-decoration-style" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/text-decoration-style',

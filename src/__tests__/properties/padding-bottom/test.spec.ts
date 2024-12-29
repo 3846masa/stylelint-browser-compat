@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 17,
       message: messages.rejected(
+        'properties.padding-bottom',
         '"padding-bottom" property',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/padding-bottom',

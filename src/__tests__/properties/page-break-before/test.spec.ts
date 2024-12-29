@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 20,
       message: messages.rejected(
+        'properties.page-break-before',
         '"page-break-before" property',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/page-break-before',

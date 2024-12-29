@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 28,
       message: messages.rejected(
+        'properties.border-inline-start-width',
         '"border-inline-start-width" property',
         'Chrome 68',
         'https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width',

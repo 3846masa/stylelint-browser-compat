@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 25,
       message: messages.rejected(
+        'selectors.-webkit-meter-bar',
         '"::-webkit-meter-bar" pseudo-element',
         'Chrome 11',
         'https://developer.mozilla.org/docs/Web/CSS/::-webkit-meter-bar',

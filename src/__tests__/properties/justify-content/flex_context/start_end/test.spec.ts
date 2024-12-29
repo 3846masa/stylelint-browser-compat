@@ -30,7 +30,12 @@ testRule({
       column: 20,
       endLine: 2,
       endColumn: 25,
-      message: messages.rejected('"start" value specified as justify-content', 'Chrome 92', ''),
+      message: messages.rejected(
+        'properties.justify-content.flex_context.start_end',
+        '"start" value specified as justify-content',
+        'Chrome 92',
+        '',
+      ),
     },
 
     {
@@ -43,7 +48,12 @@ testRule({
       column: 25,
       endLine: 2,
       endColumn: 30,
-      message: messages.rejected('"start" value specified as justify-content', 'Chrome 92', ''),
+      message: messages.rejected(
+        'properties.justify-content.flex_context.start_end',
+        '"start" value specified as justify-content',
+        'Chrome 92',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -55,7 +65,12 @@ testRule({
       column: 27,
       endLine: 2,
       endColumn: 32,
-      message: messages.rejected('"start" value specified as justify-content', 'Chrome 92', ''),
+      message: messages.rejected(
+        'properties.justify-content.flex_context.start_end',
+        '"start" value specified as justify-content',
+        'Chrome 92',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -67,7 +82,12 @@ testRule({
       column: 20,
       endLine: 2,
       endColumn: 23,
-      message: messages.rejected('"end" value specified as justify-content', 'Chrome 92', ''),
+      message: messages.rejected(
+        'properties.justify-content.flex_context.start_end',
+        '"end" value specified as justify-content',
+        'Chrome 92',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -79,7 +99,12 @@ testRule({
       column: 25,
       endLine: 2,
       endColumn: 28,
-      message: messages.rejected('"end" value specified as justify-content', 'Chrome 92', ''),
+      message: messages.rejected(
+        'properties.justify-content.flex_context.start_end',
+        '"end" value specified as justify-content',
+        'Chrome 92',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -91,7 +116,12 @@ testRule({
       column: 27,
       endLine: 2,
       endColumn: 30,
-      message: messages.rejected('"end" value specified as justify-content', 'Chrome 92', ''),
+      message: messages.rejected(
+        'properties.justify-content.flex_context.start_end',
+        '"end" value specified as justify-content',
+        'Chrome 92',
+        '',
+      ),
     },
   ],
 });

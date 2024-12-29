@@ -30,7 +30,12 @@ testRule({
       column: 18,
       endLine: 2,
       endColumn: 29,
-      message: messages.rejected('Elliptical borders by border-radius', 'IE 8', ''),
+      message: messages.rejected(
+        'properties.border-radius.elliptical_borders',
+        'Elliptical borders by border-radius',
+        'IE 8',
+        '',
+      ),
     },
   ],
 });

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 21,
       message: messages.rejected(
+        'properties.content-visibility',
         '"content-visibility" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/content-visibility',

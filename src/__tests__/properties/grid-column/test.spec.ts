@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 14,
       message: messages.rejected(
+        'properties.grid-column',
         '"grid-column" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/grid-column',

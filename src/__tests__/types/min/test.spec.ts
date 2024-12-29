@@ -27,7 +27,12 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('"min()" function', 'Chrome 78', 'https://developer.mozilla.org/docs/Web/CSS/min'),
+      message: messages.rejected(
+        'types.min',
+        '"min()" function',
+        'Chrome 78',
+        'https://developer.mozilla.org/docs/Web/CSS/min',
+      ),
     },
   ],
 });

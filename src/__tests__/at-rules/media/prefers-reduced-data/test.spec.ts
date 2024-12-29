@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 29,
       message: messages.rejected(
+        'at-rules.media.prefers-reduced-data',
         '"prefers-reduced-data" media feature',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/@media/prefers-reduced-data',

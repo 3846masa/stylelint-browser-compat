@@ -30,7 +30,12 @@ testRule({
       column: 29,
       endLine: 2,
       endColumn: 32,
-      message: messages.rejected('Spread radius value specified as box-shadow', 'IE 8', ''),
+      message: messages.rejected(
+        'properties.box-shadow.spread_radius',
+        'Spread radius value specified as box-shadow',
+        'IE 8',
+        '',
+      ),
     },
   ],
 });

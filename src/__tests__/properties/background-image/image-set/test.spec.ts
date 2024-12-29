@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 79,
       message: messages.rejected(
+        'properties.background-image.image-set',
         '"image-set()" function specified as background-image',
         'Chrome 20',
         'https://developer.mozilla.org/docs/Web/CSS/image/image-set',
@@ -47,6 +48,7 @@ testRule({
       endLine: 2,
       endColumn: 73,
       message: messages.rejected(
+        'properties.background-image.image-set',
         '"image-set()" function specified as background-image',
         'Chrome 20',
         'https://developer.mozilla.org/docs/Web/CSS/image/image-set',

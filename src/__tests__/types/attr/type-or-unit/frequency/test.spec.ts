@@ -27,7 +27,12 @@ testRule({
       column: 26,
       endLine: 2,
       endColumn: 35,
-      message: messages.rejected('"frequency" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected(
+        'types.attr.type-or-unit.frequency',
+        '"frequency" unit keyword for attr()',
+        'Chrome 100',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -39,7 +44,7 @@ testRule({
       column: 26,
       endLine: 2,
       endColumn: 28,
-      message: messages.rejected('"hz" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected('types.attr.type-or-unit.frequency', '"hz" unit keyword for attr()', 'Chrome 100', ''),
     },
     {
       code: stripIndent`
@@ -51,7 +56,12 @@ testRule({
       column: 26,
       endLine: 2,
       endColumn: 29,
-      message: messages.rejected('"khz" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected(
+        'types.attr.type-or-unit.frequency',
+        '"khz" unit keyword for attr()',
+        'Chrome 100',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -63,7 +73,7 @@ testRule({
       column: 26,
       endLine: 2,
       endColumn: 28,
-      message: messages.rejected('"Hz" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected('types.attr.type-or-unit.frequency', '"Hz" unit keyword for attr()', 'Chrome 100', ''),
     },
     {
       code: stripIndent`
@@ -75,7 +85,12 @@ testRule({
       column: 26,
       endLine: 2,
       endColumn: 29,
-      message: messages.rejected('"kHz" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected(
+        'types.attr.type-or-unit.frequency',
+        '"kHz" unit keyword for attr()',
+        'Chrome 100',
+        '',
+      ),
     },
   ],
 });

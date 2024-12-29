@@ -30,7 +30,7 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 19,
-      message: messages.rejected('"auto" value specified as appearance', 'Chrome 81', ''),
+      message: messages.rejected('properties.appearance.auto', '"auto" value specified as appearance', 'Chrome 81', ''),
     },
   ],
 });

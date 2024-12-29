@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 26,
       message: messages.rejected(
+        'properties.-webkit-mask-position-x',
         '"-webkit-mask-position-x" property',
         'Edge 17',
         'https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-position-x',

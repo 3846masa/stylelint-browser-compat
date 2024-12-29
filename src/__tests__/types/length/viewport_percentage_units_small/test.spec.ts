@@ -27,7 +27,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 14,
-      message: messages.rejected('"svb" unit', 'Firefox 100', ''),
+      message: messages.rejected('types.length.viewport_percentage_units_small', '"svb" unit', 'Firefox 100', ''),
     },
     {
       code: stripIndent`
@@ -39,7 +39,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 14,
-      message: messages.rejected('"svh" unit', 'Firefox 100', ''),
+      message: messages.rejected('types.length.viewport_percentage_units_small', '"svh" unit', 'Firefox 100', ''),
     },
     {
       code: stripIndent`
@@ -51,7 +51,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 14,
-      message: messages.rejected('"svi" unit', 'Firefox 100', ''),
+      message: messages.rejected('types.length.viewport_percentage_units_small', '"svi" unit', 'Firefox 100', ''),
     },
     {
       code: stripIndent`
@@ -63,7 +63,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 16,
-      message: messages.rejected('"svmax" unit', 'Firefox 100', ''),
+      message: messages.rejected('types.length.viewport_percentage_units_small', '"svmax" unit', 'Firefox 100', ''),
     },
     {
       code: stripIndent`
@@ -75,7 +75,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 16,
-      message: messages.rejected('"svmin" unit', 'Firefox 100', ''),
+      message: messages.rejected('types.length.viewport_percentage_units_small', '"svmin" unit', 'Firefox 100', ''),
     },
     {
       code: stripIndent`
@@ -87,7 +87,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 14,
-      message: messages.rejected('"svw" unit', 'Firefox 100', ''),
+      message: messages.rejected('types.length.viewport_percentage_units_small', '"svw" unit', 'Firefox 100', ''),
     },
   ],
 });

@@ -26,6 +26,7 @@ testRule({
       endLine: 1,
       endColumn: 11,
       message: messages.rejected(
+        'at-rules.namespace',
         '"@namespace" at rules',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/@namespace',

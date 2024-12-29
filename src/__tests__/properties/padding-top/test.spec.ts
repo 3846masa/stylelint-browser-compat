@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 14,
       message: messages.rejected(
+        'properties.padding-top',
         '"padding-top" property',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/padding-top',

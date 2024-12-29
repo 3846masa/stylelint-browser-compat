@@ -27,7 +27,12 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 15,
-      message: messages.rejected('"unset" value', 'Chrome 40', 'https://developer.mozilla.org/docs/Web/CSS/unset'),
+      message: messages.rejected(
+        'types.global_keywords.unset',
+        '"unset" value',
+        'Chrome 40',
+        'https://developer.mozilla.org/docs/Web/CSS/unset',
+      ),
     },
   ],
 });

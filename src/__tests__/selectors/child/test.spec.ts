@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 6,
       message: messages.rejected(
+        'selectors.child',
         'Child combinator',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/Child_combinator',

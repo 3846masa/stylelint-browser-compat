@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 22,
       message: messages.rejected(
+        'properties.border-bottom-width',
         '"border-bottom-width" property',
         'Android Webview 2.1',
         'https://developer.mozilla.org/docs/Web/CSS/border-bottom-width',

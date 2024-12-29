@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 23,
       message: messages.rejected(
+        'properties.animation-play-state',
         '"animation-play-state" property',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/animation-play-state',

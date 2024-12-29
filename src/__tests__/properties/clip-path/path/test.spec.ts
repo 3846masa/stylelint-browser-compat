@@ -30,7 +30,12 @@ testRule({
       column: 14,
       endLine: 2,
       endColumn: 69,
-      message: messages.rejected('"path()" function specified as clip-path', 'Firefox 70', ''),
+      message: messages.rejected(
+        'properties.clip-path.path',
+        '"path()" function specified as clip-path',
+        'Firefox 70',
+        '',
+      ),
     },
   ],
 });

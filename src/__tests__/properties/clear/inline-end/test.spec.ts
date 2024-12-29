@@ -27,7 +27,12 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 20,
-      message: messages.rejected('"inline-end" value specified as clear', 'Firefox 54', ''),
+      message: messages.rejected(
+        'properties.clear.inline-end',
+        '"inline-end" value specified as clear',
+        'Firefox 54',
+        '',
+      ),
     },
   ],
 });

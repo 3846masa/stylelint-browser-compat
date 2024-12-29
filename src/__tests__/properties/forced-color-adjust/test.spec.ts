@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 22,
       message: messages.rejected(
+        'properties.forced-color-adjust',
         '"forced-color-adjust" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/forced-color-adjust',

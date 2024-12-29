@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 10,
       message: messages.rejected(
+        'selectors.before',
         '"::before" pseudo-element',
         'IE 7',
         'https://developer.mozilla.org/docs/Web/CSS/::before',
@@ -42,6 +43,7 @@ testRule({
       endLine: 1,
       endColumn: 9,
       message: messages.rejected(
+        'selectors.before',
         '":before" pseudo-element',
         'IE 7',
         'https://developer.mozilla.org/docs/Web/CSS/::before',

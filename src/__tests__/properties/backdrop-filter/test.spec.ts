@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 18,
       message: messages.rejected(
+        'properties.backdrop-filter',
         '"backdrop-filter" property',
         'Chrome 75',
         'https://developer.mozilla.org/docs/Web/CSS/backdrop-filter',

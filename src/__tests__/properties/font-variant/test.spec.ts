@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 15,
       message: messages.rejected(
+        'properties.font-variant',
         '"font-variant" property',
         'Opera Android 10',
         'https://developer.mozilla.org/docs/Web/CSS/font-variant',

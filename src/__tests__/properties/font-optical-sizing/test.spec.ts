@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 22,
       message: messages.rejected(
+        'properties.font-optical-sizing',
         '"font-optical-sizing" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing',

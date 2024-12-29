@@ -32,6 +32,7 @@ testRule({
       endLine: 2,
       endColumn: 24,
       message: messages.rejected(
+        'at-rules.font-face.font-feature-settings',
         '"font-feature-settings" descriptor of the @font-face',
         'Firefox 33',
         'https://developer.mozilla.org/docs/Web/CSS/@font-face/font-feature-settings',

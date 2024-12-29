@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 25,
       message: messages.rejected(
+        'types.transform-function.scaleZ',
         '"scaleZ()" function',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/transform-function/scaleZ',

@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 10,
-      message: messages.rejected('"hyphens" property', 'IE 6', 'https://developer.mozilla.org/docs/Web/CSS/hyphens'),
+      message: messages.rejected(
+        'properties.hyphens',
+        '"hyphens" property',
+        'IE 6',
+        'https://developer.mozilla.org/docs/Web/CSS/hyphens',
+      ),
     },
   ],
 });

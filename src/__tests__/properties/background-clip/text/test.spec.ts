@@ -35,7 +35,12 @@ testRule({
       column: 20,
       endLine: 2,
       endColumn: 24,
-      message: messages.rejected('"text" value specified as background-clip', 'Firefox 48', ''),
+      message: messages.rejected(
+        'properties.background-clip.text',
+        '"text" value specified as background-clip',
+        'Firefox 48',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -47,7 +52,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 19,
-      message: messages.rejected('"text" value specified as background-clip', 'Firefox 48', ''),
+      message: messages.rejected(
+        'properties.background-clip.text',
+        '"text" value specified as background-clip',
+        'Firefox 48',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -59,7 +69,12 @@ testRule({
       column: 26,
       endLine: 2,
       endColumn: 30,
-      message: messages.rejected('"text" value specified as background-clip', 'Firefox 48', ''),
+      message: messages.rejected(
+        'properties.background-clip.text',
+        '"text" value specified as background-clip',
+        'Firefox 48',
+        '',
+      ),
     },
   ],
 });

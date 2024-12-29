@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 22,
       message: messages.rejected(
+        'properties.border-image-repeat',
         '"border-image-repeat" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/border-image-repeat',

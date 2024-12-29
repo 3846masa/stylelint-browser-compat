@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 7,
       message: messages.rejected(
+        'selectors.link',
         '":link" pseudo-class',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/:link',

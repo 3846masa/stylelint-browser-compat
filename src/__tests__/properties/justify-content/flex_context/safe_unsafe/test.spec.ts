@@ -27,7 +27,12 @@ testRule({
       column: 20,
       endLine: 2,
       endColumn: 24,
-      message: messages.rejected('"safe" value specified as justify-content', 'Chrome 114', ''),
+      message: messages.rejected(
+        'properties.justify-content.flex_context.safe_unsafe',
+        '"safe" value specified as justify-content',
+        'Chrome 114',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -39,7 +44,12 @@ testRule({
       column: 20,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('"unsafe" value specified as justify-content', 'Chrome 114', ''),
+      message: messages.rejected(
+        'properties.justify-content.flex_context.safe_unsafe',
+        '"unsafe" value specified as justify-content',
+        'Chrome 114',
+        '',
+      ),
     },
   ],
 });

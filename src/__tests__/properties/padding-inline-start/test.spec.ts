@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 23,
       message: messages.rejected(
+        'properties.padding-inline-start',
         '"padding-inline-start" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/padding-inline-start',

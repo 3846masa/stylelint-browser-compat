@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 19,
       message: messages.rejected(
+        'at-rules.media.resolution',
         '"resolution" media feature',
         'Chrome 28',
         'https://developer.mozilla.org/docs/Web/CSS/@media/resolution',
@@ -42,6 +43,7 @@ testRule({
       endLine: 1,
       endColumn: 23,
       message: messages.rejected(
+        'at-rules.media.resolution',
         '"min-resolution" media feature',
         'Chrome 28',
         'https://developer.mozilla.org/docs/Web/CSS/@media/resolution',
@@ -57,6 +59,7 @@ testRule({
       endLine: 1,
       endColumn: 23,
       message: messages.rejected(
+        'at-rules.media.resolution',
         '"max-resolution" media feature',
         'Chrome 28',
         'https://developer.mozilla.org/docs/Web/CSS/@media/resolution',

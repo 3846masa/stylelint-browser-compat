@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 34,
       message: messages.rejected(
+        'types.color.oklch',
         '"oklch()" function',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/color_value/oklch',
@@ -44,6 +45,7 @@ testRule({
       endLine: 2,
       endColumn: 40,
       message: messages.rejected(
+        'types.color.oklch',
         '"oklch()" function',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/color_value/oklch',

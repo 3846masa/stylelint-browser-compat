@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 15,
       message: messages.rejected(
+        'at-rules.counter-style',
         '"@counter-style" at rules',
         'Chrome 90',
         'https://developer.mozilla.org/docs/Web/CSS/@counter-style',

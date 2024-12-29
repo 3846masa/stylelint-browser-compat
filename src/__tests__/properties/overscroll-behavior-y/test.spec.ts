@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 24,
       message: messages.rejected(
+        'properties.overscroll-behavior-y',
         '"overscroll-behavior-y" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-y',

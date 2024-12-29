@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 25,
       message: messages.rejected(
+        'properties.font-language-override',
         '"font-language-override" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/font-language-override',

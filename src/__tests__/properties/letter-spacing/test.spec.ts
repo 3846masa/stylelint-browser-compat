@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 17,
       message: messages.rejected(
+        'properties.letter-spacing',
         '"letter-spacing" property',
         'Android Webview 2.1',
         'https://developer.mozilla.org/docs/Web/CSS/letter-spacing',

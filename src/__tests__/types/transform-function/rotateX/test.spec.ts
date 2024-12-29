@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 28,
       message: messages.rejected(
+        'types.transform-function.rotateX',
         '"rotateX()" function',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/transform-function/rotateX',

@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 21,
       message: messages.rejected(
+        'at-rules.media.aspect-ratio',
         '"aspect-ratio" media feature',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/@media/aspect-ratio',
@@ -42,6 +43,7 @@ testRule({
       endLine: 1,
       endColumn: 25,
       message: messages.rejected(
+        'at-rules.media.aspect-ratio',
         '"min-aspect-ratio" media feature',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/@media/aspect-ratio',
@@ -57,6 +59,7 @@ testRule({
       endLine: 1,
       endColumn: 25,
       message: messages.rejected(
+        'at-rules.media.aspect-ratio',
         '"max-aspect-ratio" media feature',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/@media/aspect-ratio',

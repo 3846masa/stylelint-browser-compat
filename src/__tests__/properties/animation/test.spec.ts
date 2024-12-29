@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 12,
       message: messages.rejected(
+        'properties.animation',
         '"animation" property',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/animation',

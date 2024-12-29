@@ -27,7 +27,12 @@ testRule({
       column: 18,
       endLine: 2,
       endColumn: 31,
-      message: messages.rejected('"last baseline" value specified as align-content', 'Chrome 107', ''),
+      message: messages.rejected(
+        'properties.align-content.flex_context.last_baseline',
+        '"last baseline" value specified as align-content',
+        'Chrome 107',
+        '',
+      ),
     },
   ],
 });

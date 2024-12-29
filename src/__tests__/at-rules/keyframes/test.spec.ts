@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 11,
       message: messages.rejected(
+        'at-rules.keyframes',
         '"@keyframes" at rules',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/@keyframes',

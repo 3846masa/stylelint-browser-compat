@@ -26,7 +26,12 @@ testRule({
       column: 4,
       endLine: 1,
       endColumn: 10,
-      message: messages.rejected('":empty" pseudo-class', 'IE 8', 'https://developer.mozilla.org/docs/Web/CSS/:empty'),
+      message: messages.rejected(
+        'selectors.empty',
+        '":empty" pseudo-class',
+        'IE 8',
+        'https://developer.mozilla.org/docs/Web/CSS/:empty',
+      ),
     },
   ],
 });

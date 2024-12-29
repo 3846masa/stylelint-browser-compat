@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 26,
       message: messages.rejected(
+        'properties.font-variant-east-asian',
         '"font-variant-east-asian" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian',

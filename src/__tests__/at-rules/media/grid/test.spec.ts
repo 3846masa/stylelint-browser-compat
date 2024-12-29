@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 13,
       message: messages.rejected(
+        'at-rules.media.grid',
         '"grid" media feature',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/@media/grid',

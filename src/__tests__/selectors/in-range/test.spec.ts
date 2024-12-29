@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 15,
       message: messages.rejected(
+        'selectors.in-range',
         '":in-range" pseudo-class',
         'Firefox 28',
         'https://developer.mozilla.org/docs/Web/CSS/:in-range',

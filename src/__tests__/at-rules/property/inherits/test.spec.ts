@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 11,
       message: messages.rejected(
+        'at-rules.property.inherits',
         '"inherits" descriptor of the @property',
         'Chrome 84',
         'https://developer.mozilla.org/docs/Web/CSS/@property/inherits',

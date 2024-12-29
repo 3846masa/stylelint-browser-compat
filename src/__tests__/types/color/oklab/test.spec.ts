@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 35,
       message: messages.rejected(
+        'types.color.oklab',
         '"oklab()" function',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/color_value/oklab',
@@ -44,6 +45,7 @@ testRule({
       endLine: 2,
       endColumn: 42,
       message: messages.rejected(
+        'types.color.oklab',
         '"oklab()" function',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/color_value/oklab',

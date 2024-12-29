@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 7,
       message: messages.rejected(
+        'selectors.scope',
         '":scope" pseudo-class',
         'Chrome 26',
         'https://developer.mozilla.org/docs/Web/CSS/:scope',

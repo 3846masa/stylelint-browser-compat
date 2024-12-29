@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 23,
       message: messages.rejected(
+        'properties.font-variant-numeric',
         '"font-variant-numeric" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric',

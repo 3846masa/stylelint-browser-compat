@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 34,
       message: messages.rejected(
+        'types.blend-mode',
         '"multiply" value',
         'Chrome 34',
         'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
@@ -47,6 +48,7 @@ testRule({
       endLine: 2,
       endColumn: 32,
       message: messages.rejected(
+        'types.blend-mode',
         '"screen" value',
         'Chrome 34',
         'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
@@ -63,6 +65,7 @@ testRule({
       endLine: 2,
       endColumn: 33,
       message: messages.rejected(
+        'types.blend-mode',
         '"overlay" value',
         'Chrome 34',
         'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
@@ -79,6 +82,7 @@ testRule({
       endLine: 2,
       endColumn: 32,
       message: messages.rejected(
+        'types.blend-mode',
         '"darken" value',
         'Chrome 34',
         'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
@@ -95,6 +99,7 @@ testRule({
       endLine: 2,
       endColumn: 33,
       message: messages.rejected(
+        'types.blend-mode',
         '"lighten" value',
         'Chrome 34',
         'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
@@ -111,6 +116,7 @@ testRule({
       endLine: 2,
       endColumn: 37,
       message: messages.rejected(
+        'types.blend-mode',
         '"color-dodge" value',
         'Chrome 34',
         'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
@@ -127,6 +133,7 @@ testRule({
       endLine: 2,
       endColumn: 36,
       message: messages.rejected(
+        'types.blend-mode',
         '"color-burn" value',
         'Chrome 34',
         'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
@@ -143,6 +150,7 @@ testRule({
       endLine: 2,
       endColumn: 36,
       message: messages.rejected(
+        'types.blend-mode',
         '"hard-light" value',
         'Chrome 34',
         'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
@@ -159,6 +167,7 @@ testRule({
       endLine: 2,
       endColumn: 36,
       message: messages.rejected(
+        'types.blend-mode',
         '"soft-light" value',
         'Chrome 34',
         'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
@@ -175,6 +184,7 @@ testRule({
       endLine: 2,
       endColumn: 36,
       message: messages.rejected(
+        'types.blend-mode',
         '"difference" value',
         'Chrome 34',
         'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
@@ -191,6 +201,7 @@ testRule({
       endLine: 2,
       endColumn: 35,
       message: messages.rejected(
+        'types.blend-mode',
         '"exclusion" value',
         'Chrome 34',
         'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
@@ -206,7 +217,12 @@ testRule({
       column: 26,
       endLine: 2,
       endColumn: 29,
-      message: messages.rejected('"hue" value', 'Chrome 34', 'https://developer.mozilla.org/docs/Web/CSS/blend-mode'),
+      message: messages.rejected(
+        'types.blend-mode',
+        '"hue" value',
+        'Chrome 34',
+        'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
+      ),
     },
     {
       code: stripIndent`
@@ -219,6 +235,7 @@ testRule({
       endLine: 2,
       endColumn: 36,
       message: messages.rejected(
+        'types.blend-mode',
         '"saturation" value',
         'Chrome 34',
         'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
@@ -234,7 +251,12 @@ testRule({
       column: 26,
       endLine: 2,
       endColumn: 31,
-      message: messages.rejected('"color" value', 'Chrome 34', 'https://developer.mozilla.org/docs/Web/CSS/blend-mode'),
+      message: messages.rejected(
+        'types.blend-mode',
+        '"color" value',
+        'Chrome 34',
+        'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
+      ),
     },
     {
       code: stripIndent`
@@ -247,6 +269,7 @@ testRule({
       endLine: 2,
       endColumn: 36,
       message: messages.rejected(
+        'types.blend-mode',
         '"luminosity" value',
         'Chrome 34',
         'https://developer.mozilla.org/docs/Web/CSS/blend-mode',

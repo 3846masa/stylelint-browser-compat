@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 12,
       message: messages.rejected(
+        'properties.mask-size',
         '"mask-size" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/mask-size',

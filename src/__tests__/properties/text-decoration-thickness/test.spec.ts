@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 28,
       message: messages.rejected(
+        'properties.text-decoration-thickness',
         '"text-decoration-thickness" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/text-decoration-thickness',

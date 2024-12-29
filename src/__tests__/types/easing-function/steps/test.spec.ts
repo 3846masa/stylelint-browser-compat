@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 46,
       message: messages.rejected(
+        'types.easing-function.steps',
         '"steps()" function',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/easing-function/steps',
@@ -47,6 +48,7 @@ testRule({
       endLine: 2,
       endColumn: 41,
       message: messages.rejected(
+        'types.easing-function.steps',
         '"step-start" value',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/easing-function/steps',
@@ -63,6 +65,7 @@ testRule({
       endLine: 2,
       endColumn: 39,
       message: messages.rejected(
+        'types.easing-function.steps',
         '"step-end" value',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/easing-function/steps',

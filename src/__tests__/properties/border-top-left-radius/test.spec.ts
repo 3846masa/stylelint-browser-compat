@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 25,
       message: messages.rejected(
+        'properties.border-top-left-radius',
         '"border-top-left-radius" property',
         'Opera Android 10',
         'https://developer.mozilla.org/docs/Web/CSS/border-top-left-radius',

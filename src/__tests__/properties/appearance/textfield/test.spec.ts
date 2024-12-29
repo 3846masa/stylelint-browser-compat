@@ -30,7 +30,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 24,
-      message: messages.rejected('"textfield" value specified as appearance', 'Opera 12.1', ''),
+      message: messages.rejected(
+        'properties.appearance.textfield',
+        '"textfield" value specified as appearance',
+        'Opera 12.1',
+        '',
+      ),
     },
   ],
 });

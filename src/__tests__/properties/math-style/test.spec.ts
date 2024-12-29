@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 13,
       message: messages.rejected(
+        'properties.math-style',
         '"math-style" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/math-style',

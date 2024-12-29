@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 29,
       message: messages.rejected(
+        'properties.border-bottom-right-radius',
         '"border-bottom-right-radius" property',
         'Opera Android 10',
         'https://developer.mozilla.org/docs/Web/CSS/border-bottom-right-radius',

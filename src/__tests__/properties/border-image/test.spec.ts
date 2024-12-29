@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 15,
       message: messages.rejected(
+        'properties.border-image',
         '"border-image" property',
         'IE 10',
         'https://developer.mozilla.org/docs/Web/CSS/border-image',

@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 14,
       message: messages.rejected(
+        'selectors.first-child',
         '":first-child" pseudo-class',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/:first-child',

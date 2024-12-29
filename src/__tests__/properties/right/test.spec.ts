@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 8,
       message: messages.rejected(
+        'properties.right',
         '"right" property',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/right',

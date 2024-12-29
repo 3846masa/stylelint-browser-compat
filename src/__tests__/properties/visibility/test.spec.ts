@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 13,
       message: messages.rejected(
+        'properties.visibility',
         '"visibility" property',
         'Android Webview 2.1',
         'https://developer.mozilla.org/docs/Web/CSS/visibility',

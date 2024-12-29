@@ -30,7 +30,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 25,
-      message: messages.rejected('Values of background-origin specified as background', 'Chrome 20', ''),
+      message: messages.rejected(
+        'properties.background.background-origin',
+        'Values of background-origin specified as background',
+        'Chrome 20',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -42,7 +47,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 25,
-      message: messages.rejected('Values of background-origin specified as background', 'Chrome 20', ''),
+      message: messages.rejected(
+        'properties.background.background-origin',
+        'Values of background-origin specified as background',
+        'Chrome 20',
+        '',
+      ),
     },
   ],
 });

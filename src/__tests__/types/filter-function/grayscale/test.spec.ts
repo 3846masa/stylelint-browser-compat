@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 26,
       message: messages.rejected(
+        'types.filter-function.grayscale',
         '"grayscale()" function',
         'Chrome 17',
         'https://developer.mozilla.org/docs/Web/CSS/filter-function/grayscale',

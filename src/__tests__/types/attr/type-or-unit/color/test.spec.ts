@@ -27,7 +27,7 @@ testRule({
       column: 24,
       endLine: 2,
       endColumn: 29,
-      message: messages.rejected('"color" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected('types.attr.type-or-unit.color', '"color" unit keyword for attr()', 'Chrome 100', ''),
     },
   ],
 });

@@ -30,7 +30,12 @@ testRule({
       column: 27,
       endLine: 2,
       endColumn: 29,
-      message: messages.rejected('"fr" unit', 'Chrome 28', 'https://developer.mozilla.org/docs/Web/CSS/flex_value'),
+      message: messages.rejected(
+        'types.flex',
+        '"fr" unit',
+        'Chrome 28',
+        'https://developer.mozilla.org/docs/Web/CSS/flex_value',
+      ),
     },
   ],
 });

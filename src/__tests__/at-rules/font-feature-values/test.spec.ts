@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 21,
       message: messages.rejected(
+        'at-rules.font-feature-values',
         '"@font-feature-values" at rules',
         'Firefox 33',
         'https://developer.mozilla.org/docs/Web/CSS/@font-feature-values',

@@ -27,7 +27,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 13,
-      message: messages.rejected('"vh" unit', 'Chrome 19', ''),
+      message: messages.rejected('types.length.vh', '"vh" unit', 'Chrome 19', ''),
     },
   ],
 });

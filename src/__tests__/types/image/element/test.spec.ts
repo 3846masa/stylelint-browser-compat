@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 41,
       message: messages.rejected(
+        'types.image.element',
         '"element()" function',
         'Firefox 3',
         'https://developer.mozilla.org/docs/Web/CSS/element',

@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 15,
       message: messages.rejected(
+        'selectors.only-of-type',
         '":only-of-type" pseudo-class',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/:only-of-type',

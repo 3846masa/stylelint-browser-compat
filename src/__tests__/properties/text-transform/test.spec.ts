@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 17,
       message: messages.rejected(
+        'properties.text-transform',
         '"text-transform" property',
         'Opera Android 10',
         'https://developer.mozilla.org/docs/Web/CSS/text-transform',

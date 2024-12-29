@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 35,
       message: messages.rejected(
+        'selectors.-webkit-meter-optimum-value',
         '"::-webkit-meter-optimum-value" pseudo-element',
         'Chrome 11',
         'https://developer.mozilla.org/docs/Web/CSS/::-webkit-meter-optimum-value',

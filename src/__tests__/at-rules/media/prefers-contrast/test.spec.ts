@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 25,
       message: messages.rejected(
+        'at-rules.media.prefers-contrast',
         '"prefers-contrast" media feature',
         'Chrome 95',
         'https://developer.mozilla.org/docs/Web/CSS/@media/prefers-contrast',

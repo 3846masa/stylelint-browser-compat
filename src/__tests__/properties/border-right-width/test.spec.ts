@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 21,
       message: messages.rejected(
+        'properties.border-right-width',
         '"border-right-width" property',
         'Android Webview 2.1',
         'https://developer.mozilla.org/docs/Web/CSS/border-right-width',

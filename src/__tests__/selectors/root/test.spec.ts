@@ -26,7 +26,12 @@ testRule({
       column: 1,
       endLine: 1,
       endColumn: 6,
-      message: messages.rejected('":root" pseudo-class', 'IE 8', 'https://developer.mozilla.org/docs/Web/CSS/:root'),
+      message: messages.rejected(
+        'selectors.root',
+        '":root" pseudo-class',
+        'IE 8',
+        'https://developer.mozilla.org/docs/Web/CSS/:root',
+      ),
     },
   ],
 });

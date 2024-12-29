@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 24,
       message: messages.rejected(
+        'properties.-webkit-touch-callout',
         '"-webkit-touch-callout" property',
         'Safari 15.5',
         'https://developer.mozilla.org/docs/Web/CSS/-webkit-touch-callout',

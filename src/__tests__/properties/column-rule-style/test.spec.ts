@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 20,
       message: messages.rejected(
+        'properties.column-rule-style',
         '"column-rule-style" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/column-rule-style',

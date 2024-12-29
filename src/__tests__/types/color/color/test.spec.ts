@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 35,
       message: messages.rejected(
+        'types.color.color',
         '"color()" function',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/color_value/color',

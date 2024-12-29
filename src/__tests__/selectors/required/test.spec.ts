@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 15,
       message: messages.rejected(
+        'selectors.required',
         '":required" pseudo-class',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/:required',

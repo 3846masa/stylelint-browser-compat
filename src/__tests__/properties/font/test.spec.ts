@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 7,
       message: messages.rejected(
+        'properties.font',
         '"font" property',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/font',

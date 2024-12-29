@@ -30,7 +30,7 @@ testRule({
       column: 27,
       endLine: 2,
       endColumn: 36,
-      message: messages.rejected('Fallback value for attr()', 'Chrome 100', ''),
+      message: messages.rejected('types.attr.fallback', 'Fallback value for attr()', 'Chrome 100', ''),
     },
     {
       code: stripIndent`
@@ -42,7 +42,7 @@ testRule({
       column: 34,
       endLine: 2,
       endColumn: 43,
-      message: messages.rejected('Fallback value for attr()', 'Chrome 100', ''),
+      message: messages.rejected('types.attr.fallback', 'Fallback value for attr()', 'Chrome 100', ''),
     },
   ],
 });

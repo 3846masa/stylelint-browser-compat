@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 10,
       message: messages.rejected(
+        'at-rules.document',
         '"@document" at rules',
         'Firefox 61',
         'https://developer.mozilla.org/docs/Web/CSS/@document',

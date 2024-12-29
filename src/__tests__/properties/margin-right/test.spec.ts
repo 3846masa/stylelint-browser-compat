@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 15,
       message: messages.rejected(
+        'properties.margin-right',
         '"margin-right" property',
         'Android Webview 2.1',
         'https://developer.mozilla.org/docs/Web/CSS/margin-right',

@@ -30,7 +30,12 @@ testRule({
       column: 25,
       endLine: 2,
       endColumn: 29,
-      message: messages.rejected('"turn" unit', 'IE 8', 'https://developer.mozilla.org/docs/Web/CSS/angle#turn'),
+      message: messages.rejected(
+        'types.angle.turn',
+        '"turn" unit',
+        'IE 8',
+        'https://developer.mozilla.org/docs/Web/CSS/angle#turn',
+      ),
     },
   ],
 });

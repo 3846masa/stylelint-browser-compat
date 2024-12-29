@@ -27,7 +27,12 @@ testRule({
       column: 24,
       endLine: 2,
       endColumn: 31,
-      message: messages.rejected('"reverse" value specified as animation-direction', 'Chrome 18', ''),
+      message: messages.rejected(
+        'properties.animation-direction.reverse',
+        '"reverse" value specified as animation-direction',
+        'Chrome 18',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -39,7 +44,12 @@ testRule({
       column: 37,
       endLine: 2,
       endColumn: 44,
-      message: messages.rejected('"reverse" value specified as animation-direction', 'Chrome 18', ''),
+      message: messages.rejected(
+        'properties.animation-direction.reverse',
+        '"reverse" value specified as animation-direction',
+        'Chrome 18',
+        '',
+      ),
     },
   ],
 });

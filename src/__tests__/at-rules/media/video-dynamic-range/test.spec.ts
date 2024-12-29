@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 28,
       message: messages.rejected(
+        'at-rules.media.video-dynamic-range',
         '"video-dynamic-range" media feature',
         'Chrome 97',
         'https://developer.mozilla.org/docs/Web/CSS/@media/video-dynamic-range',

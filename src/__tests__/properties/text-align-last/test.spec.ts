@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 18,
       message: messages.rejected(
+        'properties.text-align-last',
         '"text-align-last" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/text-align-last',

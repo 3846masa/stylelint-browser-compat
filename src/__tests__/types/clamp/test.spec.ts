@@ -27,7 +27,12 @@ testRule({
       column: 14,
       endLine: 2,
       endColumn: 38,
-      message: messages.rejected('"clamp()" function', 'Chrome 78', 'https://developer.mozilla.org/docs/Web/CSS/clamp'),
+      message: messages.rejected(
+        'types.clamp',
+        '"clamp()" function',
+        'Chrome 78',
+        'https://developer.mozilla.org/docs/Web/CSS/clamp',
+      ),
     },
   ],
 });

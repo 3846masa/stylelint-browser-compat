@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 18,
       message: messages.rejected(
+        'properties.offset-distance',
         '"offset-distance" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/offset-distance',

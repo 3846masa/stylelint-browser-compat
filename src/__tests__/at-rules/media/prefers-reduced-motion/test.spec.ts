@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 31,
       message: messages.rejected(
+        'at-rules.media.prefers-reduced-motion',
         '"prefers-reduced-motion" media feature',
         'Chrome 73',
         'https://developer.mozilla.org/docs/Web/CSS/@media/prefers-reduced-motion',

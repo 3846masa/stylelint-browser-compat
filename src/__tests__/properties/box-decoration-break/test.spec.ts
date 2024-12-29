@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 23,
       message: messages.rejected(
+        'properties.box-decoration-break',
         '"box-decoration-break" property',
         'Chrome 21',
         'https://developer.mozilla.org/docs/Web/CSS/box-decoration-break',

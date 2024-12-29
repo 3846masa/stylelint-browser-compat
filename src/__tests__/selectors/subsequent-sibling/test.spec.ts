@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 6,
       message: messages.rejected(
+        'selectors.subsequent-sibling',
         'Subsequent-sibling combinator',
         'IE 5.5',
         'https://developer.mozilla.org/docs/Web/CSS/Subsequent-sibling_combinator',

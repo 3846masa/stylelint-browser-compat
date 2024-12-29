@@ -27,7 +27,12 @@ testRule({
       column: 27,
       endLine: 2,
       endColumn: 30,
-      message: messages.rejected('Percentage value specified as border-top-left-radius', 'Opera Android 12', ''),
+      message: messages.rejected(
+        'properties.border-top-left-radius.percentages',
+        'Percentage value specified as border-top-left-radius',
+        'Opera Android 12',
+        '',
+      ),
     },
   ],
 });

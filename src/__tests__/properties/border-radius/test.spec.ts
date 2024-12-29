@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 16,
       message: messages.rejected(
+        'properties.border-radius',
         '"border-radius" property',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/border-radius',

@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 26,
       message: messages.rejected(
+        'selectors.nth-last-child',
         '":nth-last-child" pseudo-class',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/:nth-last-child',

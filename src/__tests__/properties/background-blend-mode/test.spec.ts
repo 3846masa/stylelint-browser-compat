@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 24,
       message: messages.rejected(
+        'properties.background-blend-mode',
         '"background-blend-mode" property',
         'Chrome 34',
         'https://developer.mozilla.org/docs/Web/CSS/background-blend-mode',

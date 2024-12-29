@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 9,
-      message: messages.rejected('"resize" property', 'IE 6', 'https://developer.mozilla.org/docs/Web/CSS/resize'),
+      message: messages.rejected(
+        'properties.resize',
+        '"resize" property',
+        'IE 6',
+        'https://developer.mozilla.org/docs/Web/CSS/resize',
+      ),
     },
   ],
 });

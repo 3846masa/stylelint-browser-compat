@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 8,
-      message: messages.rejected('"inset" property', 'IE 6', 'https://developer.mozilla.org/docs/Web/CSS/inset'),
+      message: messages.rejected(
+        'properties.inset',
+        '"inset" property',
+        'IE 6',
+        'https://developer.mozilla.org/docs/Web/CSS/inset',
+      ),
     },
   ],
 });

@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 39,
       message: messages.rejected(
+        'types.url',
         '"url()" function',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/url_value',

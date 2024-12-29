@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 8,
-      message: messages.rejected('"scale" property', 'IE 6', 'https://developer.mozilla.org/docs/Web/CSS/scale'),
+      message: messages.rejected(
+        'properties.scale',
+        '"scale" property',
+        'IE 6',
+        'https://developer.mozilla.org/docs/Web/CSS/scale',
+      ),
     },
   ],
 });

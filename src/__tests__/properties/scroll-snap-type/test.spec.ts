@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 19,
       message: messages.rejected(
+        'properties.scroll-snap-type',
         '"scroll-snap-type" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type',

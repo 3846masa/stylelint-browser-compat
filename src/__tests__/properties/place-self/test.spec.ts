@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 13,
       message: messages.rejected(
+        'properties.place-self',
         '"place-self" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/place-self',

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 19,
       message: messages.rejected(
+        'properties.page-break-after',
         '"page-break-after" property',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/page-break-after',

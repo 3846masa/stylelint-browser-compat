@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 39,
       message: messages.rejected(
+        'selectors.-moz-range-progress',
         '"::-moz-range-progress" pseudo-element',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/::-moz-range-progress',

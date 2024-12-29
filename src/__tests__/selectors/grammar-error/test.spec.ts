@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 16,
       message: messages.rejected(
+        'selectors.grammar-error',
         '"::grammar-error" pseudo-element',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/::grammar-error',

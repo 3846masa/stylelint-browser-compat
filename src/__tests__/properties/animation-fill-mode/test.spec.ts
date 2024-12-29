@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 22,
       message: messages.rejected(
+        'properties.animation-fill-mode',
         '"animation-fill-mode" property',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/animation-fill-mode',

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 16,
       message: messages.rejected(
+        'properties.padding-right',
         '"padding-right" property',
         'Opera Android 12',
         'https://developer.mozilla.org/docs/Web/CSS/padding-right',

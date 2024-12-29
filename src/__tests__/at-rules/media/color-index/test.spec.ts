@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 20,
       message: messages.rejected(
+        'at-rules.media.color-index',
         '"color-index" media feature',
         'Chrome 28',
         'https://developer.mozilla.org/docs/Web/CSS/@media/color-index',
@@ -42,6 +43,7 @@ testRule({
       endLine: 1,
       endColumn: 24,
       message: messages.rejected(
+        'at-rules.media.color-index',
         '"min-color-index" media feature',
         'Chrome 28',
         'https://developer.mozilla.org/docs/Web/CSS/@media/color-index',

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 17,
       message: messages.rejected(
+        'properties.pointer-events',
         '"pointer-events" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/pointer-events',

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 20,
       message: messages.rejected(
+        'properties.scroll-margin-top',
         '"scroll-margin-top" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/scroll-margin-top',

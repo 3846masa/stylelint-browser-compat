@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 20,
       message: messages.rejected(
+        'at-rules.media.any-pointer',
         '"any-pointer" media feature',
         'Chrome 40',
         'https://developer.mozilla.org/docs/Web/CSS/@media/any-pointer',

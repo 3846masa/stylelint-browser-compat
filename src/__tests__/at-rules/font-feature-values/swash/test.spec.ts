@@ -32,6 +32,7 @@ testRule({
       endLine: 2,
       endColumn: 9,
       message: messages.rejected(
+        'at-rules.font-feature-values.swash',
         '"@swash" at rules of the @font-feature-values',
         'Firefox 33',
         'https://developer.mozilla.org/docs/Web/CSS/@font-feature-values#swash',

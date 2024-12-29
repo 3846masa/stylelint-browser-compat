@@ -30,7 +30,12 @@ testRule({
       column: 17,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('"only dark" keyword specified as color-scheme', 'Chrome 80', ''),
+      message: messages.rejected(
+        'properties.color-scheme.only_dark',
+        '"only dark" keyword specified as color-scheme',
+        'Chrome 80',
+        '',
+      ),
     },
   ],
 });

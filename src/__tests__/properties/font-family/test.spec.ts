@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 14,
       message: messages.rejected(
+        'properties.font-family',
         '"font-family" property',
         'Android Webview 2.1',
         'https://developer.mozilla.org/docs/Web/CSS/font-family',

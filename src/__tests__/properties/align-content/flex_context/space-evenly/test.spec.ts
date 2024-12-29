@@ -27,7 +27,12 @@ testRule({
       column: 18,
       endLine: 2,
       endColumn: 30,
-      message: messages.rejected('"space-evenly" value specified as align-content', 'Chrome 59', ''),
+      message: messages.rejected(
+        'properties.align-content.flex_context.space-evenly',
+        '"space-evenly" value specified as align-content',
+        'Chrome 59',
+        '',
+      ),
     },
   ],
 });

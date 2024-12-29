@@ -30,7 +30,7 @@ testRule({
       column: 25,
       endLine: 2,
       endColumn: 38,
-      message: messages.rejected('SVG image as background-image', 'IE 8', ''),
+      message: messages.rejected('properties.background-image.svg_images', 'SVG image as background-image', 'IE 8', ''),
     },
     {
       code: stripIndent`
@@ -42,7 +42,7 @@ testRule({
       column: 58,
       endLine: 2,
       endColumn: 74,
-      message: messages.rejected('SVG image as background-image', 'IE 8', ''),
+      message: messages.rejected('properties.background-image.svg_images', 'SVG image as background-image', 'IE 8', ''),
     },
     {
       code: stripIndent`
@@ -54,7 +54,7 @@ testRule({
       column: 19,
       endLine: 2,
       endColumn: 32,
-      message: messages.rejected('SVG image as background-image', 'IE 8', ''),
+      message: messages.rejected('properties.background-image.svg_images', 'SVG image as background-image', 'IE 8', ''),
     },
     {
       code: stripIndent`
@@ -66,7 +66,7 @@ testRule({
       column: 52,
       endLine: 2,
       endColumn: 68,
-      message: messages.rejected('SVG image as background-image', 'IE 8', ''),
+      message: messages.rejected('properties.background-image.svg_images', 'SVG image as background-image', 'IE 8', ''),
     },
   ],
 });

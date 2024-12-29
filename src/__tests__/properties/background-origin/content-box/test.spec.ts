@@ -36,7 +36,12 @@ testRule({
       column: 22,
       endLine: 2,
       endColumn: 33,
-      message: messages.rejected('"content-box" value specified as background-origin', 'IE 8', ''),
+      message: messages.rejected(
+        'properties.background-origin.content-box',
+        '"content-box" value specified as background-origin',
+        'IE 8',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -48,7 +53,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('"content-box" value specified as background-origin', 'IE 8', ''),
+      message: messages.rejected(
+        'properties.background-origin.content-box',
+        '"content-box" value specified as background-origin',
+        'IE 8',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -60,7 +70,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('"content-box" value specified as background-origin', 'IE 8', ''),
+      message: messages.rejected(
+        'properties.background-origin.content-box',
+        '"content-box" value specified as background-origin',
+        'IE 8',
+        '',
+      ),
     },
   ],
 });

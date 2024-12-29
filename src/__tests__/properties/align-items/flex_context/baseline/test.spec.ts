@@ -34,7 +34,12 @@ testRule({
       column: 16,
       endLine: 2,
       endColumn: 24,
-      message: messages.rejected('"baseline" value specified as align-items', 'Chrome 20', ''),
+      message: messages.rejected(
+        'properties.align-items.flex_context.baseline',
+        '"baseline" value specified as align-items',
+        'Chrome 20',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -46,7 +51,12 @@ testRule({
       column: 22,
       endLine: 2,
       endColumn: 30,
-      message: messages.rejected('"baseline" value specified as align-items', 'Chrome 20', ''),
+      message: messages.rejected(
+        'properties.align-items.flex_context.baseline',
+        '"baseline" value specified as align-items',
+        'Chrome 20',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -58,7 +68,12 @@ testRule({
       column: 21,
       endLine: 2,
       endColumn: 29,
-      message: messages.rejected('"baseline" value specified as align-items', 'Chrome 20', ''),
+      message: messages.rejected(
+        'properties.align-items.flex_context.baseline',
+        '"baseline" value specified as align-items',
+        'Chrome 20',
+        '',
+      ),
     },
   ],
 });

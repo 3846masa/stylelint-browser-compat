@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 15,
       message: messages.rejected(
+        'selectors.disabled',
         '":disabled" pseudo-class',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/:disabled',

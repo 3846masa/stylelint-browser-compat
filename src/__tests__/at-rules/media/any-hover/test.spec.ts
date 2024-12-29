@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 18,
       message: messages.rejected(
+        'at-rules.media.any-hover',
         '"any-hover" media feature',
         'Chrome 40',
         'https://developer.mozilla.org/docs/Web/CSS/@media/any-hover',

@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 9,
       message: messages.rejected(
+        'selectors.active',
         '":active" pseudo-class',
         'Android Webview 2.1',
         'https://developer.mozilla.org/docs/Web/CSS/:active',

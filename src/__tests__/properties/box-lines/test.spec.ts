@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 12,
       message: messages.rejected(
+        'properties.box-lines',
         '"box-lines" property',
         'Opera 12',
         'https://developer.mozilla.org/docs/Web/CSS/box-lines',

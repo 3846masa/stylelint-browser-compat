@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 25,
       message: messages.rejected(
+        'types.filter-function.contrast',
         '"contrast()" function',
         'Chrome 17',
         'https://developer.mozilla.org/docs/Web/CSS/filter-function/contrast',

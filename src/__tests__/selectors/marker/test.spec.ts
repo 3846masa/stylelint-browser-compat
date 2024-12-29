@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 9,
       message: messages.rejected(
+        'selectors.marker',
         '"::marker" pseudo-element',
         'Firefox 67',
         'https://developer.mozilla.org/docs/Web/CSS/::marker',

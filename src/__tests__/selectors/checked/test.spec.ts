@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 31,
       message: messages.rejected(
+        'selectors.checked',
         '":checked" pseudo-class',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/:checked',

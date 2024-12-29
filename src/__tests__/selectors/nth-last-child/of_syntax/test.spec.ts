@@ -26,7 +26,12 @@ testRule({
       column: 1,
       endLine: 1,
       endColumn: 29,
-      message: messages.rejected('"of" syntax of :nth-last-child pseudo-class', 'Safari 8', ''),
+      message: messages.rejected(
+        'selectors.nth-last-child.of_syntax',
+        '"of" syntax of :nth-last-child pseudo-class',
+        'Safari 8',
+        '',
+      ),
     },
   ],
 });

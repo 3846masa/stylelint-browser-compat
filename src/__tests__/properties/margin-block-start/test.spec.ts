@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 21,
       message: messages.rejected(
+        'properties.margin-block-start',
         '"margin-block-start" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/margin-block-start',

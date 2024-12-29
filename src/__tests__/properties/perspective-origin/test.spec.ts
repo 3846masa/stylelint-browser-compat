@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 21,
       message: messages.rejected(
+        'properties.perspective-origin',
         '"perspective-origin" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/perspective-origin',

@@ -27,7 +27,12 @@ testRule({
       column: 26,
       endLine: 2,
       endColumn: 31,
-      message: messages.rejected('"fixed" value specified as background-attachment', 'IE 8', ''),
+      message: messages.rejected(
+        'properties.background-attachment.fixed',
+        '"fixed" value specified as background-attachment',
+        'IE 8',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -39,7 +44,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 20,
-      message: messages.rejected('"fixed" value specified as background-attachment', 'IE 8', ''),
+      message: messages.rejected(
+        'properties.background-attachment.fixed',
+        '"fixed" value specified as background-attachment',
+        'IE 8',
+        '',
+      ),
     },
   ],
 });

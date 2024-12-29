@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 16,
       message: messages.rejected(
+        'at-rules.property.initial-value',
         '"initial-value" descriptor of the @property',
         'Chrome 84',
         'https://developer.mozilla.org/docs/Web/CSS/@property/initial-value',

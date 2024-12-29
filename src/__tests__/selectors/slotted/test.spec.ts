@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 16,
       message: messages.rejected(
+        'selectors.slotted',
         '"::slotted" pseudo-element',
         'Firefox 62',
         'https://developer.mozilla.org/docs/Web/CSS/::slotted',

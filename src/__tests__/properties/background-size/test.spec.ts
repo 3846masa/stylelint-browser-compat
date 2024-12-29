@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 18,
       message: messages.rejected(
+        'properties.background-size',
         '"background-size" property',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/background-size',

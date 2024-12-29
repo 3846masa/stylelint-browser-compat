@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 7,
       message: messages.rejected(
+        'selectors.hover',
         '":hover" pseudo-class',
         'Android Webview 2.1',
         'https://developer.mozilla.org/docs/Web/CSS/:hover',

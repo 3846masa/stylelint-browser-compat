@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 13,
       message: messages.rejected(
+        'properties.align-self',
         '"align-self" property',
         'Chrome 20',
         'https://developer.mozilla.org/docs/Web/CSS/align-self',

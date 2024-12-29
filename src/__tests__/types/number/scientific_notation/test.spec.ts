@@ -27,7 +27,7 @@ testRule({
       column: 10,
       endLine: 2,
       endColumn: 13,
-      message: messages.rejected('Scientific notation for number', 'Chrome 42', ''),
+      message: messages.rejected('types.number.scientific_notation', 'Scientific notation for number', 'Chrome 42', ''),
     },
   ],
 });

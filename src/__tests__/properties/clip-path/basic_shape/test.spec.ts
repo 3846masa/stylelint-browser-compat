@@ -35,7 +35,12 @@ testRule({
       column: 14,
       endLine: 2,
       endColumn: 48,
-      message: messages.rejected('"inset()" function specified as clip-path', 'Firefox 53', ''),
+      message: messages.rejected(
+        'properties.clip-path.basic_shape',
+        '"inset()" function specified as clip-path',
+        'Firefox 53',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -47,7 +52,12 @@ testRule({
       column: 14,
       endLine: 2,
       endColumn: 25,
-      message: messages.rejected('"circle()" function specified as clip-path', 'Firefox 53', ''),
+      message: messages.rejected(
+        'properties.clip-path.basic_shape',
+        '"circle()" function specified as clip-path',
+        'Firefox 53',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -59,7 +69,12 @@ testRule({
       column: 14,
       endLine: 2,
       endColumn: 38,
-      message: messages.rejected('"ellipse()" function specified as clip-path', 'Firefox 53', ''),
+      message: messages.rejected(
+        'properties.clip-path.basic_shape',
+        '"ellipse()" function specified as clip-path',
+        'Firefox 53',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -71,7 +86,12 @@ testRule({
       column: 14,
       endLine: 2,
       endColumn: 78,
-      message: messages.rejected('"polygon()" function specified as clip-path', 'Firefox 53', ''),
+      message: messages.rejected(
+        'properties.clip-path.basic_shape',
+        '"polygon()" function specified as clip-path',
+        'Firefox 53',
+        '',
+      ),
     },
   ],
 });

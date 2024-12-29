@@ -30,7 +30,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 30,
-      message: messages.rejected('"menulist-button" value specified as appearance', 'Opera 12.1', ''),
+      message: messages.rejected(
+        'properties.appearance.menulist-button',
+        '"menulist-button" value specified as appearance',
+        'Opera 12.1',
+        '',
+      ),
     },
   ],
 });

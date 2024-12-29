@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 18,
       message: messages.rejected(
+        'properties.overflow-anchor',
         '"overflow-anchor" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/overflow-anchor',

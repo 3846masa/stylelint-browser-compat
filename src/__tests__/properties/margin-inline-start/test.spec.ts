@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 22,
       message: messages.rejected(
+        'properties.margin-inline-start',
         '"margin-inline-start" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/margin-inline-start',

@@ -31,7 +31,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 20,
-      message: messages.rejected('"@historical-forms" at rules of the @font-feature-values', 'Firefox 33', ''),
+      message: messages.rejected(
+        'at-rules.font-feature-values.historical-forms',
+        '"@historical-forms" at rules of the @font-feature-values',
+        'Firefox 33',
+        '',
+      ),
     },
   ],
 });

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 22,
       message: messages.rejected(
+        'properties.-webkit-text-stroke',
         '"-webkit-text-stroke" property',
         'Firefox 48',
         'https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke',

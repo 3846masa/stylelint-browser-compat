@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 22,
       message: messages.rejected(
+        'properties.border-bottom-color',
         '"border-bottom-color" property',
         'Android Webview 2.1',
         'https://developer.mozilla.org/docs/Web/CSS/border-bottom-color',

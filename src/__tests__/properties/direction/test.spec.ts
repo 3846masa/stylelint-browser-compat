@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 12,
       message: messages.rejected(
+        'properties.direction',
         '"direction" property',
         'Opera 9',
         'https://developer.mozilla.org/docs/Web/CSS/direction',

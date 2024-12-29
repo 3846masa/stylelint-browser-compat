@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 28,
       message: messages.rejected(
+        'selectors.part',
         '"::part" pseudo-element',
         'Firefox 71',
         'https://developer.mozilla.org/docs/Web/CSS/::part',

@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 4,
       message: messages.rejected(
+        'selectors.descendant',
         'Descendant combinator',
         'Android Webview 2.1',
         'https://developer.mozilla.org/docs/Web/CSS/Descendant_combinator',

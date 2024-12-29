@@ -26,7 +26,7 @@ testRule({
       column: 4,
       endLine: 1,
       endColumn: 10,
-      message: messages.rejected('":hover" pseudo-class with any tag', 'IE 6', ''),
+      message: messages.rejected('selectors.hover.all_elements', '":hover" pseudo-class with any tag', 'IE 6', ''),
     },
   ],
 });

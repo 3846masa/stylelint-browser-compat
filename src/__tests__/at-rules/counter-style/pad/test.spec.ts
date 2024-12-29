@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 6,
       message: messages.rejected(
+        'at-rules.counter-style.pad',
         '"pad" descriptor of the @counter-style',
         'Chrome 90',
         'https://developer.mozilla.org/docs/Web/CSS/@counter-style/pad',

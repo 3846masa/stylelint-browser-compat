@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 23,
       message: messages.rejected(
+        'types.filter-function.invert',
         '"invert()" function',
         'Chrome 17',
         'https://developer.mozilla.org/docs/Web/CSS/filter-function/invert',

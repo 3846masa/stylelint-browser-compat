@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 15,
       message: messages.rejected(
+        'properties.word-spacing',
         '"word-spacing" property',
         'IE 5.5',
         'https://developer.mozilla.org/docs/Web/CSS/word-spacing',

@@ -27,7 +27,7 @@ testRule({
       column: 24,
       endLine: 2,
       endColumn: 25,
-      message: messages.rejected('"%" unit keyword for attr()', 'Chrome 100', ''),
+      message: messages.rejected('types.attr.type-or-unit.percentage', '"%" unit keyword for attr()', 'Chrome 100', ''),
     },
   ],
 });

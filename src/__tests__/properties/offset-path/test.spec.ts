@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 14,
       message: messages.rejected(
+        'properties.offset-path',
         '"offset-path" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/offset-path',

@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 11,
       message: messages.rejected(
+        'selectors.any-link',
         '":any-link" pseudo-class',
         'Opera 12',
         'https://developer.mozilla.org/docs/Web/CSS/:any-link',

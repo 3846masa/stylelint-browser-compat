@@ -30,7 +30,12 @@ testRule({
       column: 16,
       endLine: 2,
       endColumn: 21,
-      message: messages.rejected('"start" value specified as align-items', 'Chrome 92', ''),
+      message: messages.rejected(
+        'properties.align-items.flex_context.start_end',
+        '"start" value specified as align-items',
+        'Chrome 92',
+        '',
+      ),
     },
 
     {
@@ -43,7 +48,12 @@ testRule({
       column: 21,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('"start" value specified as align-items', 'Chrome 92', ''),
+      message: messages.rejected(
+        'properties.align-items.flex_context.start_end',
+        '"start" value specified as align-items',
+        'Chrome 92',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -55,7 +65,12 @@ testRule({
       column: 23,
       endLine: 2,
       endColumn: 28,
-      message: messages.rejected('"start" value specified as align-items', 'Chrome 92', ''),
+      message: messages.rejected(
+        'properties.align-items.flex_context.start_end',
+        '"start" value specified as align-items',
+        'Chrome 92',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -67,7 +82,12 @@ testRule({
       column: 16,
       endLine: 2,
       endColumn: 19,
-      message: messages.rejected('"end" value specified as align-items', 'Chrome 92', ''),
+      message: messages.rejected(
+        'properties.align-items.flex_context.start_end',
+        '"end" value specified as align-items',
+        'Chrome 92',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -79,7 +99,12 @@ testRule({
       column: 21,
       endLine: 2,
       endColumn: 24,
-      message: messages.rejected('"end" value specified as align-items', 'Chrome 92', ''),
+      message: messages.rejected(
+        'properties.align-items.flex_context.start_end',
+        '"end" value specified as align-items',
+        'Chrome 92',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -91,7 +116,12 @@ testRule({
       column: 23,
       endLine: 2,
       endColumn: 26,
-      message: messages.rejected('"end" value specified as align-items', 'Chrome 92', ''),
+      message: messages.rejected(
+        'properties.align-items.flex_context.start_end',
+        '"end" value specified as align-items',
+        'Chrome 92',
+        '',
+      ),
     },
   ],
 });

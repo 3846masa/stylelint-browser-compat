@@ -27,7 +27,12 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 8,
-      message: messages.rejected('"order" property', 'IE 6', 'https://developer.mozilla.org/docs/Web/CSS/order'),
+      message: messages.rejected(
+        'properties.order',
+        '"order" property',
+        'IE 6',
+        'https://developer.mozilla.org/docs/Web/CSS/order',
+      ),
     },
   ],
 });

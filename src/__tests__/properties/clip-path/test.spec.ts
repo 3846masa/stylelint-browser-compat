@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 12,
       message: messages.rejected(
+        'properties.clip-path',
         '"clip-path" property',
         'Chrome 22',
         'https://developer.mozilla.org/docs/Web/CSS/clip-path',

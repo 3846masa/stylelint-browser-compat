@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 30,
       message: messages.rejected(
+        'properties.scroll-padding-inline-start',
         '"scroll-padding-inline-start" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-start',

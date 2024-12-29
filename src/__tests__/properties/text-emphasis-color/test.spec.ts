@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 22,
       message: messages.rejected(
+        'properties.text-emphasis-color',
         '"text-emphasis-color" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/text-emphasis-color',

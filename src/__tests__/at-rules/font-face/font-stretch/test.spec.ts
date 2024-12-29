@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 15,
       message: messages.rejected(
+        'at-rules.font-face.font-stretch',
         '"font-stretch" descriptor of the @font-face',
         'Chrome 61',
         'https://developer.mozilla.org/docs/Web/CSS/@font-face/font-stretch',

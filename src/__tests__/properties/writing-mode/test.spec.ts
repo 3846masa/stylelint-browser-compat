@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 15,
       message: messages.rejected(
+        'properties.writing-mode',
         '"writing-mode" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/writing-mode',

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 14,
       message: messages.rejected(
+        'properties.caret-color',
         '"caret-color" property',
         'Chrome 56',
         'https://developer.mozilla.org/docs/Web/CSS/caret-color',

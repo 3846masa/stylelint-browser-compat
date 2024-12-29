@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 42,
       message: messages.rejected(
+        'selectors.-webkit-meter-even-less-good-value',
         '"::-webkit-meter-even-less-good-value" pseudo-element',
         'Chrome 11',
         'https://developer.mozilla.org/docs/Web/CSS/::-webkit-meter-even-less-good-value',

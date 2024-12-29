@@ -26,7 +26,12 @@ testRule({
       column: 6,
       endLine: 1,
       endColumn: 12,
-      message: messages.rejected('":focus" pseudo-class', 'IE 7', 'https://developer.mozilla.org/docs/Web/CSS/:focus'),
+      message: messages.rejected(
+        'selectors.focus',
+        '":focus" pseudo-class',
+        'IE 7',
+        'https://developer.mozilla.org/docs/Web/CSS/:focus',
+      ),
     },
   ],
 });

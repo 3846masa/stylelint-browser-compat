@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 13,
       message: messages.rejected(
+        'properties.block-size',
         '"block-size" property',
         'Firefox 40',
         'https://developer.mozilla.org/docs/Web/CSS/block-size',

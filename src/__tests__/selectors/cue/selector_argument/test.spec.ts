@@ -26,7 +26,12 @@ testRule({
       column: 1,
       endLine: 1,
       endColumn: 11,
-      message: messages.rejected('"::cue" pseudo-element with selector argument', 'Firefox 55', ''),
+      message: messages.rejected(
+        'selectors.cue.selector_argument',
+        '"::cue" pseudo-element with selector argument',
+        'Firefox 55',
+        '',
+      ),
     },
   ],
 });

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 21,
       message: messages.rejected(
+        'properties.animation-duration',
         '"animation-duration" property',
         'IE 9',
         'https://developer.mozilla.org/docs/Web/CSS/animation-duration',

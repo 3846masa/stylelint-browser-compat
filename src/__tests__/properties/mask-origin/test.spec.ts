@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 14,
       message: messages.rejected(
+        'properties.mask-origin',
         '"mask-origin" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/mask-origin',

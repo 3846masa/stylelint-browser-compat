@@ -27,7 +27,7 @@ testRule({
       column: 3,
       endLine: 2,
       endColumn: 6,
-      message: messages.rejected('"alt" property', 'iOS Safari 7.0-7.1', ''),
+      message: messages.rejected('properties.alt', '"alt" property', 'iOS Safari 7.0-7.1', ''),
     },
   ],
 });

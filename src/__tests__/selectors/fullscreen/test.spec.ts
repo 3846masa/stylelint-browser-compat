@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 15,
       message: messages.rejected(
+        'selectors.fullscreen',
         '":fullscreen" pseudo-class',
         'Chrome 14',
         'https://developer.mozilla.org/docs/Web/CSS/:fullscreen',

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 13,
       message: messages.rejected(
+        'properties.box-shadow',
         '"box-shadow" property',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/box-shadow',

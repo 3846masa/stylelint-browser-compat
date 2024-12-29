@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 6,
       message: messages.rejected(
+        'at-rules.font-face.src',
         '"src" descriptor of the @font-face',
         'Opera 9',
         'https://developer.mozilla.org/docs/Web/CSS/@font-face/src',

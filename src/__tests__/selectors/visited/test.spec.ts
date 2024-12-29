@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 10,
       message: messages.rejected(
+        'selectors.visited',
         '":visited" pseudo-class',
         'Android Webview 4.1',
         'https://developer.mozilla.org/docs/Web/CSS/:visited',

@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 18,
       message: messages.rejected(
+        'properties.border-collapse',
         '"border-collapse" property',
         'Android Webview 2.1',
         'https://developer.mozilla.org/docs/Web/CSS/border-collapse',

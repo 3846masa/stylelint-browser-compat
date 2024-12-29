@@ -26,7 +26,12 @@ testRule({
       column: 1,
       endLine: 1,
       endColumn: 17,
-      message: messages.rejected('":not" pseudo-class with several selectors', 'Chrome 87', ''),
+      message: messages.rejected(
+        'selectors.not.selector_list',
+        '":not" pseudo-class with several selectors',
+        'Chrome 87',
+        '',
+      ),
     },
   ],
 });

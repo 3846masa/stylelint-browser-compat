@@ -27,7 +27,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 13,
-      message: messages.rejected('"vw" unit', 'Chrome 19', ''),
+      message: messages.rejected('types.length.vw', '"vw" unit', 'Chrome 19', ''),
     },
   ],
 });

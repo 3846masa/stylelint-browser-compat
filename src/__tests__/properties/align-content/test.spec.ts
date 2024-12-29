@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 16,
       message: messages.rejected(
+        'properties.align-content',
         '"align-content" property',
         'Chrome 20',
         'https://developer.mozilla.org/docs/Web/CSS/align-content',

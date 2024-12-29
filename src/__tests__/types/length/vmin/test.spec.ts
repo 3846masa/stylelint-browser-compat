@@ -27,7 +27,7 @@ testRule({
       column: 11,
       endLine: 2,
       endColumn: 15,
-      message: messages.rejected('"vmin" unit', 'Chrome 25', ''),
+      message: messages.rejected('types.length.vmin', '"vmin" unit', 'Chrome 25', ''),
     },
   ],
 });

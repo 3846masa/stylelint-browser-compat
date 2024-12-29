@@ -30,7 +30,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 21,
-      message: messages.rejected('"button" value specified as appearance', 'IE 5.5', ''),
+      message: messages.rejected(
+        'properties.appearance.button',
+        '"button" value specified as appearance',
+        'IE 5.5',
+        '',
+      ),
     },
   ],
 });

@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 15,
       message: messages.rejected(
+        'selectors.past',
         '":past" pseudo-class',
         'Safari 6',
         'https://developer.mozilla.org/docs/Web/CSS/:past',

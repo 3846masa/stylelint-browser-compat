@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 15,
       message: messages.rejected(
+        'at-rules.media.update',
         '"update" media feature',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/@media/update',

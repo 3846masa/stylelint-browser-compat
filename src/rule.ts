@@ -20,11 +20,11 @@ export const messages = stylelint.utils.ruleMessages(ruleName, {
   featureIsNotInCompatData: (featureId: string) => {
     return `No information was found for "${featureId}" feature. Please report the issue at the following URL: https://github.com/3846masa/stylelint-browser-compat/issues/new`;
   },
-  rejected: (featureName: string, targets: string, mdnUrl: string) => {
+  rejected: (featureId: string, featureName: string, targets: string, mdnUrl: string) => {
     if (mdnUrl) {
-      return `${featureName} is not supported in ${targets}. See ${mdnUrl}.`;
+      return `${featureName} is not supported in ${targets}. See ${mdnUrl}. (featureId: ${featureId})`;
     }
-    return `${featureName} is not supported in ${targets}.`;
+    return `${featureName} is not supported in ${targets}. (featureId: ${featureId})`;
   },
 });
 
@@ -108,7 +108,7 @@ const rule: Rule<boolean> = (enabled, passedOptions) => {
       stylelint.utils.report({
         endIndex: feature.endIndex,
         index: feature.index,
-        message: messages.rejected(feature.name, notSupportedTargetText, mdnUrl ?? ''),
+        message: messages.rejected(feature.id, feature.name, notSupportedTargetText, mdnUrl ?? ''),
         node: feature.node,
         result: postcssResult,
         ruleName,

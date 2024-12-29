@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 32,
       message: messages.rejected(
+        'types.counters',
         '"counters()" function',
         'IE 7',
         'https://developer.mozilla.org/docs/Web/CSS/counters',

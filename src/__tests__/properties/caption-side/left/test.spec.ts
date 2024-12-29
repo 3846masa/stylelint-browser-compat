@@ -27,7 +27,12 @@ testRule({
       column: 17,
       endLine: 2,
       endColumn: 21,
-      message: messages.rejected('"left" value specified as caption-side', 'Firefox 87', ''),
+      message: messages.rejected(
+        'properties.caption-side.left',
+        '"left" value specified as caption-side',
+        'Firefox 87',
+        '',
+      ),
     },
   ],
 });

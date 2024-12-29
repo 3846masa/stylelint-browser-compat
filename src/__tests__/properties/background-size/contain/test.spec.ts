@@ -30,7 +30,12 @@ testRule({
       column: 20,
       endLine: 2,
       endColumn: 27,
-      message: messages.rejected('"contain" value specified as background-size', 'Opera Android 12', ''),
+      message: messages.rejected(
+        'properties.background-size.contain',
+        '"contain" value specified as background-size',
+        'Opera Android 12',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -42,7 +47,12 @@ testRule({
       column: 24,
       endLine: 2,
       endColumn: 31,
-      message: messages.rejected('"contain" value specified as background-size', 'Opera Android 12', ''),
+      message: messages.rejected(
+        'properties.background-size.contain',
+        '"contain" value specified as background-size',
+        'Opera Android 12',
+        '',
+      ),
     },
   ],
 });

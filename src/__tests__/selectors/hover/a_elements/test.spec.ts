@@ -26,7 +26,12 @@ testRule({
       column: 2,
       endLine: 1,
       endColumn: 8,
-      message: messages.rejected('":hover" pseudo-class with the anchor tag', 'Android Webview 4.4', ''),
+      message: messages.rejected(
+        'selectors.hover.a_elements',
+        '":hover" pseudo-class with the anchor tag',
+        'Android Webview 4.4',
+        '',
+      ),
     },
   ],
 });

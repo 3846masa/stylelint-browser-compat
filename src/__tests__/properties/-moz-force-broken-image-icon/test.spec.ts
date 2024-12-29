@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 31,
       message: messages.rejected(
+        'properties.-moz-force-broken-image-icon',
         '"-moz-force-broken-image-icon" property',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/-moz-force-broken-image-icon',

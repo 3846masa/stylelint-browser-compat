@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 21,
       message: messages.rejected(
+        'properties.border-block-color',
         '"border-block-color" property',
         'Chrome 86',
         'https://developer.mozilla.org/docs/Web/CSS/border-block-color',

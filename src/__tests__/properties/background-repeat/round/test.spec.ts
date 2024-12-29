@@ -27,7 +27,12 @@ testRule({
       column: 22,
       endLine: 2,
       endColumn: 27,
-      message: messages.rejected('"round" value specified as background-repeat', 'Chrome 29', ''),
+      message: messages.rejected(
+        'properties.background-repeat.round',
+        '"round" value specified as background-repeat',
+        'Chrome 29',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -39,7 +44,12 @@ testRule({
       column: 29,
       endLine: 2,
       endColumn: 34,
-      message: messages.rejected('"round" value specified as background-repeat', 'Chrome 29', ''),
+      message: messages.rejected(
+        'properties.background-repeat.round',
+        '"round" value specified as background-repeat',
+        'Chrome 29',
+        '',
+      ),
     },
     // background
     {
@@ -52,7 +62,12 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 20,
-      message: messages.rejected('"round" value specified as background-repeat', 'Chrome 29', ''),
+      message: messages.rejected(
+        'properties.background-repeat.round',
+        '"round" value specified as background-repeat',
+        'Chrome 29',
+        '',
+      ),
     },
     {
       code: stripIndent`
@@ -64,7 +79,12 @@ testRule({
       column: 22,
       endLine: 2,
       endColumn: 27,
-      message: messages.rejected('"round" value specified as background-repeat', 'Chrome 29', ''),
+      message: messages.rejected(
+        'properties.background-repeat.round',
+        '"round" value specified as background-repeat',
+        'Chrome 29',
+        '',
+      ),
     },
   ],
 });

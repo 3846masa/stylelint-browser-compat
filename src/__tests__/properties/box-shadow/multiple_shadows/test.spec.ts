@@ -30,7 +30,7 @@ testRule({
       column: 15,
       endLine: 2,
       endColumn: 48,
-      message: messages.rejected('Multiple shadows', 'IE 8', ''),
+      message: messages.rejected('properties.box-shadow.multiple_shadows', 'Multiple shadows', 'IE 8', ''),
     },
   ],
 });

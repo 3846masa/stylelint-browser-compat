@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 24,
       message: messages.rejected(
+        'properties.background-position-x',
         '"background-position-x" property',
         'Firefox 48',
         'https://developer.mozilla.org/docs/Web/CSS/background-position-x',

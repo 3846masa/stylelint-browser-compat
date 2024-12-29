@@ -27,7 +27,12 @@ testRule({
       column: 18,
       endLine: 2,
       endColumn: 21,
-      message: messages.rejected('Percentage value specified as border-radius', 'Chrome 7', ''),
+      message: messages.rejected(
+        'properties.border-radius.percentages',
+        'Percentage value specified as border-radius',
+        'Chrome 7',
+        '',
+      ),
     },
   ],
 });

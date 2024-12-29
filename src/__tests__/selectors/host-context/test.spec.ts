@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 18,
       message: messages.rejected(
+        'selectors.host-context',
         '":host-context" pseudo-class',
         'Chrome 53',
         'https://developer.mozilla.org/docs/Web/CSS/:host-context',

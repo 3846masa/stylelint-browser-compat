@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 25,
       message: messages.rejected(
+        'selectors.-webkit-progress-value',
         '"::-webkit-progress-value" pseudo-element',
         'Chrome 24',
         'https://developer.mozilla.org/docs/Web/CSS/::-webkit-progress-value',

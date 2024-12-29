@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 13,
       message: messages.rejected(
+        'properties.overflow-x',
         '"overflow-x" property',
         'Opera 9',
         'https://developer.mozilla.org/docs/Web/CSS/overflow-x',

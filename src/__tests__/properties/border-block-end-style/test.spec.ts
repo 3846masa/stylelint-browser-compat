@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 25,
       message: messages.rejected(
+        'properties.border-block-end-style',
         '"border-block-end-style" property',
         'Chrome 68',
         'https://developer.mozilla.org/docs/Web/CSS/border-block-end-style',

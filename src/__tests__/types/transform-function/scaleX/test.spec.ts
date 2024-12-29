@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 25,
       message: messages.rejected(
+        'types.transform-function.scaleX',
         '"scaleX()" function',
         'IE 8',
         'https://developer.mozilla.org/docs/Web/CSS/transform-function/scaleX',

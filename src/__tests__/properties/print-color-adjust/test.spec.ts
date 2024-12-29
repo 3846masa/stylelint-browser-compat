@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 21,
       message: messages.rejected(
+        'properties.print-color-adjust',
         '"print-color-adjust" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/print-color-adjust',

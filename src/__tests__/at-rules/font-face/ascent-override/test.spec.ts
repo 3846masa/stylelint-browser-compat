@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 18,
       message: messages.rejected(
+        'at-rules.font-face.ascent-override',
         '"ascent-override" descriptor of the @font-face',
         'Chrome 86',
         'https://developer.mozilla.org/docs/Web/CSS/@font-face/ascent-override',

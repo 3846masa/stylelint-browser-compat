@@ -31,6 +31,7 @@ testRule({
       endLine: 2,
       endColumn: 26,
       message: messages.rejected(
+        'at-rules.font-face.font-variation-settings',
         '"font-variation-settings" descriptor of the @font-face',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/@font-face/font-variation-settings',

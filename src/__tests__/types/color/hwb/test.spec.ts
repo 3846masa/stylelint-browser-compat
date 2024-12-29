@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 24,
       message: messages.rejected(
+        'types.color.hwb',
         '"hwb()" function',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/color_value/hwb',
@@ -44,6 +45,7 @@ testRule({
       endLine: 2,
       endColumn: 29,
       message: messages.rejected(
+        'types.color.hwb',
         '"hwb()" function',
         'Chrome 100',
         'https://developer.mozilla.org/docs/Web/CSS/color_value/hwb',

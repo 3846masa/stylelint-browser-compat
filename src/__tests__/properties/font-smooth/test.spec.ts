@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 14,
       message: messages.rejected(
+        'properties.font-smooth',
         '"font-smooth" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/font-smooth',

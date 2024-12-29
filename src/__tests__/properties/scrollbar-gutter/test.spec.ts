@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 19,
       message: messages.rejected(
+        'properties.scrollbar-gutter',
         '"scrollbar-gutter" property',
         'IE 6',
         'https://developer.mozilla.org/docs/Web/CSS/scrollbar-gutter',

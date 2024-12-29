@@ -27,6 +27,7 @@ testRule({
       endLine: 1,
       endColumn: 24,
       message: messages.rejected(
+        'at-rules.media.overflow-inline',
         '"overflow-inline" media feature',
         'Firefox 65',
         'https://developer.mozilla.org/docs/Web/CSS/@media/overflow-inline',

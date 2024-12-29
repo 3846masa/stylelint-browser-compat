@@ -28,6 +28,7 @@ testRule({
       endLine: 2,
       endColumn: 17,
       message: messages.rejected(
+        'properties.box-flex-group',
         '"box-flex-group" property',
         'Opera 12',
         'https://developer.mozilla.org/docs/Web/CSS/box-flex-group',
