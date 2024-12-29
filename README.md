@@ -71,7 +71,7 @@ module.exports = {
   - By default, browserslist automatically loads the configuration file (e.g. `package.json`, `.browserslistrc`).
 - `allow.features` (array, optional)
   - Accepts an array of features to allow.
-  - Feature names are from [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data).
+  - Feature ids are from [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data).
     - For example, if you want to use `@supports` at-rules, pass `at-rules.supports`.
 - `allow.flagged` (boolean, optional)
   - Allows features that are available when the browser's feature flags is enabled.
