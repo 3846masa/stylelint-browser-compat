@@ -117,8 +117,8 @@ importers:
         specifier: 0.6.0
         version: 0.6.0(jest@29.7.0(@types/node@20.11.7))
       jest-preset-stylelint:
-        specifier: 7.1.0
-        version: 7.1.0(jest@29.7.0(@types/node@20.11.7))
+        specifier: 7.1.1
+        version: 7.1.1(jest@29.7.0(@types/node@20.11.7))
       postcss:
         specifier: 8.4.49
         version: 8.4.49
@@ -2667,8 +2667,8 @@ packages:
       jest-resolve:
         optional: true
 
-  jest-preset-stylelint@7.1.0:
-    resolution: {integrity: sha512-0chPt4l2B1xIMMoTQPhwqcbH1ANBx6W+IhGpMDvPWffIdI5pE7pgti3XVOh9bBBgFutcSY0MCD8yEFABEY07VQ==}
+  jest-preset-stylelint@7.1.1:
+    resolution: {integrity: sha512-uORhI27dzzcWxIMuusr+7wkrLROH7ShRkvmax+sV389CKnNO7cPGh4oPrMZiNYQiWR9B6iX+r+vye156/ZcoKg==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       jest: ^29.0.2
@@ -7342,7 +7342,7 @@ snapshots:
     optionalDependencies:
       jest-resolve: 30.0.0-alpha.2
 
-  jest-preset-stylelint@7.1.0(jest@29.7.0(@types/node@20.11.7)):
+  jest-preset-stylelint@7.1.1(jest@29.7.0(@types/node@20.11.7)):
     dependencies:
       jest: 29.7.0(@types/node@20.11.7)
 
