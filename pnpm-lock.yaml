@@ -45,8 +45,8 @@ importers:
         version: 3.24.1
     devDependencies:
       '@3846masa/configs':
-        specifier: github:3846masa/configs#8e7c3c180c3ebf63ba92edce5ec54d0c60721f1f
-        version: https://codeload.github.com/3846masa/configs/tar.gz/8e7c3c180c3ebf63ba92edce5ec54d0c60721f1f(@typescript-eslint/parser@8.19.1(eslint@9.17.0)(typescript@5.7.3))
+        specifier: github:3846masa/configs#e6a83caa492ad1c0450a0dcf3a9fa7b3283fcf12
+        version: https://codeload.github.com/3846masa/configs/tar.gz/e6a83caa492ad1c0450a0dcf3a9fa7b3283fcf12(@typescript-eslint/parser@8.19.1(eslint@9.17.0)(typescript@5.7.3))
       '@babel/cli':
         specifier: 7.26.4
         version: 7.26.4(@babel/core@7.26.0)
@@ -137,9 +137,9 @@ importers:
 
 packages:
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/8e7c3c180c3ebf63ba92edce5ec54d0c60721f1f':
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/8e7c3c180c3ebf63ba92edce5ec54d0c60721f1f}
-    version: 1.0.546
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/e6a83caa492ad1c0450a0dcf3a9fa7b3283fcf12':
+    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/e6a83caa492ad1c0450a0dcf3a9fa7b3283fcf12}
+    version: 1.0.548
 
   '@aashutoshrathi/word-wrap@1.2.6':
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
@@ -3343,8 +3343,8 @@ packages:
       prettier:
         optional: true
 
-  prettier-plugin-sort-json@4.0.0:
-    resolution: {integrity: sha512-zV5g+bWFD2zAqyQ8gCkwUTC49o9FxslaUdirwivt5GZHcf57hCocavykuyYqbExoEsuBOg8IU36OY7zmVEMOWA==}
+  prettier-plugin-sort-json@4.1.1:
+    resolution: {integrity: sha512-uJ49wCzwJ/foKKV4tIPxqi4jFFvwUzw4oACMRG2dcmDhBKrxBv0L2wSKkAqHCmxKCvj0xcCZS4jO2kSJO/tRJw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       prettier: ^3.0.0
@@ -4049,7 +4049,7 @@ packages:
 
 snapshots:
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/8e7c3c180c3ebf63ba92edce5ec54d0c60721f1f(@typescript-eslint/parser@8.19.1(eslint@9.17.0)(typescript@5.7.3))':
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/e6a83caa492ad1c0450a0dcf3a9fa7b3283fcf12(@typescript-eslint/parser@8.19.1(eslint@9.17.0)(typescript@5.7.3))':
     dependencies:
       '@eslint/js': 9.17.0
       '@tsconfig/strictest': 2.0.5
@@ -4063,7 +4063,7 @@ snapshots:
       globals: 15.14.0
       prettier: 3.4.2
       prettier-plugin-packagejson: 2.5.6(prettier@3.4.2)
-      prettier-plugin-sort-json: 4.0.0(prettier@3.4.2)
+      prettier-plugin-sort-json: 4.1.1(prettier@3.4.2)
       typescript: 5.7.3
       typescript-eslint: 8.19.1(eslint@9.17.0)(typescript@5.7.3)
     transitivePeerDependencies:
@@ -8029,7 +8029,7 @@ snapshots:
     optionalDependencies:
       prettier: 3.4.2
 
-  prettier-plugin-sort-json@4.0.0(prettier@3.4.2):
+  prettier-plugin-sort-json@4.1.1(prettier@3.4.2):
     dependencies:
       prettier: 3.4.2
 
