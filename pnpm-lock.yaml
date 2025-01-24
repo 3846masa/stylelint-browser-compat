@@ -45,8 +45,8 @@ importers:
         version: 3.24.1
     devDependencies:
       '@3846masa/configs':
-        specifier: github:3846masa/configs#fb0ba8e2b5077ff6e1bc6f87b359d700b3564e03
-        version: https://codeload.github.com/3846masa/configs/tar.gz/fb0ba8e2b5077ff6e1bc6f87b359d700b3564e03(@typescript-eslint/parser@8.20.0(eslint@9.18.0)(typescript@5.7.3))
+        specifier: github:3846masa/configs#8d1ac3fec4af0e0ed7f0fe7939b30eeda71167b5
+        version: https://codeload.github.com/3846masa/configs/tar.gz/8d1ac3fec4af0e0ed7f0fe7939b30eeda71167b5(@typescript-eslint/parser@8.20.0(eslint@9.18.0)(typescript@5.7.3))
       '@babel/cli':
         specifier: 7.26.4
         version: 7.26.4(@babel/core@7.26.0)
@@ -137,9 +137,9 @@ importers:
 
 packages:
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/fb0ba8e2b5077ff6e1bc6f87b359d700b3564e03':
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/fb0ba8e2b5077ff6e1bc6f87b359d700b3564e03}
-    version: 1.0.555
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/8d1ac3fec4af0e0ed7f0fe7939b30eeda71167b5':
+    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/8d1ac3fec4af0e0ed7f0fe7939b30eeda71167b5}
+    version: 1.0.556
 
   '@aashutoshrathi/word-wrap@1.2.6':
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
@@ -2883,6 +2883,7 @@ packages:
 
   lodash.get@4.4.2:
     resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
+    deprecated: This package is deprecated. Use the optional chaining (?.) operator instead.
 
   lodash.ismatch@4.4.0:
     resolution: {integrity: sha512-fPMfXjGQEV9Xsq/8MTSgUf255gawYRbjwMyDbcvDhXgV7enSZA0hynz6vMPnpAb5iONEzBHBPsT+0zes5Z301g==}
@@ -4068,7 +4069,7 @@ packages:
 
 snapshots:
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/fb0ba8e2b5077ff6e1bc6f87b359d700b3564e03(@typescript-eslint/parser@8.20.0(eslint@9.18.0)(typescript@5.7.3))':
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/8d1ac3fec4af0e0ed7f0fe7939b30eeda71167b5(@typescript-eslint/parser@8.20.0(eslint@9.18.0)(typescript@5.7.3))':
     dependencies:
       '@eslint/js': 9.18.0
       '@tsconfig/strictest': 2.0.5
