@@ -1,3 +1,10 @@
+# [1.0.0-beta.146](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.145...v1.0.0-beta.146) (2025-02-02)
+
+
+### Bug Fixes
+
+* **npm:** update dependency semver to v7.7.0 ([#931](https://github.com/3846masa/stylelint-browser-compat/issues/931)) ([d6346c6](https://github.com/3846masa/stylelint-browser-compat/commit/d6346c63fd54ca35153f6e440f125c86b3386da0))
+
 # [1.0.0-beta.145](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.144...v1.0.0-beta.145) (2024-12-29)
 
 
