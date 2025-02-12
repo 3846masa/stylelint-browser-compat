@@ -26,8 +26,8 @@ importers:
         specifier: 0.2.3
         version: 0.2.3
       postcss-selector-parser:
-        specifier: 7.0.0
-        version: 7.0.0
+        specifier: 7.1.0
+        version: 7.1.0
       postcss-value-parser:
         specifier: 4.2.0
         version: 4.2.0
@@ -3339,8 +3339,8 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
 
-  postcss-selector-parser@7.0.0:
-    resolution: {integrity: sha512-9RbEr1Y7FFfptd/1eEdntyjMwLeghW1bHX9GWjXo19vx4ytPQhANltvVxDggzJl7mnWM+dX28kb6cyS/4iQjlQ==}
+  postcss-selector-parser@7.1.0:
+    resolution: {integrity: sha512-8sLjZwK0R+JlxlYcTuVnyT2v+htpdrjDOKuMcOVdYjt52Lh8hWRYpxBPoKx/Zg+bcjc3wx6fmQevMmUztS/ccA==}
     engines: {node: '>=4'}
 
   postcss-value-parser@4.2.0:
@@ -4929,9 +4929,9 @@ snapshots:
       '@csstools/css-parser-algorithms': 3.0.4(@csstools/css-tokenizer@3.0.3)
       '@csstools/css-tokenizer': 3.0.3
 
-  '@csstools/selector-specificity@5.0.0(postcss-selector-parser@7.0.0)':
+  '@csstools/selector-specificity@5.0.0(postcss-selector-parser@7.1.0)':
     dependencies:
-      postcss-selector-parser: 7.0.0
+      postcss-selector-parser: 7.1.0
 
   '@dual-bundle/import-meta-resolve@4.1.0': {}
 
@@ -8043,7 +8043,7 @@ snapshots:
     dependencies:
       postcss: 8.5.1
 
-  postcss-selector-parser@7.0.0:
+  postcss-selector-parser@7.1.0:
     dependencies:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
@@ -8489,7 +8489,7 @@ snapshots:
       '@csstools/css-parser-algorithms': 3.0.4(@csstools/css-tokenizer@3.0.3)
       '@csstools/css-tokenizer': 3.0.3
       '@csstools/media-query-list-parser': 4.0.2(@csstools/css-parser-algorithms@3.0.4(@csstools/css-tokenizer@3.0.3))(@csstools/css-tokenizer@3.0.3)
-      '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.0.0)
+      '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.1.0)
       '@dual-bundle/import-meta-resolve': 4.1.0
       balanced-match: 2.0.0
       colord: 2.9.3
@@ -8516,7 +8516,7 @@ snapshots:
       postcss: 8.5.1
       postcss-resolve-nested-selector: 0.1.6
       postcss-safe-parser: 7.0.1(postcss@8.5.1)
-      postcss-selector-parser: 7.0.0
+      postcss-selector-parser: 7.1.0
       postcss-value-parser: 4.2.0
       resolve-from: 5.0.0
       string-width: 4.2.3
