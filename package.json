@@ -81,7 +81,7 @@
     "postcss": "8.5.3",
     "rimraf": "5.0.10",
     "semantic-release": "19.0.5",
-    "stylelint": "16.16.0",
+    "stylelint": "16.17.0",
     "typescript": "5.8.2"
   },
   "peerDependencies": {
