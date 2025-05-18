@@ -34,7 +34,7 @@ testRule({
         'at-rules.font-face.font-variant',
         '"font-variant" descriptor of the @font-face',
         'Opera 9',
-        'https://developer.mozilla.org/docs/Web/CSS/@font-face',
+        '',
       ),
     },
   ],
