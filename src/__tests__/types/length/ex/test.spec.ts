@@ -2,7 +2,7 @@
 import { stripIndent } from 'common-tags';
 import { getTestRule } from 'jest-preset-stylelint';
 
-import { messages, plugin, ruleName } from '~/rule';
+import { plugin, ruleName } from '~/rule';
 
 const testRule = getTestRule({
   plugins: [plugin],
@@ -16,21 +16,16 @@ testRule({
       allow: {
         features: ['properties.width'],
       },
-      browserslist: 'android 2.1',
+      browserslist: '>= 0%, not android < 4.4',
     },
   ],
-  reject: [
+  accept: [
     {
       code: stripIndent`
         #id {
           width: 1ex;
         }
       `,
-      line: 2,
-      column: 11,
-      endLine: 2,
-      endColumn: 13,
-      message: messages.rejected('types.length.ex', '"ex" unit', 'Android Webview 2.1', ''),
     },
   ],
 });

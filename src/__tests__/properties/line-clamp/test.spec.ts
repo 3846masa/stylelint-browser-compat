@@ -31,7 +31,7 @@ testRule({
         'properties.line-clamp',
         '"line-clamp" property',
         'Chrome 5',
-        'https://developer.mozilla.org/docs/Web/CSS/-webkit-line-clamp',
+        'https://developer.mozilla.org/docs/Web/CSS/line-clamp',
       ),
     },
   ],
