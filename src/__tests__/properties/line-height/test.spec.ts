@@ -2,7 +2,7 @@
 import { stripIndent } from 'common-tags';
 import { getTestRule } from 'jest-preset-stylelint';
 
-import { messages, plugin, ruleName } from '~/rule';
+import { plugin, ruleName } from '~/rule';
 
 const testRule = getTestRule({
   plugins: [plugin],
@@ -13,26 +13,16 @@ testRule({
   config: [
     true,
     {
-      browserslist: 'android 2.1',
+      browserslist: '>= 0%, not android < 4.4',
     },
   ],
-  reject: [
+  accept: [
     {
       code: stripIndent`
         #id {
           line-height: normal;
         }
       `,
-      line: 2,
-      column: 3,
-      endLine: 2,
-      endColumn: 14,
-      message: messages.rejected(
-        'properties.line-height',
-        '"line-height" property',
-        'Android Webview 2.1',
-        'https://developer.mozilla.org/docs/Web/CSS/line-height',
-      ),
     },
   ],
 });

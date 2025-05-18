@@ -2,7 +2,7 @@
 import { stripIndent } from 'common-tags';
 import { getTestRule } from 'jest-preset-stylelint';
 
-import { messages, plugin, ruleName } from '~/rule';
+import { plugin, ruleName } from '~/rule';
 
 const testRule = getTestRule({
   plugins: [plugin],
@@ -13,26 +13,16 @@ testRule({
   config: [
     true,
     {
-      browserslist: 'android 3',
+      browserslist: '>= 0%, not android < 4.4',
     },
   ],
-  reject: [
+  accept: [
     {
       code: stripIndent`
         #id {
           border-color: green;
         }
       `,
-      line: 2,
-      column: 3,
-      endLine: 2,
-      endColumn: 15,
-      message: messages.rejected(
-        'properties.border-color',
-        '"border-color" property',
-        'Android Webview 3',
-        'https://developer.mozilla.org/docs/Web/CSS/border-color',
-      ),
     },
   ],
 });

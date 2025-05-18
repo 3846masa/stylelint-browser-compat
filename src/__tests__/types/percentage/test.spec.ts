@@ -16,7 +16,7 @@ testRule({
       allow: {
         features: ['properties.width'],
       },
-      browserslist: '>= 0%',
+      browserslist: '>= 0%, not android < 4.4',
     },
   ],
   accept: [
