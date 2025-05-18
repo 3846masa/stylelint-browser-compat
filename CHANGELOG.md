@@ -1,3 +1,20 @@
+# [1.0.0-beta.153](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.152...v1.0.0-beta.153) (2025-05-18)
+
+
+### Bug Fixes
+
+* **npm:** update dependency @mdn/browser-compat-data to v6 ([#1000](https://github.com/3846masa/stylelint-browser-compat/issues/1000)) ([266b8ce](https://github.com/3846masa/stylelint-browser-compat/commit/266b8cecae20630ce9a30e88fb7a4015087228c4))
+
+
+### chore
+
+* bump supported node version ([#1023](https://github.com/3846masa/stylelint-browser-compat/issues/1023)) ([33b9605](https://github.com/3846masa/stylelint-browser-compat/commit/33b96053fc416ed16be8c33d2c7611e3904a87c7))
+
+
+### BREAKING CHANGES
+
+* Node.js v18 is no longer supported.
+
 # [1.0.0-beta.152](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.151...v1.0.0-beta.152) (2025-05-16)
 
 
