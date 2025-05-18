@@ -16,7 +16,7 @@ export async function collectFeatures({ colorStop, node, parent }: Params): Prom
   const offset = parent.prop.length + (parent.raws.between?.length ?? 0);
 
   if (colorStop[0]?.type === 'word' && colorStop[0].value === 'to') {
-    const index = offset + (colorStop[0]?.sourceIndex ?? 0);
+    const index = offset + colorStop[0].sourceIndex;
     const endIndex = offset + (colorStop.at(-1)?.sourceEndIndex ?? 0);
 
     features.push({
