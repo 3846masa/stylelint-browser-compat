@@ -41,8 +41,8 @@ importers:
         specifier: 3.3.0
         version: 3.3.0
       zod:
-        specifier: 3.25.20
-        version: 3.25.20
+        specifier: 3.25.28
+        version: 3.25.28
     devDependencies:
       '@3846masa/configs':
         specifier: github:3846masa/configs#1c194354655795a1c2c8c0670c46a0bb38324e88
@@ -4215,8 +4215,8 @@ packages:
     resolution: {integrity: sha512-GQHQqAopRhwU8Kt1DDM8NjibDXHC8eoh1erhGAJPEyveY9qqVeXvVikNKrDz69sHowPMorbPUrH/mx8c50eiBQ==}
     engines: {node: '>=18'}
 
-  zod@3.25.20:
-    resolution: {integrity: sha512-z03fqpTMDF1G02VLKUMt6vyACE7rNWkh3gpXVHgPTw28NPtDFRGvcpTtPwn2kMKtQ0idtYJUTxchytmnqYswcw==}
+  zod@3.25.28:
+    resolution: {integrity: sha512-/nt/67WYKnr5by3YS7LroZJbtcCBurDKKPBPWWzaxvVCGuG/NOsiKkrjoOhI8mJ+SQUXEbUzeB3S+6XDUEEj7Q==}
 
 snapshots:
 
@@ -9139,4 +9139,4 @@ snapshots:
 
   yoctocolors@2.1.1: {}
 
-  zod@3.25.20: {}
+  zod@3.25.28: {}
