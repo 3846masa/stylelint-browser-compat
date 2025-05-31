@@ -50,7 +50,7 @@
     "semver": "7.7.2",
     "string.prototype.at": "1.0.6",
     "ts-results": "3.3.0",
-    "zod": "3.25.28"
+    "zod": "3.25.32"
   },
   "devDependencies": {
     "@3846masa/configs": "github:3846masa/configs#dcdf008eac72010cfa663699ac1592b4d34d529b",
