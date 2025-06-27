@@ -14,8 +14,8 @@ importers:
   .:
     dependencies:
       '@mdn/browser-compat-data':
-        specifier: 6.0.16
-        version: 6.0.16
+        specifier: 6.0.26
+        version: 6.0.26
       array.prototype.at:
         specifier: 1.1.3
         version: 1.1.3
@@ -1052,8 +1052,8 @@ packages:
   '@keyv/serialize@1.0.3':
     resolution: {integrity: sha512-qnEovoOp5Np2JDGonIDL6Ayihw0RhnRh6vxPuHo4RDn1UOzwEo4AeIfpL6UGIrsceWrCMiVPgwRjbHu4vYFc3g==}
 
-  '@mdn/browser-compat-data@6.0.16':
-    resolution: {integrity: sha512-j8VB83nzHFhRyu48V3DRpWySUfMuvbbJ1Cu/yIMadfnn5ZhfC45+NxAKGq3CntSSGTLOsSwbujbFxmFRJekasQ==}
+  '@mdn/browser-compat-data@6.0.26':
+    resolution: {integrity: sha512-McZvy65PNZBENtbui4COouxql3iL+cfqkp+4Agloupa1la+3UYmylB7y7wzsu19cTMFEJb9YdHAj08KB6CFwig==}
 
   '@napi-rs/wasm-runtime@0.2.11':
     resolution: {integrity: sha512-9DPkXtvHydrcOsopiYpUgPHpmj0HWZKMUnL2dZqpvC42lsratuBG06V5ipyno0fUek5VlFsNQ+AcFATSrJXgMA==}
@@ -5538,7 +5538,7 @@ snapshots:
     dependencies:
       buffer: 6.0.3
 
-  '@mdn/browser-compat-data@6.0.16': {}
+  '@mdn/browser-compat-data@6.0.26': {}
 
   '@napi-rs/wasm-runtime@0.2.11':
     dependencies:
