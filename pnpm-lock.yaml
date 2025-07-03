@@ -96,8 +96,8 @@ importers:
         specifier: 5.0.2
         version: 5.0.2
       babel-plugin-polyfill-es-shims:
-        specifier: 0.10.7
-        version: 0.10.7(@babel/core@7.27.7)
+        specifier: 0.10.8
+        version: 0.10.8(@babel/core@7.27.7)
       browserslist:
         specifier: 4.25.1
         version: 4.25.1
@@ -186,8 +186,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0
 
-  '@babel/helper-define-polyfill-provider@0.6.4':
-    resolution: {integrity: sha512-jljfR1rGnXXNWnmQg2K3+bvhkxB51Rl32QRaOTuwwjviGrHzIbSc8+x9CpraDtbT7mfyjXObULP4w/adunNwAw==}
+  '@babel/helper-define-polyfill-provider@0.6.5':
+    resolution: {integrity: sha512-uJnGFcPsWQK8fvjgGP5LZUZZsYGIoPeRjSF5PGwrelYgq7Q15/Ft9NGFp1zglwgIv//W0uG4BevRuSJRyylZPg==}
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
@@ -1594,8 +1594,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
-  babel-plugin-polyfill-es-shims@0.10.7:
-    resolution: {integrity: sha512-wAsHpR8A9AD83iZMgxnOqQtgO3/BaOY+6EGEjNNOBwOnlS6nVU++x7dC1PCpdbl+b2nWnC5OZRW8x8Fp9Z4csg==}
+  babel-plugin-polyfill-es-shims@0.10.8:
+    resolution: {integrity: sha512-9O6JNlEPP5zStambUSQR+TrXV4Or+UOVxsp2Zptx8Tn4Fak/LYH3LBIdfneL74Z43o0OS+p/d3CiwukDudV2Ew==}
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
@@ -3719,8 +3719,9 @@ packages:
     resolution: {integrity: sha512-X2UW6Nw3n/aMgDVy+0rSqgHlv39WZAlZrXCdnbyEiKm17DSqHX4MmQMaST3FbeWR5FTuRcUwYAziZajji0Y7mg==}
     engines: {node: '>=10'}
 
-  resolve@1.22.8:
-    resolution: {integrity: sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==}
+  resolve@1.22.10:
+    resolution: {integrity: sha512-NPRy+/ncIMeDlTAsuqwKIiferiawhefFJtkNSW0qZJEqMEb+qBt/77B/jGeeek+F0uOeN05CDa6HXbbIgtVX4w==}
+    engines: {node: '>= 0.4'}
     hasBin: true
 
   reusify@1.0.4:
@@ -4419,14 +4420,14 @@ snapshots:
       regexpu-core: 6.2.0
       semver: 6.3.1
 
-  '@babel/helper-define-polyfill-provider@0.6.4(@babel/core@7.27.7)':
+  '@babel/helper-define-polyfill-provider@0.6.5(@babel/core@7.27.7)':
     dependencies:
       '@babel/core': 7.27.7(supports-color@9.4.0)
       '@babel/helper-compilation-targets': 7.27.2
       '@babel/helper-plugin-utils': 7.27.1
       debug: 4.4.1(supports-color@9.4.0)
       lodash.debounce: 4.0.8
-      resolve: 1.22.8
+      resolve: 1.22.10
     transitivePeerDependencies:
       - supports-color
 
@@ -6185,13 +6186,13 @@ snapshots:
       glob: 9.3.5
       pkg-up: 3.1.0
       reselect: 4.1.8
-      resolve: 1.22.8
+      resolve: 1.22.10
 
   babel-plugin-polyfill-corejs2@0.4.10(@babel/core@7.27.7):
     dependencies:
       '@babel/compat-data': 7.27.2
       '@babel/core': 7.27.7(supports-color@9.4.0)
-      '@babel/helper-define-polyfill-provider': 0.6.4(@babel/core@7.27.7)
+      '@babel/helper-define-polyfill-provider': 0.6.5(@babel/core@7.27.7)
       semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
@@ -6199,22 +6200,22 @@ snapshots:
   babel-plugin-polyfill-corejs3@0.11.1(@babel/core@7.27.7):
     dependencies:
       '@babel/core': 7.27.7(supports-color@9.4.0)
-      '@babel/helper-define-polyfill-provider': 0.6.4(@babel/core@7.27.7)
+      '@babel/helper-define-polyfill-provider': 0.6.5(@babel/core@7.27.7)
       core-js-compat: 3.42.0
     transitivePeerDependencies:
       - supports-color
 
-  babel-plugin-polyfill-es-shims@0.10.7(@babel/core@7.27.7):
+  babel-plugin-polyfill-es-shims@0.10.8(@babel/core@7.27.7):
     dependencies:
       '@babel/core': 7.27.7(supports-color@9.4.0)
-      '@babel/helper-define-polyfill-provider': 0.6.4(@babel/core@7.27.7)
+      '@babel/helper-define-polyfill-provider': 0.6.5(@babel/core@7.27.7)
     transitivePeerDependencies:
       - supports-color
 
   babel-plugin-polyfill-regenerator@0.6.1(@babel/core@7.27.7):
     dependencies:
       '@babel/core': 7.27.7(supports-color@9.4.0)
-      '@babel/helper-define-polyfill-provider': 0.6.4(@babel/core@7.27.7)
+      '@babel/helper-define-polyfill-provider': 0.6.5(@babel/core@7.27.7)
     transitivePeerDependencies:
       - supports-color
 
@@ -6724,7 +6725,7 @@ snapshots:
     dependencies:
       debug: 3.2.7
       is-core-module: 2.16.1
-      resolve: 1.22.8
+      resolve: 1.22.10
     transitivePeerDependencies:
       - supports-color
 
@@ -7830,7 +7831,7 @@ snapshots:
       jest-pnp-resolver: 1.2.3(jest-resolve@29.7.0)
       jest-util: 29.7.0
       jest-validate: 29.7.0
-      resolve: 1.22.8
+      resolve: 1.22.10
       resolve.exports: 2.0.2
       slash: 3.0.0
 
@@ -7842,7 +7843,7 @@ snapshots:
       jest-pnp-resolver: 1.2.3(jest-resolve@30.0.0-alpha.2)
       jest-util: 30.0.0-alpha.2
       jest-validate: 30.0.0-alpha.2
-      resolve: 1.22.8
+      resolve: 1.22.10
       resolve.exports: 2.0.2
       slash: 3.0.0
 
@@ -8654,7 +8655,7 @@ snapshots:
 
   resolve.exports@2.0.2: {}
 
-  resolve@1.22.8:
+  resolve@1.22.10:
     dependencies:
       is-core-module: 2.16.1
       path-parse: 1.0.7
