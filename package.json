@@ -86,7 +86,7 @@
     "browserslist": ">=4.20.3",
     "stylelint": ">=14.8.5"
   },
-  "packageManager": "pnpm@10.14.0",
+  "packageManager": "pnpm@10.15.0",
   "engines": {
     "node": ">=20.0.0"
   },
