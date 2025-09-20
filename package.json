@@ -73,7 +73,7 @@
     "babel-plugin-polyfill-es-shims": "0.10.8",
     "browserslist": "4.26.2",
     "common-tags": "1.8.2",
-    "fs-extra": "11.3.1",
+    "fs-extra": "11.3.2",
     "jest": "29.7.0",
     "jest-light-runner": "0.7.8",
     "jest-preset-stylelint": "7.3.0",
