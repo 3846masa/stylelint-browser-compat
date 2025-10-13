@@ -29,13 +29,7 @@ export function isSupported(supportBlock: SupportBlock, target: Target, options:
       continue;
     }
 
-    if (s.version_added === true) {
-      return true;
-    }
     if (s.version_added === false) {
-      return false;
-    }
-    if (s.version_added == null) {
       return false;
     }
     if (s.version_added.startsWith('≤')) {
