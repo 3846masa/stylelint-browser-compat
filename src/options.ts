@@ -10,6 +10,6 @@ export const ruleOptionsSchema = z.object({
       partialImplementation: z.boolean().default(false),
       prefix: z.boolean().default(true),
     })
-    .default(() => ({})),
+    .prefault({}),
   browserslist: z.union([z.string(), z.array(z.string())]).optional(),
 });
