@@ -1,3 +1,10 @@
+# [1.0.0-beta.175](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.174...v1.0.0-beta.175) (2025-10-13)
+
+
+### Bug Fixes
+
+* **npm:** update dependency zod to v4 ([#1113](https://github.com/3846masa/stylelint-browser-compat/issues/1113)) ([a1f88b7](https://github.com/3846masa/stylelint-browser-compat/commit/a1f88b75ec34b8e0cd0a45e439c9d5c658ac38a0))
+
 # [1.0.0-beta.174](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.173...v1.0.0-beta.174) (2025-10-11)
 
 
