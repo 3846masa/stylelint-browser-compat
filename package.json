@@ -53,7 +53,7 @@
     "zod": "4.1.12"
   },
   "devDependencies": {
-    "@3846masa/configs": "github:3846masa/configs#939ad5f2502c9ebecec021174436e645377b2bc3",
+    "@3846masa/configs": "github:3846masa/configs#fde6015cc9703c2aee5630993ba80e43ce7120ba",
     "@babel/cli": "7.28.3",
     "@babel/core": "7.28.5",
     "@babel/preset-env": "7.28.5",
