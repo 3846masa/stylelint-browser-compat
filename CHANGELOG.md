@@ -1,3 +1,10 @@
+# [1.0.0-beta.180](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.179...v1.0.0-beta.180) (2025-11-15)
+
+
+### Bug Fixes
+
+* fallback to default options if options is not passed ([#1225](https://github.com/3846masa/stylelint-browser-compat/issues/1225)) ([d3d7981](https://github.com/3846masa/stylelint-browser-compat/commit/d3d7981313b5ac4646201da6f41d4b6c7cbec043))
+
 # [1.0.0-beta.179](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.178...v1.0.0-beta.179) (2025-11-03)
 
 
