@@ -1,0 +1,16 @@
+diff --git a/index.js b/index.js
+index 65ffc65cd396314c2943e4be46b3a0868e361484..3477ca73df90c6d5a77bd2171602099fb77d3e1a 100644
+--- a/index.js
++++ b/index.js
+@@ -160,7 +160,10 @@ class ConventionalChangelog extends Plugin {
+           }
+         }
+ 
+-        return semver.inc(latestVersion, 'prerelease', preReleaseId, preReleaseBase);
++        if (releaseType) {
++          return semver.inc(latestVersion, 'prerelease', preReleaseId, preReleaseBase);
++        }
++        return null;
+       }
+ 
+       if (releaseType) {

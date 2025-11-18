@@ -36,7 +36,7 @@
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check .",
     "lint:tsc": "tsc --noEmit",
-    "semantic-release": "semantic-release",
+    "release": "release-it --preRelease beta",
     "pretest": "pnpm run build",
     "test": "jest"
   },
@@ -58,12 +58,7 @@
     "@babel/core": "7.28.5",
     "@babel/preset-env": "7.28.5",
     "@babel/preset-typescript": "7.28.5",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/commit-analyzer": "13.0.1",
-    "@semantic-release/exec": "7.1.0",
-    "@semantic-release/git": "10.0.1",
-    "@semantic-release/npm": "12.0.2",
-    "@semantic-release/release-notes-generator": "14.1.0",
+    "@release-it/conventional-changelog": "10.0.2",
     "@types/common-tags": "1.8.4",
     "@types/fs-extra": "11.0.4",
     "@types/lodash.get": "4.4.9",
@@ -73,12 +68,13 @@
     "babel-plugin-polyfill-es-shims": "0.10.8",
     "browserslist": "4.28.0",
     "common-tags": "1.8.2",
+    "conventional-changelog-conventionalcommits": "9.1.0",
     "fs-extra": "11.3.2",
     "jest": "30.2.0",
     "jest-light-runner": "0.7.10",
     "jest-preset-stylelint": "8.0.0",
     "postcss": "8.5.6",
-    "semantic-release": "24.2.9",
+    "release-it": "19.0.6",
     "stylelint": "16.25.0",
     "tslib": "2.8.1",
     "typescript": "5.9.3"
@@ -92,8 +88,11 @@
     "node": ">=20.0.0"
   },
   "pnpm": {
+    "overrides": {
+      "conventional-changelog-conventionalcommits": "$conventional-changelog-conventionalcommits"
+    },
     "patchedDependencies": {
-      "@semantic-release/git@10.0.1": "patches/@semantic-release__git@10.0.1.patch"
+      "@release-it/conventional-changelog": "patches/@release-it__conventional-changelog.patch"
     }
   }
 }
