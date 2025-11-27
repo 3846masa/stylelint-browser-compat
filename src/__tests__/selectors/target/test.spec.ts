@@ -30,7 +30,7 @@ testRule({
         'selectors.target',
         '":target" pseudo-class',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/:target',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:target',
       ),
     },
   ],

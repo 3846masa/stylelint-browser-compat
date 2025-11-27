@@ -31,7 +31,7 @@ testRule({
         'properties.border-image',
         '"border-image" property',
         'IE 10',
-        'https://developer.mozilla.org/docs/Web/CSS/border-image',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image',
       ),
     },
   ],

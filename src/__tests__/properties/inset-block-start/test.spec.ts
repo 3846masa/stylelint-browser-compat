@@ -31,7 +31,7 @@ testRule({
         'properties.inset-block-start',
         '"inset-block-start" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/inset-block-start',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-block-start',
       ),
     },
   ],

@@ -34,7 +34,7 @@ testRule({
         'properties.background-image',
         '"background-image" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/background-image',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-image',
       ),
     },
   ],

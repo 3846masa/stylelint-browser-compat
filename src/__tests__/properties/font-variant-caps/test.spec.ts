@@ -31,7 +31,7 @@ testRule({
         'properties.font-variant-caps',
         '"font-variant-caps" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/font-variant-caps',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-caps',
       ),
     },
   ],

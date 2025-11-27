@@ -31,7 +31,7 @@ testRule({
         'properties.border-start-start-radius',
         '"border-start-start-radius" property',
         'Chrome 88',
-        'https://developer.mozilla.org/docs/Web/CSS/border-start-start-radius',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-start-start-radius',
       ),
     },
   ],

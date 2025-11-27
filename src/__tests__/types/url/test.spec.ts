@@ -34,7 +34,7 @@ testRule({
         'types.url',
         '"url()" function',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/url_function',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/url_function',
       ),
     },
   ],

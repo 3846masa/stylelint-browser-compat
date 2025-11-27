@@ -31,7 +31,7 @@ testRule({
         'properties.transform-style',
         '"transform-style" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/transform-style',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transform-style',
       ),
     },
   ],

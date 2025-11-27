@@ -31,7 +31,7 @@ testRule({
         'properties.transform-origin',
         '"transform-origin" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/transform-origin',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transform-origin',
       ),
     },
   ],

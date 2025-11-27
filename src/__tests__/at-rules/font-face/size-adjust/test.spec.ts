@@ -34,7 +34,7 @@ testRule({
         'at-rules.font-face.size-adjust',
         '"size-adjust" descriptor of the @font-face',
         'Chrome 91',
-        'https://developer.mozilla.org/docs/Web/CSS/@font-face/size-adjust',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/size-adjust',
       ),
     },
   ],

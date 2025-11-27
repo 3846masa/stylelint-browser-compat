@@ -31,7 +31,7 @@ testRule({
         'properties.flex-flow',
         '"flex-flow" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/flex-flow',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-flow',
       ),
     },
   ],

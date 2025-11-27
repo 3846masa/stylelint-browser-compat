@@ -31,7 +31,7 @@ testRule({
         'properties.aspect-ratio',
         '"aspect-ratio" property',
         'Chrome 87',
-        'https://developer.mozilla.org/docs/Web/CSS/aspect-ratio',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/aspect-ratio',
       ),
     },
   ],

@@ -30,7 +30,7 @@ testRule({
         'selectors.optional',
         '":optional" pseudo-class',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/:optional',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:optional',
       ),
     },
   ],

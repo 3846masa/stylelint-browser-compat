@@ -31,7 +31,7 @@ testRule({
         'properties.mask-image',
         '"mask-image" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/mask-image',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-image',
       ),
     },
   ],

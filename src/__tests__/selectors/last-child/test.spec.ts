@@ -30,7 +30,7 @@ testRule({
         'selectors.last-child',
         '":last-child" pseudo-class',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/:last-child',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:last-child',
       ),
     },
   ],

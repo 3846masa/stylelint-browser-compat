@@ -31,7 +31,7 @@ testRule({
         'properties.text-emphasis',
         '"text-emphasis" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/text-emphasis',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-emphasis',
       ),
     },
   ],

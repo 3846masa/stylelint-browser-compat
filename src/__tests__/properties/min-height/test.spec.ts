@@ -31,7 +31,7 @@ testRule({
         'properties.min-height',
         '"min-height" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/min-height',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-height',
       ),
     },
   ],

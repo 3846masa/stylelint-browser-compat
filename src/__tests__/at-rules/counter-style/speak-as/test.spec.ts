@@ -34,7 +34,7 @@ testRule({
         'at-rules.counter-style.speak-as',
         '"speak-as" descriptor of the @counter-style',
         'Firefox 32',
-        'https://developer.mozilla.org/docs/Web/CSS/@counter-style/speak-as',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@counter-style/speak-as',
       ),
     },
   ],

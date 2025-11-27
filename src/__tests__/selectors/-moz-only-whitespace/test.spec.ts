@@ -30,7 +30,7 @@ testRule({
         'selectors.-moz-only-whitespace',
         '":-moz-only-whitespace" pseudo-class',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/:-moz-only-whitespace',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:-moz-only-whitespace',
       ),
     },
   ],

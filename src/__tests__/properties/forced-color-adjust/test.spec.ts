@@ -31,7 +31,7 @@ testRule({
         'properties.forced-color-adjust',
         '"forced-color-adjust" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/forced-color-adjust',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/forced-color-adjust',
       ),
     },
   ],

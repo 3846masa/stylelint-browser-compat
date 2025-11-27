@@ -31,7 +31,7 @@ testRule({
         'types.basic-shape.circle',
         '"circle()" function',
         'Chrome 36',
-        'https://developer.mozilla.org/docs/Web/CSS/basic-shape/circle',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/circle',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.order',
         '"order" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/order',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/order',
       ),
     },
   ],

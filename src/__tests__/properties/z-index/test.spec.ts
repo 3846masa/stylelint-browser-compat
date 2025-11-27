@@ -31,7 +31,7 @@ testRule({
         'properties.z-index',
         '"z-index" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/z-index',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/z-index',
       ),
     },
   ],

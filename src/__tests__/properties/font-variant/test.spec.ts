@@ -31,7 +31,7 @@ testRule({
         'properties.font-variant',
         '"font-variant" property',
         'Opera Android 10',
-        'https://developer.mozilla.org/docs/Web/CSS/font-variant',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant',
       ),
     },
   ],

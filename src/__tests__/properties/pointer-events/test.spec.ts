@@ -31,7 +31,7 @@ testRule({
         'properties.pointer-events',
         '"pointer-events" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/pointer-events',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/pointer-events',
       ),
     },
   ],

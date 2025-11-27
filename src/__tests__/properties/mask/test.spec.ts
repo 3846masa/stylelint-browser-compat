@@ -31,7 +31,7 @@ testRule({
         'properties.mask',
         '"mask" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/mask',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask',
       ),
     },
   ],

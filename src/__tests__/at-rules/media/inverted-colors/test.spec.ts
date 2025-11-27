@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.inverted-colors',
         '"inverted-colors" media feature',
         'Safari 8',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/inverted-colors',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/inverted-colors',
       ),
     },
   ],

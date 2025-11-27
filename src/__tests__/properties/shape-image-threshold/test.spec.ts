@@ -31,7 +31,7 @@ testRule({
         'properties.shape-image-threshold',
         '"shape-image-threshold" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/shape-image-threshold',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/shape-image-threshold',
       ),
     },
   ],

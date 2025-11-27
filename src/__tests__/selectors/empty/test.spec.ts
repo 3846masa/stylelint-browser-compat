@@ -30,7 +30,7 @@ testRule({
         'selectors.empty',
         '":empty" pseudo-class',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/:empty',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:empty',
       ),
     },
   ],

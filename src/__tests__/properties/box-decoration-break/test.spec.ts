@@ -31,7 +31,7 @@ testRule({
         'properties.box-decoration-break',
         '"box-decoration-break" property',
         'Chrome 21',
-        'https://developer.mozilla.org/docs/Web/CSS/box-decoration-break',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/box-decoration-break',
       ),
     },
   ],

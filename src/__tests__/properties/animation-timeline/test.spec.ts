@@ -31,7 +31,7 @@ testRule({
         'properties.animation-timeline',
         '"animation-timeline" property',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/animation-timeline',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-timeline',
       ),
     },
   ],

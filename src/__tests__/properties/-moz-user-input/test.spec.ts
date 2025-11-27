@@ -34,7 +34,7 @@ testRule({
         'properties.-moz-user-input',
         '"-moz-user-input" property',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/-moz-user-input',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-moz-user-input',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.will-change',
         '"will-change" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/will-change',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/will-change',
       ),
     },
   ],

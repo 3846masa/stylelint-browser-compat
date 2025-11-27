@@ -30,7 +30,7 @@ testRule({
         'selectors.grammar-error',
         '"::grammar-error" pseudo-element',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/::grammar-error',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::grammar-error',
       ),
     },
   ],

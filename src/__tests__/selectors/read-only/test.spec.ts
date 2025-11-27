@@ -30,7 +30,7 @@ testRule({
         'selectors.read-only',
         '":read-only" pseudo-class',
         'IE 11',
-        'https://developer.mozilla.org/docs/Web/CSS/:read-only',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:read-only',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.writing-mode',
         '"writing-mode" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/writing-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/writing-mode',
       ),
     },
   ],

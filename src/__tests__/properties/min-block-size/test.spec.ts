@@ -31,7 +31,7 @@ testRule({
         'properties.min-block-size',
         '"min-block-size" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/min-block-size',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-block-size',
       ),
     },
   ],

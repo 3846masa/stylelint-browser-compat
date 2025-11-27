@@ -31,7 +31,7 @@ testRule({
         'properties.vertical-align',
         '"vertical-align" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/vertical-align',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/vertical-align',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.scroll-behavior',
         '"scroll-behavior" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/scroll-behavior',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-behavior',
       ),
     },
   ],

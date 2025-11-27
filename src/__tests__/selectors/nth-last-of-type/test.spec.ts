@@ -30,7 +30,7 @@ testRule({
         'selectors.nth-last-of-type',
         '":nth-last-of-type" pseudo-class',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/:nth-last-of-type',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:nth-last-of-type',
       ),
     },
   ],

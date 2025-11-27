@@ -30,7 +30,7 @@ testRule({
         'at-rules.counter-style',
         '"@counter-style" at rules',
         'Chrome 90',
-        'https://developer.mozilla.org/docs/Web/CSS/@counter-style',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@counter-style',
       ),
     },
   ],

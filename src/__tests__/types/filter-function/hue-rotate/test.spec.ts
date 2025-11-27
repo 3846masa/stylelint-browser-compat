@@ -34,7 +34,7 @@ testRule({
         'types.filter-function.hue-rotate',
         '"hue-rotate()" function',
         'Chrome 17',
-        'https://developer.mozilla.org/docs/Web/CSS/filter-function/hue-rotate',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/hue-rotate',
       ),
     },
   ],

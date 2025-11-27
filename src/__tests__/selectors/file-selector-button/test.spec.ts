@@ -30,7 +30,7 @@ testRule({
         'selectors.file-selector-button',
         '"::file-selector-button" pseudo-element',
         'Firefox 81',
-        'https://developer.mozilla.org/docs/Web/CSS/::file-selector-button',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::file-selector-button',
       ),
     },
   ],

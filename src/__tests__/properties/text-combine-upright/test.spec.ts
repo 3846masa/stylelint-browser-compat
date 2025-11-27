@@ -31,7 +31,7 @@ testRule({
         'properties.text-combine-upright',
         '"text-combine-upright" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/text-combine-upright',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-combine-upright',
       ),
     },
   ],

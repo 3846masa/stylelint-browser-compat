@@ -30,7 +30,7 @@ testRule({
         'at-rules.document',
         '"@document" at rules',
         'Firefox 61',
-        'https://developer.mozilla.org/docs/Web/CSS/@document',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@document',
       ),
     },
   ],

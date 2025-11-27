@@ -31,7 +31,7 @@ testRule({
         'properties.border-block-start',
         '"border-block-start" property',
         'Chrome 68',
-        'https://developer.mozilla.org/docs/Web/CSS/border-block-start',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-start',
       ),
     },
   ],

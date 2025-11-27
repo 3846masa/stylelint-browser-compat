@@ -31,7 +31,7 @@ testRule({
         'properties.image-orientation',
         '"image-orientation" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/image-orientation',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/image-orientation',
       ),
     },
   ],

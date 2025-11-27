@@ -34,7 +34,7 @@ testRule({
         'types.easing-function.steps',
         '"steps()" function',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/easing-function/steps',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/easing-function/steps',
       ),
     },
     {
@@ -51,7 +51,7 @@ testRule({
         'types.easing-function.steps',
         '"step-start" value',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/easing-function/steps',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/easing-function/steps',
       ),
     },
     {
@@ -68,7 +68,7 @@ testRule({
         'types.easing-function.steps',
         '"step-end" value',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/easing-function/steps',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/easing-function/steps',
       ),
     },
   ],

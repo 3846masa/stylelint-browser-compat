@@ -30,7 +30,7 @@ testRule({
         'selectors.-moz-broken',
         '":-moz-broken" pseudo-class',
         'Firefox 2',
-        'https://developer.mozilla.org/docs/Web/CSS/:-moz-broken',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:-moz-broken',
       ),
     },
   ],

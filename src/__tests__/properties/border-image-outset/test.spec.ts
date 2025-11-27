@@ -31,7 +31,7 @@ testRule({
         'properties.border-image-outset',
         '"border-image-outset" property',
         'Chrome 14',
-        'https://developer.mozilla.org/docs/Web/CSS/border-image-outset',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-outset',
       ),
     },
   ],

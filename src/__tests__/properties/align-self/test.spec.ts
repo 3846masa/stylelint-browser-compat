@@ -31,7 +31,7 @@ testRule({
         'properties.align-self',
         '"align-self" property',
         'Chrome 20',
-        'https://developer.mozilla.org/docs/Web/CSS/align-self',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/align-self',
       ),
     },
   ],

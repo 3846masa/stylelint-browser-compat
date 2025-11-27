@@ -31,7 +31,7 @@ testRule({
         'properties.border-image-width',
         '"border-image-width" property',
         'Chrome 14',
-        'https://developer.mozilla.org/docs/Web/CSS/border-image-width',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-width',
       ),
     },
   ],

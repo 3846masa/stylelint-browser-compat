@@ -31,7 +31,7 @@ testRule({
         'properties.transform-box',
         '"transform-box" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/transform-box',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transform-box',
       ),
     },
   ],

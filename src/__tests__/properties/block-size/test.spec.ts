@@ -31,7 +31,7 @@ testRule({
         'properties.block-size',
         '"block-size" property',
         'Firefox 40',
-        'https://developer.mozilla.org/docs/Web/CSS/block-size',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/block-size',
       ),
     },
   ],

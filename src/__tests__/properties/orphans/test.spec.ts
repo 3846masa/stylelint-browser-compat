@@ -31,7 +31,7 @@ testRule({
         'properties.orphans',
         '"orphans" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/orphans',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/orphans',
       ),
     },
   ],

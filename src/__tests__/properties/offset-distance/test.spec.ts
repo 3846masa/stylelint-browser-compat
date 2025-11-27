@@ -31,7 +31,7 @@ testRule({
         'properties.offset-distance',
         '"offset-distance" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/offset-distance',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-distance',
       ),
     },
   ],

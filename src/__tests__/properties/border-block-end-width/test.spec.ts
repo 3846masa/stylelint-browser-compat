@@ -31,7 +31,7 @@ testRule({
         'properties.border-block-end-width',
         '"border-block-end-width" property',
         'Chrome 68',
-        'https://developer.mozilla.org/docs/Web/CSS/border-block-end-width',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-end-width',
       ),
     },
   ],

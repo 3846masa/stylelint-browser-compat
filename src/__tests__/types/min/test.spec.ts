@@ -31,7 +31,7 @@ testRule({
         'types.min',
         '"min()" function',
         'Chrome 78',
-        'https://developer.mozilla.org/docs/Web/CSS/min',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/min',
       ),
     },
   ],

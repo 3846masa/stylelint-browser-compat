@@ -34,7 +34,7 @@ testRule({
         'types.transform-function.scaleZ',
         '"scaleZ()" function',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/transform-function/scaleZ',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/scaleZ',
       ),
     },
   ],

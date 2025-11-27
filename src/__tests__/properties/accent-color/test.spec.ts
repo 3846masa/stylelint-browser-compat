@@ -31,7 +31,7 @@ testRule({
         'properties.accent-color',
         '"accent-color" property',
         'Chrome 92',
-        'https://developer.mozilla.org/docs/Web/CSS/accent-color',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/accent-color',
       ),
     },
   ],

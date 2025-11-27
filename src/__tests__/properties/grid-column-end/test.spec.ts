@@ -31,7 +31,7 @@ testRule({
         'properties.grid-column-end',
         '"grid-column-end" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/grid-column-end',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-column-end',
       ),
     },
   ],

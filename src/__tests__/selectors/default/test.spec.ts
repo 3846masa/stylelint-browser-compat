@@ -30,7 +30,7 @@ testRule({
         'selectors.default',
         '":default" pseudo-class',
         'Chrome 9',
-        'https://developer.mozilla.org/docs/Web/CSS/:default',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:default',
       ),
     },
   ],

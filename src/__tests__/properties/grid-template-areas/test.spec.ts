@@ -31,7 +31,7 @@ testRule({
         'properties.grid-template-areas',
         '"grid-template-areas" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/grid-template-areas',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-template-areas',
       ),
     },
   ],

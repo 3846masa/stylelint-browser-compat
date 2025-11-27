@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.resolution',
         '"resolution" media feature',
         'Chrome 28',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/resolution',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/resolution',
       ),
     },
     {
@@ -46,7 +46,7 @@ testRule({
         'at-rules.media.resolution',
         '"min-resolution" media feature',
         'Chrome 28',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/resolution',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/resolution',
       ),
     },
     {
@@ -62,7 +62,7 @@ testRule({
         'at-rules.media.resolution',
         '"max-resolution" media feature',
         'Chrome 28',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/resolution',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/resolution',
       ),
     },
   ],

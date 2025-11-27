@@ -31,7 +31,7 @@ testRule({
         'properties.overflow-x',
         '"overflow-x" property',
         'Opera 9',
-        'https://developer.mozilla.org/docs/Web/CSS/overflow-x',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-x',
       ),
     },
   ],

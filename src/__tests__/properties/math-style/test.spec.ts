@@ -31,7 +31,7 @@ testRule({
         'properties.math-style',
         '"math-style" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/math-style',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/math-style',
       ),
     },
   ],

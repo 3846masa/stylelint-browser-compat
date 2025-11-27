@@ -31,7 +31,7 @@ testRule({
         'properties.min-width',
         '"min-width" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/min-width',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-width',
       ),
     },
   ],

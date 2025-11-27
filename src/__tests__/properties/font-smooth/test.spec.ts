@@ -31,7 +31,7 @@ testRule({
         'properties.font-smooth',
         '"font-smooth" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/font-smooth',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-smooth',
       ),
     },
   ],

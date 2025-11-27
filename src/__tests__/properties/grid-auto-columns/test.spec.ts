@@ -31,7 +31,7 @@ testRule({
         'properties.grid-auto-columns',
         '"grid-auto-columns" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/grid-auto-columns',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-auto-columns',
       ),
     },
   ],

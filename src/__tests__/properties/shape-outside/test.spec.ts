@@ -31,7 +31,7 @@ testRule({
         'properties.shape-outside',
         '"shape-outside" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/shape-outside',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/shape-outside',
       ),
     },
   ],

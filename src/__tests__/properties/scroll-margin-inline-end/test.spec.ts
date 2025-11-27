@@ -31,7 +31,7 @@ testRule({
         'properties.scroll-margin-inline-end',
         '"scroll-margin-inline-end" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-end',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-inline-end',
       ),
     },
   ],

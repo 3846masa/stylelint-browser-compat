@@ -30,7 +30,7 @@ testRule({
         'selectors.defined',
         '":defined" pseudo-class',
         'Chrome 53',
-        'https://developer.mozilla.org/docs/Web/CSS/:defined',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:defined',
       ),
     },
   ],

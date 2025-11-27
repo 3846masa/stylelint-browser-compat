@@ -31,7 +31,7 @@ testRule({
         'properties.caret-color',
         '"caret-color" property',
         'Chrome 56',
-        'https://developer.mozilla.org/docs/Web/CSS/caret-color',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/caret-color',
       ),
     },
   ],

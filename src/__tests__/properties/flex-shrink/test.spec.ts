@@ -31,7 +31,7 @@ testRule({
         'properties.flex-shrink',
         '"flex-shrink" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/flex-shrink',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-shrink',
       ),
     },
   ],

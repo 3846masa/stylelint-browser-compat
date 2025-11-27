@@ -30,7 +30,7 @@ testRule({
         'selectors.focus-within',
         '":focus-within" pseudo-class',
         'Chrome 59',
-        'https://developer.mozilla.org/docs/Web/CSS/:focus-within',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:focus-within',
       ),
     },
   ],

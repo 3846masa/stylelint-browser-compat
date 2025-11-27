@@ -30,7 +30,7 @@ testRule({
         'selectors.only-of-type',
         '":only-of-type" pseudo-class',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/:only-of-type',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:only-of-type',
       ),
     },
   ],

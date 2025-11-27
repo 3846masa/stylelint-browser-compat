@@ -31,7 +31,7 @@ testRule({
         'properties.padding-left',
         '"padding-left" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/padding-left',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-left',
       ),
     },
   ],

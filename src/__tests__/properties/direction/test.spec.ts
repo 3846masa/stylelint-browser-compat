@@ -31,7 +31,7 @@ testRule({
         'properties.direction',
         '"direction" property',
         'Opera 9',
-        'https://developer.mozilla.org/docs/Web/CSS/direction',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/direction',
       ),
     },
   ],

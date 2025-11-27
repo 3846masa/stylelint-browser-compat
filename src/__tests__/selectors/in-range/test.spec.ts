@@ -30,7 +30,7 @@ testRule({
         'selectors.in-range',
         '":in-range" pseudo-class',
         'Firefox 28',
-        'https://developer.mozilla.org/docs/Web/CSS/:in-range',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:in-range',
       ),
     },
   ],

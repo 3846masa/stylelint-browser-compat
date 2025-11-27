@@ -30,7 +30,7 @@ testRule({
         'selectors.host',
         '":host" pseudo-class',
         'Chrome 53',
-        'https://developer.mozilla.org/docs/Web/CSS/:host',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:host',
       ),
     },
   ],

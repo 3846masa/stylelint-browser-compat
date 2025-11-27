@@ -31,7 +31,7 @@ testRule({
         'properties.font-feature-settings',
         '"font-feature-settings" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/font-feature-settings',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-feature-settings',
       ),
     },
   ],

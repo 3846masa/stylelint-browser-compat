@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.update',
         '"update" media feature',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/update',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/update',
       ),
     },
   ],

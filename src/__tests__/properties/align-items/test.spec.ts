@@ -31,7 +31,7 @@ testRule({
         'properties.align-items',
         '"align-items" property',
         'Chrome 20',
-        'https://developer.mozilla.org/docs/Web/CSS/align-items',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/align-items',
       ),
     },
   ],

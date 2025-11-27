@@ -34,7 +34,7 @@ testRule({
         'types.basic-shape.path',
         '"path()" function',
         'Chrome 45',
-        'https://developer.mozilla.org/docs/Web/CSS/basic-shape/path',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/path',
       ),
     },
   ],

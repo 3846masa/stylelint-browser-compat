@@ -31,7 +31,7 @@ testRule({
         'properties.filter',
         '"filter" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/filter',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/filter',
       ),
     },
   ],

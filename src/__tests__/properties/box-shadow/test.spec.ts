@@ -31,7 +31,7 @@ testRule({
         'properties.box-shadow',
         '"box-shadow" property',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/box-shadow',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/box-shadow',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'types.gradient.conic-gradient',
         '"conic-gradient()" function',
         'Chrome 68',
-        'https://developer.mozilla.org/docs/Web/CSS/gradient/conic-gradient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/conic-gradient',
       ),
     },
   ],

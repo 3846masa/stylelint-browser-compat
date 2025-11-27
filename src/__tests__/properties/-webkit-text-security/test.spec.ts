@@ -31,7 +31,7 @@ testRule({
         'properties.-webkit-text-security',
         '"-webkit-text-security" property',
         'Firefox 100',
-        'https://developer.mozilla.org/docs/Web/CSS/-webkit-text-security',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-webkit-text-security',
       ),
     },
   ],

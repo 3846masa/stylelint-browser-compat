@@ -31,7 +31,7 @@ testRule({
         'properties.max-block-size',
         '"max-block-size" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/max-block-size',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-block-size',
       ),
     },
   ],

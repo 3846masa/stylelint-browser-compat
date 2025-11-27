@@ -31,7 +31,7 @@ testRule({
         'properties.margin-inline-start',
         '"margin-inline-start" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/margin-inline-start',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-inline-start',
       ),
     },
   ],

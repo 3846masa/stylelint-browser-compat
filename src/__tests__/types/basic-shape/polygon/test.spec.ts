@@ -31,7 +31,7 @@ testRule({
         'types.basic-shape.polygon',
         '"polygon()" function',
         'Chrome 36',
-        'https://developer.mozilla.org/docs/Web/CSS/basic-shape/polygon',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/polygon',
       ),
     },
   ],

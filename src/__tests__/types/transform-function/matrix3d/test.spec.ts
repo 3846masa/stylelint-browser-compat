@@ -34,7 +34,7 @@ testRule({
         'types.transform-function.matrix3d',
         '"matrix3d()" function',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/transform-function/matrix3d',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/matrix3d',
       ),
     },
   ],

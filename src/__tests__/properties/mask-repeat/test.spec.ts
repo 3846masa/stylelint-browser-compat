@@ -31,7 +31,7 @@ testRule({
         'properties.mask-repeat',
         '"mask-repeat" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/mask-repeat',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-repeat',
       ),
     },
   ],

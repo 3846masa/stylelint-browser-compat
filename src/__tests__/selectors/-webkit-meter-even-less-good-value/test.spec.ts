@@ -30,7 +30,7 @@ testRule({
         'selectors.-webkit-meter-even-less-good-value',
         '"::-webkit-meter-even-less-good-value" pseudo-element',
         'Chrome 11',
-        'https://developer.mozilla.org/docs/Web/CSS/::-webkit-meter-even-less-good-value',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::-webkit-meter-even-less-good-value',
       ),
     },
   ],

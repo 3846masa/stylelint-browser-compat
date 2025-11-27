@@ -31,7 +31,7 @@ testRule({
         'properties.flex-grow',
         '"flex-grow" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/flex-grow',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-grow',
       ),
     },
   ],

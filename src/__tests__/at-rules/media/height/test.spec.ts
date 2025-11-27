@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.height',
         '"height" media feature',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/height',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/height',
       ),
     },
     {
@@ -46,7 +46,7 @@ testRule({
         'at-rules.media.height',
         '"min-height" media feature',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/height',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/height',
       ),
     },
     {
@@ -62,7 +62,7 @@ testRule({
         'at-rules.media.height',
         '"max-height" media feature',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/height',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/height',
       ),
     },
   ],

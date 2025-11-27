@@ -31,7 +31,7 @@ testRule({
         'properties.border-bottom-left-radius',
         '"border-bottom-left-radius" property',
         'Opera Android 10',
-        'https://developer.mozilla.org/docs/Web/CSS/border-bottom-left-radius',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom-left-radius',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.column-fill',
         '"column-fill" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/column-fill',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-fill',
       ),
     },
   ],

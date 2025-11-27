@@ -31,7 +31,7 @@ testRule({
         'properties.clip',
         '"clip" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/clip',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/clip',
       ),
     },
   ],

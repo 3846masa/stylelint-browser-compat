@@ -31,7 +31,7 @@ testRule({
         'properties.background-position',
         '"background-position" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/background-position',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-position',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.box-direction',
         '"box-direction" property',
         'Opera 12',
-        'https://developer.mozilla.org/docs/Web/CSS/box-direction',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/box-direction',
       ),
     },
   ],

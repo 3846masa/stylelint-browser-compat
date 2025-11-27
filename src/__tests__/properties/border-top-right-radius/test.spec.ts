@@ -31,7 +31,7 @@ testRule({
         'properties.border-top-right-radius',
         '"border-top-right-radius" property',
         'Opera Android 10',
-        'https://developer.mozilla.org/docs/Web/CSS/border-top-right-radius',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top-right-radius',
       ),
     },
   ],

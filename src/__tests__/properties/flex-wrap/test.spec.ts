@@ -31,7 +31,7 @@ testRule({
         'properties.flex-wrap',
         '"flex-wrap" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/flex-wrap',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-wrap',
       ),
     },
   ],

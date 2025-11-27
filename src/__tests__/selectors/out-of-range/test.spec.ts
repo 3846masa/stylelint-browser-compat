@@ -30,7 +30,7 @@ testRule({
         'selectors.out-of-range',
         '":out-of-range" pseudo-class',
         'Firefox 28',
-        'https://developer.mozilla.org/docs/Web/CSS/:out-of-range',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:out-of-range',
       ),
     },
   ],

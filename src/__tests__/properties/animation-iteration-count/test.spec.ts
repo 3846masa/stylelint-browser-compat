@@ -31,7 +31,7 @@ testRule({
         'properties.animation-iteration-count',
         '"animation-iteration-count" property',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/animation-iteration-count',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-iteration-count',
       ),
     },
   ],

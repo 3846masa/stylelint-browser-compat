@@ -31,7 +31,7 @@ testRule({
         'types.max',
         '"max()" function',
         'Chrome 78',
-        'https://developer.mozilla.org/docs/Web/CSS/max',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/max',
       ),
     },
   ],

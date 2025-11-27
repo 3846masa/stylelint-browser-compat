@@ -31,7 +31,7 @@ testRule({
         'properties.animation',
         '"animation" property',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/animation',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation',
       ),
     },
   ],

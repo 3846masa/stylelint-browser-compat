@@ -31,7 +31,7 @@ testRule({
         'properties.contain-intrinsic-size',
         '"contain-intrinsic-size" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-size',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/contain-intrinsic-size',
       ),
     },
   ],

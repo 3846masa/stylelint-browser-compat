@@ -34,7 +34,7 @@ testRule({
         'types.angle.deg',
         '"deg" unit',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/angle#deg',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/angle',
       ),
     },
   ],

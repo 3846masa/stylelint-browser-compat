@@ -34,7 +34,7 @@ testRule({
         'at-rules.font-face.font-display',
         '"font-display" descriptor of the @font-face',
         'Chrome 59',
-        'https://developer.mozilla.org/docs/Web/CSS/@font-face/font-display',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-display',
       ),
     },
   ],

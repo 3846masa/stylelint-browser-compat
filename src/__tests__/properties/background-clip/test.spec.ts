@@ -31,7 +31,7 @@ testRule({
         'properties.background-clip',
         '"background-clip" property',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/background-clip',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-clip',
       ),
     },
   ],

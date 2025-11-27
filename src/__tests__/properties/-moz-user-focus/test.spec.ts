@@ -31,7 +31,7 @@ testRule({
         'properties.-moz-user-focus',
         '"-moz-user-focus" property',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/-moz-user-focus',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-moz-user-focus',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'types.gradient.repeating-linear-gradient',
         '"repeating-linear-gradient()" function',
         'Chrome 9',
-        'https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-linear-gradient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/repeating-linear-gradient',
       ),
     },
   ],

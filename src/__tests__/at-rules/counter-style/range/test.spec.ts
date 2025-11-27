@@ -34,7 +34,7 @@ testRule({
         'at-rules.counter-style.range',
         '"range" descriptor of the @counter-style',
         'Chrome 90',
-        'https://developer.mozilla.org/docs/Web/CSS/@counter-style/range',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@counter-style/range',
       ),
     },
   ],

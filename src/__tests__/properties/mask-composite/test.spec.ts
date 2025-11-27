@@ -31,7 +31,7 @@ testRule({
         'properties.mask-composite',
         '"mask-composite" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/mask-composite',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-composite',
       ),
     },
   ],

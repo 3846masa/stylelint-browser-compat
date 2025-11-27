@@ -30,7 +30,7 @@ testRule({
         'selectors.-moz-window-inactive',
         '":-moz-window-inactive" pseudo-class',
         'Firefox 2',
-        'https://developer.mozilla.org/docs/Web/CSS/:-moz-window-inactive',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:-moz-window-inactive',
       ),
     },
   ],

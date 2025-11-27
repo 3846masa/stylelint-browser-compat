@@ -30,7 +30,7 @@ testRule({
         'selectors.future',
         '":future" pseudo-class',
         'Safari 6.1',
-        'https://developer.mozilla.org/docs/Web/CSS/:future',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:future',
       ),
     },
   ],

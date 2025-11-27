@@ -31,7 +31,7 @@ testRule({
         'at-rules.page.size.jis-b5',
         '"JIS-B5" size',
         'Chrome 81',
-        'https://developer.mozilla.org/docs/Web/CSS/@page/size',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@page/size',
       ),
     },
   ],

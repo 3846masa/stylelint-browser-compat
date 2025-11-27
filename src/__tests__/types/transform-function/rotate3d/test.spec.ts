@@ -34,7 +34,7 @@ testRule({
         'types.transform-function.rotate3d',
         '"rotate3d()" function',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/transform-function/rotate3d',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/rotate3d',
       ),
     },
   ],

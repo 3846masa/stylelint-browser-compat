@@ -34,7 +34,7 @@ testRule({
         'types.angle.rad',
         '"rad" unit',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/angle#rad',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/angle',
       ),
     },
   ],

@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.orientation',
         '"orientation" media feature',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/orientation',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/orientation',
       ),
     },
   ],

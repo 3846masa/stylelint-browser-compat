@@ -34,7 +34,7 @@ testRule({
         'properties.transition-timing-function',
         '"transition-timing-function" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/transition-timing-function',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-timing-function',
       ),
     },
   ],

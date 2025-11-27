@@ -31,7 +31,7 @@ testRule({
         'properties.text-underline-position',
         '"text-underline-position" property',
         'Chrome 32',
-        'https://developer.mozilla.org/docs/Web/CSS/text-underline-position',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-underline-position',
       ),
     },
   ],

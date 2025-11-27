@@ -31,7 +31,7 @@ testRule({
         'properties.text-orientation',
         '"text-orientation" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/text-orientation',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-orientation',
       ),
     },
   ],

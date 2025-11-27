@@ -31,7 +31,7 @@ testRule({
         'properties.transition-property',
         '"transition-property" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/transition-property',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-property',
       ),
     },
   ],

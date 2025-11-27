@@ -31,7 +31,7 @@ testRule({
         'properties.border-inline-start-color',
         '"border-inline-start-color" property',
         'Chrome 68',
-        'https://developer.mozilla.org/docs/Web/CSS/border-inline-start-color',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-start-color',
       ),
     },
   ],

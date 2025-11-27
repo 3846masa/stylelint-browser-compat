@@ -31,7 +31,7 @@ testRule({
         'properties.text-decoration-skip-ink',
         '"text-decoration-skip-ink" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip-ink',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-skip-ink',
       ),
     },
   ],

@@ -34,7 +34,7 @@ testRule({
         'types.filter-function.grayscale',
         '"grayscale()" function',
         'Chrome 17',
-        'https://developer.mozilla.org/docs/Web/CSS/filter-function/grayscale',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/grayscale',
       ),
     },
   ],

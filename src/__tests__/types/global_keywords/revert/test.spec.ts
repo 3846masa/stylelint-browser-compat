@@ -31,7 +31,7 @@ testRule({
         'types.global_keywords.revert',
         '"revert" value',
         'Chrome 83',
-        'https://developer.mozilla.org/docs/Web/CSS/revert',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/revert',
       ),
     },
   ],

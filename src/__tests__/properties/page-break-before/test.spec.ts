@@ -31,7 +31,7 @@ testRule({
         'properties.page-break-before',
         '"page-break-before" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/page-break-before',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/page-break-before',
       ),
     },
   ],

@@ -34,7 +34,7 @@ testRule({
         'at-rules.property.inherits',
         '"inherits" descriptor of the @property',
         'Chrome 84',
-        'https://developer.mozilla.org/docs/Web/CSS/@property/inherits',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@property/inherits',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'types.color.color',
         '"color()" function',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/color_value/color',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/color',
       ),
     },
   ],

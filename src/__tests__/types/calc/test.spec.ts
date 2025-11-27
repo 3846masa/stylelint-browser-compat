@@ -31,7 +31,7 @@ testRule({
         'types.calc',
         '"calc()" function',
         'Chrome 18',
-        'https://developer.mozilla.org/docs/Web/CSS/calc',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/calc',
       ),
     },
   ],

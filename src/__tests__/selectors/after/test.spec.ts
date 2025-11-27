@@ -30,7 +30,7 @@ testRule({
         'selectors.after',
         '"::after" pseudo-element',
         'IE 7',
-        'https://developer.mozilla.org/docs/Web/CSS/::after',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::after',
       ),
     },
     {
@@ -46,7 +46,7 @@ testRule({
         'selectors.after',
         '":after" pseudo-element',
         'IE 7',
-        'https://developer.mozilla.org/docs/Web/CSS/::after',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::after',
       ),
     },
   ],

@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.color',
         '"color" media feature',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/color',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/color',
       ),
     },
     {
@@ -46,7 +46,7 @@ testRule({
         'at-rules.media.color',
         '"min-color" media feature',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/color',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/color',
       ),
     },
   ],

@@ -30,7 +30,7 @@ testRule({
         'selectors.first-of-type',
         '":first-of-type" pseudo-class',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/:first-of-type',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:first-of-type',
       ),
     },
   ],

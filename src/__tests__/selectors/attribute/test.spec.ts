@@ -30,7 +30,7 @@ testRule({
         'selectors.attribute',
         'Attribute selector',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/Attribute_selectors',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/Attribute_selectors',
       ),
     },
   ],

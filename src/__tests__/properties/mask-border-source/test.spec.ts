@@ -31,7 +31,7 @@ testRule({
         'properties.mask-border-source',
         '"mask-border-source" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/mask-border-source',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-source',
       ),
     },
   ],

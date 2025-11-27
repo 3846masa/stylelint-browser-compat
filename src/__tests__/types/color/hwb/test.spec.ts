@@ -31,7 +31,7 @@ testRule({
         'types.color.hwb',
         '"hwb()" function',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/color_value/hwb',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/hwb',
       ),
     },
     {
@@ -48,7 +48,7 @@ testRule({
         'types.color.hwb',
         '"hwb()" function',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/color_value/hwb',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/hwb',
       ),
     },
   ],

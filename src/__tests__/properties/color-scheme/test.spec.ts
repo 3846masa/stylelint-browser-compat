@@ -31,7 +31,7 @@ testRule({
         'properties.color-scheme',
         '"color-scheme" property',
         'Chrome 80',
-        'https://developer.mozilla.org/docs/Web/CSS/color-scheme',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/color-scheme',
       ),
     },
   ],

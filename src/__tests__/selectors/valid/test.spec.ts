@@ -30,7 +30,7 @@ testRule({
         'selectors.valid',
         '":valid" pseudo-class',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/:valid',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:valid',
       ),
     },
   ],

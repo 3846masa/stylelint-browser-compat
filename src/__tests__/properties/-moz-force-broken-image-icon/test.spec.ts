@@ -31,7 +31,7 @@ testRule({
         'properties.-moz-force-broken-image-icon',
         '"-moz-force-broken-image-icon" property',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/-moz-force-broken-image-icon',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-moz-force-broken-image-icon',
       ),
     },
   ],

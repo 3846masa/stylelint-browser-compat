@@ -31,7 +31,7 @@ testRule({
         'properties.paint-order',
         '"paint-order" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/paint-order',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/paint-order',
       ),
     },
   ],

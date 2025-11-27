@@ -30,7 +30,7 @@ testRule({
         'selectors.marker',
         '"::marker" pseudo-element',
         'Firefox 67',
-        'https://developer.mozilla.org/docs/Web/CSS/::marker',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::marker',
       ),
     },
   ],

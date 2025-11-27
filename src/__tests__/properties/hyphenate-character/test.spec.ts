@@ -31,7 +31,7 @@ testRule({
         'properties.hyphenate-character',
         '"hyphenate-character" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/hyphenate-character',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/hyphenate-character',
       ),
     },
   ],

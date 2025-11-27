@@ -31,7 +31,7 @@ testRule({
         'properties.hanging-punctuation',
         '"hanging-punctuation" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/hanging-punctuation',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.page-break-after',
         '"page-break-after" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/page-break-after',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/page-break-after',
       ),
     },
   ],

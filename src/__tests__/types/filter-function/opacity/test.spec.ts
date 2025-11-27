@@ -34,7 +34,7 @@ testRule({
         'types.filter-function.opacity',
         '"opacity()" function',
         'Chrome 17',
-        'https://developer.mozilla.org/docs/Web/CSS/filter-function/opacity',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/opacity',
       ),
     },
   ],

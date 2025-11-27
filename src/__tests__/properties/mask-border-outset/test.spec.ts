@@ -31,7 +31,7 @@ testRule({
         'properties.mask-border-outset',
         '"mask-border-outset" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/mask-border-outset',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-outset',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'types.basic-shape.inset',
         '"inset()" function',
         'Chrome 36',
-        'https://developer.mozilla.org/docs/Web/CSS/basic-shape/inset',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/inset',
       ),
     },
   ],

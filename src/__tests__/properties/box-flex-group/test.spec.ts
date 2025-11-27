@@ -31,7 +31,7 @@ testRule({
         'properties.box-flex-group',
         '"box-flex-group" property',
         'Opera 12',
-        'https://developer.mozilla.org/docs/Web/CSS/box-flex-group',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/box-flex-group',
       ),
     },
   ],

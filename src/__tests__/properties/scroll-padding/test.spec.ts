@@ -31,7 +31,7 @@ testRule({
         'properties.scroll-padding',
         '"scroll-padding" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/scroll-padding',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding',
       ),
     },
   ],

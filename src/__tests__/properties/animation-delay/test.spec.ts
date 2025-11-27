@@ -31,7 +31,7 @@ testRule({
         'properties.animation-delay',
         '"animation-delay" property',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/animation-delay',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-delay',
       ),
     },
   ],

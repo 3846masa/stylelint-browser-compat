@@ -31,7 +31,7 @@ testRule({
         'types.color.lch',
         '"lch()" function',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/color_value/lch',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/lch',
       ),
     },
     {
@@ -48,7 +48,7 @@ testRule({
         'types.color.lch',
         '"lch()" function',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/color_value/lch',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/lch',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.border-block-end-style',
         '"border-block-end-style" property',
         'Chrome 68',
-        'https://developer.mozilla.org/docs/Web/CSS/border-block-end-style',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-end-style',
       ),
     },
   ],

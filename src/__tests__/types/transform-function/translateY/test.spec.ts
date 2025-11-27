@@ -34,7 +34,7 @@ testRule({
         'types.transform-function.translateY',
         '"translateY()" function',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/transform-function/translateY',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/translateY',
       ),
     },
   ],

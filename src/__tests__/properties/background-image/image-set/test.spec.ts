@@ -34,7 +34,7 @@ testRule({
         'properties.background-image.image-set',
         '"image-set()" function specified as background-image',
         'Chrome 20',
-        'https://developer.mozilla.org/docs/Web/CSS/image/image-set',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/image/image-set',
       ),
     },
     {
@@ -51,7 +51,7 @@ testRule({
         'properties.background-image.image-set',
         '"image-set()" function specified as background-image',
         'Chrome 20',
-        'https://developer.mozilla.org/docs/Web/CSS/image/image-set',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/image/image-set',
       ),
     },
   ],

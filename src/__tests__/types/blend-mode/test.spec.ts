@@ -34,7 +34,7 @@ testRule({
         'types.blend-mode',
         '"multiply" value',
         'Chrome 34',
-        'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/blend-mode',
       ),
     },
     {
@@ -51,7 +51,7 @@ testRule({
         'types.blend-mode',
         '"screen" value',
         'Chrome 34',
-        'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/blend-mode',
       ),
     },
     {
@@ -68,7 +68,7 @@ testRule({
         'types.blend-mode',
         '"overlay" value',
         'Chrome 34',
-        'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/blend-mode',
       ),
     },
     {
@@ -85,7 +85,7 @@ testRule({
         'types.blend-mode',
         '"darken" value',
         'Chrome 34',
-        'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/blend-mode',
       ),
     },
     {
@@ -102,7 +102,7 @@ testRule({
         'types.blend-mode',
         '"lighten" value',
         'Chrome 34',
-        'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/blend-mode',
       ),
     },
     {
@@ -119,7 +119,7 @@ testRule({
         'types.blend-mode',
         '"color-dodge" value',
         'Chrome 34',
-        'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/blend-mode',
       ),
     },
     {
@@ -136,7 +136,7 @@ testRule({
         'types.blend-mode',
         '"color-burn" value',
         'Chrome 34',
-        'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/blend-mode',
       ),
     },
     {
@@ -153,7 +153,7 @@ testRule({
         'types.blend-mode',
         '"hard-light" value',
         'Chrome 34',
-        'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/blend-mode',
       ),
     },
     {
@@ -170,7 +170,7 @@ testRule({
         'types.blend-mode',
         '"soft-light" value',
         'Chrome 34',
-        'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/blend-mode',
       ),
     },
     {
@@ -187,7 +187,7 @@ testRule({
         'types.blend-mode',
         '"difference" value',
         'Chrome 34',
-        'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/blend-mode',
       ),
     },
     {
@@ -204,7 +204,7 @@ testRule({
         'types.blend-mode',
         '"exclusion" value',
         'Chrome 34',
-        'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/blend-mode',
       ),
     },
     {
@@ -221,7 +221,7 @@ testRule({
         'types.blend-mode',
         '"hue" value',
         'Chrome 34',
-        'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/blend-mode',
       ),
     },
     {
@@ -238,7 +238,7 @@ testRule({
         'types.blend-mode',
         '"saturation" value',
         'Chrome 34',
-        'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/blend-mode',
       ),
     },
     {
@@ -255,7 +255,7 @@ testRule({
         'types.blend-mode',
         '"color" value',
         'Chrome 34',
-        'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/blend-mode',
       ),
     },
     {
@@ -272,7 +272,7 @@ testRule({
         'types.blend-mode',
         '"luminosity" value',
         'Chrome 34',
-        'https://developer.mozilla.org/docs/Web/CSS/blend-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/blend-mode',
       ),
     },
   ],

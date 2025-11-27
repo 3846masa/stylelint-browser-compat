@@ -31,7 +31,7 @@ testRule({
         'properties.border-image-repeat',
         '"border-image-repeat" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/border-image-repeat',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-repeat',
       ),
     },
   ],

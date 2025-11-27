@@ -34,7 +34,7 @@ testRule({
         'at-rules.counter-style.fallback',
         '"fallback" descriptor of the @counter-style',
         'Chrome 90',
-        'https://developer.mozilla.org/docs/Web/CSS/@counter-style/fallback',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@counter-style/fallback',
       ),
     },
   ],

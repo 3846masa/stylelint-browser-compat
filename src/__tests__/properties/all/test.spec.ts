@@ -31,7 +31,7 @@ testRule({
         'properties.all',
         '"all" property',
         'Chrome 36',
-        'https://developer.mozilla.org/docs/Web/CSS/all',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/all',
       ),
     },
   ],

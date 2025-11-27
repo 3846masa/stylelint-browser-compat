@@ -31,7 +31,7 @@ testRule({
         'properties.text-decoration-line',
         '"text-decoration-line" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/text-decoration-line',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-line',
       ),
     },
   ],

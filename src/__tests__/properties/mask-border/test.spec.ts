@@ -31,7 +31,7 @@ testRule({
         'properties.mask-border',
         '"mask-border" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/mask-border',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border',
       ),
     },
   ],

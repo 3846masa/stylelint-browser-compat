@@ -30,7 +30,7 @@ testRule({
         'selectors.-webkit-search-cancel-button',
         '"::-webkit-search-cancel-button" pseudo-element',
         'Edge 18',
-        'https://developer.mozilla.org/docs/Web/CSS/::-webkit-search-cancel-button',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::-webkit-search-cancel-button',
       ),
     },
   ],

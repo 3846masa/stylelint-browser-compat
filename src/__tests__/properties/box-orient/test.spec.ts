@@ -31,7 +31,7 @@ testRule({
         'properties.box-orient',
         '"box-orient" property',
         'Opera 12',
-        'https://developer.mozilla.org/docs/Web/CSS/box-orient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/box-orient',
       ),
     },
   ],

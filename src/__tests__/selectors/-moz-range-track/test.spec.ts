@@ -30,7 +30,7 @@ testRule({
         'selectors.-moz-range-track',
         '"::-moz-range-track" pseudo-element',
         'Firefox 20',
-        'https://developer.mozilla.org/docs/Web/CSS/::-moz-range-track',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::-moz-range-track',
       ),
     },
   ],

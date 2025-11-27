@@ -30,7 +30,7 @@ testRule({
         'at-rules.keyframes',
         '"@keyframes" at rules',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/@keyframes',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@keyframes',
       ),
     },
   ],

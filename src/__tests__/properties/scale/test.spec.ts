@@ -31,7 +31,7 @@ testRule({
         'properties.scale',
         '"scale" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/scale',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scale',
       ),
     },
   ],

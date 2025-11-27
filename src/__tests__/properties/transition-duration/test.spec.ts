@@ -34,7 +34,7 @@ testRule({
         'properties.transition-duration',
         '"transition-duration" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/transition-duration',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-duration',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.scroll-snap-align',
         '"scroll-snap-align" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/scroll-snap-align',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-snap-align',
       ),
     },
   ],

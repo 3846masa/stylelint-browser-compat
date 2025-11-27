@@ -31,7 +31,7 @@ testRule({
         'properties.translate',
         '"translate" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/translate',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/translate',
       ),
     },
   ],

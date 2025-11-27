@@ -30,7 +30,7 @@ testRule({
         'at-rules.supports',
         '"@supports" at rules',
         'Chrome 27',
-        'https://developer.mozilla.org/docs/Web/CSS/@supports',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@supports',
       ),
     },
   ],

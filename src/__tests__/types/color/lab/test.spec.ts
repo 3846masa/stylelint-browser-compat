@@ -31,7 +31,7 @@ testRule({
         'types.color.lab',
         '"lab()" function',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/color_value/lab',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/lab',
       ),
     },
     {
@@ -48,7 +48,7 @@ testRule({
         'types.color.lab',
         '"lab()" function',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/color_value/lab',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/lab',
       ),
     },
   ],

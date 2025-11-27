@@ -34,7 +34,7 @@ testRule({
         'types.image.image-set',
         '"image-set()" function',
         'Chrome 20',
-        'https://developer.mozilla.org/docs/Web/CSS/image/image-set',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/image/image-set',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.image-rendering',
         '"image-rendering" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/image-rendering',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/image-rendering',
       ),
     },
   ],

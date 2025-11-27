@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.prefers-color-scheme',
         '"prefers-color-scheme" media feature',
         'Chrome 75',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/prefers-color-scheme',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/prefers-color-scheme',
       ),
     },
   ],

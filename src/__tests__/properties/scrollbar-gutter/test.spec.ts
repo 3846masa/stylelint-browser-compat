@@ -31,7 +31,7 @@ testRule({
         'properties.scrollbar-gutter',
         '"scrollbar-gutter" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/scrollbar-gutter',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scrollbar-gutter',
       ),
     },
   ],

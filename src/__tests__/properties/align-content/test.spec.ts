@@ -31,7 +31,7 @@ testRule({
         'properties.align-content',
         '"align-content" property',
         'Chrome 20',
-        'https://developer.mozilla.org/docs/Web/CSS/align-content',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/align-content',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.column-rule-width',
         '"column-rule-width" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/column-rule-width',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-rule-width',
       ),
     },
   ],

@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.forced-colors',
         '"forced-colors" media feature',
         'Chrome 88',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/forced-colors',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/forced-colors',
       ),
     },
   ],

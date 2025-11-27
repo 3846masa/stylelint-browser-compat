@@ -31,7 +31,7 @@ testRule({
         'properties.scroll-margin-bottom',
         '"scroll-margin-bottom" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/scroll-margin-bottom',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-bottom',
       ),
     },
   ],

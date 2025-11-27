@@ -31,7 +31,7 @@ testRule({
         'properties.place-content',
         '"place-content" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/place-content',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/place-content',
       ),
     },
   ],

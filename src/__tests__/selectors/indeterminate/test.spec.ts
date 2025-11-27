@@ -30,7 +30,7 @@ testRule({
         'selectors.indeterminate',
         '":indeterminate" pseudo-class',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/:indeterminate',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:indeterminate',
       ),
     },
   ],

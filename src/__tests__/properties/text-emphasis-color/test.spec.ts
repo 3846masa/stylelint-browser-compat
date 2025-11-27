@@ -31,7 +31,7 @@ testRule({
         'properties.text-emphasis-color',
         '"text-emphasis-color" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/text-emphasis-color',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-emphasis-color',
       ),
     },
   ],

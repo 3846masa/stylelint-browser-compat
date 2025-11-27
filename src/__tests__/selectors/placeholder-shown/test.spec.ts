@@ -30,7 +30,7 @@ testRule({
         'selectors.placeholder-shown',
         '":placeholder-shown" pseudo-class',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/:placeholder-shown',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:placeholder-shown',
       ),
     },
   ],

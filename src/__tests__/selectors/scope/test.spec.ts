@@ -30,7 +30,7 @@ testRule({
         'selectors.scope',
         '":scope" pseudo-class',
         'Chrome 26',
-        'https://developer.mozilla.org/docs/Web/CSS/:scope',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:scope',
       ),
     },
   ],

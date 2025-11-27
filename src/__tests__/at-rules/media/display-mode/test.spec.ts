@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.display-mode',
         '"display-mode" media feature',
         'Chrome 41',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/display-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/display-mode',
       ),
     },
   ],

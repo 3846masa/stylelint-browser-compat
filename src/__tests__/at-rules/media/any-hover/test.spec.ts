@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.any-hover',
         '"any-hover" media feature',
         'Chrome 40',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/any-hover',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/any-hover',
       ),
     },
   ],

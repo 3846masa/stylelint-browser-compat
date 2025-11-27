@@ -31,7 +31,7 @@ testRule({
         'properties.word-spacing',
         '"word-spacing" property',
         'IE 5.5',
-        'https://developer.mozilla.org/docs/Web/CSS/word-spacing',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/word-spacing',
       ),
     },
   ],

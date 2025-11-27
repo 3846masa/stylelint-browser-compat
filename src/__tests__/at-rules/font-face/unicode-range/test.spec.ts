@@ -34,7 +34,7 @@ testRule({
         'at-rules.font-face.unicode-range',
         '"unicode-range" descriptor of the @font-face',
         'Firefox 35',
-        'https://developer.mozilla.org/docs/Web/CSS/@font-face/unicode-range',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/unicode-range',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.-webkit-mask-position-y',
         '"-webkit-mask-position-y" property',
         'Edge 17',
-        'https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-position-y',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-webkit-mask-position-y',
       ),
     },
   ],

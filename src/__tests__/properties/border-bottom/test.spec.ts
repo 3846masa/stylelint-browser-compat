@@ -31,7 +31,7 @@ testRule({
         'properties.border-bottom',
         '"border-bottom" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/border-bottom',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-bottom',
       ),
     },
   ],

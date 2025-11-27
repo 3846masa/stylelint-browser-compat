@@ -31,7 +31,7 @@ testRule({
         'properties.mask-border-repeat',
         '"mask-border-repeat" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/mask-border-repeat',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-repeat',
       ),
     },
   ],

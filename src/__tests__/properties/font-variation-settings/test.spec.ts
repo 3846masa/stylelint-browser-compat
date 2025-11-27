@@ -31,7 +31,7 @@ testRule({
         'properties.font-variation-settings',
         '"font-variation-settings" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/font-variation-settings',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variation-settings',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'types.image.paint',
         '"paint()" function',
         'Chrome 64',
-        'https://developer.mozilla.org/docs/Web/CSS/image/paint',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/image/paint',
       ),
     },
   ],

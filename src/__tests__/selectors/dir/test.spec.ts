@@ -30,7 +30,7 @@ testRule({
         'selectors.dir',
         '":dir" pseudo-class',
         'Firefox 16',
-        'https://developer.mozilla.org/docs/Web/CSS/:dir',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:dir',
       ),
     },
   ],

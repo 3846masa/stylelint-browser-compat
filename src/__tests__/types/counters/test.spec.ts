@@ -34,7 +34,7 @@ testRule({
         'types.counters',
         '"counters()" function',
         'IE 7',
-        'https://developer.mozilla.org/docs/Web/CSS/counters',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/counters',
       ),
     },
   ],

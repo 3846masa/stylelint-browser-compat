@@ -31,7 +31,7 @@ testRule({
         'properties.box-ordinal-group',
         '"box-ordinal-group" property',
         'Opera 12',
-        'https://developer.mozilla.org/docs/Web/CSS/box-ordinal-group',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/box-ordinal-group',
       ),
     },
   ],

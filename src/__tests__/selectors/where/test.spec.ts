@@ -30,7 +30,7 @@ testRule({
         'selectors.where',
         '":where" pseudo-class',
         'Chrome 87',
-        'https://developer.mozilla.org/docs/Web/CSS/:where',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:where',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.-webkit-border-before',
         '"-webkit-border-before" property',
         'Chrome 7',
-        'https://developer.mozilla.org/docs/Web/CSS/-webkit-border-before',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-webkit-border-before',
       ),
     },
   ],

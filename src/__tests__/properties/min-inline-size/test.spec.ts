@@ -31,7 +31,7 @@ testRule({
         'properties.min-inline-size',
         '"min-inline-size" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/min-inline-size',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/min-inline-size',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.background-blend-mode',
         '"background-blend-mode" property',
         'Chrome 34',
-        'https://developer.mozilla.org/docs/Web/CSS/background-blend-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-blend-mode',
       ),
     },
   ],

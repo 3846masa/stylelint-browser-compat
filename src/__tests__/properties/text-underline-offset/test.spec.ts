@@ -31,7 +31,7 @@ testRule({
         'properties.text-underline-offset',
         '"text-underline-offset" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/text-underline-offset',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-underline-offset',
       ),
     },
   ],

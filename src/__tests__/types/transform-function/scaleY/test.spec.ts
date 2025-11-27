@@ -34,7 +34,7 @@ testRule({
         'types.transform-function.scaleY',
         '"scaleY()" function',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/transform-function/scaleY',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/scaleY',
       ),
     },
   ],

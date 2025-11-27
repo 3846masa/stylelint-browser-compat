@@ -31,7 +31,7 @@ testRule({
         'properties.-webkit-text-fill-color',
         '"-webkit-text-fill-color" property',
         'Firefox 48',
-        'https://developer.mozilla.org/docs/Web/CSS/-webkit-text-fill-color',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-webkit-text-fill-color',
       ),
     },
   ],

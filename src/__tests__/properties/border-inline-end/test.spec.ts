@@ -31,7 +31,7 @@ testRule({
         'properties.border-inline-end',
         '"border-inline-end" property',
         'Chrome 68',
-        'https://developer.mozilla.org/docs/Web/CSS/border-inline-end',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-end',
       ),
     },
   ],

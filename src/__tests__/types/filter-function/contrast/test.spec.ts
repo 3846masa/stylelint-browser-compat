@@ -34,7 +34,7 @@ testRule({
         'types.filter-function.contrast',
         '"contrast()" function',
         'Chrome 17',
-        'https://developer.mozilla.org/docs/Web/CSS/filter-function/contrast',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/contrast',
       ),
     },
   ],

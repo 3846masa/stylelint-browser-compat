@@ -30,7 +30,7 @@ testRule({
         'selectors.has',
         '":has" pseudo-class',
         'Safari 15.1',
-        'https://developer.mozilla.org/docs/Web/CSS/:has',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:has',
       ),
     },
   ],

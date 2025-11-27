@@ -31,7 +31,7 @@ testRule({
         'properties.border-right',
         '"border-right" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/border-right',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-right',
       ),
     },
   ],

@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.color-index',
         '"color-index" media feature',
         'Chrome 28',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/color-index',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/color-index',
       ),
     },
     {
@@ -46,7 +46,7 @@ testRule({
         'at-rules.media.color-index',
         '"min-color-index" media feature',
         'Chrome 28',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/color-index',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/color-index',
       ),
     },
   ],

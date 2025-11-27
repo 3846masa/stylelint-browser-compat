@@ -31,7 +31,7 @@ testRule({
         'types.image.cross-fade',
         '"cross-fade()" function',
         'Chrome 16',
-        'https://developer.mozilla.org/docs/Web/CSS/cross-fade',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/cross-fade',
       ),
     },
   ],

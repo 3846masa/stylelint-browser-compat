@@ -33,7 +33,7 @@ testRule({
         'selectors.hostfunction',
         '":host()" pseudo-class',
         'Chrome 53',
-        'https://developer.mozilla.org/docs/Web/CSS/:host_function',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:host_function',
       ),
     },
   ],

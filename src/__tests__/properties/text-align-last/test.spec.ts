@@ -31,7 +31,7 @@ testRule({
         'properties.text-align-last',
         '"text-align-last" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/text-align-last',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-align-last',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.justify-content',
         '"justify-content" property',
         'Chrome 20',
-        'https://developer.mozilla.org/docs/Web/CSS/justify-content',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/justify-content',
       ),
     },
   ],

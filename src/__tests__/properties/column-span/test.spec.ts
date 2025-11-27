@@ -31,7 +31,7 @@ testRule({
         'properties.column-span',
         '"column-span" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/column-span',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-span',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.column-rule-style',
         '"column-rule-style" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/column-rule-style',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/column-rule-style',
       ),
     },
   ],

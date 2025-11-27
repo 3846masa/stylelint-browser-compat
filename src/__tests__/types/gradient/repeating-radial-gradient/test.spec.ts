@@ -31,7 +31,7 @@ testRule({
         'types.gradient.repeating-radial-gradient',
         '"repeating-radial-gradient()" function',
         'Chrome 9',
-        'https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-radial-gradient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/repeating-radial-gradient',
       ),
     },
   ],

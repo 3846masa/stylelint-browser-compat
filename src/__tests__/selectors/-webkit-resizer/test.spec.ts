@@ -30,7 +30,7 @@ testRule({
         'selectors.-webkit-resizer',
         '"::-webkit-resizer" pseudo-element',
         'Edge 18',
-        'https://developer.mozilla.org/docs/Web/CSS/::-webkit-scrollbar',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::-webkit-scrollbar',
       ),
     },
   ],

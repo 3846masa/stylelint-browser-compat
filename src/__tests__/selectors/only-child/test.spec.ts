@@ -30,7 +30,7 @@ testRule({
         'selectors.only-child',
         '":only-child" pseudo-class',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/:only-child',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:only-child',
       ),
     },
   ],

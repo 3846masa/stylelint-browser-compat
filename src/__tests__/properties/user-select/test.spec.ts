@@ -31,7 +31,7 @@ testRule({
         'properties.user-select',
         '"user-select" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/user-select',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/user-select',
       ),
     },
   ],

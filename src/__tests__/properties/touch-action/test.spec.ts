@@ -31,7 +31,7 @@ testRule({
         'properties.touch-action',
         '"touch-action" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/touch-action',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/touch-action',
       ),
     },
   ],

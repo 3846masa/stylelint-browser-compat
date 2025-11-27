@@ -30,7 +30,7 @@ testRule({
         'selectors.not',
         '":not" pseudo-class',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/:not',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:not',
       ),
     },
   ],

@@ -34,7 +34,7 @@ testRule({
         'types.transform-function.rotateY',
         '"rotateY()" function',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/transform-function/rotateY',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/rotateY',
       ),
     },
   ],

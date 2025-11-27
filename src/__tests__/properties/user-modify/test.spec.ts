@@ -31,7 +31,7 @@ testRule({
         'properties.user-modify',
         '"user-modify" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/user-modify',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/user-modify',
       ),
     },
   ],

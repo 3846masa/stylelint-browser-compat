@@ -30,7 +30,7 @@ testRule({
         'at-rules.font-face',
         '"@font-face" at rules',
         'Opera 9',
-        'https://developer.mozilla.org/docs/Web/CSS/@font-face',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face',
       ),
     },
   ],

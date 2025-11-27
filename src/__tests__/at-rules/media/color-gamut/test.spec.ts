@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.color-gamut',
         '"color-gamut" media feature',
         'Chrome 57',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/color-gamut',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/color-gamut',
       ),
     },
   ],

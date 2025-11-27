@@ -31,7 +31,7 @@ testRule({
         'properties.tab-size',
         '"tab-size" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/tab-size',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/tab-size',
       ),
     },
   ],

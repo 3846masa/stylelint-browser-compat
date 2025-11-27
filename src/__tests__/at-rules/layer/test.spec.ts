@@ -31,7 +31,7 @@ testRule({
         'at-rules.layer',
         '"@layer" at rules',
         'Chrome 98',
-        'https://developer.mozilla.org/docs/Web/CSS/@layer',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@layer',
       ),
     },
   ],

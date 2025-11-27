@@ -31,7 +31,7 @@ testRule({
         'properties.border-image-slice',
         '"border-image-slice" property',
         'Chrome 14',
-        'https://developer.mozilla.org/docs/Web/CSS/border-image-slice',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-slice',
       ),
     },
   ],

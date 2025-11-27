@@ -31,7 +31,7 @@ testRule({
         'properties.-webkit-text-stroke-color',
         '"-webkit-text-stroke-color" property',
         'Firefox 48',
-        'https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke-color',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-color',
       ),
     },
   ],

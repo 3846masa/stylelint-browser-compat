@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.grid',
         '"grid" media feature',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/grid',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/grid',
       ),
     },
   ],
