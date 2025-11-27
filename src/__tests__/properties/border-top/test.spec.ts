@@ -31,7 +31,7 @@ testRule({
         'properties.border-top',
         '"border-top" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/border-top',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-top',
       ),
     },
   ],

@@ -34,7 +34,7 @@ testRule({
         'types.transform-function.perspective',
         '"perspective()" function',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/transform-function/perspective',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/perspective',
       ),
     },
   ],

@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.device-aspect-ratio',
         '"device-aspect-ratio" media feature',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/device-aspect-ratio',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/device-aspect-ratio',
       ),
     },
     {
@@ -46,7 +46,7 @@ testRule({
         'at-rules.media.device-aspect-ratio',
         '"min-device-aspect-ratio" media feature',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/device-aspect-ratio',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/device-aspect-ratio',
       ),
     },
     {
@@ -62,7 +62,7 @@ testRule({
         'at-rules.media.device-aspect-ratio',
         '"max-device-aspect-ratio" media feature',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/device-aspect-ratio',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/device-aspect-ratio',
       ),
     },
   ],

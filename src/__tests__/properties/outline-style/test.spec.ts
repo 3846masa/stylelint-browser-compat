@@ -31,7 +31,7 @@ testRule({
         'properties.outline-style',
         '"outline-style" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/outline-style',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/outline-style',
       ),
     },
   ],

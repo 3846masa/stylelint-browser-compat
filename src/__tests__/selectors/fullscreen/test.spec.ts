@@ -30,7 +30,7 @@ testRule({
         'selectors.fullscreen',
         '":fullscreen" pseudo-class',
         'Chrome 14',
-        'https://developer.mozilla.org/docs/Web/CSS/:fullscreen',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:fullscreen',
       ),
     },
   ],

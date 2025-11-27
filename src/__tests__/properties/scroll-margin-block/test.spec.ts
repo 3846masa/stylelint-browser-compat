@@ -31,7 +31,7 @@ testRule({
         'properties.scroll-margin-block',
         '"scroll-margin-block" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-block',
       ),
     },
   ],

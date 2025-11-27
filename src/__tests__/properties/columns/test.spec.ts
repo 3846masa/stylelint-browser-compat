@@ -31,7 +31,7 @@ testRule({
         'properties.columns',
         '"columns" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/columns',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/columns',
       ),
     },
   ],

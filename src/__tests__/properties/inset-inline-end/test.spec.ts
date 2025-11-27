@@ -31,7 +31,7 @@ testRule({
         'properties.inset-inline-end',
         '"inset-inline-end" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/inset-inline-end',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-inline-end',
       ),
     },
   ],

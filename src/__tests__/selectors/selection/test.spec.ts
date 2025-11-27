@@ -30,7 +30,7 @@ testRule({
         'selectors.selection',
         '"::selection" pseudo-element',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/::selection',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::selection',
       ),
     },
   ],

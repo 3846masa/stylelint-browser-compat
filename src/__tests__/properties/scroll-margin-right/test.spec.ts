@@ -31,7 +31,7 @@ testRule({
         'properties.scroll-margin-right',
         '"scroll-margin-right" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/scroll-margin-right',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-margin-right',
       ),
     },
   ],

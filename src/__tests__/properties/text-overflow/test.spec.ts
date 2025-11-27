@@ -31,7 +31,7 @@ testRule({
         'properties.text-overflow',
         '"text-overflow" property',
         'Firefox 6',
-        'https://developer.mozilla.org/docs/Web/CSS/text-overflow',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-overflow',
       ),
     },
   ],

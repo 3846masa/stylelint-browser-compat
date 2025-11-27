@@ -31,7 +31,7 @@ testRule({
         'properties.font-variant-position',
         '"font-variant-position" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/font-variant-position',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-position',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.offset-anchor',
         '"offset-anchor" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/offset-anchor',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-anchor',
       ),
     },
   ],

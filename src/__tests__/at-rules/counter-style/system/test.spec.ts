@@ -34,7 +34,7 @@ testRule({
         'at-rules.counter-style.system',
         '"system" descriptor of the @counter-style',
         'Chrome 90',
-        'https://developer.mozilla.org/docs/Web/CSS/@counter-style/system',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@counter-style/system',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.grid-auto-flow',
         '"grid-auto-flow" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/grid-auto-flow',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-auto-flow',
       ),
     },
   ],

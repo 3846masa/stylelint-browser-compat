@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.prefers-contrast',
         '"prefers-contrast" media feature',
         'Chrome 95',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/prefers-contrast',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/prefers-contrast',
       ),
     },
   ],

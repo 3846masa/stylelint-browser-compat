@@ -34,7 +34,7 @@ testRule({
         'properties.background-image.image-rect',
         '"image-rect()" function specified as background-image',
         'Firefox 3',
-        'https://developer.mozilla.org/docs/Web/CSS/-moz-image-rect',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/-moz-image-rect',
       ),
     },
     {
@@ -51,7 +51,7 @@ testRule({
         'properties.background-image.image-rect',
         '"image-rect()" function specified as background-image',
         'Firefox 3',
-        'https://developer.mozilla.org/docs/Web/CSS/-moz-image-rect',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/-moz-image-rect',
       ),
     },
   ],

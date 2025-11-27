@@ -31,7 +31,7 @@ testRule({
         'properties.grid-column-start',
         '"grid-column-start" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/grid-column-start',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/grid-column-start',
       ),
     },
   ],

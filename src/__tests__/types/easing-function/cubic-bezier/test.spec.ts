@@ -34,7 +34,7 @@ testRule({
         'types.easing-function.cubic-bezier',
         '"cubic-bezier()" function',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/easing-function/cubic-bezier',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier',
       ),
     },
   ],

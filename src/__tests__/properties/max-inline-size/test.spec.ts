@@ -31,7 +31,7 @@ testRule({
         'properties.max-inline-size',
         '"max-inline-size" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/max-inline-size',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-inline-size',
       ),
     },
   ],

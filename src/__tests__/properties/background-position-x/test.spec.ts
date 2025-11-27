@@ -31,7 +31,7 @@ testRule({
         'properties.background-position-x',
         '"background-position-x" property',
         'Firefox 48',
-        'https://developer.mozilla.org/docs/Web/CSS/background-position-x',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-position-x',
       ),
     },
   ],

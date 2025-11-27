@@ -31,7 +31,7 @@ testRule({
         'properties.text-size-adjust',
         '"text-size-adjust" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/text-size-adjust',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-size-adjust',
       ),
     },
   ],

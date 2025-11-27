@@ -31,7 +31,7 @@ testRule({
         'types.global_keywords.unset',
         '"unset" value',
         'Chrome 40',
-        'https://developer.mozilla.org/docs/Web/CSS/unset',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/unset',
       ),
     },
   ],

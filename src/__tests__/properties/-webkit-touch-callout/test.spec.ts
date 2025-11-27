@@ -31,7 +31,7 @@ testRule({
         'properties.-webkit-touch-callout',
         '"-webkit-touch-callout" property',
         'Safari 15.5',
-        'https://developer.mozilla.org/docs/Web/CSS/-webkit-touch-callout',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-webkit-touch-callout',
       ),
     },
   ],

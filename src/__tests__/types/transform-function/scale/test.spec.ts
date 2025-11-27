@@ -34,7 +34,7 @@ testRule({
         'types.transform-function.scale',
         '"scale()" function',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/transform-function/scale',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/scale',
       ),
     },
   ],

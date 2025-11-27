@@ -31,7 +31,7 @@ testRule({
         'properties.border-block-start-color',
         '"border-block-start-color" property',
         'Chrome 68',
-        'https://developer.mozilla.org/docs/Web/CSS/border-block-start-color',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-start-color',
       ),
     },
   ],

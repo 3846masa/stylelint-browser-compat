@@ -31,7 +31,7 @@ testRule({
         'properties.inset-inline-start',
         '"inset-inline-start" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/inset-inline-start',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-inline-start',
       ),
     },
   ],

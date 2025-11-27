@@ -34,7 +34,7 @@ testRule({
         'types.transform-function.matrix',
         '"matrix()" function',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/transform-function/matrix',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/matrix',
       ),
     },
   ],

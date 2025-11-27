@@ -34,7 +34,7 @@ testRule({
         'types.flex',
         '"fr" unit',
         'Chrome 28',
-        'https://developer.mozilla.org/docs/Web/CSS/flex_value',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/flex_value',
       ),
     },
   ],

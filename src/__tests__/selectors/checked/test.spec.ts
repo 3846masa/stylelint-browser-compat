@@ -30,7 +30,7 @@ testRule({
         'selectors.checked',
         '":checked" pseudo-class',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/:checked',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:checked',
       ),
     },
   ],

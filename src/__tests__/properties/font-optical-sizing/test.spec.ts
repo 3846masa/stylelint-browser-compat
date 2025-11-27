@@ -31,7 +31,7 @@ testRule({
         'properties.font-optical-sizing',
         '"font-optical-sizing" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-optical-sizing',
       ),
     },
   ],

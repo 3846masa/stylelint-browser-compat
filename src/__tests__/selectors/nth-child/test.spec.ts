@@ -30,7 +30,7 @@ testRule({
         'selectors.nth-child',
         '":nth-child" pseudo-class',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/:nth-child',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:nth-child',
       ),
     },
   ],

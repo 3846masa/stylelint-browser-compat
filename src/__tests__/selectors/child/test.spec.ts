@@ -30,7 +30,7 @@ testRule({
         'selectors.child',
         'Child combinator',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/Child_combinator',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/Child_combinator',
       ),
     },
   ],

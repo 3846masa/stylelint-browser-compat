@@ -31,7 +31,7 @@ testRule({
         'properties.scrollbar-width',
         '"scrollbar-width" property',
         'Safari 17.0',
-        'https://developer.mozilla.org/docs/Web/CSS/scrollbar-width',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scrollbar-width',
       ),
     },
   ],

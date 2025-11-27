@@ -31,7 +31,7 @@ testRule({
         'properties.-moz-orient',
         '"-moz-orient" property',
         'Firefox 5',
-        'https://developer.mozilla.org/docs/Web/CSS/-moz-orient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-moz-orient',
       ),
     },
   ],

@@ -30,7 +30,7 @@ testRule({
         'at-rules.media',
         '"@media" at rules',
         'IE 5.5',
-        'https://developer.mozilla.org/docs/Web/CSS/@media',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media',
       ),
     },
   ],

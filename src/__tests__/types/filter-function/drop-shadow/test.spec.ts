@@ -34,7 +34,7 @@ testRule({
         'types.filter-function.drop-shadow',
         '"drop-shadow()" function',
         'Chrome 17',
-        'https://developer.mozilla.org/docs/Web/CSS/filter-function/drop-shadow',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/drop-shadow',
       ),
     },
   ],

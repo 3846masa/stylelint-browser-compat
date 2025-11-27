@@ -30,7 +30,7 @@ testRule({
         'selectors.first-child',
         '":first-child" pseudo-class',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/:first-child',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:first-child',
       ),
     },
   ],

@@ -34,7 +34,7 @@ testRule({
         'types.image.element',
         '"element()" function',
         'Firefox 3',
-        'https://developer.mozilla.org/docs/Web/CSS/element',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/element',
       ),
     },
   ],

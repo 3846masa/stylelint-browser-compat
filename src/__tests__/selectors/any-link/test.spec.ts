@@ -30,7 +30,7 @@ testRule({
         'selectors.any-link',
         '":any-link" pseudo-class',
         'Opera 12',
-        'https://developer.mozilla.org/docs/Web/CSS/:any-link',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:any-link',
       ),
     },
   ],

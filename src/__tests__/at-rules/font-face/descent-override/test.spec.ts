@@ -34,7 +34,7 @@ testRule({
         'at-rules.font-face.descent-override',
         '"descent-override" descriptor of the @font-face',
         'Chrome 86',
-        'https://developer.mozilla.org/docs/Web/CSS/@font-face/descent-override',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/descent-override',
       ),
     },
   ],

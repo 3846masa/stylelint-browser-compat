@@ -30,7 +30,7 @@ testRule({
         'selectors.user-valid',
         '":user-valid" pseudo-class',
         'Firefox 87',
-        'https://developer.mozilla.org/docs/Web/CSS/:user-valid',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:user-valid',
       ),
     },
   ],

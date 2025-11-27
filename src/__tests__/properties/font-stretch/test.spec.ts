@@ -31,7 +31,7 @@ testRule({
         'properties.font-stretch',
         '"font-stretch" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/font-stretch',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-stretch',
       ),
     },
   ],

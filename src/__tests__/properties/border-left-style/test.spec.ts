@@ -31,7 +31,7 @@ testRule({
         'properties.border-left-style',
         '"border-left-style" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/border-left-style',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-left-style',
       ),
     },
   ],

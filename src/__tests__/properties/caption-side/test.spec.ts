@@ -31,7 +31,7 @@ testRule({
         'properties.caption-side',
         '"caption-side" property',
         'IE 7',
-        'https://developer.mozilla.org/docs/Web/CSS/caption-side',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/caption-side',
       ),
     },
   ],

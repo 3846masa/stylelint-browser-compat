@@ -31,7 +31,7 @@ testRule({
         'properties.ruby-align',
         '"ruby-align" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/ruby-align',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/ruby-align',
       ),
     },
   ],

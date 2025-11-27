@@ -34,7 +34,7 @@ testRule({
         'types.filter-function.blur',
         '"blur()" function',
         'Chrome 17',
-        'https://developer.mozilla.org/docs/Web/CSS/filter-function/blur',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/blur',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.max-height',
         '"max-height" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/max-height',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-height',
       ),
     },
   ],

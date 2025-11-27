@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.overflow-inline',
         '"overflow-inline" media feature',
         'Firefox 65',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/overflow-inline',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/overflow-inline',
       ),
     },
   ],

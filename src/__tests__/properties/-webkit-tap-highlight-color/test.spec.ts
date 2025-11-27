@@ -31,7 +31,7 @@ testRule({
         'properties.-webkit-tap-highlight-color',
         '"-webkit-tap-highlight-color" property',
         'Chrome 15',
-        'https://developer.mozilla.org/docs/Web/CSS/-webkit-tap-highlight-color',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-webkit-tap-highlight-color',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.counter-reset',
         '"counter-reset" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/counter-reset',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/counter-reset',
       ),
     },
   ],

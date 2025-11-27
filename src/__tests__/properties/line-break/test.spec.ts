@@ -31,7 +31,7 @@ testRule({
         'properties.line-break',
         '"line-break" property',
         'Firefox 68',
-        'https://developer.mozilla.org/docs/Web/CSS/line-break',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/line-break',
       ),
     },
   ],

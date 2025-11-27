@@ -31,7 +31,7 @@ testRule({
         'at-rules.page.size',
         '"size" descriptor of the @page',
         'Chrome 14',
-        'https://developer.mozilla.org/docs/Web/CSS/@page/size',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@page/size',
       ),
     },
   ],

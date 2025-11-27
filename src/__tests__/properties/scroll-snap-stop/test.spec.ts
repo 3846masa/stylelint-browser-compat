@@ -31,7 +31,7 @@ testRule({
         'properties.scroll-snap-stop',
         '"scroll-snap-stop" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/scroll-snap-stop',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-snap-stop',
       ),
     },
   ],

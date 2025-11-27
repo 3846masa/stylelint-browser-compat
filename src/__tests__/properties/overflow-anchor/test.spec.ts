@@ -31,7 +31,7 @@ testRule({
         'properties.overflow-anchor',
         '"overflow-anchor" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/overflow-anchor',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-anchor',
       ),
     },
   ],

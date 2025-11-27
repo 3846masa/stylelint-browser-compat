@@ -34,7 +34,7 @@ testRule({
         'types.transform-function.translateX',
         '"translateX()" function',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/transform-function/translateX',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/translateX',
       ),
     },
   ],

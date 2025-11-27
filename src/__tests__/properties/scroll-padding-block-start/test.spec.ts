@@ -31,7 +31,7 @@ testRule({
         'properties.scroll-padding-block-start',
         '"scroll-padding-block-start" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-start',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-block-start',
       ),
     },
   ],

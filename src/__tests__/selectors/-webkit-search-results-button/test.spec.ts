@@ -30,7 +30,7 @@ testRule({
         'selectors.-webkit-search-results-button',
         '"::-webkit-search-results-button" pseudo-element',
         'Edge 18',
-        'https://developer.mozilla.org/docs/Web/CSS/::-webkit-search-results-button',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::-webkit-search-results-button',
       ),
     },
   ],

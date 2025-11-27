@@ -31,7 +31,7 @@ testRule({
         'properties.perspective',
         '"perspective" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/perspective',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/perspective',
       ),
     },
   ],

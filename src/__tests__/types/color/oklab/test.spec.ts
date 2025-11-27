@@ -31,7 +31,7 @@ testRule({
         'types.color.oklab',
         '"oklab()" function',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/color_value/oklab',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/oklab',
       ),
     },
     {
@@ -48,7 +48,7 @@ testRule({
         'types.color.oklab',
         '"oklab()" function',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/color_value/oklab',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/oklab',
       ),
     },
   ],

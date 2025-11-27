@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.scripting',
         '"scripting" media feature',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/scripting',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/scripting',
       ),
     },
   ],

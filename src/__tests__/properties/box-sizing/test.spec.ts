@@ -31,7 +31,7 @@ testRule({
         'properties.box-sizing',
         '"box-sizing" property',
         'IE 7',
-        'https://developer.mozilla.org/docs/Web/CSS/box-sizing',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/box-sizing',
       ),
     },
   ],

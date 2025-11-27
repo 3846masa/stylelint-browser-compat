@@ -42,7 +42,7 @@ testRule({
         'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/gradient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient',
       ),
     },
     {
@@ -59,7 +59,7 @@ testRule({
         'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/gradient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient',
       ),
     },
     {
@@ -76,7 +76,7 @@ testRule({
         'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/gradient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient',
       ),
     },
     {
@@ -93,7 +93,7 @@ testRule({
         'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/gradient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient',
       ),
     },
     {
@@ -110,7 +110,7 @@ testRule({
         'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/gradient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient',
       ),
     },
     {
@@ -127,7 +127,7 @@ testRule({
         'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/gradient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient',
       ),
     },
     {
@@ -144,7 +144,7 @@ testRule({
         'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/gradient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient',
       ),
     },
     {
@@ -161,7 +161,7 @@ testRule({
         'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/gradient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient',
       ),
     },
     {
@@ -178,7 +178,7 @@ testRule({
         'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/gradient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient',
       ),
     },
     {
@@ -195,7 +195,7 @@ testRule({
         'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/gradient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient',
       ),
     },
     {
@@ -212,7 +212,7 @@ testRule({
         'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/gradient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient',
       ),
     },
     {
@@ -229,7 +229,7 @@ testRule({
         'properties.background-image.gradients',
         'Gradient function specified as background-image',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/gradient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient',
       ),
     },
   ],

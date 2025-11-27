@@ -31,7 +31,7 @@ testRule({
         'properties.position',
         '"position" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/position',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position',
       ),
     },
   ],

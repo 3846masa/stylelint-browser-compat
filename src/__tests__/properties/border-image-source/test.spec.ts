@@ -31,7 +31,7 @@ testRule({
         'properties.border-image-source',
         '"border-image-source" property',
         'Chrome 14',
-        'https://developer.mozilla.org/docs/Web/CSS/border-image-source',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-image-source',
       ),
     },
   ],

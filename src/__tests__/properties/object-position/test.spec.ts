@@ -31,7 +31,7 @@ testRule({
         'properties.object-position',
         '"object-position" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/object-position',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/object-position',
       ),
     },
   ],

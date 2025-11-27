@@ -30,7 +30,7 @@ testRule({
         'selectors.is',
         '":is" pseudo-class',
         'Chrome 87',
-        'https://developer.mozilla.org/docs/Web/CSS/:is',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:is',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.-webkit-text-stroke',
         '"-webkit-text-stroke" property',
         'Firefox 48',
-        'https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-webkit-text-stroke',
       ),
     },
   ],

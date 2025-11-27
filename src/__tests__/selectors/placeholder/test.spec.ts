@@ -30,7 +30,7 @@ testRule({
         'selectors.placeholder',
         '"::placeholder" pseudo-element',
         'Firefox 18',
-        'https://developer.mozilla.org/docs/Web/CSS/::placeholder',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::placeholder',
       ),
     },
   ],

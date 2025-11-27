@@ -31,7 +31,7 @@ testRule({
         'properties.empty-cells',
         '"empty-cells" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/empty-cells',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/empty-cells',
       ),
     },
   ],

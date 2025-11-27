@@ -31,7 +31,7 @@ testRule({
         'properties.overflow-block',
         '"overflow-block" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/overflow-block',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-block',
       ),
     },
   ],

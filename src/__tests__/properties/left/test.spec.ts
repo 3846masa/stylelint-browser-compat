@@ -31,7 +31,7 @@ testRule({
         'properties.left',
         '"left" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/left',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/left',
       ),
     },
   ],

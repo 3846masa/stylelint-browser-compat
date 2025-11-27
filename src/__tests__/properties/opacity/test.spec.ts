@@ -31,7 +31,7 @@ testRule({
         'properties.opacity',
         '"opacity" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/opacity',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/opacity',
       ),
     },
   ],

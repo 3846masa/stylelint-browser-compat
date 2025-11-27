@@ -31,7 +31,7 @@ testRule({
         'properties.font-variant-numeric',
         '"font-variant-numeric" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-numeric',
       ),
     },
   ],

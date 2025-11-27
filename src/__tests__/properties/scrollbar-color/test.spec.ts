@@ -31,7 +31,7 @@ testRule({
         'properties.scrollbar-color',
         '"scrollbar-color" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/scrollbar-color',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scrollbar-color',
       ),
     },
   ],

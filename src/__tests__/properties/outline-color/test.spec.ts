@@ -31,7 +31,7 @@ testRule({
         'properties.outline-color',
         '"outline-color" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/outline-color',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/outline-color',
       ),
     },
   ],

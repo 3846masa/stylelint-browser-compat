@@ -31,7 +31,7 @@ testRule({
         'properties.offset',
         '"offset" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/offset',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset',
       ),
     },
   ],

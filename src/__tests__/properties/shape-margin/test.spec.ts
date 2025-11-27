@@ -31,7 +31,7 @@ testRule({
         'properties.shape-margin',
         '"shape-margin" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/shape-margin',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/shape-margin',
       ),
     },
   ],

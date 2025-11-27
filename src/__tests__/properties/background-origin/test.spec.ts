@@ -31,7 +31,7 @@ testRule({
         'properties.background-origin',
         '"background-origin" property',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/background-origin',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-origin',
       ),
     },
   ],

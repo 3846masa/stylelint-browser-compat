@@ -34,7 +34,7 @@ testRule({
         'types.easing-function',
         '"linear" value',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/easing-function',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/easing-function',
       ),
     },
     {
@@ -51,7 +51,7 @@ testRule({
         'types.easing-function',
         '"ease" value',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/easing-function',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/easing-function',
       ),
     },
     {
@@ -68,7 +68,7 @@ testRule({
         'types.easing-function',
         '"ease-in" value',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/easing-function',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/easing-function',
       ),
     },
     {
@@ -85,7 +85,7 @@ testRule({
         'types.easing-function',
         '"ease-out" value',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/easing-function',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/easing-function',
       ),
     },
     {
@@ -102,7 +102,7 @@ testRule({
         'types.easing-function',
         '"ease-in-out" value',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/easing-function',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/easing-function',
       ),
     },
   ],

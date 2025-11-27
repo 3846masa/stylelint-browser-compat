@@ -31,7 +31,7 @@ testRule({
         'properties.place-self',
         '"place-self" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/place-self',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/place-self',
       ),
     },
   ],

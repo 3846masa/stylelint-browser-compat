@@ -31,7 +31,7 @@ testRule({
         'properties.-webkit-mask-repeat-x',
         '"-webkit-mask-repeat-x" property',
         'Edge 17',
-        'https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-repeat-x',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-webkit-mask-repeat-x',
       ),
     },
   ],

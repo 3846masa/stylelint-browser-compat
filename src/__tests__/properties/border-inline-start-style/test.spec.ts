@@ -31,7 +31,7 @@ testRule({
         'properties.border-inline-start-style',
         '"border-inline-start-style" property',
         'Chrome 68',
-        'https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-inline-start-style',
       ),
     },
   ],

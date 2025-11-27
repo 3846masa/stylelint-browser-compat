@@ -31,7 +31,7 @@ testRule({
         'properties.background-color',
         '"background-color" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/background-color',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-color',
       ),
     },
   ],

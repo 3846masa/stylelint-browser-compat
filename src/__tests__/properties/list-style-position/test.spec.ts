@@ -31,7 +31,7 @@ testRule({
         'properties.list-style-position',
         '"list-style-position" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/list-style-position',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/list-style-position',
       ),
     },
   ],

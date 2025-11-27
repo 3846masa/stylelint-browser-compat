@@ -31,7 +31,7 @@ testRule({
         'properties.ruby-position',
         '"ruby-position" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/ruby-position',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/ruby-position',
       ),
     },
   ],

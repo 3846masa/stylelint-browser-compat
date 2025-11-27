@@ -31,7 +31,7 @@ testRule({
         'properties.mix-blend-mode',
         '"mix-blend-mode" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mix-blend-mode',
       ),
     },
   ],

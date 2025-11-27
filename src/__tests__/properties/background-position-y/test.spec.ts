@@ -31,7 +31,7 @@ testRule({
         'properties.background-position-y',
         '"background-position-y" property',
         'Firefox 48',
-        'https://developer.mozilla.org/docs/Web/CSS/background-position-y',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-position-y',
       ),
     },
   ],

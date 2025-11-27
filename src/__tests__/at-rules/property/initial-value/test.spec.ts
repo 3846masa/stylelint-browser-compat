@@ -34,7 +34,7 @@ testRule({
         'at-rules.property.initial-value',
         '"initial-value" descriptor of the @property',
         'Chrome 84',
-        'https://developer.mozilla.org/docs/Web/CSS/@property/initial-value',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@property/initial-value',
       ),
     },
   ],

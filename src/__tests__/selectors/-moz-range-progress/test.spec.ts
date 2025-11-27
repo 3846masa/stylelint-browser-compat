@@ -30,7 +30,7 @@ testRule({
         'selectors.-moz-range-progress',
         '"::-moz-range-progress" pseudo-element',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/::-moz-range-progress',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::-moz-range-progress',
       ),
     },
   ],

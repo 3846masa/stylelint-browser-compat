@@ -31,7 +31,7 @@ testRule({
         'properties.padding-bottom',
         '"padding-bottom" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/padding-bottom',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-bottom',
       ),
     },
   ],

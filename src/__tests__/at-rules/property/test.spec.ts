@@ -30,7 +30,7 @@ testRule({
         'at-rules.property',
         '"@property" at rules',
         'Chrome 84',
-        'https://developer.mozilla.org/docs/Web/CSS/@property',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@property',
       ),
     },
   ],

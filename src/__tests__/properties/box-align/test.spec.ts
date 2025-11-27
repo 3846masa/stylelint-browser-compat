@@ -31,7 +31,7 @@ testRule({
         'properties.box-align',
         '"box-align" property',
         'Opera 12',
-        'https://developer.mozilla.org/docs/Web/CSS/box-align',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/box-align',
       ),
     },
   ],

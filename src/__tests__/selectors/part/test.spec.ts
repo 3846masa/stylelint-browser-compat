@@ -30,7 +30,7 @@ testRule({
         'selectors.part',
         '"::part" pseudo-element',
         'Firefox 71',
-        'https://developer.mozilla.org/docs/Web/CSS/::part',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::part',
       ),
     },
   ],

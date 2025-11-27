@@ -31,7 +31,7 @@ testRule({
         'properties.margin-block-start',
         '"margin-block-start" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/margin-block-start',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/margin-block-start',
       ),
     },
   ],

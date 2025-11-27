@@ -31,7 +31,7 @@ testRule({
         'properties.border-block-end-color',
         '"border-block-end-color" property',
         'Chrome 68',
-        'https://developer.mozilla.org/docs/Web/CSS/border-block-end-color',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block-end-color',
       ),
     },
   ],

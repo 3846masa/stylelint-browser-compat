@@ -31,7 +31,7 @@ testRule({
         'properties.object-fit',
         '"object-fit" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/object-fit',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/object-fit',
       ),
     },
   ],

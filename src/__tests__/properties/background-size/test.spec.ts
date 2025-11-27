@@ -31,7 +31,7 @@ testRule({
         'properties.background-size',
         '"background-size" property',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/background-size',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/background-size',
       ),
     },
   ],

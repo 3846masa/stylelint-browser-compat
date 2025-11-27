@@ -34,7 +34,7 @@ testRule({
         'types.transform-function.scale3d',
         '"scale3d()" function',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/transform-function/scale3d',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/scale3d',
       ),
     },
   ],

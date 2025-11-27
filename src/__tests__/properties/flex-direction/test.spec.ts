@@ -31,7 +31,7 @@ testRule({
         'properties.flex-direction',
         '"flex-direction" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/flex-direction',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-direction',
       ),
     },
   ],

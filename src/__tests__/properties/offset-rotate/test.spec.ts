@@ -31,7 +31,7 @@ testRule({
         'properties.offset-rotate',
         '"offset-rotate" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/offset-rotate',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/offset-rotate',
       ),
     },
   ],

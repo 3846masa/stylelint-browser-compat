@@ -30,7 +30,7 @@ testRule({
         'selectors.-moz-color-swatch',
         '"::-moz-color-swatch" pseudo-element',
         'Firefox 26',
-        'https://developer.mozilla.org/docs/Web/CSS/::-moz-color-swatch',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::-moz-color-swatch',
       ),
     },
   ],

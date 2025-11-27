@@ -31,7 +31,7 @@ testRule({
         'properties.overflow-clip-margin',
         '"overflow-clip-margin" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/overflow-clip-margin',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-clip-margin',
       ),
     },
   ],

@@ -30,7 +30,7 @@ testRule({
         'selectors.-moz-range-thumb',
         '"::-moz-range-thumb" pseudo-element',
         'Firefox 20',
-        'https://developer.mozilla.org/docs/Web/CSS/::-moz-range-thumb',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::-moz-range-thumb',
       ),
     },
   ],

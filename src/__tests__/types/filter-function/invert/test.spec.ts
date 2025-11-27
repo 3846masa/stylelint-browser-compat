@@ -34,7 +34,7 @@ testRule({
         'types.filter-function.invert',
         '"invert()" function',
         'Chrome 17',
-        'https://developer.mozilla.org/docs/Web/CSS/filter-function/invert',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/invert',
       ),
     },
   ],

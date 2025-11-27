@@ -31,7 +31,7 @@ testRule({
         'properties.-moz-float-edge',
         '"-moz-float-edge" property',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/-moz-float-edge',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-moz-float-edge',
       ),
     },
   ],

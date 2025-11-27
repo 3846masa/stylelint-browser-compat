@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.prefers-reduced-data',
         '"prefers-reduced-data" media feature',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/prefers-reduced-data',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-data',
       ),
     },
   ],

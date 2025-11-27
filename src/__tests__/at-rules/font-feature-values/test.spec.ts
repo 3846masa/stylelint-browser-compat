@@ -30,7 +30,7 @@ testRule({
         'at-rules.font-feature-values',
         '"@font-feature-values" at rules',
         'Firefox 33',
-        'https://developer.mozilla.org/docs/Web/CSS/@font-feature-values',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-feature-values',
       ),
     },
   ],

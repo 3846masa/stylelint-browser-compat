@@ -31,7 +31,7 @@ testRule({
         'properties.font-language-override',
         '"font-language-override" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/font-language-override',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-language-override',
       ),
     },
   ],

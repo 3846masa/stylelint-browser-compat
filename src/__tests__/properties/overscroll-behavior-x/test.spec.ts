@@ -31,7 +31,7 @@ testRule({
         'properties.overscroll-behavior-x',
         '"overscroll-behavior-x" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-x',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior-x',
       ),
     },
   ],

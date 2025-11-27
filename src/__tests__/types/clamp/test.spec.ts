@@ -31,7 +31,7 @@ testRule({
         'types.clamp',
         '"clamp()" function',
         'Chrome 78',
-        'https://developer.mozilla.org/docs/Web/CSS/clamp',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/clamp',
       ),
     },
   ],

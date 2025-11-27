@@ -34,7 +34,7 @@ testRule({
         'types.transform-function.translate3d',
         '"translate3d()" function',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/transform-function/translate3d',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/translate3d',
       ),
     },
   ],

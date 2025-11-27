@@ -31,7 +31,7 @@ testRule({
         'types.global_keywords.inherit',
         '"inherit" value',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/inherit',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/inherit',
       ),
     },
   ],

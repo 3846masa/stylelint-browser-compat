@@ -35,7 +35,7 @@ testRule({
         'at-rules.font-face.font-feature-settings',
         '"font-feature-settings" descriptor of the @font-face',
         'Firefox 33',
-        'https://developer.mozilla.org/docs/Web/CSS/@font-face/font-feature-settings',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-feature-settings',
       ),
     },
     {

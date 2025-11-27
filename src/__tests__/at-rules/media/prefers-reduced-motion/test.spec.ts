@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.prefers-reduced-motion',
         '"prefers-reduced-motion" media feature',
         'Chrome 73',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/prefers-reduced-motion',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion',
       ),
     },
   ],

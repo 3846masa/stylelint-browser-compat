@@ -31,7 +31,7 @@ testRule({
         'properties.backface-visibility',
         '"backface-visibility" property',
         'Chrome 11',
-        'https://developer.mozilla.org/docs/Web/CSS/backface-visibility',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/backface-visibility',
       ),
     },
   ],

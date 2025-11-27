@@ -30,7 +30,7 @@ testRule({
         'selectors.-webkit-progress-bar',
         '"::-webkit-progress-bar" pseudo-element',
         'Chrome 24',
-        'https://developer.mozilla.org/docs/Web/CSS/::-webkit-progress-bar',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::-webkit-progress-bar',
       ),
     },
   ],

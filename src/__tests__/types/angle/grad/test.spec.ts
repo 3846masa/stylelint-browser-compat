@@ -34,7 +34,7 @@ testRule({
         'types.angle.grad',
         '"grad" unit',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/angle#grad',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/angle',
       ),
     },
   ],

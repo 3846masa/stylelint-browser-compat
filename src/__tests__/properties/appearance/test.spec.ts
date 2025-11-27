@@ -31,7 +31,7 @@ testRule({
         'properties.appearance',
         '"appearance" property',
         'Opera 12.1',
-        'https://developer.mozilla.org/docs/Web/CSS/appearance',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/appearance',
       ),
     },
   ],

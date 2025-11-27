@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.width',
         '"width" media feature',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/width',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/width',
       ),
     },
     {
@@ -46,7 +46,7 @@ testRule({
         'at-rules.media.width',
         '"min-width" media feature',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/width',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/width',
       ),
     },
     {
@@ -62,7 +62,7 @@ testRule({
         'at-rules.media.width',
         '"max-width" media feature',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/width',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/width',
       ),
     },
   ],

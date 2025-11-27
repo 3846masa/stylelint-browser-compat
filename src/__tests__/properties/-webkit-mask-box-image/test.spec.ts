@@ -31,7 +31,7 @@ testRule({
         'properties.-webkit-mask-box-image',
         '"-webkit-mask-box-image" property',
         'Edge 17',
-        'https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-box-image',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/-webkit-mask-box-image',
       ),
     },
   ],

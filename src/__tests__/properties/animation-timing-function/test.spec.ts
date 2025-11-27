@@ -34,7 +34,7 @@ testRule({
         'properties.animation-timing-function',
         '"animation-timing-function" property',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/animation-timing-function',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-timing-function',
       ),
     },
   ],

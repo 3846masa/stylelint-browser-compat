@@ -30,7 +30,7 @@ testRule({
         'selectors.-webkit-meter-bar',
         '"::-webkit-meter-bar" pseudo-element',
         'Chrome 11',
-        'https://developer.mozilla.org/docs/Web/CSS/::-webkit-meter-bar',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::-webkit-meter-bar',
       ),
     },
   ],

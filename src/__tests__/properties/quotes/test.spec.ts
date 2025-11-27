@@ -31,7 +31,7 @@ testRule({
         'properties.quotes',
         '"quotes" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/quotes',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/quotes',
       ),
     },
   ],

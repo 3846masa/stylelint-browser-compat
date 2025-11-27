@@ -31,7 +31,7 @@ testRule({
         'properties.text-transform',
         '"text-transform" property',
         'Opera Android 10',
-        'https://developer.mozilla.org/docs/Web/CSS/text-transform',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-transform',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.place-items',
         '"place-items" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/place-items',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/place-items',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'types.color.oklch',
         '"oklch()" function',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/color_value/oklch',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/oklch',
       ),
     },
     {
@@ -48,7 +48,7 @@ testRule({
         'types.color.oklch',
         '"oklch()" function',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/color_value/oklch',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/oklch',
       ),
     },
   ],

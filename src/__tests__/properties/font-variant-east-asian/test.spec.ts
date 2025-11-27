@@ -31,7 +31,7 @@ testRule({
         'properties.font-variant-east-asian',
         '"font-variant-east-asian" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-east-asian',
       ),
     },
   ],

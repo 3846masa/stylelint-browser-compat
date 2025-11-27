@@ -31,7 +31,7 @@ testRule({
         'properties.text-indent',
         '"text-indent" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/text-indent',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-indent',
       ),
     },
   ],

@@ -34,7 +34,7 @@ testRule({
         'types.filter-function.brightness',
         '"brightness()" function',
         'Chrome 17',
-        'https://developer.mozilla.org/docs/Web/CSS/filter-function/brightness',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/brightness',
       ),
     },
   ],

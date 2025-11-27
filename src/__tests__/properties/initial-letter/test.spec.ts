@@ -31,7 +31,7 @@ testRule({
         'properties.initial-letter',
         '"initial-letter" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/initial-letter',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/initial-letter',
       ),
     },
   ],

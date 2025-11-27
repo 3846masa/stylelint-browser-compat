@@ -31,7 +31,7 @@ testRule({
         'properties.text-shadow',
         '"text-shadow" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/text-shadow',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-shadow',
       ),
     },
   ],

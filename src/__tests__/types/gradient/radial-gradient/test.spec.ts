@@ -31,7 +31,7 @@ testRule({
         'types.gradient.radial-gradient',
         '"radial-gradient()" function',
         'Chrome 12',
-        'https://developer.mozilla.org/docs/Web/CSS/gradient/radial-gradient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/radial-gradient',
       ),
     },
   ],

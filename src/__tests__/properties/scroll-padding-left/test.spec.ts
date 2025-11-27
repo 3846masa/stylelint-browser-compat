@@ -31,7 +31,7 @@ testRule({
         'properties.scroll-padding-left',
         '"scroll-padding-left" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/scroll-padding-left',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-left',
       ),
     },
   ],

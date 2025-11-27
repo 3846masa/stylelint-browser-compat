@@ -30,7 +30,7 @@ testRule({
         'selectors.backdrop',
         '"::backdrop" pseudo-element',
         'Firefox 46',
-        'https://developer.mozilla.org/docs/Web/CSS/::backdrop',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::backdrop',
       ),
     },
   ],

@@ -34,7 +34,7 @@ testRule({
         'properties.background-image.element',
         '"element()" function specified as background-image',
         'Firefox 3',
-        'https://developer.mozilla.org/docs/Web/CSS/element',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/element',
       ),
     },
     {
@@ -51,7 +51,7 @@ testRule({
         'properties.background-image.element',
         '"element()" function specified as background-image',
         'Firefox 3',
-        'https://developer.mozilla.org/docs/Web/CSS/element',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/element',
       ),
     },
   ],

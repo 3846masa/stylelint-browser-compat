@@ -31,7 +31,7 @@ testRule({
         'properties.resize',
         '"resize" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/resize',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/resize',
       ),
     },
   ],

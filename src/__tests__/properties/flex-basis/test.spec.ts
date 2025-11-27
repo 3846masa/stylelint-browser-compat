@@ -31,7 +31,7 @@ testRule({
         'properties.flex-basis',
         '"flex-basis" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/flex-basis',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/flex-basis',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.border-block',
         '"border-block" property',
         'Chrome 86',
-        'https://developer.mozilla.org/docs/Web/CSS/border-block',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-block',
       ),
     },
   ],

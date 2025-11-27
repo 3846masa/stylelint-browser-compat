@@ -31,7 +31,7 @@ testRule({
         'properties.font',
         '"font" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/font',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font',
       ),
     },
   ],

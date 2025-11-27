@@ -30,7 +30,7 @@ testRule({
         'selectors.-webkit-inner-spin-button',
         '"::-webkit-inner-spin-button" pseudo-element',
         'Chrome 5',
-        'https://developer.mozilla.org/docs/Web/CSS/::-webkit-inner-spin-button',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::-webkit-inner-spin-button',
       ),
     },
   ],

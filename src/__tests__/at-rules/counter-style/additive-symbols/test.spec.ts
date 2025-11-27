@@ -34,7 +34,7 @@ testRule({
         'at-rules.counter-style.additive-symbols',
         '"additive-symbols" descriptor of the @counter-style',
         'Chrome 90',
-        'https://developer.mozilla.org/docs/Web/CSS/@counter-style/additive-symbols',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@counter-style/additive-symbols',
       ),
     },
   ],

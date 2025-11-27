@@ -31,7 +31,7 @@ testRule({
         'properties.padding-inline-start',
         '"padding-inline-start" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/padding-inline-start',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-inline-start',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.animation-direction',
         '"animation-direction" property',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/animation-direction',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-direction',
       ),
     },
   ],

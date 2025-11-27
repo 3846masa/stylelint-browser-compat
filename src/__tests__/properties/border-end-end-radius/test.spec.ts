@@ -31,7 +31,7 @@ testRule({
         'properties.border-end-end-radius',
         '"border-end-end-radius" property',
         'Chrome 88',
-        'https://developer.mozilla.org/docs/Web/CSS/border-end-end-radius',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-end-end-radius',
       ),
     },
   ],

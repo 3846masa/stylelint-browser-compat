@@ -30,7 +30,7 @@ testRule({
         'selectors.root',
         '":root" pseudo-class',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/:root',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:root',
       ),
     },
   ],

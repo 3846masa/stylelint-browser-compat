@@ -31,7 +31,7 @@ testRule({
         'properties.font-synthesis-weight',
         '"font-synthesis-weight" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/font-synthesis-weight',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-synthesis-weight',
       ),
     },
   ],

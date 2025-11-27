@@ -31,7 +31,7 @@ testRule({
         'properties.rotate',
         '"rotate" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/rotate',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/rotate',
       ),
     },
   ],

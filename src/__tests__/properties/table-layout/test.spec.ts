@@ -31,7 +31,7 @@ testRule({
         'properties.table-layout',
         '"table-layout" property',
         'Chrome 13',
-        'https://developer.mozilla.org/docs/Web/CSS/table-layout',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/table-layout',
       ),
     },
   ],

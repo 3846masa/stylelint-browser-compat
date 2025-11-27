@@ -31,7 +31,7 @@ testRule({
         'properties.outline-width',
         '"outline-width" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/outline-width',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/outline-width',
       ),
     },
   ],

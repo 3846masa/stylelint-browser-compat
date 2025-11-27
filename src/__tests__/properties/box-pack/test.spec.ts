@@ -31,7 +31,7 @@ testRule({
         'properties.box-pack',
         '"box-pack" property',
         'Opera 12',
-        'https://developer.mozilla.org/docs/Web/CSS/box-pack',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/box-pack',
       ),
     },
   ],

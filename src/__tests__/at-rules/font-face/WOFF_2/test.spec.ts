@@ -34,7 +34,7 @@ testRule({
         'at-rules.font-face.WOFF_2',
         'WOFF2',
         'Chrome 35',
-        'https://developer.mozilla.org/docs/Web/CSS/CSS_fonts/WOFF',
+        'https://developer.mozilla.org/docs/Web/CSS/Guides/Fonts/WOFF',
       ),
     },
     {
@@ -51,7 +51,7 @@ testRule({
         'at-rules.font-face.WOFF_2',
         'WOFF2',
         'Chrome 35',
-        'https://developer.mozilla.org/docs/Web/CSS/CSS_fonts/WOFF',
+        'https://developer.mozilla.org/docs/Web/CSS/Guides/Fonts/WOFF',
       ),
     },
     {
@@ -68,7 +68,7 @@ testRule({
         'at-rules.font-face.WOFF_2',
         'WOFF2',
         'Chrome 35',
-        'https://developer.mozilla.org/docs/Web/CSS/CSS_fonts/WOFF',
+        'https://developer.mozilla.org/docs/Web/CSS/Guides/Fonts/WOFF',
       ),
     },
     {
@@ -85,7 +85,7 @@ testRule({
         'at-rules.font-face.WOFF_2',
         'WOFF2',
         'Chrome 35',
-        'https://developer.mozilla.org/docs/Web/CSS/CSS_fonts/WOFF',
+        'https://developer.mozilla.org/docs/Web/CSS/Guides/Fonts/WOFF',
       ),
     },
     {
@@ -102,7 +102,7 @@ testRule({
         'at-rules.font-face.WOFF_2',
         'WOFF2',
         'Chrome 35',
-        'https://developer.mozilla.org/docs/Web/CSS/CSS_fonts/WOFF',
+        'https://developer.mozilla.org/docs/Web/CSS/Guides/Fonts/WOFF',
       ),
     },
   ],

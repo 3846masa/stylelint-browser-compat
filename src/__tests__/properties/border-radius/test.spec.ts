@@ -31,7 +31,7 @@ testRule({
         'properties.border-radius',
         '"border-radius" property',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/border-radius',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-radius',
       ),
     },
   ],

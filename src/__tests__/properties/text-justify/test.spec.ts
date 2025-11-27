@@ -31,7 +31,7 @@ testRule({
         'properties.text-justify',
         '"text-justify" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/text-justify',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-justify',
       ),
     },
   ],

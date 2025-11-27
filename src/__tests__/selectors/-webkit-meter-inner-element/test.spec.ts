@@ -30,7 +30,7 @@ testRule({
         'selectors.-webkit-meter-inner-element',
         '"::-webkit-meter-inner-element" pseudo-element',
         'Chrome 22',
-        'https://developer.mozilla.org/docs/Web/CSS/::-webkit-meter-inner-element',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::-webkit-meter-inner-element',
       ),
     },
   ],

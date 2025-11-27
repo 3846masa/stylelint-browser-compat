@@ -30,7 +30,7 @@ testRule({
         'selectors.subsequent-sibling',
         'Subsequent-sibling combinator',
         'IE 5.5',
-        'https://developer.mozilla.org/docs/Web/CSS/Subsequent-sibling_combinator',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/Subsequent-sibling_combinator',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'types.basic-shape.ellipse',
         '"ellipse()" function',
         'Chrome 36',
-        'https://developer.mozilla.org/docs/Web/CSS/basic-shape/ellipse',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/ellipse',
       ),
     },
   ],

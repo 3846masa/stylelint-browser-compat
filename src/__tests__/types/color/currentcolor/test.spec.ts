@@ -31,7 +31,7 @@ testRule({
         'types.color.currentcolor',
         '"currentcolor" value',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/color_value#currentcolor_keyword',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value',
       ),
     },
     {
@@ -48,7 +48,7 @@ testRule({
         'types.color.currentcolor',
         '"currentColor" value',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/color_value#currentcolor_keyword',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value',
       ),
     },
   ],

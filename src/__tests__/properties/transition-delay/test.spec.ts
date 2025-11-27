@@ -34,7 +34,7 @@ testRule({
         'properties.transition-delay',
         '"transition-delay" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/transition-delay',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/transition-delay',
       ),
     },
   ],

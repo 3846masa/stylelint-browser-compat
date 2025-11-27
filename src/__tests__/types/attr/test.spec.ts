@@ -34,7 +34,7 @@ testRule({
         'types.attr',
         '"attr()" function',
         'IE 7',
-        'https://developer.mozilla.org/docs/Web/CSS/attr',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/attr',
       ),
     },
   ],

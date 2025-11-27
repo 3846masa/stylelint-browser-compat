@@ -31,7 +31,7 @@ testRule({
         'properties.mask-origin',
         '"mask-origin" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/mask-origin',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-origin',
       ),
     },
   ],

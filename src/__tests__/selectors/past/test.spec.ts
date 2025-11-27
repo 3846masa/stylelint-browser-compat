@@ -30,7 +30,7 @@ testRule({
         'selectors.past',
         '":past" pseudo-class',
         'Safari 6',
-        'https://developer.mozilla.org/docs/Web/CSS/:past',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:past',
       ),
     },
   ],

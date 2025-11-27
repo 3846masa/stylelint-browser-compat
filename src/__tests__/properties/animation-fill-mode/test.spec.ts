@@ -31,7 +31,7 @@ testRule({
         'properties.animation-fill-mode',
         '"animation-fill-mode" property',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/animation-fill-mode',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-fill-mode',
       ),
     },
   ],

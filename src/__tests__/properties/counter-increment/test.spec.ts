@@ -31,7 +31,7 @@ testRule({
         'properties.counter-increment',
         '"counter-increment" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/counter-increment',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/counter-increment',
       ),
     },
   ],

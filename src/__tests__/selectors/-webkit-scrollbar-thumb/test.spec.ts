@@ -30,7 +30,7 @@ testRule({
         'selectors.-webkit-scrollbar-thumb',
         '"::-webkit-scrollbar-thumb" pseudo-element',
         'Edge 18',
-        'https://developer.mozilla.org/docs/Web/CSS/::-webkit-scrollbar',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::-webkit-scrollbar',
       ),
     },
   ],

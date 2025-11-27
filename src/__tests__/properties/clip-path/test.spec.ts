@@ -31,7 +31,7 @@ testRule({
         'properties.clip-path',
         '"clip-path" property',
         'Chrome 22',
-        'https://developer.mozilla.org/docs/Web/CSS/clip-path',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/clip-path',
       ),
     },
   ],

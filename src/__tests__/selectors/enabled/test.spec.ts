@@ -30,7 +30,7 @@ testRule({
         'selectors.enabled',
         '":enabled" pseudo-class',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/:enabled',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:enabled',
       ),
     },
   ],

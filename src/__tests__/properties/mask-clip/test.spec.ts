@@ -31,7 +31,7 @@ testRule({
         'properties.mask-clip',
         '"mask-clip" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/mask-clip',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-clip',
       ),
     },
   ],

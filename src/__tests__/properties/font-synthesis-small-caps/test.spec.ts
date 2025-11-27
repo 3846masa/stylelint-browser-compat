@@ -31,7 +31,7 @@ testRule({
         'properties.font-synthesis-small-caps',
         '"font-synthesis-small-caps" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/font-synthesis-small-caps',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-synthesis-small-caps',
       ),
     },
   ],

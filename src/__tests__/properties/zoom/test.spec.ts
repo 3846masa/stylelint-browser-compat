@@ -31,7 +31,7 @@ testRule({
         'properties.zoom',
         '"zoom" property',
         'Firefox 100',
-        'https://developer.mozilla.org/docs/Web/CSS/zoom',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/zoom',
       ),
     },
   ],

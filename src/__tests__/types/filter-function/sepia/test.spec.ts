@@ -34,7 +34,7 @@ testRule({
         'types.filter-function.sepia',
         '"sepia()" function',
         'Chrome 17',
-        'https://developer.mozilla.org/docs/Web/CSS/filter-function/sepia',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/sepia',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'types.gradient.linear-gradient',
         '"linear-gradient()" function',
         'Chrome 9',
-        'https://developer.mozilla.org/docs/Web/CSS/gradient/linear-gradient',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/gradient/linear-gradient',
       ),
     },
   ],

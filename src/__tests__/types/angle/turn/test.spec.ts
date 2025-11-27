@@ -34,7 +34,7 @@ testRule({
         'types.angle.turn',
         '"turn" unit',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/angle#turn',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/angle',
       ),
     },
   ],

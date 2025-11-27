@@ -31,7 +31,7 @@ testRule({
         'properties.unicode-bidi',
         '"unicode-bidi" property',
         'Opera 9',
-        'https://developer.mozilla.org/docs/Web/CSS/unicode-bidi',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/unicode-bidi',
       ),
     },
   ],

@@ -34,7 +34,7 @@ testRule({
         'at-rules.font-face.font-weight',
         '"font-weight" descriptor of the @font-face',
         'Opera 9',
-        'https://developer.mozilla.org/docs/Web/CSS/@font-face/font-weight',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-face/font-weight',
       ),
     },
   ],

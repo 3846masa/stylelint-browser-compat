@@ -31,7 +31,7 @@ testRule({
         'properties.overflow-inline',
         '"overflow-inline" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/overflow-inline',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-inline',
       ),
     },
   ],

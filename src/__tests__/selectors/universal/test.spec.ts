@@ -30,7 +30,7 @@ testRule({
         'selectors.universal',
         'Universal selector',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/Universal_selectors',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/Universal_selectors',
       ),
     },
   ],

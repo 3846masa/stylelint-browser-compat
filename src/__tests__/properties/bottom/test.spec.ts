@@ -31,7 +31,7 @@ testRule({
         'properties.bottom',
         '"bottom" property',
         'Opera Android 10',
-        'https://developer.mozilla.org/docs/Web/CSS/bottom',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/bottom',
       ),
     },
   ],

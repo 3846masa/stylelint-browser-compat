@@ -30,7 +30,7 @@ testRule({
         'selectors.spelling-error',
         '"::spelling-error" pseudo-element',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/::spelling-error',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::spelling-error',
       ),
     },
   ],

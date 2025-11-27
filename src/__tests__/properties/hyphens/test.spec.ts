@@ -31,7 +31,7 @@ testRule({
         'properties.hyphens',
         '"hyphens" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/hyphens',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/hyphens',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.mask-size',
         '"mask-size" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/mask-size',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-size',
       ),
     },
   ],

@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.device-height',
         '"device-height" media feature',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/device-height',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/device-height',
       ),
     },
     {
@@ -46,7 +46,7 @@ testRule({
         'at-rules.media.device-height',
         '"min-device-height" media feature',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/device-height',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/device-height',
       ),
     },
     {
@@ -62,7 +62,7 @@ testRule({
         'at-rules.media.device-height',
         '"max-device-height" media feature',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/device-height',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/device-height',
       ),
     },
   ],

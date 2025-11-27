@@ -31,7 +31,7 @@ testRule({
         'properties.padding-block-start',
         '"padding-block-start" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/padding-block-start',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/padding-block-start',
       ),
     },
   ],

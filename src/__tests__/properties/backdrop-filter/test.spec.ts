@@ -31,7 +31,7 @@ testRule({
         'properties.backdrop-filter',
         '"backdrop-filter" property',
         'Chrome 75',
-        'https://developer.mozilla.org/docs/Web/CSS/backdrop-filter',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/backdrop-filter',
       ),
     },
   ],

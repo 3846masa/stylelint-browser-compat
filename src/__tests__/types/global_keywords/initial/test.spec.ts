@@ -31,7 +31,7 @@ testRule({
         'types.global_keywords.initial',
         '"initial" value',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/initial',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/initial',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.font-variant-ligatures',
         '"font-variant-ligatures" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-variant-ligatures',
       ),
     },
   ],

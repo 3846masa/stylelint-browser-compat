@@ -31,7 +31,7 @@ testRule({
         'properties.border-spacing',
         '"border-spacing" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/border-spacing',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/border-spacing',
       ),
     },
   ],

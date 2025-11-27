@@ -31,7 +31,7 @@ testRule({
         'properties.max-width',
         '"max-width" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/max-width',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/max-width',
       ),
     },
   ],

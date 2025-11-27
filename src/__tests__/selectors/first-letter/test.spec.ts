@@ -30,7 +30,7 @@ testRule({
         'selectors.first-letter',
         '"::first-letter" pseudo-element',
         'Android Webview 4.4',
-        'https://developer.mozilla.org/docs/Web/CSS/::first-letter',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::first-letter',
       ),
     },
     {
@@ -46,7 +46,7 @@ testRule({
         'selectors.first-letter',
         '":first-letter" pseudo-element',
         'Android Webview 4.4',
-        'https://developer.mozilla.org/docs/Web/CSS/::first-letter',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::first-letter',
       ),
     },
   ],

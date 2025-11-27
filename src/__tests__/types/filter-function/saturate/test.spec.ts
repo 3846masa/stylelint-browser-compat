@@ -34,7 +34,7 @@ testRule({
         'types.filter-function.saturate',
         '"saturate()" function',
         'Chrome 17',
-        'https://developer.mozilla.org/docs/Web/CSS/filter-function/saturate',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/filter-function/saturate',
       ),
     },
   ],

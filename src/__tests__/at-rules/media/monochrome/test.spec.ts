@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.monochrome',
         '"monochrome" media feature',
         'IE 11',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/monochrome',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/monochrome',
       ),
     },
   ],

@@ -30,7 +30,7 @@ testRule({
         'selectors.focus',
         '":focus" pseudo-class',
         'IE 7',
-        'https://developer.mozilla.org/docs/Web/CSS/:focus',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:focus',
       ),
     },
   ],

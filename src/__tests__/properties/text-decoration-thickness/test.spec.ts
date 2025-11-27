@@ -31,7 +31,7 @@ testRule({
         'properties.text-decoration-thickness',
         '"text-decoration-thickness" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/text-decoration-thickness',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-thickness',
       ),
     },
   ],

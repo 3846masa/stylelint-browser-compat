@@ -31,7 +31,7 @@ testRule({
         'properties.content-visibility',
         '"content-visibility" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/content-visibility',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/content-visibility',
       ),
     },
   ],

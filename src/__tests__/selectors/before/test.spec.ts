@@ -30,7 +30,7 @@ testRule({
         'selectors.before',
         '"::before" pseudo-element',
         'IE 7',
-        'https://developer.mozilla.org/docs/Web/CSS/::before',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::before',
       ),
     },
     {
@@ -46,7 +46,7 @@ testRule({
         'selectors.before',
         '":before" pseudo-element',
         'IE 7',
-        'https://developer.mozilla.org/docs/Web/CSS/::before',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::before',
       ),
     },
   ],

@@ -35,7 +35,7 @@ testRule({
         'at-rules.font-feature-values.annotation',
         '"@annotation" at rules of the @font-feature-values',
         'Firefox 33',
-        'https://developer.mozilla.org/docs/Web/CSS/@font-feature-values#annotation',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@font-feature-values',
       ),
     },
   ],

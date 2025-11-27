@@ -30,7 +30,7 @@ testRule({
         'at-rules.media.video-dynamic-range',
         '"video-dynamic-range" media feature',
         'Chrome 97',
-        'https://developer.mozilla.org/docs/Web/CSS/@media/video-dynamic-range',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/video-dynamic-range',
       ),
     },
   ],

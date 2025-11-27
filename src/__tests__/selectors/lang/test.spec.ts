@@ -30,7 +30,7 @@ testRule({
         'selectors.lang',
         '":lang" pseudo-class',
         'IE 7',
-        'https://developer.mozilla.org/docs/Web/CSS/:lang',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:lang',
       ),
     },
   ],

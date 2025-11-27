@@ -31,7 +31,7 @@ testRule({
         'properties.overflow-wrap',
         '"overflow-wrap" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/overflow-wrap',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overflow-wrap',
       ),
     },
   ],

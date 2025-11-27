@@ -31,7 +31,7 @@ testRule({
         'properties.font-synthesis',
         '"font-synthesis" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/font-synthesis',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-synthesis',
       ),
     },
   ],

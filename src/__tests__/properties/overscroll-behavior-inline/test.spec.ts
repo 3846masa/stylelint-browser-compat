@@ -31,7 +31,7 @@ testRule({
         'properties.overscroll-behavior-inline',
         '"overscroll-behavior-inline" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-inline',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior-inline',
       ),
     },
   ],

@@ -30,7 +30,7 @@ testRule({
         'selectors.autofill',
         '":autofill" pseudo-class',
         'Firefox 85',
-        'https://developer.mozilla.org/docs/Web/CSS/:autofill',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:autofill',
       ),
     },
   ],

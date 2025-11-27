@@ -31,7 +31,7 @@ testRule({
         'types.color.color-mix',
         '"color-mix()" function',
         'Chrome 100',
-        'https://developer.mozilla.org/docs/Web/CSS/color_value/color-mix',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/color-mix',
       ),
     },
   ],

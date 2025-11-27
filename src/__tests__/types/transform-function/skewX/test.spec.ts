@@ -34,7 +34,7 @@ testRule({
         'types.transform-function.skewX',
         '"skewX()" function',
         'IE 8',
-        'https://developer.mozilla.org/docs/Web/CSS/transform-function/skewX',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Values/transform-function/skewX',
       ),
     },
   ],

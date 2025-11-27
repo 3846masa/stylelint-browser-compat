@@ -31,7 +31,7 @@ testRule({
         'properties.inset-block',
         '"inset-block" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/inset-block',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/inset-block',
       ),
     },
   ],

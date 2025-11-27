@@ -31,7 +31,7 @@ testRule({
         'properties.word-break',
         '"word-break" property',
         'Opera Android 12',
-        'https://developer.mozilla.org/docs/Web/CSS/word-break',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/word-break',
       ),
     },
   ],

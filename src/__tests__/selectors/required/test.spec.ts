@@ -30,7 +30,7 @@ testRule({
         'selectors.required',
         '":required" pseudo-class',
         'IE 9',
-        'https://developer.mozilla.org/docs/Web/CSS/:required',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:required',
       ),
     },
   ],

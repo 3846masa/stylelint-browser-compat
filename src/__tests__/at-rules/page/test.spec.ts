@@ -30,7 +30,7 @@ testRule({
         'at-rules.page',
         '"@page" at rules',
         'IE 7',
-        'https://developer.mozilla.org/docs/Web/CSS/@page',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@page',
       ),
     },
   ],

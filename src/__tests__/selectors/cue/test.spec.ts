@@ -30,7 +30,7 @@ testRule({
         'selectors.cue',
         '"::cue" pseudo-element',
         'Firefox 54',
-        'https://developer.mozilla.org/docs/Web/CSS/::cue',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/::cue',
       ),
     },
   ],

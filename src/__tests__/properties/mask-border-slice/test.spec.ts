@@ -31,7 +31,7 @@ testRule({
         'properties.mask-border-slice',
         '"mask-border-slice" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/mask-border-slice',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/mask-border-slice',
       ),
     },
   ],

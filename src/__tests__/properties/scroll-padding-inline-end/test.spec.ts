@@ -31,7 +31,7 @@ testRule({
         'properties.scroll-padding-inline-end',
         '"scroll-padding-inline-end" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-end',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-padding-inline-end',
       ),
     },
   ],

@@ -31,7 +31,7 @@ testRule({
         'properties.contain',
         '"contain" property',
         'IE 6',
-        'https://developer.mozilla.org/docs/Web/CSS/contain',
+        'https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/contain',
       ),
     },
   ],
