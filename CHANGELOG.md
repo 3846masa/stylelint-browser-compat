@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.0-beta.182](///compare/v1.0.0-beta.181...v1.0.0-beta.182) (2025-11-28)
+
+### Bug Fixes
+
+* **npm:** update dependency zod to v4.1.13 ([#1233](undefined/undefined/undefined/issues/1233)) 8690f8a
+
 ## [1.0.0-beta.181](///compare/v1.0.0-beta.180...v1.0.0-beta.181) (2025-11-27)
 
 ### Bug Fixes
