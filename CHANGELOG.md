@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.0-beta.183](///compare/v1.0.0-beta.182...v1.0.0-beta.183) (2025-12-02)
+
+### Bug Fixes
+
+* **npm:** update dependency postcss-selector-parser to v7.1.1 ([#1236](undefined/undefined/undefined/issues/1236)) a257086
+
 ## [1.0.0-beta.182](///compare/v1.0.0-beta.181...v1.0.0-beta.182) (2025-11-28)
 
 ### Bug Fixes
