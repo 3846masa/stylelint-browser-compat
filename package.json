@@ -58,7 +58,7 @@
     "@babel/core": "7.28.5",
     "@babel/preset-env": "7.28.5",
     "@babel/preset-typescript": "7.28.5",
-    "@release-it/conventional-changelog": "10.0.2",
+    "@release-it/conventional-changelog": "10.0.3",
     "@types/common-tags": "1.8.4",
     "@types/fs-extra": "11.0.4",
     "@types/lodash.get": "4.4.9",
