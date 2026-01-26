@@ -1,6 +1,6 @@
 {
   "name": "stylelint-browser-compat",
-  "version": "1.0.0-beta.186",
+  "version": "1.0.0-beta.187",
   "description": "Yet another linter rule to detect compatibility of CSS features.",
   "keywords": [
     "stylelint",
