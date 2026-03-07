@@ -69,7 +69,7 @@
     "browserslist": "4.28.1",
     "common-tags": "1.8.2",
     "conventional-changelog-conventionalcommits": "9.2.0",
-    "fs-extra": "11.3.3",
+    "fs-extra": "11.3.4",
     "jest": "30.2.0",
     "jest-light-runner": "0.7.11",
     "jest-preset-stylelint": "8.0.0",
