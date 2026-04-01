@@ -75,7 +75,7 @@
     "jest-preset-stylelint": "8.0.0",
     "postcss": "8.5.8",
     "release-it": "19.2.4",
-    "stylelint": "16.26.1",
+    "stylelint": "17.6.0",
     "tslib": "2.8.1",
     "typescript": "5.9.3"
   },
