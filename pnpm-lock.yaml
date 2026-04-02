@@ -105,8 +105,8 @@ importers:
         specifier: 0.7.11
         version: 0.7.11(jest@30.3.0(@types/node@22.19.1))
       jest-preset-stylelint:
-        specifier: 8.0.0
-        version: 8.0.0(jest@30.3.0(@types/node@22.19.1))
+        specifier: 9.1.0
+        version: 9.1.0(jest@30.3.0(@types/node@22.19.1))(stylelint@17.6.0(typescript@5.9.3))
       postcss:
         specifier: 8.5.8
         version: 8.5.8
@@ -2940,11 +2940,17 @@ packages:
       jest-resolve:
         optional: true
 
-  jest-preset-stylelint@8.0.0:
-    resolution: {integrity: sha512-9pROWG0Kb7da6+p57e1WznD19sIM6zp3c5O3NWqd95pl1Ulmo9GvfdtX7kJjhuGikeEhNfa3DodRwAQFyek30g==}
+  jest-preset-stylelint@9.1.0:
+    resolution: {integrity: sha512-hGwkNhX+Shy1Vuj4LA6WV4eOk0NHPyNiLMh4qneHve+blgN1CZNp2kfWeQJ/N/g/h1zkUAZXTLlbO9gJhldwaQ==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
-      jest: ^30.0.2
+      jest: ^30.2.0
+      stylelint: ^17.0.0
+    peerDependenciesMeta:
+      jest:
+        optional: true
+      stylelint:
+        optional: true
 
   jest-regex-util@30.0.1:
     resolution: {integrity: sha512-jHEQgBXAgc+Gh4g0p3bCevgRCVRkB4VB70zhoAE48gxeSr1hfUOsM/C2WoJgVL7Eyg//hudYENbm3Ne+/dRVVA==}
@@ -7562,9 +7568,10 @@ snapshots:
     optionalDependencies:
       jest-resolve: 30.3.0
 
-  jest-preset-stylelint@8.0.0(jest@30.3.0(@types/node@22.19.1)):
-    dependencies:
+  jest-preset-stylelint@9.1.0(jest@30.3.0(@types/node@22.19.1))(stylelint@17.6.0(typescript@5.9.3)):
+    optionalDependencies:
       jest: 30.3.0(@types/node@22.19.1)
+      stylelint: 17.6.0(typescript@5.9.3)
 
   jest-regex-util@30.0.1: {}
 
