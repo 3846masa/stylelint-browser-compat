@@ -73,7 +73,7 @@
     "jest": "30.3.0",
     "jest-light-runner": "0.7.11",
     "jest-preset-stylelint": "9.1.0",
-    "postcss": "8.5.9",
+    "postcss": "8.5.10",
     "release-it": "20.0.0",
     "stylelint": "17.8.0",
     "tslib": "2.8.1",
