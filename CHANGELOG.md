@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.0-beta.191](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.190...v1.0.0-beta.191) (2026-05-10)
+
+### Bug Fixes
+
+* **npm:** update dependency zod to v4.4.3 ([#1329](https://github.com/3846masa/stylelint-browser-compat/issues/1329)) ([308bd7d](https://github.com/3846masa/stylelint-browser-compat/commit/308bd7d5853bd12448131f4122d6c1e8cd5fd46d))
+
 ## [1.0.0-beta.190](https://github.com/3846masa/stylelint-browser-compat/compare/v1.0.0-beta.189...v1.0.0-beta.190) (2026-05-06)
 
 ### Bug Fixes
