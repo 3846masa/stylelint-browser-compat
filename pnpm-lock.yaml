@@ -96,8 +96,8 @@ importers:
         specifier: 9.3.1
         version: 9.3.1
       fs-extra:
-        specifier: 11.3.4
-        version: 11.3.4
+        specifier: 11.3.5
+        version: 11.3.5
       jest:
         specifier: 30.3.0
         version: 30.3.0(@types/node@22.19.1)
@@ -126,7 +126,7 @@ importers:
 packages:
 
   '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/fde6015cc9703c2aee5630993ba80e43ce7120ba':
-    resolution: {gitHosted: true, integrity: sha512-iyvGldzcHBYasNU9K1NLRca/jrxJ7zg7hcTMrlhqHhn+WDKoMVbcKAO2XEQssIaxdkcBT5wo3EJuLp8MbvyN/w==, tarball: https://codeload.github.com/3846masa/configs/tar.gz/fde6015cc9703c2aee5630993ba80e43ce7120ba}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/3846masa/configs/tar.gz/fde6015cc9703c2aee5630993ba80e43ce7120ba}
     version: 1.0.760
 
   '@aashutoshrathi/word-wrap@1.2.6':
@@ -2387,8 +2387,8 @@ packages:
     resolution: {integrity: sha512-TMKDUnIte6bfb5nWv7V/caI169OHgvwjb7V4WkeUvbQQdjr5rWKqHFiKWb/fcOwB+CzBT+qbWjvj+DVwRskpIg==}
     engines: {node: '>=14'}
 
-  fs-extra@11.3.4:
-    resolution: {integrity: sha512-CTXd6rk/M3/ULNQj8FBqBWHYBVYybQ3VPBw0xGKFe3tuH7ytT6ACnvzpIQ3UZtB8yvUKC2cXn1a+x+5EVQLovA==}
+  fs-extra@11.3.5:
+    resolution: {integrity: sha512-eKpRKAovdpZtR1WopLHxlBWvAgPny3c4gX1G5Jhwmmw4XJj0ifSD5qB5TOo8hmA0wlRKDAOAhEE1yVPgs6Fgcg==}
     engines: {node: '>=14.14'}
 
   fs-readdir-recursive@1.1.0:
@@ -6865,7 +6865,7 @@ snapshots:
       cross-spawn: 7.0.6
       signal-exit: 4.1.0
 
-  fs-extra@11.3.4:
+  fs-extra@11.3.5:
     dependencies:
       graceful-fs: 4.2.11
       jsonfile: 6.1.0
