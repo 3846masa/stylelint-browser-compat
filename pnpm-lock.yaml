@@ -106,7 +106,7 @@ importers:
         version: 0.7.11(jest@30.4.2(@types/node@22.19.1))
       jest-preset-stylelint:
         specifier: 9.1.0
-        version: 9.1.0(jest@30.4.2(@types/node@22.19.1))(stylelint@17.11.0(typescript@5.9.3))
+        version: 9.1.0(jest@30.4.2(@types/node@22.19.1))(stylelint@17.11.1(typescript@5.9.3))
       postcss:
         specifier: 8.5.14
         version: 8.5.14
@@ -114,8 +114,8 @@ importers:
         specifier: 20.0.1
         version: 20.0.1(@types/node@22.19.1)
       stylelint:
-        specifier: 17.11.0
-        version: 17.11.0(typescript@5.9.3)
+        specifier: 17.11.1
+        version: 17.11.1(typescript@5.9.3)
       tslib:
         specifier: 2.8.1
         version: 2.8.1
@@ -2757,10 +2757,6 @@ packages:
     resolution: {integrity: sha512-+Pgi+vMuUNkJyExiMBt5IlFoMyKnr5zhJ4Uspz58WOhBF5QoIZkFyNHIbBAtHwzVAgk5RtndVNsDRN61/mmDqg==}
     engines: {node: '>=12'}
 
-  is-plain-object@5.0.0:
-    resolution: {integrity: sha512-VRSzKkbMm5jMDoKLbltAkFQ5Qr7VDiTFGXxYFXXowVj387GeGNOCsOH6Msy00SGZ3Fp84b1Naa1psqgcCIEP5Q==}
-    engines: {node: '>=0.10.0'}
-
   is-regex@1.2.1:
     resolution: {integrity: sha512-MjYsKHO5O7mCsmRGxWcLWheFqN9DJ/2TmngvjKXihe6efViPqc274+Fx/4fYj/r03+ESvBdTXK0V6tA3rgez1g==}
     engines: {node: '>= 0.4'}
@@ -3866,8 +3862,8 @@ packages:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
 
-  stylelint@17.11.0:
-    resolution: {integrity: sha512-/3czzmbF9XdGWvReDF3Ex4R23Ajolo7j8RB2bFNEqk6Ht356nlpVV+G5bG2Qt8AW1ofJzXztBRDnAtd7cgowWA==}
+  stylelint@17.11.1:
+    resolution: {integrity: sha512-+smN/HqVTggUx3iuAzOi9fPh8SrH+cJWlZrYVldXoJ06orWBhZ4Ue/QEp64oei6pVrAh4w3tG+Y12Vw7MbCFRQ==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -7244,8 +7240,6 @@ snapshots:
 
   is-plain-obj@4.1.0: {}
 
-  is-plain-object@5.0.0: {}
-
   is-regex@1.2.1:
     dependencies:
       call-bound: 1.0.4
@@ -7524,10 +7518,10 @@ snapshots:
     optionalDependencies:
       jest-resolve: 30.4.1
 
-  jest-preset-stylelint@9.1.0(jest@30.4.2(@types/node@22.19.1))(stylelint@17.11.0(typescript@5.9.3)):
+  jest-preset-stylelint@9.1.0(jest@30.4.2(@types/node@22.19.1))(stylelint@17.11.1(typescript@5.9.3)):
     optionalDependencies:
       jest: 30.4.2(@types/node@22.19.1)
-      stylelint: 17.11.0(typescript@5.9.3)
+      stylelint: 17.11.1(typescript@5.9.3)
 
   jest-regex-util@30.4.0: {}
 
@@ -8550,7 +8544,7 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  stylelint@17.11.0(typescript@5.9.3):
+  stylelint@17.11.1(typescript@5.9.3):
     dependencies:
       '@csstools/css-calc': 3.2.0(@csstools/css-parser-algorithms@4.0.0(@csstools/css-tokenizer@4.0.0))(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-parser-algorithms': 4.0.0(@csstools/css-tokenizer@4.0.0)
@@ -8573,7 +8567,6 @@ snapshots:
       html-tags: 5.1.0
       ignore: 7.0.5
       import-meta-resolve: 4.2.0
-      is-plain-object: 5.0.0
       mathml-tag-names: 4.0.0
       meow: 14.1.0
       micromatch: 4.0.8
