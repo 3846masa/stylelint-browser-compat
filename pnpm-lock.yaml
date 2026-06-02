@@ -64,7 +64,7 @@ importers:
         version: 7.29.7(@babel/core@7.29.7)
       '@release-it/conventional-changelog':
         specifier: 10.0.6
-        version: 10.0.6(patch_hash=dd31391cecbef10c51a577de3d6a588feb4afa60ac74214fe6afac592c42c03a)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.3.0)(release-it@20.0.1(@types/node@22.19.1))
+        version: 10.0.6(patch_hash=dd31391cecbef10c51a577de3d6a588feb4afa60ac74214fe6afac592c42c03a)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.3.0)(release-it@20.2.0(@types/node@22.19.1))
       '@types/common-tags':
         specifier: 1.8.4
         version: 1.8.4
@@ -111,8 +111,8 @@ importers:
         specifier: 8.5.15
         version: 8.5.15
       release-it:
-        specifier: 20.0.1
-        version: 20.0.1(@types/node@22.19.1)
+        specifier: 20.2.0
+        version: 20.2.0(@types/node@22.19.1)
       stylelint:
         specifier: 17.12.0
         version: 17.12.0(typescript@5.9.3)
@@ -126,7 +126,7 @@ importers:
 packages:
 
   '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/fde6015cc9703c2aee5630993ba80e43ce7120ba':
-    resolution: {gitHosted: true, integrity: sha512-iyvGldzcHBYasNU9K1NLRca/jrxJ7zg7hcTMrlhqHhn+WDKoMVbcKAO2XEQssIaxdkcBT5wo3EJuLp8MbvyN/w==, tarball: https://codeload.github.com/3846masa/configs/tar.gz/fde6015cc9703c2aee5630993ba80e43ce7120ba}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/3846masa/configs/tar.gz/fde6015cc9703c2aee5630993ba80e43ce7120ba}
     version: 1.0.760
 
   '@aashutoshrathi/word-wrap@1.2.6':
@@ -3579,8 +3579,8 @@ packages:
     resolution: {integrity: sha512-NZQZdC5wOE/H3UT28fVGL+ikOZcEzfMGk/c3iN9UGxzWHMa1op7274oyiUVrAG4B2EuFhus8SvkaYnhvW92p9Q==}
     hasBin: true
 
-  release-it@20.0.1:
-    resolution: {integrity: sha512-3ob1P1aV+3+ZOoR7qgobfYyMlQbpitzOK09iKTtQ145vFi4rWxlRTgHwtVl8kokCvqiF/cJPxRlfcmZmF5aDJA==}
+  release-it@20.2.0:
+    resolution: {integrity: sha512-9ZTk9ripgctC6VTqH+P54KuboK29A5mG/I3tFfS5hnoAnkwtFFAMHRidYz93ylrW995vF50Ny1aOGJiyRmEN7w==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24.0.0}
     hasBin: true
 
@@ -5599,7 +5599,7 @@ snapshots:
 
   '@pkgr/core@0.2.9': {}
 
-  '@release-it/conventional-changelog@10.0.6(patch_hash=dd31391cecbef10c51a577de3d6a588feb4afa60ac74214fe6afac592c42c03a)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.3.0)(release-it@20.0.1(@types/node@22.19.1))':
+  '@release-it/conventional-changelog@10.0.6(patch_hash=dd31391cecbef10c51a577de3d6a588feb4afa60ac74214fe6afac592c42c03a)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.3.0)(release-it@20.2.0(@types/node@22.19.1))':
     dependencies:
       '@conventional-changelog/git-client': 2.6.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.3.0)
       concat-stream: 2.0.0
@@ -5607,7 +5607,7 @@ snapshots:
       conventional-changelog-angular: 8.3.0
       conventional-changelog-conventionalcommits: 9.3.1
       conventional-recommended-bump: 11.2.0
-      release-it: 20.0.1(@types/node@22.19.1)
+      release-it: 20.2.0(@types/node@22.19.1)
       semver: 7.8.1
     transitivePeerDependencies:
       - conventional-commits-filter
@@ -8227,7 +8227,7 @@ snapshots:
     dependencies:
       jsesc: 3.1.0
 
-  release-it@20.0.1(@types/node@22.19.1):
+  release-it@20.2.0(@types/node@22.19.1):
     dependencies:
       '@inquirer/prompts': 8.4.2(@types/node@22.19.1)
       '@octokit/rest': 22.0.1
