@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/3846masa/stylelint-browser-compat.git"
+    "url": "git+https://github.com/3846masa/stylelint-browser-compat.git"
   },
   "funding": "https://github.com/sponsors/3846masa",
   "license": "MIT",
