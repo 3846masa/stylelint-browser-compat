@@ -47,7 +47,7 @@
     "postcss-media-query-parser": "0.2.3",
     "postcss-selector-parser": "7.1.4",
     "postcss-value-parser": "4.2.0",
-    "semver": "7.8.4",
+    "semver": "7.8.5",
     "string.prototype.at": "1.0.6",
     "ts-results": "3.3.0",
     "zod": "4.4.3"
