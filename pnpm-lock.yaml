@@ -106,7 +106,7 @@ importers:
         version: 0.7.12(jest@30.4.2(@types/node@22.19.1))
       jest-preset-stylelint:
         specifier: 9.2.0
-        version: 9.2.0(jest@30.4.2(@types/node@22.19.1))(stylelint@17.13.0(typescript@5.9.3))
+        version: 9.2.0(jest@30.4.2(@types/node@22.19.1))(stylelint@17.14.0(typescript@5.9.3))
       postcss:
         specifier: 8.5.16
         version: 8.5.16
@@ -114,8 +114,8 @@ importers:
         specifier: 20.2.1
         version: 20.2.1(@types/node@22.19.1)
       stylelint:
-        specifier: 17.13.0
-        version: 17.13.0(typescript@5.9.3)
+        specifier: 17.14.0
+        version: 17.14.0(typescript@5.9.3)
       tslib:
         specifier: 2.8.1
         version: 2.8.1
@@ -1944,8 +1944,8 @@ packages:
   core-js-compat@3.48.0:
     resolution: {integrity: sha512-OM4cAF3D6VtH/WkLtWvyNC56EZVXsZdU3iqaMG2B4WvYrlqU831pc4UtG5yp0sE9z8Y02wVN7PjW5Zf9Gt0f1Q==}
 
-  cosmiconfig@9.0.1:
-    resolution: {integrity: sha512-hr4ihw+DBqcvrsEDioRO31Z17x71pUYoNe/4h6Z0wB72p7MU7/9gH8Q3s12NFhHPfYBBOV3qyfUxmr/Yn3shnQ==}
+  cosmiconfig@9.0.2:
+    resolution: {integrity: sha512-gtTZxTDau1wL7Y7zifc2dd8jHSK/k6BTx/2Xp/BpdlAdnlYWFVt7qhJqgwi7637yRwRQ3qL4ZidbB4I8tA5VOg==}
     engines: {node: '>=14'}
     peerDependencies:
       typescript: '>=4.9.5'
@@ -3863,8 +3863,8 @@ packages:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
 
-  stylelint@17.13.0:
-    resolution: {integrity: sha512-G1WYzMerp7ihOaIe9VJCHLt12MoAD2QLf1AFerYP37+BCRBUK5UCpq8e/mN+zCIaJPKQcaxhE4WlPmqdiOx/gw==}
+  stylelint@17.14.0:
+    resolution: {integrity: sha512-8xkHPpdqYryeIsOgfsYTmr6cIeC4nLYWk5S8BPxpodq8mIuepggkMljsHewWfuAjj/+qpRKou2QerhjMH3iasg==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -6338,7 +6338,7 @@ snapshots:
     dependencies:
       browserslist: 4.28.4
 
-  cosmiconfig@9.0.1(typescript@5.9.3):
+  cosmiconfig@9.0.2(typescript@5.9.3):
     dependencies:
       env-paths: 2.2.1
       import-fresh: 3.3.0
@@ -7519,10 +7519,10 @@ snapshots:
     optionalDependencies:
       jest-resolve: 30.4.1
 
-  jest-preset-stylelint@9.2.0(jest@30.4.2(@types/node@22.19.1))(stylelint@17.13.0(typescript@5.9.3)):
+  jest-preset-stylelint@9.2.0(jest@30.4.2(@types/node@22.19.1))(stylelint@17.14.0(typescript@5.9.3)):
     optionalDependencies:
       jest: 30.4.2(@types/node@22.19.1)
-      stylelint: 17.13.0(typescript@5.9.3)
+      stylelint: 17.14.0(typescript@5.9.3)
 
   jest-regex-util@30.4.0: {}
 
@@ -8545,7 +8545,7 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  stylelint@17.13.0(typescript@5.9.3):
+  stylelint@17.14.0(typescript@5.9.3):
     dependencies:
       '@csstools/css-calc': 3.2.1(@csstools/css-parser-algorithms@4.0.0(@csstools/css-tokenizer@4.0.0))(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-parser-algorithms': 4.0.0(@csstools/css-tokenizer@4.0.0)
@@ -8555,7 +8555,7 @@ snapshots:
       '@csstools/selector-resolve-nested': 4.0.0(postcss-selector-parser@7.1.4)
       '@csstools/selector-specificity': 6.0.0(postcss-selector-parser@7.1.4)
       colord: 2.9.3
-      cosmiconfig: 9.0.1(typescript@5.9.3)
+      cosmiconfig: 9.0.2(typescript@5.9.3)
       css-functions-list: 3.3.3
       css-tree: 3.2.1
       debug: 4.4.3(supports-color@9.4.0)
