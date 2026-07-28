@@ -71,7 +71,7 @@
     "conventional-changelog-conventionalcommits": "9.3.1",
     "fs-extra": "11.4.0",
     "jest": "30.4.2",
-    "jest-light-runner": "0.7.12",
+    "jest-light-runner": "0.8.1",
     "jest-preset-stylelint": "9.2.0",
     "postcss": "8.5.23",
     "release-it": "20.2.1",
