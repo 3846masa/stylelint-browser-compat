@@ -68,7 +68,7 @@
     "babel-plugin-polyfill-es-shims": "0.10.11",
     "browserslist": "4.28.7",
     "common-tags": "1.8.2",
-    "conventional-changelog-conventionalcommits": "9.3.1",
+    "conventional-changelog-conventionalcommits": "10.4.0",
     "fs-extra": "11.4.0",
     "jest": "30.4.2",
     "jest-light-runner": "0.7.12",
