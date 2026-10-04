@@ -106,7 +106,7 @@ importers:
         version: 0.7.12(jest@30.5.2(@types/node@22.19.1))
       jest-preset-stylelint:
         specifier: 9.2.0
-        version: 9.2.0(jest@30.5.2(@types/node@22.19.1))(stylelint@17.15.0(typescript@5.9.3))
+        version: 9.2.0(jest@30.5.2(@types/node@22.19.1))(stylelint@17.16.0(typescript@5.9.3))
       postcss:
         specifier: 8.5.28
         version: 8.5.28
@@ -114,8 +114,8 @@ importers:
         specifier: 20.2.1
         version: 20.2.1(@types/node@22.19.1)
       stylelint:
-        specifier: 17.15.0
-        version: 17.15.0(typescript@5.9.3)
+        specifier: 17.16.0
+        version: 17.16.0(typescript@5.9.3)
       tslib:
         specifier: 2.8.1
         version: 2.8.1
@@ -3996,8 +3996,8 @@ packages:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
 
-  stylelint@17.15.0:
-    resolution: {integrity: sha512-mWIkesYQvQjf4Kvdeu9ns0IL8/K/wtjaGxPqsPd6DlLZvaQxGysJsocxUDrBcyHQ5VleAk4uSMat4yMrVED7PA==}
+  stylelint@17.16.0:
+    resolution: {integrity: sha512-ejlWnbJ13x1GU32+zZXa6sYQJsKKkwSdv2B4rAdO3OWdEmvhSJKcXi5pOphQYSzyaj1kXpuGJr7pcMBNfDIuPw==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -7734,10 +7734,10 @@ snapshots:
       '@types/node': 22.19.1
       jest-util: 30.5.1
 
-  jest-preset-stylelint@9.2.0(jest@30.5.2(@types/node@22.19.1))(stylelint@17.15.0(typescript@5.9.3)):
+  jest-preset-stylelint@9.2.0(jest@30.5.2(@types/node@22.19.1))(stylelint@17.16.0(typescript@5.9.3)):
     optionalDependencies:
       jest: 30.5.2(@types/node@22.19.1)
-      stylelint: 17.15.0(typescript@5.9.3)
+      stylelint: 17.16.0(typescript@5.9.3)
 
   jest-regex-util@30.5.0: {}
 
@@ -8764,7 +8764,7 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  stylelint@17.15.0(typescript@5.9.3):
+  stylelint@17.16.0(typescript@5.9.3):
     dependencies:
       '@csstools/css-calc': 3.4.0(@csstools/css-parser-algorithms@4.0.0(@csstools/css-tokenizer@4.0.0))(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-parser-algorithms': 4.0.0(@csstools/css-tokenizer@4.0.0)
