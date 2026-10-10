@@ -1,5 +1,5 @@
 {
-  "extends": ["github>3846masa/configs//renovate/default#fde6015cc9703c2aee5630993ba80e43ce7120ba"],
+  "extends": ["github>3846masa/configs//renovate/default#7a24f666eb65a379e09ee52f6f45be3ef89ecd62"],
   "npm": {
     "packageRules": [
       {
